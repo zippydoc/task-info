@@ -1,0 +1,8 @@
+{
+  "name": "Select",
+  "description": "Select first, last, random and more",
+  "image": "https://github.com/zippydoc/Pictograms/Select.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Select.json"],
+  "script": "https://github.com/zippydoc/basic/Select.py",
+  "version": 1.0
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Join",
+  "description": "Join two tables",
+  "image": "https://github.com/zippydoc/Pictograms/Join.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Join.json"],
+  "script": "https://github.com/zippydoc/basic/Join.py",
+  "version": 1.0
+}

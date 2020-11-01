@@ -1,0 +1,8 @@
+{
+  "name": "Sort",
+  "description": "Sort descending or ascending",
+  "image": "https://github.com/zippydoc/Pictograms/Sort.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Sort.json"],
+  "script": "https://github.com/zippydoc/basic/Sort.py",
+  "version": 1.0
+}

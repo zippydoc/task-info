@@ -1,0 +1,8 @@
+{
+  "name": "Union",
+  "description": "Unify two or more tables to one",
+  "image": "https://github.com/zippydoc/Pictograms/Union.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Union.json"],
+  "script": "https://github.com/zippydoc/basic/Union.py",
+  "version": 1.0
+}

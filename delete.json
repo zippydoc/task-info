@@ -1,0 +1,8 @@
+{
+  "name": "Delete",
+  "description": "Delete a specified table",
+  "image": "https://github.com/zippydoc/Pictograms/Delete.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Delete.json"],
+  "script": "https://github.com/zippydoc/basic/Delete.py",
+  "version": 1.0
+}

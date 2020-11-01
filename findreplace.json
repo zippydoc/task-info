@@ -1,0 +1,8 @@
+{
+  "name": "FindReplace",
+  "description": "Find cell content and replace by different content",
+  "image": "https://github.com/zippydoc/Pictograms/FindReplace.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/FindReplace.json"],
+  "script": "https://github.com/zippydoc/basic/FindReplace.py",
+  "version": 1.0
+}

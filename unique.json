@@ -1,0 +1,8 @@
+{
+  "name": "Unique",
+  "description": "Disassemble table in unique and duplicated records",
+  "image": "https://github.com/zippydoc/Pictograms/Unique.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Unique.json"],
+  "script": "https://github.com/zippydoc/basic/Unique.py",
+  "version": 1.0
+}

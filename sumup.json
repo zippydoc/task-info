@@ -1,0 +1,8 @@
+{
+  "name": "SumUp",
+  "description": "SumUp a second table",
+  "image": "https://github.com/zippydoc/Pictograms/SumUp.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/SumUp.json"],
+  "script": "https://github.com/zippydoc/basic/SumUp.py",
+  "version": 1.0
+}

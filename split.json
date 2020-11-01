@@ -1,0 +1,8 @@
+{
+  "name": "Split",
+  "description": "Split records at punctuation, whitespace and more",
+  "image": "https://github.com/zippydoc/Pictograms/Split.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Split.json"],
+  "script": "https://github.com/zippydoc/basic/Split.py",
+  "version": 1.0
+}

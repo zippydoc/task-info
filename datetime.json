@@ -1,0 +1,8 @@
+{
+  "name": "DateTime",
+  "description": "Convert date and time formats",
+  "image": "https://github.com/zippydoc/Pictograms/DateTime.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/DateTime.json"],
+  "script": "https://github.com/zippydoc/basic/DateTime.py",
+  "version": 1.0
+}

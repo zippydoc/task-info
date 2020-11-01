@@ -1,0 +1,8 @@
+{
+  "name": "Append",
+  "description": "Append a second table",
+  "image": "https://github.com/zippydoc/Pictograms/Append.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Append.json"],
+  "script": "https://github.com/zippydoc/basic/Append.py",
+  "version": 1.0
+}

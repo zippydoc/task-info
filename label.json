@@ -1,0 +1,8 @@
+{
+  "name": "Label",
+  "description": "Add labels to found items",
+  "image": "https://github.com/zippydoc/Pictograms/Label.gif",
+  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Label.json"],
+  "script": "https://github.com/zippydoc/basic/Label.py",
+  "version": 1.0
+}

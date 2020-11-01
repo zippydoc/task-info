@@ -1,0 +1,8 @@
+{
+  "name": "Clean",
+  "description": "Clean whitespace, punktuation and more",
+  "image": "https://github.com/zippydoc/Pictograms/Clean.gif",
+  "menue": ["https://github.com/XXX", "",""],
+  "script": "https://github.com/zippydoc/basic/Clean.py",
+  "version": 1.0
+}

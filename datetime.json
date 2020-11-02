@@ -2,7 +2,11 @@
   "name": "DateTime",
   "description": "Convert date and time formats",
   "image": "https://github.com/zippydoc/Pictograms/DateTime.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/DateTime.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/DatetimeOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/DateTime.py",
   "version": 1.0
 }

@@ -2,7 +2,11 @@
   "name": "Binning",
   "description": "Sort records to different bins",
   "image": "https://github.com/zippydoc/Pictograms/Binning.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Binning.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/BinningInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/BinningOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Binning.py",
   "version": 1.0
 }

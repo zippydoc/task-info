@@ -1,15 +1,19 @@
 {
-  "name": "Clean",
-  "description": "Clean whitespace, punktuation and more",
-  "image": "https://github.com/zippydoc/Pictograms/Clean.gif",
-  "menue": {
-	"main": 
-		[ 
-		"https://github.com/zippydoc/menue-snippets/SelectTable.json",
-		"https://github.com/zippydoc/menue-snippets/StandardOutput.json"],
-	"https://github.com/zippydoc/menue-snippets/SelectTable.json; fields" : 
-		[ "https://github.com/zippydoc/menue-snippets/SelectColumn.json"]
-	},
-  "script": "https://github.com/zippydoc/basic/Clean.py",
-  "version": 1.0
+	"name": "Clean",
+	"description": "Clean whitespace, punktuation and more",
+	"image": "https://github.com/zippydoc/Pictograms/Clean.gif",
+	"menue": [{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=master",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=master",
+				"field": "fields"
+			}]
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=master",
+			"children": []
+		}
+	],
+	"script": "https://github.com/zippydoc/basic/Clean.py",
+	"version": 1.0
 }

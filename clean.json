@@ -2,11 +2,14 @@
   "name": "Clean",
   "description": "Clean whitespace, punktuation and more",
   "image": "https://github.com/zippydoc/Pictograms/Clean.gif",
-  "menue": [
-    "https://github.com/zippydoc/menue-snippets/CleanInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/CleanOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
-  ],
+  "menue": {
+	"main": 
+		[ 
+		"https://github.com/zippydoc/menue-snippets/SelectTable.json",
+		"https://github.com/zippydoc/menue-snippets/StandardOutput.json"],
+	"https://github.com/zippydoc/menue-snippets/SelectTable.json; fields" : 
+		[ "https://github.com/zippydoc/menue-snippets/SelectColumn.json"]
+	},
   "script": "https://github.com/zippydoc/basic/Clean.py",
   "version": 1.0
 }

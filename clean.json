@@ -2,11 +2,11 @@
 	"name": "Clean",
 	"description": "Clean whitespace, punktuation and more",
 	"image": "https://github.com/zippydoc/Pictograms/Clean.gif",
-	"menue": [{
+	"menu": [{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=master",
 			"children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=master",
-				"field": "fields"
+				"property": "fields"
 			}]
 		},
 		{

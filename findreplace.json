@@ -2,7 +2,11 @@
   "name": "FindReplace",
   "description": "Find cell content and replace by different content",
   "image": "https://github.com/zippydoc/Pictograms/FindReplace.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/FindReplace.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/FindReplaceOptions.json",
+    "https://github.com/zippydoc/menue-snippets/FindReplaceOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/FindReplace.py",
   "version": 1.0
 }

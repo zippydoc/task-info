@@ -2,7 +2,11 @@
   "name": "Join",
   "description": "Join two tables",
   "image": "https://github.com/zippydoc/Pictograms/Join.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Join.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/JoinInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/JoinOptions.json",
+    "https://github.com/zippydoc/menue-snippets/JoinOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Join.py",
   "version": 1.0
 }

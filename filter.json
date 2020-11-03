@@ -2,7 +2,11 @@
   "name": "Filter",
   "description": "Output rows that match your filter conditions",
   "image": "https://github.com/zippydoc/Pictograms/Filter.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Filter.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/FilterOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Filter.py",
   "version": 1.0
 }

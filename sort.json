@@ -2,7 +2,11 @@
   "name": "Sort",
   "description": "Sort descending or ascending",
   "image": "https://github.com/zippydoc/Pictograms/Sort.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Sort.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/SortOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Sort.py",
   "version": 1.0
 }

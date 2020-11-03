@@ -2,7 +2,11 @@
   "name": "Transpose",
   "description": "Transpose columns to rows and rows to columns",
   "image": "https://github.com/zippydoc/Pictograms/Transpose.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Transpose.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/TransposeOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Transpose.py",
   "version": 1.0
 }

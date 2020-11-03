@@ -2,7 +2,11 @@
   "name": "AddColumn",
   "description": "Apply your own formula to create a new column",
   "image": "https://github.com/zippydoc/Pictograms/AddColumn.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/AddColumn.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/AddColumnOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/AddColumn.py",
   "version": 1.0
 }

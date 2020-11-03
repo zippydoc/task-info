@@ -2,7 +2,11 @@
   "name": "Holiday",
   "description": "Generate your states holiday table",
   "image": "https://github.com/zippydoc/Pictograms/Holiday.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/Holiday.json"],
+  "menue": [
+    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
+    "https://github.com/zippydoc/basic_parameter_settings/HolidayOptions.json",
+    "https://github.com/zippydoc/menue-snippets/HolidayOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/Holiday.py",
   "version": 1.0
 }

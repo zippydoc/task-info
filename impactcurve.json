@@ -2,7 +2,10 @@
   "name": "ImpactCurve",
   "description": "Generate an impact-curve for an event",
   "image": "https://github.com/zippydoc/Pictograms/ImpactCurve.gif",
-  "menue": ["https://github.com/zippydoc/basic_parameter_settings/ImpactCurve.json"],
+  "menue": [
+    "https://github.com/zippydoc/basic_parameter_settings/ImpactCurveOptions.json",
+    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+  ],
   "script": "https://github.com/zippydoc/basic/ImpactCurve.py",
   "version": 1.0
 }

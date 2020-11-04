@@ -15,7 +15,7 @@
 		}, {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-3.json?ref=main",
 			"property": "input/fields/input_table/child.after.first",
-			"before": "child"
+			"after": "child.first"
 		}]
 	}]
 }

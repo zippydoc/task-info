@@ -8,6 +8,14 @@
 		}, {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-1.json?ref=main",
 			"property": "input/fields/input_table/child.second"
+		}, {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-2.json?ref=main",
+			"property": "input/fields/input_table/child.before.second",
+			"before": "child.second"
+		}, {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-3.json?ref=main",
+			"property": "input/fields/input_table/child.after.first",
+			"before": "child"
 		}]
 	}]
 }

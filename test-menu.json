@@ -1,0 +1,13 @@
+{
+	"name": "test",
+	"menu": [{
+		"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test.json?ref=main",
+		"children": [{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-0.json?ref=main",
+			"property": "input/fields/input_table/child"
+		}, {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/test-child-1.json?ref=main",
+			"property": "input/fields/input_table/child.second"
+		}]
+	}]
+}

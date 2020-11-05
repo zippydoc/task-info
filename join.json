@@ -3,9 +3,6 @@
   "description": "Join two tables",
   "image": "https://github.com/zippydoc/Pictograms/Join.gif",
   "menu": [
-    "https://github.com/zippydoc/menue-snippets/JoinInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/JoinOptions.json",
-    "https://github.com/zippydoc/menue-snippets/JoinOutput.json",
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinInput.json?ref=main"
 		},

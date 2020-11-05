@@ -3,9 +3,9 @@
 	"description": "Clean whitespace, punktuation and more",
 	"image": "https://github.com/zippydoc/Pictograms/Clean.gif",
 	"menu": [{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=master",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main",
 			"children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=master",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=main",
 				"property": "fields"
 			}]
 		},
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=master",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
 			"children": []
 		}
 	],

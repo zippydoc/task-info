@@ -3,8 +3,12 @@
   "description": "Append a second table",
   "image": "https://github.com/zippydoc/Pictograms/Append.gif",
   "menue": [
-    "https://github.com/zippydoc/menue-snippets/AppendInput.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendInput.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Append.py",
   "version": 1.0

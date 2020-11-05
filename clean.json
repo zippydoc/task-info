@@ -5,7 +5,7 @@
 	"menu": [{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main",
 			"children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumnDefaultAll.json?ref=main",
 				"property": "fields"
 			}]
 		},

@@ -14,8 +14,7 @@
 			"children": []
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
-			"children": []
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
 		}
 	],
 	"script": "https://github.com/zippydoc/basic/Clean.py",

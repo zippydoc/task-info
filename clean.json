@@ -6,12 +6,8 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main",
 			"children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectColumn.json?ref=main",
-				"property": "fields"
+				"property": "input/fields"
 			}]
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
-			"children": []
 		}
 	],
 	"script": "https://github.com/zippydoc/basic/Clean.py",

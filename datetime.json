@@ -3,9 +3,15 @@
   "description": "Convert date and time formats",
   "image": "https://github.com/zippydoc/Pictograms/DateTime.gif",
   "menue": [
-    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/DatetimeOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/DatetimeOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/DateTime.py",
   "version": 1.0

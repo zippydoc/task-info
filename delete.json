@@ -2,7 +2,9 @@
   "name": "Delete",
   "description": "Delete a specified table",
   "image": "https://github.com/zippydoc/Pictograms/Delete.gif",
-  "menue": ["https://github.com/zippydoc/menue-snippets/StandardInput.json"],
+  "menue": [{
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+  }],
   "script": "https://github.com/zippydoc/basic/Delete.py",
   "version": 1.0
 }

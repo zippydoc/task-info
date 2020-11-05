@@ -3,9 +3,15 @@
   "description": "Find and return match/no-match",
   "image": "https://github.com/zippydoc/Pictograms/Find.gif",
   "menue": [
-    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/FindOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/FindOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Find.py",
   "version": 1.0

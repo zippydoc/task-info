@@ -3,9 +3,15 @@
   "description": "Unify two or more tables to one",
   "image": "https://github.com/zippydoc/Pictograms/Union.gif",
   "menu": [
-    "https://github.com/zippydoc/menue-snippets/UnionInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/UnionOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTables.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/UnionOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Union.py",
   "version": 1.0

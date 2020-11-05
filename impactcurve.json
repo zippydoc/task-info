@@ -3,8 +3,12 @@
   "description": "Generate an impact-curve for an event",
   "image": "https://github.com/zippydoc/Pictograms/ImpactCurve.gif",
   "menu": [
-    "https://github.com/zippydoc/basic_parameter_settings/ImpactCurveOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/ImpactCurveOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/ImpactCurve.py",
   "version": 1.0

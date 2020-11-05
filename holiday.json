@@ -3,9 +3,15 @@
   "description": "Generate your states holiday table",
   "image": "https://github.com/zippydoc/Pictograms/Holiday.gif",
   "menu": [
-    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/HolidayOptions.json",
-    "https://github.com/zippydoc/menue-snippets/HolidayOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/HolidayOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Holiday.py",
   "version": 1.0

@@ -3,9 +3,15 @@
   "description": "Sort descending or ascending",
   "image": "https://github.com/zippydoc/Pictograms/Sort.gif",
   "menu": [
-    "https://github.com/zippydoc/menue-snippets/StandardInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/SortOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/SortOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Sort.py",
   "version": 1.0

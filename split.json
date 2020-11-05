@@ -3,9 +3,19 @@
   "description": "Split records at punctuation, whitespace and more",
   "image": "https://github.com/zippydoc/Pictograms/Split.gif",
   "menu": [
-    "https://github.com/zippydoc/menue-snippets/SplitInput.json",
-    "https://github.com/zippydoc/basic_parameter_settings/SplitOptions.json",
-    "https://github.com/zippydoc/menue-snippets/StandardOutput.json"
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SplitInput.json?ref=main",
+				"property": "fields"
+			}]
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/SplitOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Split.py",
   "version": 1.0

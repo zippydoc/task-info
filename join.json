@@ -5,7 +5,20 @@
   "menu": [
     "https://github.com/zippydoc/menue-snippets/JoinInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/JoinOptions.json",
-    "https://github.com/zippydoc/menue-snippets/JoinOutput.json"
+    "https://github.com/zippydoc/menue-snippets/JoinOutput.json",
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinInput.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/JoinOptions.json?ref=master"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
+      "children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinOutput.json?ref=main",
+				"property": "fields"
+			}]
+		}
   ],
   "script": "https://github.com/zippydoc/basic/Join.py",
   "version": 1.0

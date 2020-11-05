@@ -2,7 +2,7 @@
   "name": "Binning",
   "description": "Sort records to different bins",
   "image": "https://github.com/zippydoc/Pictograms/Binning.gif",
-  "menue": [
+  "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main",
 			"children": [{

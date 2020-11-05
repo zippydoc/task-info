@@ -2,7 +2,7 @@
   "name": "Unique",
   "description": "Disassemble table in unique and duplicated records",
   "image": "https://github.com/zippydoc/Pictograms/Unique.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/StandardInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/UniqueOptions.json",
     "https://github.com/zippydoc/menue-snippets/UniqueOutput.json"

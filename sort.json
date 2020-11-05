@@ -2,7 +2,7 @@
   "name": "Sort",
   "description": "Sort descending or ascending",
   "image": "https://github.com/zippydoc/Pictograms/Sort.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/StandardInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/SortOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

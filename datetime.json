@@ -2,7 +2,7 @@
   "name": "DateTime",
   "description": "Convert date and time formats",
   "image": "https://github.com/zippydoc/Pictograms/DateTime.gif",
-  "menue": [
+  "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
 		},

@@ -2,7 +2,7 @@
   "name": "FindReplace",
   "description": "Find cell content and replace by different content",
   "image": "https://github.com/zippydoc/Pictograms/FindReplace.gif",
-  "menue": [
+  "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
 		},

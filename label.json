@@ -2,7 +2,7 @@
   "name": "Label",
   "description": "Add labels to found items",
   "image": "https://github.com/zippydoc/Pictograms/Label.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/StandardInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/LabelOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

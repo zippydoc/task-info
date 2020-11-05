@@ -2,7 +2,7 @@
   "name": "Split",
   "description": "Split records at punctuation, whitespace and more",
   "image": "https://github.com/zippydoc/Pictograms/Split.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/SplitInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/SplitOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

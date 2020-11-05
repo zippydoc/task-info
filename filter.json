@@ -2,7 +2,7 @@
   "name": "Filter",
   "description": "Output rows that match your filter conditions",
   "image": "https://github.com/zippydoc/Pictograms/Filter.gif",
-  "menue": [
+  "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
 		},

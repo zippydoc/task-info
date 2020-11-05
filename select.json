@@ -2,7 +2,7 @@
   "name": "Select",
   "description": "Select first, last, random and more",
   "image": "https://github.com/zippydoc/Pictograms/Select.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/StandardInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/SelectOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

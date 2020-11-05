@@ -2,7 +2,7 @@
   "name": "Union",
   "description": "Unify two or more tables to one",
   "image": "https://github.com/zippydoc/Pictograms/Union.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/UnionInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/UnionOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

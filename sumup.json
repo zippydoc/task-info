@@ -2,7 +2,7 @@
   "name": "SumUp",
   "description": "SumUp a second table",
   "image": "https://github.com/zippydoc/Pictograms/SumUp.gif",
-  "menue": [
+  "menu": [
     "https://github.com/zippydoc/menue-snippets/StandardInput.json",
     "https://github.com/zippydoc/basic_parameter_settings/SumupOptions.json",
     "https://github.com/zippydoc/menue-snippets/StandardOutput.json"

@@ -10,7 +10,12 @@
 			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/FindOptions.json?ref=master"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
+      "children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectOutputColumn.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
 		}
   ],
   "script": "https://github.com/zippydoc/basic/Find.py",

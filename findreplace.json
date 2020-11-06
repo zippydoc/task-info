@@ -13,11 +13,11 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
       "children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
-				"property": "fields",
+				"property": "output/fields",
 				"after": "output.timezone"
 			}, {
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOutput.json?ref=main",
-				"property": "fields",
+				"property": "output/fields",
 				"before": "output.add_tag"
 			}]
 		}

@@ -7,7 +7,7 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/HolidayOptions.json?ref=master"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"

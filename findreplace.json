@@ -7,7 +7,7 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/FindReplaceOptions.json?ref=master"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",

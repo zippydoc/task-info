@@ -11,7 +11,7 @@
 			}]
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/basic_parameter_settings/contents/SplitOptions.json?ref=master"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SplitOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",

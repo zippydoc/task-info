@@ -4,13 +4,13 @@
   "image": "https://github.com/zippydoc/Pictograms/FindReplace.gif",
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
       "children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOutput.json?ref=main",
 				"property": "fields"

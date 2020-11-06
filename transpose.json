@@ -4,13 +4,13 @@
   "image": "https://github.com/zippydoc/Pictograms/Transpose.gif",
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TransposeOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/StandardOutput.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
 		}
   ],
   "script": "https://github.com/zippydoc/basic/Transpose.py",

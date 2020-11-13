@@ -1,6 +1,6 @@
 {
   "name": "SumUp",
-  "description": "SumUp a second table",
+  "description": "Build groups and calculate sums, averages and more",
   "image": "https://github.com/zippydoc/Pictograms/SumUp.gif",
   "menu": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "AddColumn",
-  "description": "Do not apply your own formula to create a new column",
+  "description": "Apply your own formula to create a new column",
   "image": "https://github.com/zippydoc/Pictograms/AddColumn.gif",
   "menu": [
     {

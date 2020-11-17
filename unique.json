@@ -18,7 +18,7 @@
 			}, {
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
 				"property": "output/fields",
-				"before": "output.add_tag"
+				"after": "output.duplicates_ending"
 			}]
 		}
   ],

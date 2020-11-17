@@ -17,7 +17,7 @@
 				"after": "output.timezone"
 			}, {
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOutput.json?ref=main",
-				"property": "output/fields",
+				"property": "output/fields/output_options_box/fields",
 				"before": "output.add_tag"
 			}]
 		}

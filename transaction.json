@@ -17,8 +17,7 @@
 				"after": "output.timezone"
 			}, {
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectPeriod.json?ref=main",
-				"property": "output/fields",
-				"after": "output.visible_in_flow_only"
+				"property": "output/fields"
 			}]
 		}
   ],

@@ -1,6 +1,6 @@
 {
 	"name": "Clean",
-	"description": "Clean whitespace, punktuation and more",
+	"description": "Clean whitespace, punctuation and more",
 	"image": "https://github.com/zippydoc/Pictograms/Clean.gif",
 	"menu": [{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",

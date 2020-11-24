@@ -1,13 +1,13 @@
 {
-  "name": "Transaction",
+  "name": "Periodicy",
   "description": "Convert periodicy information e.g. weeks or month into a transaction list",
-  "image": "https://github.com/zippydoc/Pictograms/Transaction.gif",
+  "image": "https://github.com/zippydoc/Pictograms/Periodicy.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TransactionOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PeriodicyOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -21,6 +21,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Transaction.py",
+  "script": "https://github.com/zippydoc/basic/Periodicy.py",
   "version": 1.0
 }

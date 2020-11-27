@@ -4,7 +4,7 @@
   "image": "https://github.com/zippydoc/Pictograms/Autofill.gif",
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTables.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInput.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillOptions.json?ref=main"

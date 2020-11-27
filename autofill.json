@@ -4,24 +4,32 @@
   "image": "https://github.com/zippydoc/Pictograms/Autofill.gif",
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTables.json?ref=main",
-		"children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInput.json?ref=main",
-				"property": "input/fields/fields",
-				"after": "table_name"
-			}]
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
-				"property": "output/fields",
-				"after": "output.timezone"
-			}]
-		}
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTables.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInput.json?ref=main",
+          "property": "input/fields/fields",
+          "after": "table_name"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInputTreatment.json?ref=main",
+          "property": "input/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    }
   ],
   "script": "https://github.com/zippydoc/basic/Autofill.py",
   "version": 1.0

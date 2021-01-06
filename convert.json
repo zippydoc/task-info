@@ -1,7 +1,7 @@
 {
   "name": "AddColumn",
   "description": "Apply your own formula to create a new column",
-  "image": "https://github.com/zippydoc/Pictograms/AddColumn.gif",
+  "image": "https://github.com/zippydoc/Pictograms/Convert.gif",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

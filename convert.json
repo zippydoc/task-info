@@ -1,6 +1,6 @@
 {
-  "name": "AddColumn",
-  "description": "Apply your own formula to create a new column",
+  "name": "Convert",
+  "description": "Conversion to various table formats",
   "image": "https://github.com/zippydoc/Pictograms/Convert.gif",
   "menu": [
     {

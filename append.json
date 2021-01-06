@@ -1,7 +1,7 @@
 {
   "name": "Append",
   "description": "Append a second table",
-  "image": "https://github.com/zippydoc/Pictograms/Append.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendInput.json?ref=main"

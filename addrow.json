@@ -1,6 +1,6 @@
 {
   "name": "AddRow",
-  "description": "",
+  "description": "Apply your own formula to create a new row",
   "image": "https://github.com/zippydoc/Pictograms/AddRow.gif",
   "menu": [
     {

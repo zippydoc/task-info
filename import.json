@@ -1,0 +1,22 @@
+{
+  "name": "Import",
+  "description": "Import data from database or cloud directory",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ],
+  "script": "https://github.com/zippydoc/basic/Import.py",
+  "version": 1.0
+}

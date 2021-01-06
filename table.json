@@ -20,6 +20,6 @@
       ]
     }
   ],
-  "script": "https://github.com/zippydoc/basic/AddColumn.py",
+  "script": "https://github.com/zippydoc/basic/Table.py",
   "version": 1.0
 }

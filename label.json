@@ -1,7 +1,7 @@
 {
   "name": "Label",
   "description": "Add labels to found items",
-  "image": "https://github.com/zippydoc/Pictograms/Label.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

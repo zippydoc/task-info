@@ -1,7 +1,7 @@
 {
   "name": "ImpactCurve",
   "description": "Generate an impact-curve for an event",
-  "image": "https://github.com/zippydoc/Pictograms/ImpactCurve.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImpactCurveOptions.json?ref=main"

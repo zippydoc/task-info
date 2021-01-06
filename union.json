@@ -1,7 +1,7 @@
 {
   "name": "Union",
   "description": "Unify two or more tables to one",
-  "image": "https://github.com/zippydoc/Pictograms/Union.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTables.json?ref=main"

@@ -1,7 +1,7 @@
 {
   "name": "SumUp",
   "description": "Build groups and calculate sums, averages and more",
-  "image": "https://github.com/zippydoc/Pictograms/SumUp.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

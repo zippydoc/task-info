@@ -1,7 +1,7 @@
 {
   "name": "Table",
   "description": "Change or get formatting or header information of a specified table",
-  "image": "https://github.com/zippydoc/Pictograms/Table.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

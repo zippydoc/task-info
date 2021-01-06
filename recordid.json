@@ -1,7 +1,7 @@
 {
   "name": "RecordID",
   "description": "Adds a running row number to the selected table",
-  "image": "https://github.com/zippydoc/Pictograms/RecordID.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

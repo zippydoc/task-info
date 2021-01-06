@@ -1,7 +1,7 @@
 {
   "name": "Unique",
   "description": "Disassemble table in unique and duplicated records",
-  "image": "https://github.com/zippydoc/Pictograms/Unique.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

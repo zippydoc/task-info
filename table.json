@@ -1,6 +1,6 @@
 {
-  "name": "AddColumn",
-  "description": "Apply your own formula to create a new column",
+  "name": "Table",
+  "description": "Change or get formatting or header information of a specified table",
   "image": "https://github.com/zippydoc/Pictograms/Table.gif",
   "menu": [
     {

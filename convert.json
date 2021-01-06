@@ -1,0 +1,25 @@
+{
+  "name": "AddColumn",
+  "description": "Apply your own formula to create a new column",
+  "image": "https://github.com/zippydoc/Pictograms/AddColumn.gif",
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ConvertOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ],
+  "script": "https://github.com/zippydoc/basic/AddColumn.py",
+  "version": 1.0
+}

@@ -1,7 +1,7 @@
 {
   "name": "Filter",
   "description": "Output rows that match your filter conditions",
-  "image": "https://github.com/zippydoc/Pictograms/Filter.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

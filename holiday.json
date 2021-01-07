@@ -1,7 +1,7 @@
 {
   "name": "Holiday",
   "description": "Generate your states holiday table",
-  "image": "https://github.com/zippydoc/Pictograms/Holiday.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayInput.json?ref=main"

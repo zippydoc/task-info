@@ -1,7 +1,7 @@
 {
   "name": "Find",
   "description": "Find and return match/no-match",
-  "image": "https://github.com/zippydoc/Pictograms/Find.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

@@ -1,7 +1,7 @@
 {
   "name": "Transpose",
   "description": "Transpose columns to rows and rows to columns",
-  "image": "https://github.com/zippydoc/Pictograms/Transpose.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

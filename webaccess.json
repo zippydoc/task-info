@@ -1,7 +1,7 @@
 {
   "name": "WebAccess",
   "description": "Connect Backend-Database with 3rd party services and/or Websites",
-  "image": "https://github.com/zippydoc/Pictograms/WebAccess.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WebAccessInput.json?ref=main"

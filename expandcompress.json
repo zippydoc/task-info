@@ -1,1 +1,18 @@
-
+{
+  "name": "ExpandCompress",
+  "description": "Support for content creators and expand and contract a series of labels",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExpandCompressOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+    }
+  ],
+  "script": "https://github.com/zippydoc/basic/ExpandCompress.py",
+  "version": 1.0
+}

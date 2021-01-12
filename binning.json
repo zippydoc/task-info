@@ -2,6 +2,20 @@
   "name": "Binning",
   "description": "Sort records to different bins",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Binning",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",

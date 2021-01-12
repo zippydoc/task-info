@@ -2,6 +2,20 @@
   "name": "Find",
   "description": "Find and return match/no-match",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Find",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

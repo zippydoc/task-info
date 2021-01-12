@@ -1,9 +1,22 @@
 {
-  "name": "AddColumn",
-  "description": "Apply your own formula to create a new column",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
-  "menu": [
-    {
+	"name": "AddColumn",
+	"description": "Apply your own formula to create a new column",
+	"image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			"table1", "table2"
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Add column",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+	"menu": [{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 		},
 		{
@@ -11,13 +24,13 @@
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [{
+			"children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}]
 		}
-  ],
-  "script": "https://github.com/zippydoc/basic/AddColumn.py",
-  "version": 1.0
+	],
+	"script": "https://github.com/zippydoc/basic/AddColumn.py",
+	"version": 1.0
 }

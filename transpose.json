@@ -2,6 +2,20 @@
   "name": "Transpose",
   "description": "Transpose columns to rows and rows to columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Transpose",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

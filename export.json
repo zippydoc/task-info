@@ -2,6 +2,20 @@
   "name": "Export",
   "description": "Export data from database or cloud directory ",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Export",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

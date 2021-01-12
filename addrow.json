@@ -4,6 +4,7 @@
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
 	"scriptSettings": {
 		"autoLoadTable": [
+			
 		],
 		"countries": [
 			"US", "UK"

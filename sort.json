@@ -13,7 +13,7 @@
 			"EN"
 		],
 		"name": "Sort",
-		"payingUsersOnly": true,
+		"payingUsersOnly": false,
 		"type": "script"
 	},
   "menu": [

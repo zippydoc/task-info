@@ -2,6 +2,20 @@
   "name": "Join",
   "description": "Join two tables",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Join",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinInput.json?ref=main"

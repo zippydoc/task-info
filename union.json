@@ -2,6 +2,20 @@
   "name": "Union",
   "description": "Unify two or more tables to one",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Union",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTables.json?ref=main"

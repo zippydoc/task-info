@@ -2,6 +2,20 @@
   "name": "Lookup",
   "description": "Autodetect and lookup repetitive patterns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Lookup",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",

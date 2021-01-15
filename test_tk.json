@@ -1,6 +1,6 @@
 {
-  "name": "Test TK",
-  "description": "...",
+  "name": "TestTK",
+  "description": "Just for Testing API",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif",
 	"scriptSettings": {
 		"autoLoadTable": [

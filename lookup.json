@@ -40,6 +40,6 @@
       ]
     }
   ],
-  "script": "https://github.com/zippydoc/basic/Lookup.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=main",
   "version": 1.0
 }

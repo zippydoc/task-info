@@ -32,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Label.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Label.py?ref=main",
   "version": 1.0
 }

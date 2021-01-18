@@ -32,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Find.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py?ref=main",
   "version": 1.0
 }

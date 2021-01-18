@@ -32,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Select.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Select.py?ref=main",
   "version": 1.0
 }

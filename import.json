@@ -24,6 +24,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     }
   ],
-  "script": "https://github.com/zippydoc/basic/Import.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=main",
   "version": 1.0
 }

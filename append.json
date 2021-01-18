@@ -29,6 +29,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Append.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py?ref=main",
   "version": 1.0
 }

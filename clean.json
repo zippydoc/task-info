@@ -35,6 +35,6 @@
 			}]
 		}
 	],
-	"script": "https://github.com/zippydoc/basic/Clean.py",
+	"script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py?ref=main",
 	"version": 1.0
 }

@@ -24,6 +24,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/ImpactCurve.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=main",
   "version": 1.0
 }

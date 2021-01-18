@@ -27,6 +27,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py",
   "version": 1.0
 }

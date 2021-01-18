@@ -19,6 +19,6 @@
   "menu": [{
     "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
   }],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py",
   "version": 1.0
 }

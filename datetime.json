@@ -36,6 +36,6 @@
 			}]
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/DateTime.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DateTime.py",
   "version": 1.0
 }

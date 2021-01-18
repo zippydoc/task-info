@@ -36,6 +36,6 @@
 			}]
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py",
   "version": 1.0
 }

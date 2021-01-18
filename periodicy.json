@@ -35,6 +35,6 @@
 			}]
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py",
   "version": 1.0
 }

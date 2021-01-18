@@ -31,6 +31,6 @@
 			}]
 		}
 	],
-	"script": "https://github.com/zippydoc/basic/AddColumn.py",
+	"script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
 	"version": 1.0
 }

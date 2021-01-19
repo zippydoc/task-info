@@ -2,6 +2,20 @@
   "name": "Label",
   "description": "Add labels to found items",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Label",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
@@ -18,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Label.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Label.py",
   "version": 1.0
 }

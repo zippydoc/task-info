@@ -2,6 +2,20 @@
   "name": "Lookup",
   "description": "Autodetect and lookup repetitive patterns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Lookup",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
@@ -29,6 +43,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://github.com/zippydoc/basic/Lookup.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py",
   "version": 1.0
 }

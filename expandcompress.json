@@ -1,7 +1,7 @@
 {
-  "name": "Export",
-  "description": "Export data from database or cloud directory ",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "name": "ExpandCompress",
+  "description": "Support for content creators and expand and contract a series of labels",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
   "scriptSettings": {
 		"autoLoadTable": [
 			
@@ -12,7 +12,7 @@
 		"languages": [
 			"EN"
 		],
-		"name": "Export",
+		"name": "ExpandCompress",
 		"payingUsersOnly": true,
 		"type": "script"
 	},
@@ -21,12 +21,9 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportOptions.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py",
   "version": 1.0
 }

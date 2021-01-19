@@ -2,6 +2,20 @@
   "name": "Periodicy",
   "description": "Convert periodicy information e.g. weeks or month into a transaction list",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Periodicy",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
@@ -21,6 +35,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Periodicy.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py",
   "version": 1.0
 }

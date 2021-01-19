@@ -2,6 +2,20 @@
   "name": "Select",
   "description": "Select first, last, random and more",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Select",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
@@ -18,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Select.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Select.py",
   "version": 1.0
 }

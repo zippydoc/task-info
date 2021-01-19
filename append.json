@@ -2,6 +2,20 @@
   "name": "Append",
   "description": "Append a second table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Apend",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendInput.json?ref=main"
@@ -15,6 +29,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Append.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py",
   "version": 1.0
 }

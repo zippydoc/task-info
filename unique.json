@@ -2,6 +2,20 @@
   "name": "Unique",
   "description": "Disassemble table in unique and duplicated records",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Unique",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
@@ -22,6 +36,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Unique.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Unique.py",
   "version": 1.0
 }

@@ -2,6 +2,20 @@
   "name": "Holiday",
   "description": "Generate your states holiday table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Holiday",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayInput.json?ref=main"
@@ -13,6 +27,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/Holiday.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py",
   "version": 1.0
 }

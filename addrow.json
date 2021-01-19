@@ -2,6 +2,20 @@
   "name": "AddRow",
   "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"US", "UK"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "AddRow",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
@@ -18,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://github.com/zippydoc/basic/AddRow.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py",
   "version": 1.0
 }

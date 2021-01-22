@@ -1,27 +1,27 @@
 {
-  "name": "RecordID",
-  "description": "Adds a running row number to the selected table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
+  "name": "Formula",
+  "description": "Apply your own formula to a column",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label_1.gif",
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "RecordID",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Formula",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RecordIDOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FormulaOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -34,6 +34,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/RecordID.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formula.py?ref=master",
   "version": 1.0
 }

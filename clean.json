@@ -1,40 +1,48 @@
 {
-	"name": "Clean",
-	"description": "Clean whitespace, punctuation and more",
-	"image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Clean",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
-	"menu": [{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
-			"children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnDefaultAll.json?ref=main",
-				"property": "fields"
-			}]
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CleanOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-			"children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
-				"property": "output/fields",
-				"after": "output.timezone"
-			}]
-		}
-	],
-	"script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py",
-	"version": 1.0
+  "name": "Clean",
+  "description": "Clean whitespace, punctuation and more",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Clean",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnDefaultAll.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CleanOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py",
+  "version": 1.0
 }

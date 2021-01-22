@@ -1,7 +1,7 @@
 {
   "name": "Formula",
   "description": "Apply your own formula to a column",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label_1.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

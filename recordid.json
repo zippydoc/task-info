@@ -1,7 +1,7 @@
 {
   "name": "RecordID",
   "description": "Adds a running row number to the selected table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import1.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
   "scriptSettings": {
 		"autoLoadTable": [
 			

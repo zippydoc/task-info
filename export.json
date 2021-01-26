@@ -25,6 +25,9 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py",

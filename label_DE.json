@@ -6,9 +6,7 @@
     "autoLoadTable": [
     ],
     "countries": [
-      "DE",
-      "AUT",
-	  "CH"
+      "DE","AUT","CH"
     ],
     "languages": [
       "DE"

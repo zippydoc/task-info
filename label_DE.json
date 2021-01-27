@@ -1,5 +1,5 @@
 {
-  "name": "Label",
+  "name": "Etikett",
   "description": "Add labels to found items",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
   "scriptSettings": {
@@ -13,7 +13,7 @@
     "languages": [
       "DE"
     ],
-    "name": "Label",
+    "name": "Etikett",
     "payingUsersOnly": false,
     "type": "script"
   },

@@ -22,7 +22,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LabelOptions_DE.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/translations/LabelOptions_DE.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

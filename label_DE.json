@@ -6,11 +6,10 @@
     "autoLoadTable": [
     ],
     "countries": [
-      "US",
-      "UK"
+      "DE","AUT","CH"
     ],
     "languages": [
-      "EN"
+      "DE"
     ],
     "name": "Label",
     "payingUsersOnly": false,
@@ -21,7 +20,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LabelOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/translations/LabelOptions_DE.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

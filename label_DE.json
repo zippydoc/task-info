@@ -1,19 +1,18 @@
 {
-  "name": "Formula",
-  "description": "Apply your own formula to a column",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
+  "name": "Label",
+  "description": "Add labels to found items",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
     "countries": [
-      "US",
-      "UK"
+      "DE","AUT","CH"
     ],
     "languages": [
-      "EN"
+      "DE"
     ],
-    "name": "Formula",
-    "payingUsersOnly": true,
+    "name": "Label",
+    "payingUsersOnly": false,
     "type": "script"
   },
   "menu": [
@@ -21,7 +20,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FormulaOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/translations/LabelOptions_DE.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -34,6 +33,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formula.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Label.py",
   "version": 1.0
 }

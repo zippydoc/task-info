@@ -4,8 +4,6 @@ The ZIPPYDOC Software is a great data plattform to make data-analysis easy. Sele
 
 You want to add your own TASK to this plattform? This is as simple as that:
 
-You want to add your own TASK to this plattform? This is as simple as that:
-
 1. Create a new task.info file. The simplest way is to copy-paste an existing task.json file from https://github.com/zippydoc/task-info and modify this in according to your preferences.
 
 2. Create a new task.py file. The simplest way is to copy-paste an existing task.py file from https://github.com/zippydoc/tasks and modify this in according to your preferences.

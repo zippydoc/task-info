@@ -30,7 +30,10 @@
 				"property": "output/fields",
 				"after": "output.timezone"
 			}]
-		}
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
+		  }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py",
   "version": 1.0

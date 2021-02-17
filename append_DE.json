@@ -1,5 +1,5 @@
 {
-  "name": "Append",
+  "name": "Ergaenze",
   "description": "Append a second table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
 	"scriptSettings": {
@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Apend",
+		"name": "Ergänze",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

@@ -1,5 +1,5 @@
 {
-  "name": "Filter",
+  "name": "Filtere",
   "description": "Output rows that match your filter conditions",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif",
 	"scriptSettings": {
@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Filter",
+		"name": "Filtere",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

@@ -1,5 +1,5 @@
 {
-  "name": "Convert",
+  "name": "WandleUm",
   "description": "Conversion to various table formats",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Convert",
+		"name": "Wandle Um",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

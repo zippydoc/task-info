@@ -1,5 +1,5 @@
 {
-  "name": "AddRow",
+  "name": "NeueReihe",
   "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ],
-    "name": "AddRow",
+    "name": "Neue Reihe",
     "payingUsersOnly": false,
     "type": "script"
   },

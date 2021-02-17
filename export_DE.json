@@ -1,5 +1,5 @@
 {
-  "name": "Export",
+  "name": "Exportiere",
   "description": "Export data from database or cloud directory ",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ],
-    "name": "Export",
+    "name": "Exportiere",
     "payingUsersOnly": true,
     "type": "script"
   },

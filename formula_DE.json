@@ -1,5 +1,5 @@
 {
-  "name": "Formula",
+  "name": "Formel",
   "description": "Apply your own formula to a column",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ],
-    "name": "Formula",
+    "name": "Formel",
     "payingUsersOnly": true,
     "type": "script"
   },

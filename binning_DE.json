@@ -1,5 +1,5 @@
 {
-  "name": "Binning",
+  "name": "Eisortieren",
   "description": "Sort records to different bins",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
 	"scriptSettings": {
@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Binning",
+		"name": "Einsortieren",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

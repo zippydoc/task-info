@@ -1,5 +1,5 @@
 {
-  "name": "Clean",
+  "name": "Reinige",
   "description": "Clean whitespace, punctuation and more",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ],
-    "name": "Clean",
+    "name": "Reinige",
     "payingUsersOnly": false,
     "type": "script"
   },

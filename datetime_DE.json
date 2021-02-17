@@ -18,7 +18,7 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main",
 			"children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/DatetimeInput.json?ref=main",
 				"property": "fields"
@@ -28,9 +28,9 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/DatetimeOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectOutputColumn.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectOutputColumn.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}]

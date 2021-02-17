@@ -18,21 +18,21 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/SortOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectOutputColumnWithoutSort.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectOutputColumnWithoutSort.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}]
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/Debug.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/Debug.json?ref=main"
 		  }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py",

@@ -24,13 +24,13 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/JoinOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
       "children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/JoinOutput.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}, {
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectOutputColumnWithTableWithoutSort.json?ref=main",
 				"property": "output/fields",
 				"before": "output.set_options"
 			}]

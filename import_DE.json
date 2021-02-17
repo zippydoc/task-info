@@ -1,0 +1,32 @@
+{
+  "name": "Import",
+  "description": "Import data from database or cloud directory",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "DE",
+      "CH"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Import",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/ImportOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py",
+  "version": 1.0
+}

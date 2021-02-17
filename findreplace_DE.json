@@ -1,7 +1,7 @@
 {
-  "name": "Label",
-  "description": "Add labels to found items",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
+  "name": "FindReplace",
+  "description": "Find cell content and replace by different content",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Label",
+    "name": "FindReplace",
     "payingUsersOnly": false,
     "type": "script"
   },
@@ -21,7 +21,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/LabelOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/FindReplaceOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
@@ -30,10 +30,18 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.timezone"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/FindReplaceOutput.json?ref=main",
+          "property": "output/fields",
+          "after": "output_columns"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Label.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py",
   "version": 1.0
 }

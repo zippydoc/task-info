@@ -1,0 +1,32 @@
+{
+  "name": "Convert",
+  "description": "Conversion to various table formats",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Convert",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/ConvertOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py",
+  "version": 1.0
+}

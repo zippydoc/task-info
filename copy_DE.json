@@ -1,7 +1,7 @@
 {
-  "name": "Find",
-  "description": "Find and return match/no-match",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
+  "name": "Copy",
+  "description": "Duplicate table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
 	"scriptSettings": {
 		"autoLoadTable": [
 			
@@ -12,16 +12,13 @@
 		"languages": [
 			"EN"
 		],
-		"name": "Find",
+		"name": "Copy",
 		"payingUsersOnly": false,
 		"type": "script"
 	},
   "menu": [
     {
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/FindOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
@@ -32,6 +29,6 @@
 			}]
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py",
   "version": 1.0
 }

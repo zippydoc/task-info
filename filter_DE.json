@@ -1,7 +1,7 @@
 {
-  "name": "Find",
-  "description": "Find and return match/no-match",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
+  "name": "Filter",
+  "description": "Output rows that match your filter conditions",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif",
 	"scriptSettings": {
 		"autoLoadTable": [
 			
@@ -12,7 +12,7 @@
 		"languages": [
 			"EN"
 		],
-		"name": "Find",
+		"name": "Filter",
 		"payingUsersOnly": false,
 		"type": "script"
 	},
@@ -21,7 +21,7 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/FindOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/FilterOptions.json?ref=main"
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
@@ -32,6 +32,6 @@
 			}]
 		}
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Filter.py",
   "version": 1.0
 }

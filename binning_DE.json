@@ -1,0 +1,41 @@
+{
+  "name": "Binning",
+  "description": "Sort records to different bins",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"EN"
+		],
+		"name": "Binning",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectColumn.json?ref=main",
+				"property": "fields"
+			}]
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/BinningOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutput.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectOutputColumn.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
+		}
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py",
+  "version": 1.0
+}

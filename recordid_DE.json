@@ -1,5 +1,5 @@
 {
-  "name": "RecordID",
+  "name": "RecordID_DE",
   "description": "Adds a running row number to the selected table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
   "scriptSettings": {

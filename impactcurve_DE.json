@@ -1,5 +1,5 @@
 {
-  "name": "ImpactCurve",
+  "name": "ImpactCurve_DE",
   "description": "Generate an impact-curve for an event",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
 	"scriptSettings": {

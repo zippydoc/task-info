@@ -1,5 +1,5 @@
 {
-  "name": "FindeErsaetze",
+  "name": "FindReplace_DE",
   "description": "Find cell content and replace by different content",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
@@ -10,7 +10,7 @@
       "CH"
     ],
     "languages": [
-      "DEU"
+      "DE"
     ],
     "name": "Finde Ersätze",
     "payingUsersOnly": false,

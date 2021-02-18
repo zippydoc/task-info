@@ -1,0 +1,32 @@
+{
+  "name": "Union",
+  "description": "Unify two or more tables to one",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Union",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTables.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/UnionOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutputWithoutInputTable.json?ref=main"
+		}
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py",
+  "version": 1.0
+}

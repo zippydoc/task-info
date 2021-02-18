@@ -1,0 +1,39 @@
+{
+  "name": "Table",
+  "description": "Change or get formatting or header information of a specified table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Table",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/TableOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/TableSelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Table.py",
+  "version": 1.0
+}

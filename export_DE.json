@@ -1,0 +1,35 @@
+{
+  "name": "Exportiere",
+  "description": "Export data from database or cloud directory ",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "DE",
+      "CH"
+    ],
+    "languages": [
+      "DE"
+    ],
+    "name": "Exportiere",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/ExportOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutputWithoutOutputOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py",
+  "version": 1.0
+}

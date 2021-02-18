@@ -1,9 +1,11 @@
 {
-  "name": "Label",
-  "description": "Add labels to found items",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
+  "name": "AddColumn",
+  "description": "Apply your own formula to create a new column",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
+      "table1",
+      "table2"
     ],
     "countries": [
       "DE",
@@ -12,8 +14,8 @@
     "languages": [
       "DE"
     ],
-    "name": "Label",
-    "payingUsersOnly": false,
+    "name": "Add column",
+    "payingUsersOnly": true,
     "type": "script"
   },
   "menu": [
@@ -21,7 +23,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/LabelOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/AddColumnOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
@@ -32,8 +34,11 @@
           "after": "output.timezone"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Label.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
   "version": 1.0
 }

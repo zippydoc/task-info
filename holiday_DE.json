@@ -18,13 +18,13 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/HolidayInput.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayInput.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/HolidayOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/HolidayOutput.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOutput.json?ref=main"
 		}
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py",

@@ -18,13 +18,13 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTables.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTables.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/UnionOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/UnionOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutputWithoutInputTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
 		}
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py",

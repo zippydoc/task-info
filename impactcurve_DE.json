@@ -18,10 +18,10 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/ImpactCurveOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImpactCurveOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutputWithoutInputTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
 		}
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py",

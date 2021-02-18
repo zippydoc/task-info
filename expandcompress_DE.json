@@ -18,10 +18,10 @@
 	},
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py",

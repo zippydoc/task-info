@@ -1,5 +1,5 @@
 {
-  "name": "Join",
+  "name": "Join_DE",
   "description": "Join two tables",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
 	"scriptSettings": {
@@ -18,19 +18,19 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/JoinInput.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinInput.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/JoinOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/JoinOutput.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinOutput.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}, {
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectOutputColumnWithTableWithoutSort.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main",
 				"property": "output/fields",
 				"before": "output.set_options"
 			}]

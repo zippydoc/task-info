@@ -1,5 +1,5 @@
 {
-  "name": "Table",
+  "name": "Table_DE",
   "description": "Change or get formatting or header information of a specified table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "scriptSettings": {
@@ -18,16 +18,16 @@
 	},
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/TableOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/TableOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/TableSelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/TableSelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.timezone"
         }

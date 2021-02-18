@@ -1,5 +1,5 @@
 {
-  "name": "Loesche",
+  "name": "Delete_DE",
   "description": "Delete a specified table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
   "scriptSettings": {
@@ -17,7 +17,7 @@
 		"type": "script"
 	},
   "menu": [{
-    "source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
   }],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py",
   "version": 1.0

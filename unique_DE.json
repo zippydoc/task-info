@@ -1,5 +1,5 @@
 {
-  "name": "Unique",
+  "name": "Unique_DE",
   "description": "Disassemble table in unique and duplicated records",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif",
 	"scriptSettings": {
@@ -18,19 +18,19 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/UniqueOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/UniqueOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/UniqueOutput.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/UniqueOutput.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}, {
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/SelectOutputColumn.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
 				"property": "output/fields",
 				"after": "output.duplicates_ending"
 			}]

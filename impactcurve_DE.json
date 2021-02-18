@@ -1,5 +1,5 @@
 {
-  "name": "ImpactCurve",
+  "name": "ImpactCurve_DE",
   "description": "Generate an impact-curve for an event",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
 	"scriptSettings": {
@@ -18,10 +18,10 @@
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/contents/ImpactCurveOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImpactCurveOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/DE/common-snippets/contents/StandardOutputWithoutInputTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
 		}
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py",

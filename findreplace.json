@@ -1,5 +1,5 @@
 {
-  "name": "FindReplace",
+  "name":"FindReplace",
   "description": "Find cell content and replace by different content",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
@@ -10,7 +10,7 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "EN"
     ],
     "name": "FindReplace",
     "payingUsersOnly": false,

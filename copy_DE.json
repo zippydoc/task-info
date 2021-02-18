@@ -1,6 +1,6 @@
 {
   "name": "Kopiere",
-  "description": "Duplicate table",
+  "description": "Kopiere die Tabelle",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
 	"scriptSettings": {
 		"autoLoadTable": [

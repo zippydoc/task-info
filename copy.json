@@ -1,5 +1,5 @@
 {
-  "name": "Copy",
+  "name":"Copy",
   "description": "Duplicate table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
 	"scriptSettings": {

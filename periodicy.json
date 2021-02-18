@@ -1,5 +1,5 @@
 {
-  "name": "Periodicy",
+  "name":"Periodicy",
   "description": "Convert periodicy information e.g. weeks or month into a transaction list",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif",
   "scriptSettings": {

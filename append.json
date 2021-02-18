@@ -1,5 +1,5 @@
 {
-  "name": "Append",
+  "name":"Append",
   "description": "Append a second table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
 	"scriptSettings": {

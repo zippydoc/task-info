@@ -1,5 +1,5 @@
 {
-  "name": "AddRow",
+  "name":"AddRow",
   "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
   "scriptSettings": {

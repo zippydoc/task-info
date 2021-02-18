@@ -1,5 +1,5 @@
 {
-  "name": "Formula",
+  "name":"Formula",
   "description": "Apply your own formula to a column",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
   "scriptSettings": {

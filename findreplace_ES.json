@@ -1,0 +1,47 @@
+{
+  "name":"BuscarReemplazar", 
+  "description": "Encontrar conteúdo celular e substituir por conteúdo diferente", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/BuscarReemplazar.gif", 
+  "scriptSettings": {
+    "autoLoadQuadro": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "BuscarReemplazar", 
+    "payingUsersOnly": false, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneQuadro.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/BuscarReemplazarOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }, 
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/BuscarReemplazarOutput.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output_columns"
+        }
+      ]
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Debug.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/BuscarReemplazar.py", 
+  "version": 1.0
+}

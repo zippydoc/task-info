@@ -1,0 +1,32 @@
+{
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Ferias", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+  "name":"Ferias", 
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FeriasInput.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FeriasOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FeriasOutput.json?ref=main"
+\	\	}
+  ], 
+  "description": "Gere a sua tabela de férias de estados", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Ferias.py", 
+  "version": 1.0
+}
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Ferias.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [

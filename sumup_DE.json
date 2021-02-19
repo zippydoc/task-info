@@ -1,32 +1,32 @@
 {
-  "name": "SumUp_DE",
-  "description": "Build groups and calculate sums, averages and more",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif",
+  "name":"Zusammenfassen", 
+  "description": "Bilden Sie Gruppen und berechnen Sie Summen, Durchschnittswerte und mehr", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Zusammenfassen.gif", 
   "scriptSettings": {
-    "autoLoadTable": [
-    ],
+    "autoLoadTabelle": [
+    ], 
     "countries": [
-      "DE",
-      "CH"
-    ],
+      "US", 
+      "UK"
+    ], 
     "languages": [
-      "DE"
-    ],
-    "name": "SumUp",
-    "payingUsersOnly": false,
+      "EN"
+    ], 
+    "name": "Zusammenfassen", 
+    "payingUsersOnly": false, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SumupOptions.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SumUp.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Zusammenfassen.py", 
   "version": 1.0
 }

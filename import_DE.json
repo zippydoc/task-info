@@ -1,32 +1,32 @@
 {
-  "name": "Import_DE",
-  "description": "Import data from database or cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "name":"Importieren", 
+  "description": "Daten aus Datenbank oder Cloud-Verzeichnis importieren", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Importieren.gif", 
   "scriptSettings": {
-    "autoLoadTable": [
-    ],
+    "autoLoadTabelle": [
+    ], 
     "countries": [
-      "DE",
-      "CH"
-    ],
+      "US", 
+      "UK"
+    ], 
     "languages": [
-      "DE"
-    ],
-    "name": "Import",
-    "payingUsersOnly": true,
+      "EN"
+    ], 
+    "name": "Importieren", 
+    "payingUsersOnly": true, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportierenOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportierenOutput.json?ref=main"
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Importieren.py", 
   "version": 1.0
 }

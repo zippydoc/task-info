@@ -1,39 +1,39 @@
 {
-  "name": "Formula_DE",
-  "description": "Apply your own formula to a column",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
+  "name":"Formel", 
+  "description": "Eigene Formel auf eine Spalte anwenden", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formel.gif", 
   "scriptSettings": {
-    "autoLoadTable": [
-    ],
+    "autoLoadTabelle": [
+    ], 
     "countries": [
-      "DE",
-      "CH"
-    ],
+      "US", 
+      "UK"
+    ], 
     "languages": [
-      "DE"
-    ],
-    "name": "Formel",
-    "payingUsersOnly": true,
+      "EN"
+    ], 
+    "name": "Formel", 
+    "payingUsersOnly": true, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FormulaOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FormelOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
-          "property": "output/fields",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+          "property": "output/fields", 
           "after": "output.timezone"
         }
       ]
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formula.py?ref=master",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formel.py?ref=master", 
   "version": 1.0
 }

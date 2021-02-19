@@ -1,0 +1,32 @@
+{
+  "name":"Importacao", 
+  "description": "Importar dados da base de dados ou do directório de nuvens", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Importacao.gif", 
+  "scriptSettings": {
+    "autoLoadTabela": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Importacao", 
+    "payingUsersOnly": true, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ImportacaoOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ImportacaoOutput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/Debug.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Importacao.py", 
+  "version": 1.0
+}

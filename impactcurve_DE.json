@@ -1,29 +1,29 @@
 {
-  "name": "ImpactCurve_DE",
-  "description": "Generate an impact-curve for an event",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "ImpactCurve",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+  "name":"AuswirkungsKurve", 
+  "description": "Erzeugen einer Auswirkungskurve für ein Ereignis", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AuswirkungsKurve.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "AuswirkungsKurve", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImpactCurveOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
-		}
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py",
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AuswirkungsKurveOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTabelle.json?ref=main"
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AuswirkungsKurve.py", 
   "version": 1.0
 }

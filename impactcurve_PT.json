@@ -1,0 +1,29 @@
+{
+  "name":"CurvaImpacto", 
+  "description": "Gerar uma curva de impacto para um evento", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/CurvaImpacto.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "CurvaImpacto", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/CurvaImpactoOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutputWithoutInputTabela.json?ref=main"
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/CurvaImpacto.py", 
+  "version": 1.0
+}

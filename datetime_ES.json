@@ -1,0 +1,41 @@
+{
+  "name":"DataTime", 
+  "description": "Converter formatos de data e hora", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DataTime.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadQuadro": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "DataTime", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneQuadro.json?ref=main", 
+\	\	\	"children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DatetimeInput.json?ref=main", 
+\	\	\	\	"property": "fields"
+\	\	\	}]
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DatetimeOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneOutputColumn.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DataTime.py", 
+  "version": 1.0
+}

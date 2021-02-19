@@ -1,0 +1,34 @@
+{
+  "name":"Anex", 
+  "description": "Anexar uma segunda tabela", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Anex.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Anex", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AnexInput.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutputWithoutInputTabela.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneOutputColumnWithTabela.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Anex.py", 
+  "version": 1.0
+}

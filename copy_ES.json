@@ -1,0 +1,34 @@
+{
+  "name":"Cópia", 
+  "description": "Tabela de duplicados", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Cópia.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadQuadro": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Cópia", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneQuadro.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneOutputColumn.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Cópia.py", 
+  "version": 1.0
+}

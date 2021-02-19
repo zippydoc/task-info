@@ -1,40 +1,40 @@
 {
-  "name": "Sort_DE",
-  "description": "Sort descending or ascending",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "Sort",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+  "name":"Sortieren", 
+  "description": "Absteigend oder aufsteigend sortieren", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sortieren.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Sortieren", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SortOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SortierenOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumnWithoutSort.json?ref=main",
-				"property": "output/fields",
-				"after": "output.timezone"
-			}]
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
-		  }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py",
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumnWithoutSortieren.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
+\	\	  }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sortieren.py", 
   "version": 1.0
 }

@@ -1,0 +1,39 @@
+{
+  "name":"AutoPreencher", 
+  "description": "Preencher automaticamente uma tabela de destino com o conteúdo das tabelas de origem através da correspondência de informação de cabeçalho e etiqueta", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AutoPreencher-1.gif", 
+  "scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "AutoPreencher", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AutoPreencherInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AutoPreencherOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AutoPreencher.py", 
+  "version": 1.0
+}

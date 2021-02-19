@@ -1,0 +1,29 @@
+\	\	], 
+{
+  "name":"ExpandirCompr", 
+  "description": "Apoio aos criadores de conteúdos e expansão e contratação de uma série de rótulos", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandirCompr.gif", 
+  "scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "ExpandirCompr", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneTabela.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandirCompr.py", 
+  "version": 1.0
+}

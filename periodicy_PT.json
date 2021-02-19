@@ -1,0 +1,43 @@
+{
+  "name":"Periodico", 
+  "description": "Converter informação periódica, por exemplo, semanas ou mês numa lista de transacções", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodico.gif", 
+  "scriptSettings": {
+    "autoLoadTabela": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Periodico", 
+    "payingUsersOnly": true, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PeriodicoInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PeriodicoOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PeriodicoSelecioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }, 
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/SelecionePeriod.json?ref=main", 
+          "property": "output/fields"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodico.py", 
+  "version": 1.0
+}

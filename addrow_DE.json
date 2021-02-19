@@ -1,39 +1,42 @@
-{
-  "name": "AddRow_DE",
-  "description": "Apply your own formula to create a new row",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "DE",
-      "CH"
-    ],
-    "languages": [
-      "DE"
-    ],
-    "name": "Neue Reihe",
-    "payingUsersOnly": false,
-    "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddRowOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ReiheErgaenzenOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
-          "property": "output/fields",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+          "property": "output/fields", 
           "after": "output.timezone"
         }
       ]
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ReiheErgaenzen.py", 
   "version": 1.0
 }
+{
+  "name":"ReiheErgaenzen", 
+  "description": "Anwenden einer eigenen Formel zum Erstellen einer neuen Zeile", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ReiheErgaenzen.gif", 
+  "scriptSettings": {
+    "autoLoadTabelle": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "ReiheErgaenzen", 
+    "payingUsersOnly": false, 
+    "type": "script"

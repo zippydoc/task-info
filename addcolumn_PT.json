@@ -1,0 +1,41 @@
+{
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "AdicColuna", 
+    "payingUsersOnly": true, 
+    "type": "script"
+  "name":"AdicColuna", 
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneTabela.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AdicColunaOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main", 
+  "description": "Aplique a sua própria fórmula para criar uma nova coluna", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AdicColuna.py?ref=master", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AdicColuna.gif", 
+  "version": 1.0
+}
+  "scriptSettings": {
+    "autoLoadTabela": [
+      "table1", 
+      "table2"
+    ], 

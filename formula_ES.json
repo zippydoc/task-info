@@ -1,0 +1,39 @@
+{
+  "name":"Fórmula", 
+  "description": "Aplique a sua própria fórmula a uma coluna", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Fórmula.gif", 
+  "scriptSettings": {
+    "autoLoadQuadro": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Fórmula", 
+    "payingUsersOnly": true, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneQuadro.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/FórmulaOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Fórmula.py?ref=master", 
+  "version": 1.0
+}

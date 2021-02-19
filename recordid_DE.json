@@ -1,39 +1,39 @@
 {
-  "name": "RecordID_DE",
-  "description": "Adds a running row number to the selected table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
+  "name":"DatensatzID", 
+  "description": "Fügt der ausgewählten Tabelle eine laufende Zeilennummer hinzu", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DatensatzID.gif", 
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "RecordID",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "DatensatzID", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/RecordIDOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/DatensatzIDOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
-          "property": "output/fields",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+          "property": "output/fields", 
           "after": "output.timezone"
         }
       ]
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/RecordID.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DatensatzID.py", 
   "version": 1.0
 }

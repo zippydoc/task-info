@@ -1,0 +1,41 @@
+{
+  "name":"Junte-se-a", 
+  "description": "Juntar duas mesas", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Junte-se-a.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadQuadro": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Junte-se-a", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/Junte-se-aInput.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/Junte-se-aOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/Junte-se-aOutput.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	},  {
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneOutputColumnWithQuadroWithoutOrdenar.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"before": "output.set_options"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Junte-se-a.py", 
+  "version": 1.0
+}

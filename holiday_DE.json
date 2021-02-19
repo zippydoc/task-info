@@ -1,32 +1,32 @@
 {
-  "name": "Holiday_DE",
-  "description": "Generate your states holiday table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "Urlaub",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Feiertag", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
   "menu": [
+  "name":"Feiertag", 
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayInput.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOutput.json?ref=main"
-		}
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py",
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FeiertagInput.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FeiertagOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FeiertagOutput.json?ref=main"
+\	\	}
+  ], 
+  "description": "Erzeugen einer Feiertagstabelle für Ihre Staaten", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Feiertag.py", 
   "version": 1.0
 }
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Feiertag.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [

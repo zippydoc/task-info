@@ -1,32 +1,32 @@
 {
-  "name": "WebAccess_DE",
-  "description": "Connect Backend-Database with 3rd party services and/or Websites",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
+  "name":"WebZugang", 
+  "description": "Verbinden der Backend-Datenbank mit Diensten und/oder Websites von Drittanbietern", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebZugang.gif", 
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "WebAccess",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "WebZugang", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebAccessInput.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebZugangInput.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebAccessOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebZugangOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTabelle.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebZugang.py", 
   "version": 1.0
 }

@@ -1,0 +1,45 @@
+{
+  "name":"Limpo", 
+  "description": "Limpar espaço em branco, pontuação e mais", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Limpo.gif", 
+  "scriptSettings": {
+    "autoLoadTabela": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Limpo", 
+    "payingUsersOnly": false, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneTabela.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneColumnDefaultAll.json?ref=main", 
+          "property": "fields"
+        }
+      ]
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LimpoOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Limpo.py", 
+  "version": 1.0
+}

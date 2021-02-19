@@ -1,32 +1,32 @@
 {
-  "name": "Union_DE",
-  "description": "Unify two or more tables to one",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "Union",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+  "name":"Vereinigen", 
+  "description": "Vereinigen von zwei oder mehr Tabellen zu einer", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vereinigen.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Vereinigen", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTables.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/UnionOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
-		}
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py",
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelles.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/VereinigenOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTabelle.json?ref=main"
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vereinigen.py", 
   "version": 1.0
 }

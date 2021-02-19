@@ -1,0 +1,24 @@
+{
+  "name":"Apagar", 
+  "description": "Apagar uma tabela específica", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Apagar.gif", 
+  "scriptSettings": {
+\	\	"autoLoadTabela": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Apagar", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [{
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneTabela.json?ref=main"
+  }], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Apagar.py", 
+  "version": 1.0
+}

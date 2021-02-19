@@ -1,43 +1,43 @@
 {
-  "name": "Periodicy_DE",
-  "description": "Convert periodicy information e.g. weeks or month into a transaction list",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif",
+  "name":"Periodizitaet", 
+  "description": "Konvertieren von periodischen Informationen wie z.B. Wochen oder Monate in eine Transaktionsliste", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodizitaet.gif", 
   "scriptSettings": {
-    "autoLoadTable": [
-    ],
+    "autoLoadTabelle": [
+    ], 
     "countries": [
-      "DE",
-      "CH"
-    ],
+      "US", 
+      "UK"
+    ], 
     "languages": [
-      "DE"
-    ],
-    "name": "Periodicy",
-    "payingUsersOnly": true,
+      "EN"
+    ], 
+    "name": "Periodizitaet", 
+    "payingUsersOnly": true, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyInput.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodizitaetInput.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodizitaetOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicySelectOutputColumn.json?ref=main",
-          "property": "output/fields",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodizitaetAuswaehlenOutputColumn.json?ref=main", 
+          "property": "output/fields", 
           "after": "output.timezone"
-        },
+        }, 
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SelectPeriod.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AuswaehlenPeriod.json?ref=main", 
           "property": "output/fields"
         }
       ]
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodizitaet.py", 
   "version": 1.0
 }

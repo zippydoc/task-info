@@ -1,0 +1,32 @@
+{
+  "name":"Resumindo", 
+  "description": "Construir grupos e calcular somas, médias e mais", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Resumindo.gif", 
+  "scriptSettings": {
+    "autoLoadTabela": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Resumindo", 
+    "payingUsersOnly": false, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelecioneTabela.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/SumupOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Resumindo.py", 
+  "version": 1.0
+}

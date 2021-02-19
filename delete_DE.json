@@ -1,24 +1,24 @@
 {
-  "name": "Delete_DE",
-  "description": "Delete a specified table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
+  "name":"Loeschen", 
+  "description": "Löschen einer bestimmten Tabelle", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Loeschen.gif", 
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"DE", "CH"
-		],
-		"languages": [
-			"DE"
-		],
-		"name": "Lösche",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Loeschen", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
   "menu": [{
-    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-  }],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py",
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+  }], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Loeschen.py", 
   "version": 1.0
 }

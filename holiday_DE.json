@@ -1,0 +1,32 @@
+{
+  "name": "Holiday_DE",
+  "description": "Generate your states holiday table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Urlaub",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayInput.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOutput.json?ref=main"
+		}
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py",
+  "version": 1.0
+}

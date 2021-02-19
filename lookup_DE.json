@@ -1,0 +1,48 @@
+{
+  "name": "Lookup_DE",
+  "description": "Autodetect and lookup repetitive patterns",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "DE",
+      "CH"
+    ],
+    "languages": [
+      "DE"
+    ],
+    "name": "Lookup",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py",
+  "version": 1.0
+}

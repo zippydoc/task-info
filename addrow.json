@@ -1,5 +1,5 @@
 {
-  "name": "AddRow",
+  "name":"AddRow",
   "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
   "scriptSettings": {
@@ -32,6 +32,9 @@
           "after": "output.timezone"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py",

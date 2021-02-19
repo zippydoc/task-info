@@ -1,0 +1,41 @@
+{
+  "name": "Join_DE",
+  "description": "Join two tables",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Join",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinInput.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/JoinOutput.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}, {
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main",
+				"property": "output/fields",
+				"before": "output.set_options"
+			}]
+		}
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py",
+  "version": 1.0
+}

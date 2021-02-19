@@ -1,0 +1,34 @@
+{
+  "name": "Append_DE",
+  "description": "Append a second table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Ergänze",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AppendInput.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main",
+      "children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumnWithTable.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
+		}
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py",
+  "version": 1.0
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Convert_DE",
+  "description": "Conversion to various table formats",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
+  "scriptSettings": {
+		"autoLoadTable": [
+			
+		],
+		"countries": [
+			"DE", "CH"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Wandle Um",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ConvertOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py",
+  "version": 1.0
+}

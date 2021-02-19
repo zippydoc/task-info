@@ -1,0 +1,43 @@
+{
+  "name": "Periodicy_DE",
+  "description": "Convert periodicy information e.g. weeks or month into a transaction list",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "DE",
+      "CH"
+    ],
+    "languages": [
+      "DE"
+    ],
+    "name": "Periodicy",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicySelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SelectPeriod.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py",
+  "version": 1.0
+}

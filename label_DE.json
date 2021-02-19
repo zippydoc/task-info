@@ -1,12 +1,13 @@
 {
-  "name": "Label",
+  "name": "Label_DE",
   "description": "Add labels to found items",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
     "countries": [
-      "DE","AUT","CH"
+      "DE",
+      "CH"
     ],
     "languages": [
       "DE"
@@ -17,16 +18,16 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/translations/LabelOptions_DE.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LabelOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.timezone"
         }

@@ -1,5 +1,5 @@
 {
-  "name": "Finde",
+  "name": "Find_DE",
   "description": "Find and return match/no-match",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
 	"scriptSettings": {
@@ -12,21 +12,21 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Finde",
+		"name": "Find",
 		"payingUsersOnly": false,
 		"type": "script"
 	},
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindOptions.json?ref=main"
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FindOptions.json?ref=main"
 		},
 		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
 				"property": "output/fields",
 				"after": "output.timezone"
 			}]

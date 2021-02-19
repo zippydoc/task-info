@@ -1,0 +1,35 @@
+    "payingUsersOnly": false, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SeleccioneQuadro.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TranspongaOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Debug.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transponga.py", 
+  "version": 1.0
+}
+{
+  "name":"Transponga", 
+  "description": "Transpor colunas para filas e filas para colunas", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transponga.gif", 
+  "scriptSettings": {
+    "autoLoadQuadro": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "EN"
+    ], 
+    "name": "Transponga", 

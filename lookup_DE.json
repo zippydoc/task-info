@@ -1,48 +1,48 @@
 {
-  "name": "Lookup_DE",
-  "description": "Autodetect and lookup repetitive patterns",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "name":"Nachschlagen", 
+  "description": "Automatisches Erkennen und Nachschlagen von sich wiederholenden Mustern", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Nachschlagen.gif", 
   "scriptSettings": {
-    "autoLoadTable": [
-    ],
+    "autoLoadTabelle": [
+    ], 
     "countries": [
-      "DE",
-      "CH"
-    ],
+      "US", 
+      "UK"
+    ], 
     "languages": [
-      "DE"
-    ],
-    "name": "Lookup",
-    "payingUsersOnly": true,
+      "EN"
+    ], 
+    "name": "Nachschlagen", 
+    "payingUsersOnly": true, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupInput.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/NachschlagenInput.json?ref=main", 
           "property": "fields"
         }
       ]
-    },
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOptions.json?ref=main"
-    },
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/NachschlagenOptions.json?ref=main"
+    }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOutputColumn.json?ref=main",
-          "property": "output/fields",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/NachschlagenOutputColumn.json?ref=main", 
+          "property": "output/fields", 
           "after": "output.timezone"
         }
       ]
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Nachschlagen.py", 
   "version": 1.0
 }

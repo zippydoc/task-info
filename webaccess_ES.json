@@ -1,0 +1,32 @@
+{
+  "name":"AccesoALaWeb", 
+  "description": "Ligar Backend-Database com serviços e/ou sítios Web de terceiros", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AccesoALaWeb.gif", 
+  "scriptSettings": {
+\	\	"autoLoadQuadro": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "AccesoALaWeb", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/AccesoALaWebInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/AccesoALaWebOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutputWithoutInputQuadro.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AccesoALaWeb.py", 
+  "version": 1.0
+}

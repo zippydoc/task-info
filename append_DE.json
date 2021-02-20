@@ -1,9 +1,9 @@
 {
   "name":"Anhaengen", 
   "description": "Eine zweite Tabelle anhängen", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Anhaengen.gif", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif", 
 \	"scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
@@ -18,17 +18,17 @@
 \	}, 
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AnhaengenInput.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AppendInput.json?ref=main"
 \	\	}, 
 \	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTabelle.json?ref=main", 
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main", 
       "children": [{
-\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumnWithTabelle.json?ref=main", 
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumnWithTable.json?ref=main", 
 \	\	\	\	"property": "output/fields", 
 \	\	\	\	"after": "output.timezone"
 \	\	\	}]
 \	\	}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Anhaengen.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py", 
   "version": 1.0
 }

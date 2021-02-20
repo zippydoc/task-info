@@ -1,9 +1,9 @@
 {
   "name":"Loeschen", 
   "description": "Löschen einer bestimmten Tabelle", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Loeschen.gif", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
@@ -17,8 +17,8 @@
 \	\	"type": "script"
 \	}, 
   "menu": [{
-    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
   }], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Loeschen.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py", 
   "version": 1.0
 }

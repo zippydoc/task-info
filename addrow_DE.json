@@ -1,9 +1,9 @@
 {
   "name":"ReiheErgaenzen", 
   "description": "Anwenden einer eigenen Formel zum Erstellen einer neuen Zeile", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ReiheErgaenzen.gif", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {
-    "autoLoadTabelle": [
+    "autoLoadTable": [
     ], 
     "countries": [
       "US", 
@@ -18,16 +18,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ReiheErgaenzenOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddRowOptions.json?ref=main"
     }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main", 
           "property": "output/fields", 
           "after": "output.timezone"
         }
@@ -37,6 +37,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ReiheErgaenzen.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py", 
   "version": 1.0
 }

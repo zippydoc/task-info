@@ -1,34 +1,34 @@
 {
-  "name":"Kopieren", 
-  "description": "Tabelle duplizieren", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Kopieren.gif", 
+  "name":"Copy", 
+  "description": "Duplicate table", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif", 
 \	"scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
 \	\	\	"US",  "UK"
 \	\	], 
 \	\	"languages": [
-\	\	\	"DE"
+\	\	\	"EN"
 \	\	], 
-\	\	"name": "Kopieren", 
+\	\	"name": "Copy", 
 \	\	"payingUsersOnly": false, 
 \	\	"type": "script"
 \	}, 
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 \	\	}, 
 \	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main", 
       "children": [{
-\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main", 
 \	\	\	\	"property": "output/fields", 
 \	\	\	\	"after": "output.timezone"
 \	\	\	}]
 \	\	}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Kopieren.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py", 
   "version": 1.0
 }

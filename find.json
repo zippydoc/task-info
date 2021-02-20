@@ -1,37 +1,37 @@
 {
-  "name":"Finden", 
-  "description": "Suchen und Übereinstimmung/Nicht-Übereinstimmung zurückgeben", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Finden.gif", 
+  "name":"Find", 
+  "description": "Find and return match/no-match", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
 \	"scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
 \	\	\	"US",  "UK"
 \	\	], 
 \	\	"languages": [
-\	\	\	"DE"
+\	\	\	"EN"
 \	\	], 
-\	\	"name": "Finden", 
+\	\	"name": "Find", 
 \	\	"payingUsersOnly": false, 
 \	\	"type": "script"
 \	}, 
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
 \	\	}, 
 \	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FindenOptions.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindOptions.json?ref=main"
 \	\	}, 
 \	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main", 
       "children": [{
-\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main", 
 \	\	\	\	"property": "output/fields", 
 \	\	\	\	"after": "output.timezone"
 \	\	\	}]
 \	\	}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Finden.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py", 
   "version": 1.0
 }

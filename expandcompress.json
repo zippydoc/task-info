@@ -1,29 +1,29 @@
 {
-  "name":"ExpandierenKomprimieren", 
-  "description": "Unterstützung für Inhaltsersteller und Erweitern und Zusammenziehen einer Reihe von Etiketten", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandierenKomprimieren.gif", 
+  "name":"ExpandCompress", 
+  "description": "Support for content creators and expand and contract a series of labels", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
 \	\	\	"US",  "UK"
 \	\	], 
 \	\	"languages": [
-\	\	\	"DE"
+\	\	\	"EN"
 \	\	], 
-\	\	"name": "ExpandierenKomprimieren", 
+\	\	"name": "ExpandCompress", 
 \	\	"payingUsersOnly": true, 
 \	\	"type": "script"
 \	}, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
     }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandierenKomprimieren.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py", 
   "version": 1.0
 }

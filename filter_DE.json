@@ -1,0 +1,37 @@
+{
+  "name":"Filtern", 
+  "description": "Zeilen ausgeben, die Ihren Filterbedingungen entsprechen", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filtern2.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"DE"
+\	\	], 
+\	\	"name": "Filtern", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FilternOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Filtern.py", 
+  "version": 1.0
+}

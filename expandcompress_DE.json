@@ -1,0 +1,29 @@
+{
+  "name":"ExpandierenKomprimieren", 
+  "description": "Unterstützung für Inhaltsersteller und Erweitern und Zusammenziehen einer Reihe von Etiketten", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandierenKomprimieren.gif", 
+  "scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"DE"
+\	\	], 
+\	\	"name": "ExpandierenKomprimieren", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandierenKomprimieren.py", 
+  "version": 1.0
+}

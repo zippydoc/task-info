@@ -1,35 +1,35 @@
 }
 {
-  "name":"Exportieren", 
-  "description": "Daten aus Datenbank oder Cloud-Verzeichnis exportieren ", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Exportieren.gif", 
+  "name":"Export", 
+  "description": "Export data from database or cloud directory ", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
   "scriptSettings": {
-    "autoLoadTabelle": [
+    "autoLoadTable": [
     ], 
     "countries": [
       "US", 
       "UK"
     ], 
     "languages": [
-      "DE"
+      "EN"
     ], 
-    "name": "Exportieren", 
+    "name": "Export", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportierenOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Exportieren.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py", 
   "version": 1.0

@@ -1,0 +1,41 @@
+{
+  "name":"Einteilung", 
+  "description": "Datensätze in verschiedene Bins sortieren", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Einteilung.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTabelle": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"DE"
+\	\	], 
+\	\	"name": "Einteilung", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main", 
+\	\	\	"children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenColumn.json?ref=main", 
+\	\	\	\	"property": "fields"
+\	\	\	}]
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/EinteilungOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+\	\	\	"children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Einteilung.py", 
+  "version": 1.0
+}

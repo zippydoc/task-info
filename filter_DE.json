@@ -1,9 +1,9 @@
 {
   "name":"Filtern", 
   "description": "Zeilen ausgeben, die Ihren Filterbedingungen entsprechen", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filtern2.gif", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif", 
 \	"scriptSettings": {
-\	\	"autoLoadTabelle": [
+\	\	"autoLoadTable": [
 \	\	\	
 \	\	], 
 \	\	"countries": [
@@ -18,20 +18,20 @@
 \	}, 
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenTabelle.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
 \	\	}, 
 \	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FilternOptions.json?ref=main"
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FilterOptions.json?ref=main"
 \	\	}, 
 \	\	{
 \	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
       "children": [{
-\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/AuswaehlenOutputColumn.json?ref=main", 
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main", 
 \	\	\	\	"property": "output/fields", 
 \	\	\	\	"after": "output.timezone"
 \	\	\	}]
 \	\	}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Filtern.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Filter.py", 
   "version": 1.0
 }

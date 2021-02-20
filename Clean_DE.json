@@ -1,0 +1,45 @@
+{
+  "name":"Bereinigen",  
+  "description": "Bereinigung von Leerzeichen,  Interpunktion und mehr",  
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",  
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],  
+    "countries": [
+      "US",  
+      "UK"
+    ],  
+    "languages": [
+      "DE"
+    ],  
+    "name": "Bereinigen",  
+    "payingUsersOnly": false,  
+    "type": "script"
+  },  
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",  
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectColumnDefaultAll.json?ref=main",  
+          "property": "fields"
+        }
+      ]
+    },  
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/CleanOptions.json?ref=main"
+    },  
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",  
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",  
+          "property": "output/fields",  
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ],  
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py",  
+  "version": 1.0
+}

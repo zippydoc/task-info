@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ], 
-    "name": "AddRow", 
+    "name": "Add Row", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

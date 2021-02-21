@@ -1,0 +1,40 @@
+{
+  "name":"Organizar", 
+  "description": "Ordenar descendente ou ascendente", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif", 
+\	"scriptSettings": {
+\	\	"autoLoadTable": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"PT"
+\	\	], 
+\	\	"name": "Organizar", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelectTable.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/SortOptions.json?ref=main"
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main", 
+      "children": [{
+\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelectOutputColumnWithoutSort.json?ref=main", 
+\	\	\	\	"property": "output/fields", 
+\	\	\	\	"after": "output.timezone"
+\	\	\	}]
+\	\	}, 
+\	\	{
+\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/Debug.json?ref=main"
+\	\	  }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py", 
+  "version": 1.0
+}

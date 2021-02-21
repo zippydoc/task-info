@@ -12,7 +12,7 @@
 		"languages": [
 			"EN"
 		],
-		"name": "RecordID",
+		"name": "Record ID",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

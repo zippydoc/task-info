@@ -1,24 +1,24 @@
 {
-  "name":"Delete",
-  "description": "Delete a specified table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
+  "name":"Delete", 
+  "description": "Delete a specified table", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Delete",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+\	\	"autoLoadTable": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Delete", 
+\	\	"payingUsersOnly": false, 
+\	\	"type": "script"
+\	}, 
   "menu": [{
     "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-  }],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py",
+  }], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py", 
   "version": 1.0
 }

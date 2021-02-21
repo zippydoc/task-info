@@ -12,7 +12,7 @@
 		"languages": [
 			"EN"
 		],
-		"name": "WebAccess",
+		"name": "Web-Access",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

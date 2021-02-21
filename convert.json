@@ -1,32 +1,32 @@
 {
-  "name":"Convert",
-  "description": "Conversion to various table formats",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
+  "name":"Convert", 
+  "description": "Conversion to various table formats", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif", 
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Convert",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+\	\	"autoLoadTable": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"EN"
+\	\	], 
+\	\	"name": "Convert", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ConvertOptions.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py", 
   "version": 1.0
 }

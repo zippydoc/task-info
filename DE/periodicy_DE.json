@@ -1,0 +1,43 @@
+{
+  "name":"Periodizitaet", 
+  "description": "Konvertieren von periodischen Informationen wie z.B. Wochen oder Monate in eine Transaktionsliste", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "DE"
+    ], 
+    "name": "Periodizitaet", 
+    "payingUsersOnly": true, 
+    "type": "script"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicySelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }, 
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SelectPeriod.json?ref=main", 
+          "property": "output/fields"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py", 
+  "version": 1.0
+}

@@ -1,35 +1,35 @@
+}
 {
-  "name":"Export",
-  "description": "Export data from database or cloud directory ",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "name":"Export", 
+  "description": "Export data from database or cloud directory ", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
   "scriptSettings": {
     "autoLoadTable": [
-    ],
+    ], 
     "countries": [
-      "US",
+      "US", 
       "UK"
-    ],
+    ], 
     "languages": [
       "EN"
-    ],
-    "name": "Export",
-    "payingUsersOnly": true,
+    ], 
+    "name": "Export", 
+    "payingUsersOnly": true, 
     "type": "script"
-  },
+  }, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportOptions.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
-    },
+    }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
-  ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py",
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py", 
   "version": 1.0
-}

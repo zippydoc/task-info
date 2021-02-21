@@ -1,0 +1,32 @@
+{
+  "name":"WebZugang", 
+  "description": "Verbinden der Backend-Datenbank mit Diensten und/oder Websites von Drittanbietern", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
+  "scriptSettings": {
+\	\	"autoLoadTable": [
+\	\	\	
+\	\	], 
+\	\	"countries": [
+\	\	\	"US",  "UK"
+\	\	], 
+\	\	"languages": [
+\	\	\	"DE"
+\	\	], 
+\	\	"name": "WebZugang", 
+\	\	"payingUsersOnly": true, 
+\	\	"type": "script"
+\	}, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebAccessInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/WebAccessOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py", 
+  "version": 1.0
+}

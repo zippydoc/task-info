@@ -1,6 +1,6 @@
 {
   "name": "FindReplace",
-  "description": "Find cell content and replace by different content",
+  "description": "Apply your own formula to create a new column",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -36,6 +36,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
   "version": 1.0
 }

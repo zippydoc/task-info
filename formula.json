@@ -1,7 +1,7 @@
 {
   "name": "Formel",
   "description": "Eigene Formel auf eine Spalte anwenden",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formel.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

@@ -3,7 +3,7 @@
   "description": "Eigene Formel auf eine Spalte anwenden",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formel.gif",
   "scriptSettings": {
-    "autoLoadTabelle": [
+    "autoLoadTable": [
     ],
     "countries": [
       "US",

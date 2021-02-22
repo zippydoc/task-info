@@ -1,0 +1,41 @@
+{
+  "name":"Einteilung", 
+  "description": "Datensätze in verschiedene Bins sortieren", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
+	"scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "Einteilung",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectColumn.json?ref=main",
+				"property": "fields"
+			}]
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/BinningOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
+		}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py", 
+  "version": 1.0
+}

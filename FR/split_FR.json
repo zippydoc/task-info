@@ -1,0 +1,41 @@
+{
+  "name":"Séparer", 
+  "description": "Fractionnement des enregistrements à la ponctuation, aux espaces et plus encore", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif", 
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"FR"
+		], 
+		"name": "Séparer", 
+		"payingUsersOnly": false, 
+		"type": "script"
+	}, 
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main", 
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/SplitInput.json?ref=main", 
+				"property": "fields"
+			}]
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/SplitOptions.json?ref=main"
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutput.json?ref=main", 
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumn.json?ref=main", 
+				"property": "output/fields", 
+				"after": "output.timezone"
+			}]
+		}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py", 
+  "version": 1.0
+}

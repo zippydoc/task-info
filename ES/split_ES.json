@@ -1,0 +1,41 @@
+{
+  "name":"Dividir", 
+  "description": "Registos divididos na pontuação, espaço em branco e mais", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif", 
+	"scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"ES"
+		],
+		"name": "Dividir",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTable.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/SplitInput.json?ref=main",
+				"property": "fields"
+			}]
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/SplitOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main",
+			"children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectOutputColumn.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
+		}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py", 
+  "version": 1.0
+}

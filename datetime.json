@@ -1,7 +1,7 @@
 {
-  "name": "Copy",
-  "description": "Duplicate table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
+  "name": "DateTime",
+  "description": "Convert date and time formats",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -12,13 +12,18 @@
     "languages": [
       "EN"
     ],
-    "name": "Copy",
+    "name": "Date & Time",
     "payingUsersOnly": false,
     "type": "script"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DatetimeInput.json?ref=main",
+      "property": "fields"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DatetimeOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -34,6 +39,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DateTime.py",
   "version": 1.0
 }

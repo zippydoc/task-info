@@ -17,14 +17,14 @@
   }, 
   "menu": [
     {
-\	  "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectInputTables.json?ref=main"
-\	}, 
+	  "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectInputTables.json?ref=main"
+	}, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/VectorOptions.json?ref=main"
     }, 
-\	{
-\	  "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
-\	}
+	{
+	  "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
+	}
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py", 
   "version": 1.0

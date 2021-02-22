@@ -3,19 +3,19 @@
   "description": "Remplissage automatique d'une table cible avec le contenu des tables sources en faisant correspondre les informations de l'en-tête et de l'étiquette", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"FR"
-\	\	], 
-\	\	"name": "AutoRemplir", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"FR"
+		],
+		"name": "AutoRemplir",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AutofillInput.json?ref=main"

@@ -3,19 +3,19 @@
   "description": "Fügt der ausgewählten Tabelle eine laufende Zeilennummer hinzu", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"DE"
-\	\	], 
-\	\	"name": "DatensatzID", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "DatensatzID",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"

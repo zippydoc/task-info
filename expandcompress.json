@@ -3,19 +3,19 @@
   "description": "Support for content creators and expand and contract a series of labels", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"EN"
-\	\	], 
-\	\	"name": "Expand or Compress", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"EN"
+		], 
+		"name": "Expand or Compress", 
+		"payingUsersOnly": true, 
+		"type": "script"
+	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

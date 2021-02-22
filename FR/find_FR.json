@@ -2,35 +2,35 @@
   "name":"Trouvez", 
   "description": "Trouver et renvoyer une correspondance/non-correspondance", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
-\	"scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"FR"
-\	\	], 
-\	\	"name": "Trouvez", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"FR"
+		], 
+		"name": "Trouvez", 
+		"payingUsersOnly": false, 
+		"type": "script"
+	}, 
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main"
-\	\	}, 
-\	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/FindOptions.json?ref=main"
-\	\	}, 
-\	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutput.json?ref=main", 
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main"
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/FindOptions.json?ref=main"
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutput.json?ref=main", 
       "children": [{
-\	\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumn.json?ref=main", 
-\	\	\	\	"property": "output/fields", 
-\	\	\	\	"after": "output.timezone"
-\	\	\	}]
-\	\	}
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumn.json?ref=main", 
+				"property": "output/fields", 
+				"after": "output.timezone"
+			}]
+		}
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py", 
   "version": 1.0

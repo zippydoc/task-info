@@ -3,19 +3,19 @@
   "description": "Adiciona um número de linha em execução à tabela seleccionada", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"ES"
-\	\	], 
-\	\	"name": "IdentificadorDeRegistro", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"ES"
+		],
+		"name": "IdentificadorDeRegistro",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTable.json?ref=main"

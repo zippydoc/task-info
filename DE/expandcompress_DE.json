@@ -3,19 +3,19 @@
   "description": "Unterstützung für Inhaltsersteller und Erweitern und Zusammenziehen einer Reihe von Etiketten", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"DE"
-\	\	], 
-\	\	"name": "ExpandierenKomprimieren", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "ExpandierenKomprimieren",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"

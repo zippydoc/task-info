@@ -3,19 +3,19 @@
   "description": "Ändern oder Abrufen von Formatierungs- oder Kopfinformationen einer bestimmten Tabelle", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"DE"
-\	\	], 
-\	\	"name": "Tabelle", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"DE"
+		], 
+		"name": "Tabelle", 
+		"payingUsersOnly": false, 
+		"type": "script"
+	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"

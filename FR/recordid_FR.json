@@ -3,19 +3,19 @@
   "description": "Ajoute un numéro de ligne courante au tableau sélectionné", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"FR"
-\	\	], 
-\	\	"name": "IdentificateurDEnregistrement", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"FR"
+		], 
+		"name": "IdentificateurDEnregistrement", 
+		"payingUsersOnly": false, 
+		"type": "script"
+	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main"

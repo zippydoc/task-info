@@ -3,19 +3,19 @@
   "description": "Conversion en divers formats de tableaux", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"FR"
-\	\	], 
-\	\	"name": "Convertir", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"FR"
+		],
+		"name": "Convertir",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main"

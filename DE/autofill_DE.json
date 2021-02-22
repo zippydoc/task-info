@@ -3,19 +3,19 @@
   "description": "Automatisches Füllen einer Zieltabelle mit Inhalten von Quelltabellen durch Abgleich von Kopf- und Beschriftungsinformationen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"DE"
-\	\	], 
-\	\	"name": "AutoErgaenzen", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "AutoErgaenzen",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AutofillInput.json?ref=main"

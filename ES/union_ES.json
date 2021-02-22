@@ -2,30 +2,30 @@
   "name":"Unión", 
   "description": "Unificar duas ou mais tabelas a uma", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
-\	"scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"ES"
-\	\	], 
-\	\	"name": "Unión", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+	"scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"ES"
+		],
+		"name": "Unión",
+		"payingUsersOnly": true,
+		"type": "script"
+	},
   "menu": [
     {
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTables.json?ref=main"
-\	\	}, 
-\	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/UnionOptions.json?ref=main"
-\	\	}, 
-\	\	{
-\	\	\	"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
-\	\	}
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTables.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/UnionOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+		}
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py", 
   "version": 1.0

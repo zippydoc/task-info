@@ -3,19 +3,19 @@
   "description": "Modifier ou obtenir des informations de formatage ou d'en-tête d'un tableau spécifique", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"FR"
-\	\	], 
-\	\	"name": "Tableau", 
-\	\	"payingUsersOnly": false, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"FR"
+		], 
+		"name": "Tableau", 
+		"payingUsersOnly": false, 
+		"type": "script"
+	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main"

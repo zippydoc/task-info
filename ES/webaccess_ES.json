@@ -3,19 +3,19 @@
   "description": "Ligar Backend-Database com serviços e/ou sítios Web de terceiros", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
   "scriptSettings": {
-\	\	"autoLoadTable": [
-\	\	\	
-\	\	], 
-\	\	"countries": [
-\	\	\	"US",  "UK"
-\	\	], 
-\	\	"languages": [
-\	\	\	"ES"
-\	\	], 
-\	\	"name": "AccesoALaWeb", 
-\	\	"payingUsersOnly": true, 
-\	\	"type": "script"
-\	}, 
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"ES"
+		], 
+		"name": "AccesoALaWeb", 
+		"payingUsersOnly": true, 
+		"type": "script"
+	}, 
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/WebAccessInput.json?ref=main"

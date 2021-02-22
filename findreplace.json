@@ -4,6 +4,8 @@
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
     "autoLoadTable": [
+      "table1",
+      "table2"
     ],
     "countries": [
       "US",
@@ -12,8 +14,8 @@
     "languages": [
       "EN"
     ],
-    "name": "Find-Replace",
-    "payingUsersOnly": false,
+    "name": "Add Column",
+    "payingUsersOnly": true,
     "type": "script"
   },
   "menu": [
@@ -34,6 +36,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
   "version": 1.0
 }

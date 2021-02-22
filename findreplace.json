@@ -1,11 +1,9 @@
 {
   "name": "FindReplace",
   "description": "Find cell content and replace by different content",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "table1",
-      "table2"
     ],
     "countries": [
       "US",
@@ -14,8 +12,8 @@
     "languages": [
       "EN"
     ],
-    "name": "Add Column",
-    "payingUsersOnly": true,
+    "name": "Find-Replace",
+    "payingUsersOnly": false,
     "type": "script"
   },
   "menu": [
@@ -36,6 +34,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py",
   "version": 1.0
 }

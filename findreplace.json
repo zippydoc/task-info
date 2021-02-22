@@ -1,7 +1,7 @@
 {
   "name": "FindReplace",
   "description": "Find cell content and replace by different content",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

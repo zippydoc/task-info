@@ -1,0 +1,32 @@
+{
+  "name": "WebAccess",
+  "description": "Connect Backend-Database with 3rd party services and/or Websites",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Web-Access",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WebAccessInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WebAccessOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py",
+  "version": 1.0
+}

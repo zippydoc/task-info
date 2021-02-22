@@ -1,0 +1,32 @@
+{
+  "name": "Transpose",
+  "description": "Transpose columns to rows and rows to columns",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Transpose",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TransposeOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py",
+  "version": 1.0
+}

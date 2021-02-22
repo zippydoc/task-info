@@ -1,0 +1,47 @@
+{
+  "name": "FindReplace",
+  "description": "Find cell content and replace by different content",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Find-Replace",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOutput.json?ref=main",
+          "property": "output/fields",
+          "after": "output_columns"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py",
+  "version": 1.0
+}

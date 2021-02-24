@@ -1,0 +1,32 @@
+{
+  "name":"LUnion", 
+  "description": "Unifier deux ou plusieurs tables en une seule", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
+	"scriptSettings": {
+		"autoLoadTable": [
+			
+		], 
+		"countries": [
+			"US",  "UK"
+		], 
+		"languages": [
+			"FR"
+		], 
+		"name": "LUnion", 
+		"payingUsersOnly": true, 
+		"type": "script"
+	}, 
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTables.json?ref=main"
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/UnionOptions.json?ref=main"
+		}, 
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+		}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py", 
+  "version": 1.0
+}

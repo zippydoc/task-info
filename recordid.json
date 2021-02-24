@@ -1,21 +1,21 @@
 {
-  "name":"RecordID",
+  "name": "RecordID",
   "description": "Adds a running row number to the selected table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "RecordID",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Record ID",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

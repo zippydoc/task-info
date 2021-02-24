@@ -1,5 +1,5 @@
 {
-  "name":"FindReplace",
+  "name": "FindReplace",
   "description": "Find cell content and replace by different content",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "FindReplace",
+    "name": "Find-Replace",
     "payingUsersOnly": false,
     "type": "script"
   },
@@ -37,11 +37,8 @@
           "after": "output_columns"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",
   "version": 1.0
 }

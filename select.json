@@ -1,36 +1,38 @@
 {
-  "name":"Select",
+  "name": "Select",
   "description": "Select first, last, random and more",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Select",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Select",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [{
-				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
-				"property": "output/fields",
-				"after": "output.timezone"
-			}]
-		}
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.timezone"
+        }
+      ]
+    }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Select.py",
   "version": 1.0

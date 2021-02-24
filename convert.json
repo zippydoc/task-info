@@ -1,21 +1,21 @@
 {
-  "name":"Convert",
+  "name": "Convert",
   "description": "Conversion to various table formats",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Convert",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Convert",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"

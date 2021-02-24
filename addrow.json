@@ -1,5 +1,5 @@
 {
-  "name":"AddRow",
+  "name": "AddRow",
   "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
   "scriptSettings": {
@@ -12,13 +12,13 @@
     "languages": [
       "EN"
     ],
-    "name": "AddRow",
+    "name": "Add Row",
     "payingUsersOnly": false,
     "type": "script"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTableWithRows.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowOptions.json?ref=main"

@@ -1,28 +1,28 @@
 {
-  "name":"ImpactCurve",
+  "name": "ImpactCurve",
   "description": "Generate an impact-curve for an event",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
-	"scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "ImpactCurve",
-		"payingUsersOnly": false,
-		"type": "script"
-	},
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Impact Curve",
+    "payingUsersOnly": false,
+    "type": "script"
+  },
   "menu": [
     {
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImpactCurveOptions.json?ref=main"
-		},
-		{
-			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
-		}
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImpactCurveOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+    }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py",
   "version": 1.0

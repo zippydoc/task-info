@@ -1,0 +1,39 @@
+{
+  "name":"Quadro", 
+  "description": "Alterar ou obter formatação ou informação de cabeçalho de uma tabela especificada", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
+  "scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"ES"
+		],
+		"name": "Quadro",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TableOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TableSelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Table.py", 
+  "version": 1.0
+}

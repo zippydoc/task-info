@@ -1,0 +1,39 @@
+{
+  "name":"DatensatzID", 
+  "description": "Fügt der ausgewählten Tabelle eine laufende Zeilennummer hinzu", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
+  "scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"DE"
+		],
+		"name": "DatensatzID",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/RecordIDOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RecordID.py", 
+  "version": 1.0
+}

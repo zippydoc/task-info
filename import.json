@@ -1,5 +1,5 @@
 {
-  "name":"Import",
+  "name": "Import",
   "description": "Import data from database or cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
   "scriptSettings": {
@@ -24,6 +24,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportOutput.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master",
   "version": 1.0
 }

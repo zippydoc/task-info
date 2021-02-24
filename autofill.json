@@ -1,21 +1,21 @@
 {
-  "name":"Autofill",
+  "name": "Autofill",
   "description": "Autofill a target table with content of source tables by matching header and label information",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
   "scriptSettings": {
-		"autoLoadTable": [
-			
-		],
-		"countries": [
-			"US", "UK"
-		],
-		"languages": [
-			"EN"
-		],
-		"name": "Autofill",
-		"payingUsersOnly": true,
-		"type": "script"
-	},
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "name": "Auto-Fill",
+    "payingUsersOnly": true,
+    "type": "script"
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInput.json?ref=main"

@@ -1,5 +1,5 @@
 {
-  "name":"AddColumn",
+  "name": "AddColumn",
   "description": "Apply your own formula to create a new column",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
@@ -14,7 +14,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Add column",
+    "name": "Add Column",
     "payingUsersOnly": true,
     "type": "script"
   },
@@ -34,6 +34,9 @@
           "after": "output.timezone"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",

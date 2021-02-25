@@ -14,7 +14,7 @@
     ],
     "name": "Vector",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

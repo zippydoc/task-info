@@ -14,7 +14,7 @@
     ],
     "name": "Holiday",
     "payingUsersOnly": true,
-    "type": "script"
+    "type": "SimpleTableTask"
   },
   "menu": [
     {

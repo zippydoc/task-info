@@ -14,7 +14,7 @@
     ],
     "name": "Find",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

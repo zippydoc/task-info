@@ -14,7 +14,7 @@
     ],
     "name": "Label",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

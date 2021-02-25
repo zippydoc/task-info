@@ -14,7 +14,7 @@
     ],
     "name": "Sort",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

@@ -14,7 +14,7 @@
     ],
     "name": "Copy",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

@@ -14,7 +14,7 @@
 		],
 		"name": "Loeschen",
 		"payingUsersOnly": false,
-		"type": "script"
+		"type": "ExpertTableTask"
 	},
   "menu": [{
     "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"

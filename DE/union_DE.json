@@ -14,7 +14,7 @@
 		], 
 		"name": "Vereinigen", 
 		"payingUsersOnly": true, 
-		"type": "script"
+		"type": "ExpertTableTask"
 	}, 
   "menu": [
     {

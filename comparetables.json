@@ -14,7 +14,7 @@
     ],
     "name": "Compare-Tables",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

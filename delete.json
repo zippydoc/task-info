@@ -14,7 +14,7 @@
     ],
     "name": "Delete",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

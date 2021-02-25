@@ -14,7 +14,7 @@
     ], 
     "name": "ReiheErgaenzen", 
     "payingUsersOnly": false, 
-    "type": "script"
+    "type": "ExpertTableTask"
   }, 
   "menu": [
     {

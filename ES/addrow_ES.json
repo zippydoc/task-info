@@ -14,7 +14,7 @@
     ], 
     "name": "AdicionarFila", 
     "payingUsersOnly": false, 
-    "type": "script"
+    "type": "ExpertTableTask"
   }, 
   "menu": [
     {

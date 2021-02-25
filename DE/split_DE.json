@@ -14,7 +14,7 @@
 		], 
 		"name": "Teilen", 
 		"payingUsersOnly": false, 
-		"type": "script"
+		"type": "ExpertTableTask"
 	}, 
   "menu": [
     {

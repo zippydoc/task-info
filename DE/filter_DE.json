@@ -14,7 +14,7 @@
 		],
 		"name": "Filtern",
 		"payingUsersOnly": false,
-		"type": "script"
+		"type": "ExpertTableTask"
 	},
   "menu": [
     {

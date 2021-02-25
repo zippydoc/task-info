@@ -13,7 +13,7 @@
     ], 
     "name": "Vektor", 
     "payingUsersOnly": false, 
-    "type": "script"
+    "type": "ExpertTableTask"
   }, 
   "menu": [
     {

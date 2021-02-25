@@ -14,7 +14,7 @@
 		],
 		"name": "Kopieren",
 		"payingUsersOnly": false,
-		"type": "script"
+		"type": "ExpertTableTask"
 	},
   "menu": [
     {

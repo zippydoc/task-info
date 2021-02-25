@@ -16,7 +16,7 @@
     ], 
     "name": "SpalteErgaenzen", 
     "payingUsersOnly": true, 
-    "type": "script"
+    "type": "ExpertTableTask"
   }, 
   "menu": [
     {

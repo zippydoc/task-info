@@ -16,7 +16,7 @@
     ],
     "name": "Add Column",
     "payingUsersOnly": true,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

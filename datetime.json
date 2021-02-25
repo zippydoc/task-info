@@ -14,7 +14,7 @@
     ],
     "name": "Date & Time",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

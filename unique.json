@@ -14,7 +14,7 @@
     ],
     "name": "Unique",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

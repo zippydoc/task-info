@@ -14,7 +14,7 @@
     ],
     "name": "SumUp",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

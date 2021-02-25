@@ -14,7 +14,7 @@
 		],
 		"name": "Vinificação",
 		"payingUsersOnly": false,
-		"type": "script"
+		"type": "ExpertTableTask"
 	},
   "menu": [
     {

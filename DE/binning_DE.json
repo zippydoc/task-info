@@ -14,7 +14,7 @@
 		],
 		"name": "Einteilung",
 		"payingUsersOnly": false,
-		"type": "script"
+		"type": "ExpertTableTask"
 	},
   "menu": [
     {

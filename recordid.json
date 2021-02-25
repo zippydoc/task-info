@@ -14,7 +14,7 @@
     ],
     "name": "Record ID",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "StandardTableTask"
   },
   "menu": [
     {

@@ -14,7 +14,7 @@
     ],
     "name": "Impact Curve",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

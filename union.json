@@ -14,7 +14,7 @@
     ],
     "name": "Union",
     "payingUsersOnly": true,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

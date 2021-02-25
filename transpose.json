@@ -14,7 +14,7 @@
     ],
     "name": "Transpose",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

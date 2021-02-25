@@ -14,7 +14,7 @@
     ],
     "name": "Binning",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "ExpertTableTask"
   },
   "menu": [
     {

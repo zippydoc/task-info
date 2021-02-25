@@ -18,7 +18,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTableWithRows.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowInput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowOptions.json?ref=main"

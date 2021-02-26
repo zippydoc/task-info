@@ -1,6 +1,6 @@
 {
-  "name": "AddRow",
-  "description": "Apply built-in formula to create a new row",
+  "name": "AddCustomRow",
+  "description": "Apply your own formula to create a new row",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Add Row",
+    "name": "Add Custom Row",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },
@@ -21,7 +21,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddCustomRowOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -37,6 +37,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddCustomRow.py",
   "version": 1.0
 }

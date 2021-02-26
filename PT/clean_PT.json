@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Limpo", 
+    "displayName": "Limpo", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		], 
-		"name": "Anhaengen", 
+		"displayName": "Anhaengen", 
 		"payingUsersOnly": true, 
 		"type": "ExpertTableTask"
 	}, 

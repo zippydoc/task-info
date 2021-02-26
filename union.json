@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Union",
+    "displayName": "Union",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

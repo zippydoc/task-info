@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Compare-Tables",
+    "displayName": "Compare-Tables",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

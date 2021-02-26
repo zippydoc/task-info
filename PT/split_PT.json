@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Dividido",
+		"displayName": "Dividido",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

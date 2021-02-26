@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "AutoRemplir",
+		"displayName": "AutoRemplir",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

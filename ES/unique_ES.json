@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		], 
-		"name": "Únicos", 
+		"displayName": "Únicos", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

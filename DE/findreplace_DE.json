@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ], 
-    "name": "SuchenErsetzen", 
+    "displayName": "SuchenErsetzen", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

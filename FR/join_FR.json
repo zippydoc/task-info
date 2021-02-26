@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Rejoignez",
+		"displayName": "Rejoignez",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

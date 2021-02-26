@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Verbinden",
+		"displayName": "Verbinden",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

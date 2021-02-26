@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "AdicFila", 
+    "displayName": "AdicFila", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

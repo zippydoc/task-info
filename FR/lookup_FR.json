@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Consulter", 
+    "displayName": "Consulter", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

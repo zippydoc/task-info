@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "ExpandeCompress", 
+		"displayName": "ExpandeCompress", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

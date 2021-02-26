@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Delete",
+    "displayName": "Delete",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

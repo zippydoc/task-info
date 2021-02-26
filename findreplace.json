@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Find-Replace",
+    "displayName": "Find-Replace",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

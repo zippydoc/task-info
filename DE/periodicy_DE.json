@@ -12,7 +12,7 @@
     "languages": [
       "DE"
     ], 
-    "name": "Periodizitaet", 
+    "displayName": "Periodizitaet", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

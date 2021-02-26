@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Lookup",
+    "displayName": "Lookup",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

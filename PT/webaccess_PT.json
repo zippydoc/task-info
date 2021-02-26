@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "AcessoWeb",
+		"displayName": "AcessoWeb",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Supprimer",
+		"displayName": "Supprimer",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

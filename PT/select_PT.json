@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Selecione",
+		"displayName": "Selecione",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

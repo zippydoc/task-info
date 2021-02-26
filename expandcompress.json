@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Expand or Compress",
+    "displayName": "Expand or Compress",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

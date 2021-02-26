@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Résumé", 
+    "displayName": "Résumé", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

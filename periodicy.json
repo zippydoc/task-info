@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Periodicy",
+    "displayName": "Periodicy",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

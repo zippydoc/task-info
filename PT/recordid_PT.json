@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "IdentificadorDoRegisto",
+		"displayName": "IdentificadorDoRegisto",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

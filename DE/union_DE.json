@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		], 
-		"name": "Vereinigen", 
+		"displayName": "Vereinigen", 
 		"payingUsersOnly": true, 
 		"type": "ExpertTableTask"
 	}, 

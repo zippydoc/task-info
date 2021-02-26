@@ -11,7 +11,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Vecteur", 
+    "displayName": "Vecteur", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

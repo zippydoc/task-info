@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Rotulo", 
+    "displayName": "Rotulo", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

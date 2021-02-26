@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "AutoPreencher",
+		"displayName": "AutoPreencher",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Transpor", 
+    "displayName": "Transpor", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

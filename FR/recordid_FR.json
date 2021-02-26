@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "IdentificateurDEnregistrement", 
+		"displayName": "IdentificateurDEnregistrement", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

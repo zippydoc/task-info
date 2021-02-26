@@ -13,7 +13,7 @@
     "languages": [
       "ES"
     ], 
-    "name": "Exportação", 
+    "displayName": "Exportação", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "PesquisaSubstituir", 
+    "displayName": "PesquisaSubstituir", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

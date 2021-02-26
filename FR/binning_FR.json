@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Binning",
+		"displayName": "Binning",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

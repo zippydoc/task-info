@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Formule", 
+    "displayName": "Formule", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

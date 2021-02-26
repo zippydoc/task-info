@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Formula", 
+    "displayName": "Formula", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

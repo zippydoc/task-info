@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "JunteSeA",
+		"displayName": "JunteSeA",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

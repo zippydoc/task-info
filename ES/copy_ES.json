@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		],
-		"name": "Cópia",
+		"displayName": "Cópia",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

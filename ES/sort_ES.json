@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		],
-		"name": "Ordenar",
+		"displayName": "Ordenar",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

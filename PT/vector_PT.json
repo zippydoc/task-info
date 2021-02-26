@@ -11,7 +11,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Vetor", 
+    "displayName": "Vetor", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

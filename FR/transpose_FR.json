@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Transpose", 
+    "displayName": "Transpose", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

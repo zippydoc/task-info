@@ -14,7 +14,7 @@
     "languages": [
       "DE"
     ], 
-    "name": "SpalteErgaenzen", 
+    "displayName": "SpalteErgaenzen", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

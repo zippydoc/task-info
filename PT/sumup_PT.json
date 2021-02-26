@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Resumindo", 
+    "displayName": "Resumindo", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

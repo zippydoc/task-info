@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "União",
+		"displayName": "União",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

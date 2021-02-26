@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		], 
-		"name": "Anexar", 
+		"displayName": "Anexar", 
 		"payingUsersOnly": true, 
 		"type": "ExpertTableTask"
 	}, 

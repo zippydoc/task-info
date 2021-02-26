@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Copie",
+		"displayName": "Copie",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

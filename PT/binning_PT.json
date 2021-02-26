@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Vinificacao",
+		"displayName": "Vinificacao",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

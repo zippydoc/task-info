@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "Tableau", 
+		"displayName": "Tableau", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Konvertieren",
+		"displayName": "Konvertieren",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

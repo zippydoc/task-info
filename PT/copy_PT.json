@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Copia",
+		"displayName": "Copia",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

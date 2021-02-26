@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Convert",
+		"displayName": "Convert",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

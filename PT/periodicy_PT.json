@@ -12,7 +12,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "Periodico", 
+    "displayName": "Periodico", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

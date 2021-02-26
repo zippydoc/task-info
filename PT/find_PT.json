@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Encontre",
+		"displayName": "Encontre",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

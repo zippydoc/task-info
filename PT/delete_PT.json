@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Apagar",
+		"displayName": "Apagar",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

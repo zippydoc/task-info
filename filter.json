@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Filter",
+    "displayName": "Filter",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "LUnion", 
+		"displayName": "LUnion", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

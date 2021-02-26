@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "ExpandierenKomprimieren",
+		"displayName": "ExpandierenKomprimieren",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

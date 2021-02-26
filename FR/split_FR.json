@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "Séparer", 
+		"displayName": "Séparer", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

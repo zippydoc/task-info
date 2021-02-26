@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Finden",
+		"displayName": "Finden",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

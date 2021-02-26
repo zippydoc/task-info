@@ -12,7 +12,7 @@
     "languages": [
       "ES"
     ], 
-    "name": "Etiqueta", 
+    "displayName": "Etiqueta", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

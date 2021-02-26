@@ -14,7 +14,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "AjouterUneColonne", 
+    "displayName": "AjouterUneColonne", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

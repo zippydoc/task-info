@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Loeschen",
+		"displayName": "Loeschen",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

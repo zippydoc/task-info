@@ -14,7 +14,7 @@
     "languages": [
       "ES"
     ], 
-    "name": "AdicionarColuna", 
+    "displayName": "AdicionarColuna", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

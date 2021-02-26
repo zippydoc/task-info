@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "RechercheRemplacer", 
+    "displayName": "RechercheRemplacer", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

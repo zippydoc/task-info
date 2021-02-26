@@ -14,7 +14,7 @@
     "languages": [
       "PT"
     ], 
-    "name": "AdicColuna", 
+    "displayName": "AdicColuna", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

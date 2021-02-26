@@ -12,7 +12,7 @@
     "languages": [
       "ES"
     ], 
-    "name": "BuscarEn", 
+    "displayName": "BuscarEn", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

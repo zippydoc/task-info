@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Filtrar",
+		"displayName": "Filtrar",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

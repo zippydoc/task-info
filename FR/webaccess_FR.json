@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "AccèsAuWeb", 
+		"displayName": "AccèsAuWeb", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

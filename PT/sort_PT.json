@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Organizar",
+		"displayName": "Organizar",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Annexe",
+		"displayName": "Annexe",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

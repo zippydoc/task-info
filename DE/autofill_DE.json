@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "AutoErgaenzen",
+		"displayName": "AutoErgaenzen",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

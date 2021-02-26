@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		],
-		"name": "Filtrez",
+		"displayName": "Filtrez",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

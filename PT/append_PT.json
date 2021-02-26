@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "Anex",
+		"displayName": "Anex",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

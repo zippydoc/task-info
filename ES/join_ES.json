@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		],
-		"name": "Junte-se-a",
+		"displayName": "Junte-se-a",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Holiday",
+    "displayName": "Holiday",
     "payingUsersOnly": true,
     "type": "StandardTableTask"
   },

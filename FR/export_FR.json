@@ -13,7 +13,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Exporter", 
+    "displayName": "Exporter", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

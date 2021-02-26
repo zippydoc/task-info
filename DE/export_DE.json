@@ -13,7 +13,7 @@
     "languages": [
       "DE"
     ], 
-    "name": "Exportieren", 
+    "displayName": "Exportieren", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

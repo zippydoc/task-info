@@ -12,7 +12,7 @@
 		"languages": [
 			"PT"
 		],
-		"name": "ExpandirCompr",
+		"displayName": "ExpandirCompr",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

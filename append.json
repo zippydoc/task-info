@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Append",
+    "displayName": "Append",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

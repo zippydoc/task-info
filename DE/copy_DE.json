@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"name": "Kopieren",
+		"displayName": "Kopieren",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

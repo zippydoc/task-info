@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		],
-		"name": "Converta",
+		"displayName": "Converta",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

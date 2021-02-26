@@ -12,7 +12,7 @@
 		"languages": [
 			"ES"
 		], 
-		"name": "AccesoALaWeb", 
+		"displayName": "AccesoALaWeb", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

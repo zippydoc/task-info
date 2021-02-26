@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Vector",
+    "displayName": "Vector",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

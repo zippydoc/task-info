@@ -12,7 +12,7 @@
     "languages": [
       "ES"
     ], 
-    "name": "Limpar", 
+    "displayName": "Limpar", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

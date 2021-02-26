@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "Trier", 
+		"displayName": "Trier", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

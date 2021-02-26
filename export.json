@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Export",
+    "displayName": "Export",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

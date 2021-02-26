@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "UniqueEnSonGenre", 
+		"displayName": "UniqueEnSonGenre", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

@@ -12,7 +12,7 @@
 		"languages": [
 			"FR"
 		], 
-		"name": "Trouvez", 
+		"displayName": "Trouvez", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "Clean", 
+    "displayName": "Clean", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

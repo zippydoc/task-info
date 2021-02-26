@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "AjouterUneFila", 
+    "displayName": "AjouterUneFila", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

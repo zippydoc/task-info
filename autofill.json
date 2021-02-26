@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Auto-Fill",
+    "displayName": "Auto-Fill",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

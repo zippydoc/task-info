@@ -12,7 +12,7 @@
     "languages": [
       "FR"
     ], 
-    "name": "LeLabel", 
+    "displayName": "LeLabel", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

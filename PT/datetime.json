@@ -11,7 +11,8 @@
 			"US",  "UK"
 		],
 		"languages": [
-			"PT"
+			"PT",
+			"BR"
 		],
 		"displayName": "Data",
 		"payingUsersOnly": false,

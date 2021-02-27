@@ -11,7 +11,8 @@
       "UK"
     ], 
     "languages": [
-      "PT"
+      "PT",
+	  "BR"
     ], 
     "displayName": "Exportacao", 
     "payingUsersOnly": true, 

@@ -10,7 +10,8 @@
 			"US",  "UK"
 		],
 		"languages": [
-			"PT"
+			"PT",
+			"BR"
 		],
 		"displayName": "Encontre",
 		"payingUsersOnly": false,

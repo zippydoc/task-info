@@ -9,7 +9,8 @@
       "US",  "UK"
     ], 
     "languages": [
-      "PT"
+      "PT",
+	  "BR"
     ], 
     "displayName": "Vetor", 
     "payingUsersOnly": false, 

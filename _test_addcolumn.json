@@ -16,7 +16,8 @@
     ],
     "displayName": "Add Column",
     "payingUsersOnly": true,
-    "type": "ExpertTableTask"
+    "type": "ExpertTableTask",
+    "userIds": [3]
   },
   "menu": [
     {

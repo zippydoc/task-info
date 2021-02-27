@@ -12,7 +12,8 @@
       "UK"
     ], 
     "languages": [
-      "PT"
+      "PT",
+	  "BR"
     ], 
     "displayName": "AdicColuna", 
     "payingUsersOnly": true, 

@@ -1,5 +1,4 @@
 {
-  "name":"Transponieren", 
   "description": "Transponieren von Spalten in Zeilen und Zeilen in Spalten", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
   "scriptSettings": {

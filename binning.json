@@ -1,5 +1,4 @@
 {
-  "name": "Binning",
   "description": "Sort records to different bins",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
   "scriptSettings": {

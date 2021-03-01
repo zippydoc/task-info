@@ -1,5 +1,4 @@
 {
-  "name":"RechercheRemplacer", 
   "description": "Trouver le contenu d'une cellule et le remplacer par un autre contenu", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "FR"
     ], 
-    "displayName": "RechercheRemplacer", 
+    "displayName": "Recherche Remplacer", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

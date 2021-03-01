@@ -1,12 +1,11 @@
-		],
-		"countries": [
 {
   "name":"Selecione", 
   "description": "Seleccione primeiro, último, aleatório e mais", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif", 
 	"scriptSettings": {
 		"autoLoadTable": [
-
+		],
+		"countries": [
 			"US",  "UK"
 		],
 		"languages": [

@@ -1,5 +1,4 @@
 {
-  "name":"Formule", 
   "description": "Appliquez votre propre formule à une colonne", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif", 
   "scriptSettings": {

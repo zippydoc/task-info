@@ -1,5 +1,4 @@
 {
-  "name":"Filtro", 
   "description": "Linhas de saída que combinam com as suas condições de filtragem", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif", 
 	"scriptSettings": {

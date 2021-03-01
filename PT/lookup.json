@@ -1,5 +1,4 @@
 {
-  "name":"Pesquisa", 
   "description": "Autodetecção e pesquisa de padrões repetitivos", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif", 
   "scriptSettings": {

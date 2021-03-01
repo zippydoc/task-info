@@ -1,5 +1,4 @@
 {
-  "name":"IdentificateurDEnregistrement", 
   "description": "Ajoute un numéro de ligne courante au tableau sélectionné", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"FR"
 		], 
-		"displayName": "IdentificateurDEnregistrement", 
+		"displayName": "Identificateur d'Enregistrement", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

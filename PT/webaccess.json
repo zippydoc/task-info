@@ -1,5 +1,4 @@
 {
-  "name":"AcessoWeb", 
   "description": "Ligar Backend-Database com serviços e/ou sítios Web de terceiros", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
   "scriptSettings": {
@@ -13,7 +12,7 @@
 			"PT",
 			"BR"
 		],
-		"displayName": "AcessoWeb",
+		"displayName": "Acesso Web",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

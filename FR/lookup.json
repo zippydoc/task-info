@@ -1,5 +1,4 @@
 {
-  "name":"Consulter", 
   "description": "Autodétection et recherche de modèles répétitifs", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif", 
   "scriptSettings": {

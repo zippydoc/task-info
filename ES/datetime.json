@@ -1,6 +1,5 @@
 			"children": [{
 {
-  "name":"DataTime", 
   "description": "Converter formatos de data e hora", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif", 
 	"scriptSettings": {
@@ -13,7 +12,7 @@
 		"languages": [
 			"ES"
 		],
-		"displayName": "DataTime",
+		"displayName": "Data Time",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

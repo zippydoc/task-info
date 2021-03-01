@@ -1,5 +1,4 @@
 {
-  "name":"Sortieren", 
   "description": "Absteigend oder aufsteigend sortieren", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif", 
 	"scriptSettings": {

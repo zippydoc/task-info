@@ -1,5 +1,4 @@
 {
-  "name":"AutoErgaenzen", 
   "description": "Automatisches Füllen einer Zieltabelle mit Inhalten von Quelltabellen durch Abgleich von Kopf- und Beschriftungsinformationen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "AutoErgaenzen",
+		"displayName": "Auto-Ergänzen",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

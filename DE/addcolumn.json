@@ -1,5 +1,4 @@
 {
-  "name":"SpalteErgaenzen", 
   "description": "Eigene Formel anwenden, um eine neue Spalte zu erstellen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", 
   "scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name": "Table",
   "description": "Change or get formatting or header information of a specified table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "scriptSettings": {

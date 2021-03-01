@@ -1,5 +1,4 @@
 {
-  "name":"ReiheErgaenzen", 
   "description": "Anwenden einer eigenen Formel zum Erstellen einer neuen Zeile", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {

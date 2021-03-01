@@ -1,5 +1,4 @@
 {
-  "name":"Limpo", 
   "description": "Limpar espaço em branco, pontuação e mais", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif", 
   "scriptSettings": {

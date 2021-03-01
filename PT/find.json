@@ -1,5 +1,4 @@
 {
-  "name":"Encontre", 
   "description": "Encontrar e devolver o fósforo/não fósforo", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
 	"scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name":"ExpandeCompress", 
   "description": "Soutien aux créateurs de contenus et développement et contractualisation d'une série de labels", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"FR"
 		], 
-		"displayName": "ExpandeCompress", 
+		"displayName": "Expande Compress", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

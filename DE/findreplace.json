@@ -1,5 +1,4 @@
 {
-  "name":"SuchenErsetzen", 
   "description": "Zellinhalt suchen und durch anderen Inhalt ersetzen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif", 
   "scriptSettings": {

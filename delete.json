@@ -1,5 +1,4 @@
 {
-  "name": "Delete",
   "description": "Delete a specified table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
   "scriptSettings": {

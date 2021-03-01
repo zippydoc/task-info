@@ -1,5 +1,4 @@
 {
-  "name":"Teilen", 
   "description": "Datensätze an Interpunktionszeichen, Leerzeichen und mehr aufteilen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif", 
 	"scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"DE"
 		], 
-		"displayName": "Teilen", 
+		"displayName": "Aufteilen", 
 		"payingUsersOnly": false, 
 		"type": "ExpertTableTask"
 	}, 

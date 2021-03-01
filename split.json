@@ -1,5 +1,4 @@
 {
-  "name": "Split",
   "description": "Split records at punctuation, whitespace and more",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif",
   "scriptSettings": {

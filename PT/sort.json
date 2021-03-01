@@ -1,10 +1,8 @@
 {
-  "name":"Organizar", 
   "description": "Ordenar descendente ou ascendente", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif", 
 	"scriptSettings": {
 		"autoLoadTable": [
-
 		],
 		"countries": [
 			"US",  "UK"

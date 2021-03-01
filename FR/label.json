@@ -1,5 +1,4 @@
 {
-  "name":"LeLabel", 
   "description": "Ajouter des étiquettes aux articles trouvés", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "FR"
     ], 
-    "displayName": "LeLabel", 
+    "displayName": "Le Label", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

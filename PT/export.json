@@ -1,6 +1,5 @@
 }
 {
-  "name":"Exportacao", 
   "description": "Exportar dados de base de dados ou directório de nuvens ", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
   "scriptSettings": {

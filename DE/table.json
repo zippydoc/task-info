@@ -1,5 +1,4 @@
 {
-  "name":"Tabelle", 
   "description": "Ändern oder Abrufen von Formatierungs- oder Kopfinformationen einer bestimmten Tabelle", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
   "scriptSettings": {

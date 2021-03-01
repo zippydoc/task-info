@@ -1,5 +1,4 @@
 {
-  "name": "Encrypt",
   "description": "Encrypt specific columns/rows with password",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Update.gif",
   "scriptSettings": {

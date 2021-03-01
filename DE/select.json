@@ -1,12 +1,11 @@
-		],
-		"countries": [
 {
   "name":"Auswaehlen", 
   "description": "Erste, letzte, zufällige und weitere Auswahlen", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif", 
 	"scriptSettings": {
 		"autoLoadTable": [
-
+		],
+		"countries": [
 			"US",  "UK"
 		],
 		"languages": [

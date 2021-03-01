@@ -1,5 +1,4 @@
 {
-  "name":"AdicionarFila", 
   "description": "Aplique a sua própria fórmula para criar uma nova linha", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "ES"
     ], 
-    "displayName": "AdicionarFila", 
+    "displayName": "Adicionar Fila", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

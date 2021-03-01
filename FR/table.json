@@ -1,5 +1,4 @@
 {
-  "name":"Tableau", 
   "description": "Modifier ou obtenir des informations de formatage ou d'en-tête d'un tableau spécifique", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
   "scriptSettings": {

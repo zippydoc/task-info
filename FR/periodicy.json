@@ -1,5 +1,4 @@
 {
-  "name":"Périodique", 
   "description": "Convertir les informations sur les périodes, par exemple les semaines ou les mois, en une liste de transactions", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif", 
   "scriptSettings": {

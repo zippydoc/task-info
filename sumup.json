@@ -1,5 +1,4 @@
 {
-  "name": "SumUp",
   "description": "Build groups and calculate sums, averages and more",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif",
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "SumUp",
+    "displayName": "Sum-Up",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

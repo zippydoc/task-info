@@ -1,5 +1,4 @@
 {
-  "name":"Loeschen", 
   "description": "Löschen einer bestimmten Tabelle", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {

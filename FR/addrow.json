@@ -1,5 +1,4 @@
 {
-  "name":"AjouterUneFila", 
   "description": "Appliquez votre propre formule pour créer une nouvelle ligne", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "FR"
     ], 
-    "displayName": "AjouterUneFila", 
+    "displayName": "Ajouter une Fila", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

@@ -36,11 +36,8 @@
           "after": "output_columns"
         }
       ]
-    }, 
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
-  ], 
+  ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",
   "version": 1.0
 }

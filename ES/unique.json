@@ -35,6 +35,6 @@
 			}]
 		}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Unique.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Unique.py?ref=master",
   "version": 1.0
 }

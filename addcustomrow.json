@@ -33,6 +33,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddCustomRow.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddCustomRow.py?ref=master",
   "version": 1.0
 }

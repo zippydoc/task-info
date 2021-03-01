@@ -26,6 +26,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master",
   "version": 1.0
 }

@@ -26,6 +26,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SumUp.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SumUp.py?ref=master",
   "version": 1.0
 }

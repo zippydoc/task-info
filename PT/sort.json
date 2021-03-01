@@ -34,6 +34,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/Debug.json?ref=main"
 		  }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py?ref=master",
   "version": 1.0
 }

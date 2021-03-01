@@ -38,6 +38,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py?ref=master",
   "version": 1.0
 }

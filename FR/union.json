@@ -26,6 +26,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
 		}
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master",
   "version": 1.0
 }

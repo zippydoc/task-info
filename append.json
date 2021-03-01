@@ -30,6 +30,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py?ref=master",
   "version": 1.0
 }

@@ -34,6 +34,6 @@
       ]
     }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Table.py", 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Table.py?ref=master",
   "version": 1.0
 }

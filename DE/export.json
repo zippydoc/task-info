@@ -1,34 +1,34 @@
-}
 {
-  "description": "Daten aus Datenbank oder Cloud-Verzeichnis exportieren ", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
+  "description": "Daten aus Datenbank oder Cloud-Verzeichnis exportieren ",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "DE"
-    ], 
-    "displayName": "Exportieren", 
-    "payingUsersOnly": true, 
+    ],
+    "displayName": "Exportieren",
+    "payingUsersOnly": true,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/Debug.json?ref=main"
     }
-  ], 
+  ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",
   "version": 1.0
+}

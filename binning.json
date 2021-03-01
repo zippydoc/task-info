@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Binning",
+    "displayName": "Binning",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

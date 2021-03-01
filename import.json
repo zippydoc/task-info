@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Import",
+    "displayName": "Import",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

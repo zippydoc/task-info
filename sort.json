@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Sort",
+    "displayName": "Sort",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

@@ -1,0 +1,37 @@
+{
+  "name":"Encontrar", 
+  "description": "Encontrar e devolver o fósforo/não fósforo", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
+	"scriptSettings": {
+		"autoLoadTable": [
+
+		],
+		"countries": [
+			"US",  "UK"
+		],
+		"languages": [
+			"ES"
+		],
+		"displayName": "Encontrar",
+		"payingUsersOnly": false,
+		"type": "script"
+	},
+  "menu": [
+    {
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTable.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/FindOptions.json?ref=main"
+		},
+		{
+			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main",
+      "children": [{
+				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectOutputColumn.json?ref=main",
+				"property": "output/fields",
+				"after": "output.timezone"
+			}]
+		}
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Find.py", 
+  "version": 1.0
+}

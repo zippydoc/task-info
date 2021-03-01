@@ -6,15 +6,16 @@
     "autoLoadTable": [
     ],
     "countries": [
-      "US",
-      "UK"
+	"US",
+	"UK"
     ],
     "languages": [
-      "EN"
+	"EN"
     ],
-    "name": "Expand or Compress",
+    "displayName": "Expand or Compress",
     "payingUsersOnly": true,
-    "type": "ExpertTableTask"
+    "type": "ExpertTableTask",
+	"userIds": ["52"]
   },
   "menu": [
     {

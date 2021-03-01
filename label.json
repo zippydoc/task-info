@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Label",
+    "displayName": "Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

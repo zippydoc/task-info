@@ -1,0 +1,41 @@
+{
+  "name":"SpalteErgaenzen", 
+  "description": "Eigene Formel anwenden, um eine neue Spalte zu erstellen", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1", 
+      "table2"
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "DE"
+    ], 
+    "displayName": "SpalteErgaenzen", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddColumnOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master", 
+  "version": 1.0
+}

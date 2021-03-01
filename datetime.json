@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Date & Time",
+    "displayName": "Date & Time",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

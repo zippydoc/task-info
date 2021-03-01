@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Web-Access",
+    "displayName": "Web-Access",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

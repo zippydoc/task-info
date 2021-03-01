@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Select",
+    "displayName": "Select",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

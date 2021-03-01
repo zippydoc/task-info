@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Join",
+    "displayName": "Join",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

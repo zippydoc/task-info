@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Split",
+    "displayName": "Split",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

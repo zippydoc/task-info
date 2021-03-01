@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Impact Curve",
+    "displayName": "Impact Curve",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Record ID",
+    "displayName": "Record ID",
     "payingUsersOnly": false,
     "type": "StandardTableTask"
   },

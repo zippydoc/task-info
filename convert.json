@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Convert",
+    "displayName": "Convert",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Add Custom Row",
+    "displayName": "Add Custom Row",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

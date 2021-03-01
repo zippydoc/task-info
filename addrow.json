@@ -12,7 +12,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Add Row",
+    "displayName": "Add Row",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

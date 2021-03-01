@@ -10,9 +10,9 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "EN"
     ],
-    "name": "Formel",
+    "displayName": "Formel",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

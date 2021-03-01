@@ -27,6 +27,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py",
   "version": 1.0
 }

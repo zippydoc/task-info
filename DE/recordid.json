@@ -12,7 +12,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "DatensatzID",
+		"displayName": "Datensatz-ID",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

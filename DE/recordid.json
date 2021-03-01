@@ -1,5 +1,4 @@
 {
-  "name":"DatensatzID", 
   "description": "Fügt der ausgewählten Tabelle eine laufende Zeilennummer hinzu", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "DatensatzID",
+		"displayName": "Datensatz-ID",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

@@ -1,5 +1,4 @@
 {
-  "name":"Nachschlagen", 
   "description": "Automatisches Erkennen und Nachschlagen von sich wiederholenden Mustern", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif", 
   "scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name":"JunteSeA", 
   "description": "Juntar duas mesas", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif", 
 	"scriptSettings": {
@@ -13,7 +12,7 @@
 			"PT",
 			"BR"
 		],
-		"displayName": "JunteSeA",
+		"displayName": "Junte se a",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

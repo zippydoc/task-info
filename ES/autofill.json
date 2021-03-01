@@ -1,5 +1,4 @@
 {
-  "name":"AutoLlena", 
   "description": "Preencher automaticamente uma tabela de destino com o conteúdo das tabelas de origem através da correspondência de informação de cabeçalho e etiqueta", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"ES"
 		], 
-		"displayName": "AutoLlena", 
+		"displayName": "Auto Llena", 
 		"payingUsersOnly": true, 
 		"type": "ExpertTableTask"
 	}, 

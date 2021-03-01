@@ -1,5 +1,4 @@
 {
-  "name":"Binning", 
   "description": "Trier les documents dans différents bacs", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
 	"scriptSettings": {

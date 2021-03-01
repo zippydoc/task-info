@@ -1,5 +1,4 @@
 {
-  "name":"Vinificação", 
   "description": "Classificar registos para diferentes contentores", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
 	"scriptSettings": {

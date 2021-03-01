@@ -1,5 +1,4 @@
 {
-  "name":"AjouterUneColonne", 
   "description": "Appliquez votre propre formule pour créer une nouvelle colonne", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", 
   "scriptSettings": {
@@ -14,7 +13,7 @@
     "languages": [
       "FR"
     ], 
-    "displayName": "AjouterUneColonne", 
+    "displayName": "Ajouter une Colonne", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

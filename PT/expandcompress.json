@@ -1,5 +1,4 @@
 {
-  "name":"ExpandirCompr", 
   "description": "Apoio aos criadores de conteúdos e expansão e contratação de uma série de rótulos", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
@@ -13,7 +12,7 @@
 			"PT",
 			"BR"
 		],
-		"displayName": "ExpandirCompr",
+		"displayName": "Expandir Compress",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

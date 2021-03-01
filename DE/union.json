@@ -1,5 +1,4 @@
 {
-  "name":"Vereinigen", 
   "description": "Vereinigen von zwei oder mehr Tabellen zu einer", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
 	"scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name":"Verbinden", 
   "description": "Zwei Tabellen verbinden", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif", 
 	"scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name": "Unique",
   "description": "Disassemble table in unique and duplicated records",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif",
   "scriptSettings": {

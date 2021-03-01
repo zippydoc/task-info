@@ -1,5 +1,4 @@
 {
-  "name":"ExpandierenKomprimieren", 
   "description": "Unterstützung für Inhaltsersteller und Erweitern und Zusammenziehen einer Reihe von Etiketten", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "ExpandierenKomprimieren",
+		"displayName": "Expandieren & Komprimieren",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

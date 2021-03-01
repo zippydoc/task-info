@@ -1,6 +1,5 @@
 }
 {
-  "name":"Exportieren", 
   "description": "Daten aus Datenbank oder Cloud-Verzeichnis exportieren ", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
   "scriptSettings": {

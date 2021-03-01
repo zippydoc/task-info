@@ -1,5 +1,4 @@
 {
-  "name":"Apagar", 
   "description": "Apagar uma tabela específica", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {

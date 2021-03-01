@@ -1,6 +1,5 @@
 			"children": [{
 {
-  "name":"DatumZeit", 
   "description": "Datums- und Zeitformate konvertieren", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif", 
 	"scriptSettings": {

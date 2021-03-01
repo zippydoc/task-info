@@ -1,5 +1,4 @@
 {
-  "name": "AddColumn",
   "description": "Apply your own formula to create a new column",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {

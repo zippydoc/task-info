@@ -1,5 +1,4 @@
 {
-  "name":"AutoPreencher", 
   "description": "Preencher automaticamente uma tabela de destino com o conteúdo das tabelas de origem através da correspondência de informação de cabeçalho e etiqueta", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
   "scriptSettings": {
@@ -13,7 +12,7 @@
 			"PT",
 			"BR"
 		],
-		"displayName": "AutoPreencher",
+		"displayName": "Auto Preencher",
 		"payingUsersOnly": true,
 		"type": "script"
 	},

@@ -1,5 +1,4 @@
 {
-  "name":"Transpor", 
   "description": "Transpor colunas para filas e filas para colunas", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
   "scriptSettings": {

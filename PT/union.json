@@ -1,5 +1,4 @@
 {
-  "name":"União", 
   "description": "Unificar duas ou mais tabelas a uma", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
 	"scriptSettings": {

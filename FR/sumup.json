@@ -1,5 +1,4 @@
 {
-  "name":"Résumé", 
   "description": "Construire des groupes et calculer des sommes, des moyennes et plus", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif", 
   "scriptSettings": {

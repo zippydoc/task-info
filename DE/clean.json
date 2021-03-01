@@ -1,5 +1,4 @@
 {
-  "name":"Bereinigen",  
   "description": "Bereinigung von Leerzeichen,  Interpunktion und mehr",  
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",  
   "scriptSettings": {

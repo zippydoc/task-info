@@ -1,5 +1,4 @@
 {
-  "name":"IdentificadorDeRegistro", 
   "description": "Adiciona um número de linha em execução à tabela seleccionada", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"ES"
 		],
-		"displayName": "IdentificadorDeRegistro",
+		"displayName": "Identificador de Registro",
 		"payingUsersOnly": false,
 		"type": "script"
 	},

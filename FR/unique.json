@@ -1,5 +1,4 @@
 {
-  "name":"UniqueEnSonGenre", 
   "description": "Démonter le tableau en dossiers uniques et dupliqués", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif", 
 	"scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"FR"
 		], 
-		"displayName": "UniqueEnSonGenre", 
+		"displayName": "Unique en son Genre", 
 		"payingUsersOnly": false, 
 		"type": "script"
 	}, 

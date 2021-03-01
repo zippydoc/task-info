@@ -1,5 +1,4 @@
 {
-  "name":"Únicos", 
   "description": "Desmontar mesa em registos únicos e duplicados", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif", 
 	"scriptSettings": {

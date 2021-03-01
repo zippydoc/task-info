@@ -1,6 +1,5 @@
 }
 {
-  "name":"Exporter", 
   "description": "Exporter des données à partir d'une base de données ou d'un répertoire en nuage ", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif", 
   "scriptSettings": {

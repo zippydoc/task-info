@@ -1,14 +1,12 @@
-		], 
-		"countries": [
 {
-  "name":"Sélectionnez", 
   "description": "Sélectionnez le premier, le dernier, le hasard et plus encore", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif", 
 	"scriptSettings": {
 		"autoLoadTable": [
-			
-			"US",  "UK"
 		], 
+		"countries": [
+			"US",  "UK"
+		],
 		"languages": [
 			"FR"
 		], 

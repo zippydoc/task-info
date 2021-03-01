@@ -1,5 +1,4 @@
 {
-  "name":"LUnion", 
   "description": "Unifier deux ou plusieurs tables en une seule", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
 	"scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"FR"
 		], 
-		"displayName": "LUnion", 
+		"displayName": "L'Union", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

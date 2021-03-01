@@ -1,5 +1,4 @@
 {
-  "name":"Quadro", 
   "description": "Alterar ou obter formatação ou informação de cabeçalho de uma tabela especificada", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
   "scriptSettings": {

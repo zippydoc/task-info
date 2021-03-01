@@ -1,5 +1,4 @@
 {
-  "name": "Encrypt",
   "description": "Encrypt specific columns/rows with password",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Update.gif",
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Encrypt",
+    "displayName": "Encrypt",
     "payingUsersOnly": false,
     "type": "script"
   },
@@ -33,6 +32,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py",
   "version": 1.0
 }

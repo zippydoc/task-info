@@ -1,5 +1,4 @@
 {
-  "name":"Trouvez", 
   "description": "Trouver et renvoyer une correspondance/non-correspondance", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
 	"scriptSettings": {

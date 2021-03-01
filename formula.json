@@ -1,5 +1,4 @@
 {
-  "name": "Formel",
   "description": "Eigene Formel auf eine Spalte anwenden",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif",
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Formel",
+    "displayName": "Formula",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

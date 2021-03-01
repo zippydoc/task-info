@@ -1,5 +1,4 @@
 {
-  "name":"Finden", 
   "description": "Suchen und Übereinstimmung/Nicht-Übereinstimmung zurückgeben", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
 	"scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name":"Transpose", 
   "description": "Transposer les colonnes en lignes et les lignes en colonnes", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
   "scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name":"Supprimer", 
   "description": "Supprimer un tableau spécifique", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {

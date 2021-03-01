@@ -1,5 +1,4 @@
 {
-  "name":"AccèsAuWeb", 
   "description": "Connecter la base de données de sauvegarde avec des services et/ou des sites web tiers", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"FR"
 		], 
-		"displayName": "AccèsAuWeb", 
+		"displayName": "Accès au Web", 
 		"payingUsersOnly": true, 
 		"type": "script"
 	}, 

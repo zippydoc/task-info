@@ -1,5 +1,4 @@
 {
-  "name":"Rotulo", 
   "description": "Adicionar etiquetas aos artigos encontrados", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif", 
   "scriptSettings": {

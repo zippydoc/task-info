@@ -1,5 +1,4 @@
 {
-  "name":"WebZugang", 
   "description": "Verbinden der Backend-Datenbank mit Diensten und/oder Websites von Drittanbietern", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "WebZugang",
+		"displayName": "Web-Zugang",
 		"payingUsersOnly": true,
 		"type": "ExpertTableTask"
 	},

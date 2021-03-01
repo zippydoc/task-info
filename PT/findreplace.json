@@ -1,5 +1,4 @@
 {
-  "name":"PesquisaSubstituir", 
   "description": "Encontrar conteúdo celular e substituir por conteúdo diferente", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif", 
   "scriptSettings": {
@@ -13,7 +12,7 @@
       "PT",
 	  "BR"
     ], 
-    "displayName": "PesquisaSubstituir", 
+    "displayName": "Pesquisa Substituir", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

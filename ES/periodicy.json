@@ -1,5 +1,4 @@
 {
-  "name":"Periodicidade", 
   "description": "Converter informação periódica, por exemplo, semanas ou mês numa lista de transacções", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif", 
   "scriptSettings": {

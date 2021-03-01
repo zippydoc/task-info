@@ -1,5 +1,4 @@
 {
-  "name":"Resumir", 
   "description": "Construir grupos e calcular somas, médias e mais", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif", 
   "scriptSettings": {

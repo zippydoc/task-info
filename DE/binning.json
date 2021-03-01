@@ -1,5 +1,4 @@
 {
-  "name":"Einteilung", 
   "description": "Datensätze in verschiedene Bins sortieren", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
 	"scriptSettings": {

@@ -1,5 +1,4 @@
 {
-  "name": "Transpose",
   "description": "Transpose columns to rows and rows to columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "scriptSettings": {

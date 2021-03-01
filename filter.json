@@ -1,5 +1,4 @@
 {
-  "name": "Filter",
   "description": "Output rows that match your filter conditions",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif",
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Filter",
+    "displayName": "Formel",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },

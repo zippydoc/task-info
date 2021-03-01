@@ -1,5 +1,4 @@
 {
-  "name":"AdicFila", 
   "description": "Aplique a sua própria fórmula para criar uma nova linha", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {
@@ -13,7 +12,7 @@
       "PT",
 	  "BR"
     ], 
-    "displayName": "AdicFila", 
+    "displayName": "Adic Fila", 
     "payingUsersOnly": false, 
     "type": "script"
   }, 

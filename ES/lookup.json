@@ -1,5 +1,4 @@
 {
-  "name":"BuscarEn", 
   "description": "Autodetecção e pesquisa de padrões repetitivos", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif", 
   "scriptSettings": {
@@ -12,7 +11,7 @@
     "languages": [
       "ES"
     ], 
-    "displayName": "BuscarEn", 
+    "displayName": "Buscar en", 
     "payingUsersOnly": true, 
     "type": "script"
   }, 

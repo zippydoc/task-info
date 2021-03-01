@@ -1,4 +1,3 @@
-			"children": [{
 {
   "description": "Convertir les formats de date et d'heure", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif", 
@@ -21,7 +20,6 @@
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTable.json?ref=main",
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/DatetimeInput.json?ref=main",
 				"property": "fields"
-			}]
 		},
 		{
 			"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/DatetimeOptions.json?ref=main"

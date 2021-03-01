@@ -1,6 +1,5 @@
 {
-  "name":"Trier", 
-  "description": "Trier par ordre décroissant ou ascendant", 
+   "description": "Trier par ordre décroissant ou ascendant", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif", 
 	"scriptSettings": {
 		"autoLoadTable": [

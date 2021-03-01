@@ -1,5 +1,4 @@
 {
-  "name":"Séparer", 
   "description": "Fractionnement des enregistrements à la ponctuation, aux espaces et plus encore", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif", 
 	"scriptSettings": {

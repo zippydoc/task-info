@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "name": "Encrypt",
+    "displayName": "Encrypt",
     "payingUsersOnly": false,
     "type": "script"
   },

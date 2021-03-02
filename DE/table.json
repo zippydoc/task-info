@@ -11,7 +11,7 @@
 		"languages": [
 			"DE"
 		], 
-		"displayName": "Tabelle", 
+		"displayName": "Ändere Tabellenstruktur", 
 		"payingUsersOnly": false, 
 		"type": "ExpertTableTask"
 	}, 

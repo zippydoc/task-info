@@ -11,7 +11,7 @@
 		"languages": [
 			"DE"
 		], 
-		"displayName": "Eindeutig", 
+		"displayName": "Einzel- und Mehrfachvorkommen", 
 		"payingUsersOnly": false, 
 		"type": "ExpertTableTask"
 	}, 

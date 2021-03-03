@@ -10,7 +10,7 @@
 		"languages": [
 			"DE"
 		],
-		"displayName": "Auswaehlen",
+		"displayName": "Wähle aus",
 		"payingUsersOnly": false,
 		"type": "ExpertTableTask"
 	},

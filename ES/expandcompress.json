@@ -1,0 +1,29 @@
+{
+  "description": "Apoyo a los creadores de contenidos y ampliación y contracción de una serie de etiquetas", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+\	"US", 
+\	"UK"
+    ], 
+    "languages": [
+\	"ES"
+    ], 
+    "displayName": "Expandir o comprimir", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask", 
+\	"userIds": ["52"]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py?ref=master", 
+  "version": 1.0
+}

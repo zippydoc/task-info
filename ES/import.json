@@ -1,0 +1,31 @@
+{
+  "description": "Importar datos desde una base de datos o un directorio en la nube", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "ES"
+    ], 
+    "displayName": "Importar", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/ImportOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/ImportOutput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Debug.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master", 
+  "version": 1.0
+}

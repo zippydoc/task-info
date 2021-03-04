@@ -1,5 +1,5 @@
 {
-  "description": "Дублированная таблица", 
+  "description": "Дублировать таблицу",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Скопировать", 
+    "displayName": "Копировать",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

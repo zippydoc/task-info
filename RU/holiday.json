@@ -1,5 +1,5 @@
 {
-  "description": "Сгенерируйте таблицу праздничных штатов", 
+  "description": "Создать таблицу государственных праздников",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif", 
   "scriptSettings": {
     "autoLoadTable": [

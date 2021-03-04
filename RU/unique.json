@@ -1,5 +1,5 @@
 {
-  "description": "Разобрать таблицу на уникальные и дубликаты записей", 
+  "description": "Разобрать таблицу на уникальные и дублированные записи",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif", 
   "scriptSettings": {
     "autoLoadTable": [

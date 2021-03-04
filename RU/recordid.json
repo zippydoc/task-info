@@ -1,5 +1,5 @@
 {
-  "description": "Добавляет номер бегущей строки в выбранную таблицу.", 
+  "description": "Добавляет идентификатор строки в выбранную таблицу.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif", 
   "scriptSettings": {
     "autoLoadTable": [

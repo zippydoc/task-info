@@ -1,5 +1,5 @@
 {
-  "description": "Найти содержимое ячейки и заменить на другое содержимое", 
+  "description": "Найти и заменить содержимое ячейки",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Найти и разместить", 
+    "displayName": "Найти и заменить",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

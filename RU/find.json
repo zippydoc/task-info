@@ -1,5 +1,5 @@
 {
-  "description": "Найти и вернуть матч/не совпадение", 
+  "description": "Найти и вернуть совпадение/не совпадение",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif", 
   "scriptSettings": {
     "autoLoadTable": [

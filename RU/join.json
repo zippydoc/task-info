@@ -1,5 +1,5 @@
 {
-  "description": "Присоединиться к двум столам", 
+  "description": "Объединить две таблицы",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Присоединяйся", 
+    "displayName": "Объединить",
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

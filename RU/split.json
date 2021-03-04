@@ -1,5 +1,5 @@
 {
-  "description": "Раздельные записи в знаках препинания, пробелах и т.д.", 
+  "description": "Разбить записи по знакам препинания, пробелам и т.д.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Раздел", 
+    "displayName": "Разбить",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

@@ -1,6 +1,5 @@
-      "RU"
 {
-  "description": "Сгенерировать кривую удара для события", 
+  "description": "Сгенерировать таблицу кривой для события",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif", 
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Eigene Formel auf eine Spalte anwenden", 
+  "description": "применить свою формулу к ячейке",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Formula.gif", 
   "scriptSettings": {
     "autoLoadTable": [

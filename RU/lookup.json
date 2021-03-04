@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Посмотреть", 
+    "displayName": "Искать",
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

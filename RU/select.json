@@ -1,5 +1,5 @@
 {
-  "description": "Выберите первый, последний, случайный и более", 
+  "description": "Выбрать первый, последний, случайный и др.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Выберите", 
+    "displayName": "Выбрать",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

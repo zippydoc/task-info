@@ -1,5 +1,5 @@
 {
-  "description": "Применить собственную формулу для создания новой колонки.", 
+  "description": "Примени свою формулу чтобы создать новую колонку.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", 
   "scriptSettings": {
     "autoLoadTable": [

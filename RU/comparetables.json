@@ -1,5 +1,5 @@
 {
-  "description": "Compare contents of two tables", 
+  "description": "сравнить содержимое двух таблиц",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Compare-Tables", 
+    "displayName": "Сравнение таблиц",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

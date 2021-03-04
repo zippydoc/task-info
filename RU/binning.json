@@ -1,5 +1,5 @@
 {
-  "description": "Сортировать записи в разные корзины", 
+  "description": "сортировать записи по группам",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Биннинг", 
+    "displayName": "группировка",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

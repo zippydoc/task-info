@@ -1,5 +1,5 @@
 {
-  "description": "Apply built-in formula to create a new row", 
+  "description": "Применить готовую формулу для создания новой строки",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Добавить Ряд", 
+    "displayName": "Добавить строку",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Add Custom Row", 
+    "displayName": "Добавить настраиваемую колонку",
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 

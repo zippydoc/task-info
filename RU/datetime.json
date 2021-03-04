@@ -1,0 +1,40 @@
+{
+  "description": "Конвертирование форматов даты и времени", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "RU"
+    ], 
+    "displayName": "Дата и время", 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/DatetimeInput.json?ref=main", 
+      "property": "fields"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/DatetimeOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DateTime.py?ref=master", 
+  "version": 1.0
+}

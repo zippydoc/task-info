@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Record ID", 
+    "displayName": "Идентификатор записи", 
     "payingUsersOnly": false, 
     "type": "StandardTableTask"
   }, 

@@ -11,7 +11,7 @@
     "languages": [
       "RU"
     ], 
-    "displayName": "Web-Access", 
+    "displayName": "Доступ к сети Интернет", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 

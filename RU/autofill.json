@@ -1,0 +1,38 @@
+{
+  "description": "Автоматическое заполнение целевой таблицы содержимым исходных таблиц путем сопоставления информации о заголовке и метке.", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "RU"
+    ], 
+    "displayName": "Автозаполнение", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/AutofillInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/AutofillOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master", 
+  "version": 1.0
+}

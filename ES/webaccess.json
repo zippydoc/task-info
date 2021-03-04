@@ -1,0 +1,31 @@
+{
+  "description": "Conectar la base de datos Backend con servicios y/o sitios web de terceros", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "ES"
+    ], 
+    "displayName": "Acceso a la web", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/WebAccessInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/WebAccessOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master", 
+  "version": 1.0
+}

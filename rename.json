@@ -29,7 +29,7 @@
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameColumnOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameTableOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master",

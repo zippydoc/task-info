@@ -5,16 +5,16 @@
     "autoLoadTable": [
     ], 
     "countries": [
-\	"US", 
-\	"UK"
+	"US",
+	"UK"
     ], 
     "languages": [
-\	"ES"
+	"ES"
     ], 
     "displayName": "Expandir o comprimir", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask", 
-\	"userIds": ["52"]
+	"userIds": ["52"]
   }, 
   "menu": [
     {

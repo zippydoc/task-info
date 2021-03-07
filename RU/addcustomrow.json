@@ -1,0 +1,38 @@
+{
+  "description": "Применить свою собственную формулу для создания новой строки", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRow.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "RU"
+    ], 
+    "displayName": "Добавить настраиваемую колонку",
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/AddCustomRowOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddCustomRow.py?ref=master", 
+  "version": 1.0
+}

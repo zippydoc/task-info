@@ -13,7 +13,10 @@
     ],
     "displayName": "Import",
     "payingUsersOnly": true,
-    "type": "ExpertTableTask"
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	]
   },
   "menu": [
     {

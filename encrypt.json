@@ -13,7 +13,10 @@
     ],
     "displayName": "Encrypt",
     "payingUsersOnly": false,
-    "type": "script"
+    "type": "script",
+	"attributes": [
+      "1-Input"
+	]
   },
   "menu": [
     {

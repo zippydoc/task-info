@@ -1,0 +1,43 @@
+{
+  "description": "Объединить две таблицы",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "RU"
+    ], 
+    "displayName": "Объединить",
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/JoinInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/JoinOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/JoinOutput.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.timezone"
+        }, 
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main", 
+          "property": "output/fields", 
+          "before": "output.set_options"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py?ref=master", 
+  "version": 1.0
+}

@@ -13,7 +13,10 @@
     ],
     "displayName": "Clean",
     "payingUsersOnly": false,
-    "type": "ExpertTableTask"
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	]
   },
   "menu": [
     {

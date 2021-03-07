@@ -13,7 +13,10 @@
     ],
     "displayName": "Holiday",
     "payingUsersOnly": true,
-    "type": "StandardTableTask"
+    "type": "StandardTableTask",
+	"attributes": [
+      "1-Input"
+	]
   },
   "menu": [
     {

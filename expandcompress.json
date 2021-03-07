@@ -14,7 +14,10 @@
     "displayName": "Expand or Compress",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
-	"userIds": ["52"]
+	"attributes": [
+      "1-Input"
+	],	
+	"userIds": ["6"]
   },
   "menu": [
     {

@@ -1,5 +1,3 @@
-        }
-      ]
 {
   "description": "Cambiar u obtener el formato o la información de la cabecera de una tabla especificada", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif", 
@@ -28,9 +26,11 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TableSelectOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TableSelectOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.timezone"
+        }
+      ]
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Table.py?ref=master", 

@@ -25,7 +25,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/SelectOutputColumnWithTable.json?ref=main", 
           "property": "output/fields", 
-          "after": "output.timezone"
+          "after": "output.custom_text"
         }
       ]
     }

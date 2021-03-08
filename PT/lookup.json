@@ -35,7 +35,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupOutputColumn.json?ref=main", 
           "property": "output/fields", 
-          "after": "output.timezone"
+          "after": "output.custom_text"
         }
       ]
     }, 

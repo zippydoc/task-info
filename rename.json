@@ -32,6 +32,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameTableOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",
   "version": 1.0
 }

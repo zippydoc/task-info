@@ -27,7 +27,7 @@
       "children": [{
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/JoinOutput.json?ref=main",
 				"property": "output/fields",
-				"after": "output.timezone"
+				"after": "output.custom_text"
 			},  {
 				"source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main",
 				"property": "output/fields",

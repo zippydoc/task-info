@@ -30,7 +30,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumn.json?ref=main", 
           "property": "output/fields", 
-          "after": "output.timezone"
+          "after": "output.custom_text"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "description": "Rename",
+  "description": "Rename table/columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -29,10 +29,7 @@
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameColumnOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameTableOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master",

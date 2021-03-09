@@ -20,9 +20,6 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayInput.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOptions.json?ref=main"
     },
     {
@@ -34,6 +31,9 @@
           "after": "output.custom_text"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

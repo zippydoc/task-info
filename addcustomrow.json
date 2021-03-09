@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Add Custom Row",
+    "displayName": "Custom Row",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

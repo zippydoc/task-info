@@ -23,7 +23,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/HolidayUsedSource.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

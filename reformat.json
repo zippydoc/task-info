@@ -1,5 +1,5 @@
 {
-  "description": "Format table rows",
+  "description": "Format table rows and/or columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [

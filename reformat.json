@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Rename",
+    "displayName": "Reformat",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

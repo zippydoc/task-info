@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Reformat",
+    "displayName": "Formatting",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -23,12 +23,15 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ReformatOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FormattingOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Reformat.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formatting.py?ref=master",
   "version": 1.0
 }

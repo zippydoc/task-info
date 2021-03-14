@@ -1,5 +1,5 @@
 {
-  "description": "Rename table/columns",
+  "description": "Rename table rows or columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [

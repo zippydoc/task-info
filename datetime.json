@@ -21,8 +21,12 @@
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DatetimeInput.json?ref=main",
-      "property": "fields"
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DatetimeInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DatetimeOptions.json?ref=main"

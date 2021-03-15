@@ -1,6 +1,6 @@
 {
   "description": "Encrypt specific columns/rows with password",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Update.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Encrypt.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

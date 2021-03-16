@@ -27,7 +27,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExpandCompressOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

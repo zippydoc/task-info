@@ -11,11 +11,10 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Add Column",
+    "displayName": "Trigger",
     "payingUsersOnly": true,
-    "type": "ExpertTableTask",
+    "type": "",
 	"attributes": [
-      "1-Input"
 	],	
 	"userIds": [
 		"6"

@@ -1,5 +1,5 @@
 {
-  "description": "Generate an impact-curve for an event",
+  "description": "Generate an impact-curve",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,22 +11,21 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Impact Curve",
+    "displayName": "Curve Generator",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	],
-    "userIds": ["5", "12"]
+	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImpactCurveOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CurveGeneratorOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=master",
   "version": 1.0
 }

@@ -13,7 +13,8 @@
     ],
     "displayName": "Join",
     "payingUsersOnly": true,
-    "type": "ExpertTableTask"
+    "type": "ExpertTableTask",
+    "userIds": ["7"]
   },
   "menu": [
     {
@@ -36,6 +37,9 @@
           "before": "output.set_options"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py?ref=master",

@@ -16,7 +16,8 @@
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	]
+	],
+    "userIds": ["4", "7"]
   },
   "menu": [
     {
@@ -40,6 +41,9 @@
           "after": "output.custom_text"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py?ref=master",

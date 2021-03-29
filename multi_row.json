@@ -1,6 +1,6 @@
 {
   "description": "Apply built-in multi-row formula to create a new column",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RowByRow.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Multi Row",
+    "displayName": "Row by Row",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

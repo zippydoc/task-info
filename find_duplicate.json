@@ -1,6 +1,6 @@
 {
   "description": "Autodetect word repetitive patterns",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

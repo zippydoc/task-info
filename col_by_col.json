@@ -24,7 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColumnByColumnOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColByColOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

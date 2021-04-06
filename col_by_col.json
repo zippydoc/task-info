@@ -1,6 +1,6 @@
 {
   "description": "Apply built-in formula to create a new row",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowHorizontal.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Add Row",
+    "displayName": "Col by Col",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -24,7 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColumnByColumnOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColByColOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

@@ -1,6 +1,6 @@
 {
   "description": "Apply built-in formula to create a new row",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowHorizontal.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Col by Col",
+    "displayName": "Add Row",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

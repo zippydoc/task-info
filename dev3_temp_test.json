@@ -19,13 +19,13 @@
 	"attributes": [
       "1-Input"
 	],
-    "userIds": ["94"]
+    "userIds": ["92"]
   },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev3Test.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev3TempTest.py?ref=master",
   "version": 1.0
 }

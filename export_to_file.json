@@ -1,5 +1,5 @@
 {
-  "description": "Export data to database or cloud directory ",
+  "description": "Export data to cloud directory ",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Export",
+    "displayName": "Export to Cloud",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -23,13 +23,10 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutOutputOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",

@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Dev1 Test",
+    "displayName": "Dev3 Test",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -26,6 +26,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev1Test.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev3Test.py?ref=master",
   "version": 1.0
 }

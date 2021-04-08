@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import",
+    "displayName": "Import from Cloud",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

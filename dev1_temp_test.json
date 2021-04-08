@@ -25,6 +25,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev1Test.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev1TempTest.py?ref=master",
   "version": 1.0
 }

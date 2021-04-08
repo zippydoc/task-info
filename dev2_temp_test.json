@@ -18,7 +18,8 @@
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	]
+	],
+    "userIds": ["93"]
   },
   "menu": [
     {

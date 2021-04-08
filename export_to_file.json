@@ -1,5 +1,5 @@
 {
-  "description": "Export data to cloud directory ",
+  "description": "Export data to a cloud directory ",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Export to Cloud",
+    "displayName": "Export to File",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

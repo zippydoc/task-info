@@ -1,0 +1,31 @@
+{
+  "description": "Test file for Developer 1", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1", 
+      "table2"
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "DE"
+    ], 
+    "displayName": "Dev1 Test", 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	], 
+    "userIds": ["94"]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Dev1TempTest.py?ref=master", 
+  "version": 1.0
+}

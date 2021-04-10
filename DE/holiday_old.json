@@ -1,0 +1,35 @@
+{
+  "description": "Erzeugen einer Feiertagstabelle für Ihre Staaten", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "DE"
+    ], 
+    "displayName": "Holiday Old", 
+    "payingUsersOnly": true, 
+    "type": "StandardTableTask", 
+	"attributes": [
+      "1-Input"
+	], 
+    "userIds": ["12"]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOptions_old.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOutput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayUsedSource.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master", 
+  "version": 1.0
+}

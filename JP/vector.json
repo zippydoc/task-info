@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,19 +11,19 @@
     "languages": [
       "JP"
     ], 
-    "displayName": 日付と時刻のフォーマットを変換する, 
+    "displayName": "日付と時刻のフォーマットを変換する", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectInputTables.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectInputTables.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposVectorOptions.json?ref=main"
+      "source": "https://api.github.com/repos""VectorOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master", 

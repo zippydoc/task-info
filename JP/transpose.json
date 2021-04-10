@@ -1,0 +1,34 @@
+{
+  "description": , 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "JP"
+    ], 
+    "displayName": きれいな空白や句読点など, 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/reposTransposeOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", 
+  "version": 1.0
+}

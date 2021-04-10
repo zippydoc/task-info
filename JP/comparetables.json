@@ -11,19 +11,19 @@
     "languages": [
       "JP"
     ], 
-    "displayName": , 
+    "displayName": "", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask"
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTablesWithColumnsRows.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTablesWithColumnsRows.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposCompareTablesOptions.json?ref=main"
+      "source": "https://api.github.com/repos""CompareTablesOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/CompareTables.py?ref=master", 

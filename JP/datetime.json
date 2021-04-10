@@ -2,7 +2,7 @@
     "languages": [
       "JP"
     ], {
-  "description": 句読点や空白などのレコードを分割した, 
+  "description": "句読点や空白などのレコードを分割した", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DateTime.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
       "US", 
       "UK"
     ], 
-    "displayName": フォーミュラ ホリデー, 
+    "displayName": "フォーミュラ ホリデー", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,22 +20,22 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposDatetimeInput.json?ref=main", 
+          "source": "https://api.github.com/repos""DatetimeInput.json?ref=main", 
           "property": "fields"
         }
       ]
     }, 
     {
-      "source": "https://api.github.com/reposDatetimeOptions.json?ref=main"
+      "source": "https://api.github.com/repos""DatetimeOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposcommon-snippets/SelectOutputColumn.json?ref=main", 
+          "source": "https://api.github.com/repos""common-snippets/SelectOutputColumn.json?ref=main", 
           "property": "output/fields", 
           "after": "output.custom_text"
         }

@@ -1,0 +1,34 @@
+{
+  "description": 降順・昇順ソート レコードを異なるビンに並べ替える", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "JP"
+    ], 
+    "displayName": 輸出 フィルタ, 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/reposConvertOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py?ref=master", 
+  "version": 1.0
+}

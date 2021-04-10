@@ -1,0 +1,32 @@
+{
+  "description": , 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "JP"
+    ], 
+    "displayName": ユニオン ユニーク", 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	], 
+    "userIds": ["5",  "12"]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/reposImpactCurveOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/reposcommon-snippets/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=master", 
+  "version": 1.0
+}

@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": , 
+    "displayName": "", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,13 +20,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposFormattingOptions.json?ref=main"
+      "source": "https://api.github.com/repos""FormattingOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposFormattingOutput.json?ref=main"
+      "source": "https://api.github.com/repos""FormattingOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Formatting.py?ref=master", 

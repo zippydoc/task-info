@@ -20,22 +20,22 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposLookupInput.json?ref=main", 
+          "source": "https://api.github.com/repos""LookupInput.json?ref=main", 
           "property": "fields"
         }
       ]
     }, 
     {
-      "source": "https://api.github.com/reposFindRangesOptions.json?ref=main"
+      "source": "https://api.github.com/repos""FindRangesOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposLookupOutputColumn.json?ref=main", 
+          "source": "https://api.github.com/repos""LookupOutputColumn.json?ref=main", 
           "property": "output/fields", 
           "after": "output.custom_text"
         }

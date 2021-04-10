@@ -1,5 +1,5 @@
 {
-  "description": 最初、最後、ランダム、その他を選択してください, 
+  "description": "最初、最後、ランダム、その他を選択してください", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": 週や月などの周期情報をトランザクションリストに変換する, 
+    "displayName": "週や月などの周期情報をトランザクションリストに変換する", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,13 +20,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposWebAccessInput.json?ref=main"
+      "source": "https://api.github.com/repos""WebAccessInput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposWebAccessOptions.json?ref=main"
+      "source": "https://api.github.com/repos""WebAccessOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master", 

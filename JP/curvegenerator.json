@@ -20,10 +20,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposCurveGeneratorOptions.json?ref=main"
+      "source": "https://api.github.com/repos""CurveGeneratorOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=master", 

@@ -1,5 +1,5 @@
 {
-  "description": 降順・昇順ソート レコードを異なるビンに並べ替える", 
+  "description": "降順・昇順ソート レコードを異なるビンに並べ替える", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": 輸出 フィルタ, 
+    "displayName": "輸出 フィルタ", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,13 +20,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposConvertOptions.json?ref=main"
+      "source": "https://api.github.com/repos""ConvertOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py?ref=master", 

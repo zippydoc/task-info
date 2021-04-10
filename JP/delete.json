@@ -1,5 +1,5 @@
 {
-  "description": 列を行に、行を列に移す, 
+  "description": "列を行に、行を列に移す", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": 衝撃曲線 インポート, 
+    "displayName": "衝撃曲線 インポート", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,10 +20,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposcommon-snippets/SelectColumnDefaultAll.json?ref=main", 
+          "source": "https://api.github.com/repos""common-snippets/SelectColumnDefaultAll.json?ref=main", 
           "property": "fields"
         }
       ]

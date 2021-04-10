@@ -1,0 +1,31 @@
+{
+  "description": "对两张表格进行矩阵加法/乘法运算。", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "CN"
+    ], 
+    "displayName": "矢量", 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectInputTables.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/VectorOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/StandardOutput.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master", 
+  "version": 1.0
+}

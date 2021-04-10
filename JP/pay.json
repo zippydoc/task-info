@@ -22,16 +22,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposPayOptions.json?ref=main"
+      "source": "https://api.github.com/repos""PayOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/Debug.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/Debug.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Pay.py?ref=master", 

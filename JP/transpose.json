@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": きれいな空白や句読点など, 
+    "displayName": "きれいな空白や句読点など", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,13 +20,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposTransposeOptions.json?ref=main"
+      "source": "https://api.github.com/repos""TransposeOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", 

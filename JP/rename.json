@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": , 
+    "displayName": "", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,16 +20,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposRenameTableInput.json?ref=main", 
+          "source": "https://api.github.com/repos""RenameTableInput.json?ref=main", 
           "property": "fields"
         }
       ]
     }, 
     {
-      "source": "https://api.github.com/reposRenameTableOptions.json?ref=main"
+      "source": "https://api.github.com/repos""RenameTableOptions.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master", 

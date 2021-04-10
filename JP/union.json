@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,19 +11,19 @@
     "languages": [
       "JP"
     ], 
-    "displayName": バックエンドとデータベースをサードパーティのサービスやウェブサイトに接続する, 
+    "displayName": "バックエンドとデータベースをサードパーティのサービスやウェブサイトに接続する", 
     "payingUsersOnly": true, 
     "type": "ExpertTableTask"
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTables.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/SelectTables.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposUnionOptions.json?ref=main"
+      "source": "https://api.github.com/repos""UnionOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master", 

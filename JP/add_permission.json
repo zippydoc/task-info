@@ -22,13 +22,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposAddPermissionInput.json?ref=main"
+      "source": "https://api.github.com/repos""AddPermissionInput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposAddPermissionOptions.json?ref=main"
+      "source": "https://api.github.com/repos""AddPermissionOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/Debug.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/Debug.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddPermission.py?ref=master", 

@@ -1,0 +1,34 @@
+{
+  "description": 列を行に、行を列に移す, 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "JP"
+    ], 
+    "displayName": 衝撃曲線 インポート, 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/reposcommon-snippets/SelectColumnDefaultAll.json?ref=main", 
+          "property": "fields"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py?ref=master", 
+  "version": 1.0
+}

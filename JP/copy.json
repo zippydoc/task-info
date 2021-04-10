@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": 検索置換, 
+    "displayName": "検索置換", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -20,16 +20,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposcommon-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/reposcommon-snippets/SelectColumnRow.json?ref=main", 
+          "source": "https://api.github.com/repos""common-snippets/SelectColumnRow.json?ref=main", 
           "property": "fields"
         }
       ]
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master", 

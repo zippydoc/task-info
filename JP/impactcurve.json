@@ -1,5 +1,5 @@
 {
-  "description": , 
+  "description": "", 
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif", 
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "JP"
     ], 
-    "displayName": ユニオン ユニーク", 
+    "displayName": "ユニオン ユニーク", 
     "payingUsersOnly": false, 
     "type": "ExpertTableTask", 
 	"attributes": [
@@ -21,10 +21,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/reposImpactCurveOptions.json?ref=main"
+      "source": "https://api.github.com/repos""ImpactCurveOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/reposcommon-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos""common-snippets/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=master", 

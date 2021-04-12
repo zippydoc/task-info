@@ -14,9 +14,9 @@
     "displayName": "Delete",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
-	"attributes": [
-      "1-Input"
-	]
+    "attributes": [
+        "1-Input"
+    ]
   },
   "menu": [
     {

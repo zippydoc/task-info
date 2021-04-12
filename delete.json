@@ -14,9 +14,9 @@
     "displayName": "Delete",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
-	"attributes": [
-      "1-Input"
-	]
+    "attributes": [
+        "1-Input"
+    ]
   },
   "menu": [
     {
@@ -27,6 +27,9 @@
           "property": "fields"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py?ref=master",

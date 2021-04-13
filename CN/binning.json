@@ -1,0 +1,47 @@
+{
+  "description": "将记录排序到不同的仓位", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "CN"
+    ], 
+    "displayName": "分选", 
+    "payingUsersOnly": false, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectTable.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectColumn.json?ref=main", 
+          "property": "fields"
+        }
+      ]
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/BinningOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/StandardOutput.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectOutputColumn.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.custom_text"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=master", 
+  "version": 1.0
+}

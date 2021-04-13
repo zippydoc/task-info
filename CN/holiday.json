@@ -1,0 +1,34 @@
+{
+  "description": "生成你的国家节日表", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "CN"
+    ], 
+    "displayName": "假期", 
+    "payingUsersOnly": true, 
+    "type": "StandardTableTask", 
+	"attributes": [
+      "1-Input"
+	]
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/HolidayOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/HolidayOutput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/HolidayUsedSource.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master", 
+  "version": 1.0
+}

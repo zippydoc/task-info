@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Export to Db",
+    "displayName": "Export to DB",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

@@ -1,0 +1,35 @@
+{
+  "description": "Joindre un deuxième tableau", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+      "US", 
+      "UK"
+    ], 
+    "languages": [
+      "FR"
+    ], 
+    "displayName": "Annexe", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask"
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AppendInput.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutputWithoutInputTable.json?ref=main", 
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumnWithTable.json?ref=main", 
+          "property": "output/fields", 
+          "after": "output.custom_text"
+        }
+      ]
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py?ref=master", 
+  "version": 1.0
+}

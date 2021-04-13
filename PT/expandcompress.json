@@ -1,0 +1,35 @@
+{
+  "description": "Apoio aos criadores de conteúdos e expansão e contratação de uma série de rótulos", 
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
+  "scriptSettings": {
+    "autoLoadTable": [
+    ], 
+    "countries": [
+	"US", 
+	"UK"
+    ], 
+    "languages": [
+	"PT"
+    ], 
+    "displayName": "Expandir Compress", 
+    "payingUsersOnly": true, 
+    "type": "ExpertTableTask", 
+	"attributes": [
+      "1-Input"
+	], 	
+	"userIds": []
+  }, 
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelectTable.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExpandCompressOptions.json?ref=main"
+    }, 
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExpandCompressOutput.json?ref=main"
+    }
+  ], 
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py?ref=master", 
+  "version": 1.0
+}

@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import from Db",
+    "displayName": "Import from DB",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

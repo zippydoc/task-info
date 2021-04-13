@@ -1,5 +1,5 @@
 {
-  "description": "Import data from cloud directory",
+  "description": "Import data from a cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import from Cloud",
+    "displayName": "Import from File",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

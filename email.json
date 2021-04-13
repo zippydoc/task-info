@@ -1,6 +1,6 @@
 {
   "description": "Read or send batch eMails",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

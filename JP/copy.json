@@ -20,16 +20,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos""common-snippets/SelectColumnRow.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectColumnRow.json?ref=main", 
           "property": "fields"
         }
       ]
     }, 
     {
-      "source": "https://api.github.com/repos""common-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master", 

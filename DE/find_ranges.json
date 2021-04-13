@@ -20,7 +20,7 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main", 
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupInput.json?ref=main", 
@@ -32,7 +32,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FindRangesOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main", 
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOutputColumn.json?ref=main", 

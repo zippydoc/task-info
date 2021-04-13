@@ -20,10 +20,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectColumn.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectColumn.json?ref=main", 
           "property": "fields"
         }
       ]
@@ -32,10 +32,10 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/BinningOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/StandardOutput.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/SelectOutputColumn.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectOutputColumn.json?ref=main", 
           "property": "output/fields", 
           "after": "output.custom_text"
         }

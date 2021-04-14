@@ -21,13 +21,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos""HolidayOptions_old.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/HolidayOptions_old.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos""HolidayOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/HolidayOutput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos""HolidayUsedSource.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/HolidayUsedSource.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master", 

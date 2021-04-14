@@ -26,7 +26,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicyOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main", 
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PeriodicySelectOutputColumn.json?ref=main", 

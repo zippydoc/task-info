@@ -20,10 +20,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos""ImportFromDbOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/ImportFromDbOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos""ImportOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/ImportOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master", 

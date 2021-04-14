@@ -26,7 +26,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/WebAccessOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master", 

@@ -20,10 +20,10 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectColumnRow.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectColumnRow.json?ref=main", 
           "property": "fields"
         }
       ]
@@ -32,7 +32,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/EncryptOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master", 

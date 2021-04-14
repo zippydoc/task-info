@@ -22,16 +22,16 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main"
     }, 
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PayOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Pay.py?ref=master", 

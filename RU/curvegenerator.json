@@ -23,7 +23,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/CurveGeneratorOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/StandardOutputWithoutInputTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/StandardOutputWithoutInputTable.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=master", 

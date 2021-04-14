@@ -20,13 +20,13 @@
   }, 
   "menu": [
     {
-      "source": "https://api.github.com/repos""common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos""FormattingOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/FormattingOptions.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos""FormattingOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/FormattingOutput.json?ref=main"
     }
   ], 
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Formatting.py?ref=master", 

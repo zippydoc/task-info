@@ -20,10 +20,10 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AppendInput.json?ref=main"
     }, 
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutputWithoutInputTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutputWithoutInputTable.json?ref=main", 
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectOutputColumnWithTable.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumnWithTable.json?ref=main", 
           "property": "output/fields", 
           "after": "output.custom_text"
         }

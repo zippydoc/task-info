@@ -1,0 +1,38 @@
+{
+  "description": "Expande e contrai tabelas com rótulos iguais",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+	"US",
+	"UK"
+    ],
+    "languages": [
+	"PT"
+    ],
+    "displayName": "Expandir ",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	],	
+	"userIds": []
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExpandCompressOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExpandCompressOutput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py?ref=master",
+  "version": 1.0
+}

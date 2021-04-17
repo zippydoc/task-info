@@ -1,0 +1,38 @@
+
+  "scriptSettings": {{
+  "description": "Remplissez automatiquement un tableau cible avec les données d'un tableau source en respectant en-têtes et étiquettes",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "FR"
+    ],
+    "displayName": "Remplissage auto",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AutofillInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AutofillOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_text"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master",
+  "version": 1.0
+}

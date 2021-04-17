@@ -1,0 +1,34 @@
+{
+  "description": “Formatear filas y/o columnas de la tabla”,
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "ES"
+    ],
+    "displayName": “Formateo”,
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/FormattingOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/FormattingOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Formatting.py?ref=master",
+  "version": 1.0
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Connectez la base de données sauvegardées à des services de tiers ou sites Internet",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "FR"
+    ],
+    "displayName": "Accès Internet",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/WebAccessInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/WebAccessOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master",
+  "version": 1.0
+}

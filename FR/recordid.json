@@ -1,0 +1,41 @@
+{
+  "description": "Ajoutez une colonne de numérotage au tableau sélectionné",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "FR"
+    ],
+    "displayName": "Numéroter",
+    "payingUsersOnly": false,
+    "type": "StandardTableTask",
+	"attributes": [
+      "1-Input"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/RecordIDOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_text"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RecordID.py?ref=master",
+  "version": 1.0
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Unificar dos o más tablas en una sola",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "ES"
+    ],
+    "displayName": "Unión",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/SelectTables.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/UnionOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/StandardOutputWithoutInputTable.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master",
+  "version": 1.0
+}

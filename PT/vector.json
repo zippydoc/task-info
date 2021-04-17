@@ -1,0 +1,31 @@
+{
+  "description": "Executa adição/multiplicação de matrizes a duas tabelas",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "PT"
+    ],
+    "displayName": "Vetor",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectInputTables.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/VectorOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master",
+  "version": 1.0
+}

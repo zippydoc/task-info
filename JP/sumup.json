@@ -1,0 +1,41 @@
+{
+  "description": "Build groups and calculate sums, averages and more",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "JP"
+    ],
+    "displayName": "Sum-Up",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/SumupOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/Formatting.json?ref=main",
+          "property": "actions/fields",
+          "before": "delete"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SumUp.py?ref=master",
+  "version": 1.0
+}

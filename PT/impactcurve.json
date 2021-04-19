@@ -1,32 +1,32 @@
 {
-  "description": "Gerar uma curva de impacto para um evento", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif", 
+  "description": "Gera uma curva de impacto para um evento",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "PT"
-    ], 
-    "displayName": "Curva de Impacto", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Curva de Impacto",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	], 
-    "userIds": ["5",  "12"]
-  }, 
+	],
+    "userIds": ["5", "12"]
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ImpactCurveOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutputWithoutInputTable.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ImpactCurve.py?ref=master",
   "version": 1.0
 }

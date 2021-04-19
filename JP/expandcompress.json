@@ -1,35 +1,38 @@
 {
-  "description": "", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif", 
+  "description": "コンテンツクリエイターを支援し、一連のラベルを拡張および縮小する",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-	"US", 
+	"US",
 	"UK"
-    ], 
+    ],
     "languages": [
 	"JP"
-    ], 
-    "displayName": "参加", 
-    "payingUsersOnly": true, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "拡張",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	], 	
+	],	
 	"userIds": []
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/ExpandCompressOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/ExpandCompressOutput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/Debug.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ExpandCompress.py?ref=master",
   "version": 1.0
 }

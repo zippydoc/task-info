@@ -1,31 +1,31 @@
 {
-  "description": "Unifier deux ou plusieurs tables en une seule", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif", 
+  "description": "Fusionnez deux tableaux ou plus en un seul",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "FR"
-    ], 
-    "displayName": "l'Union", 
-    "payingUsersOnly": true, 
+    ],
+    "displayName": "Fusionner",
+    "payingUsersOnly": true,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTables.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/UnionOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutputWithoutInputTable.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master",
   "version": 1.0
 }

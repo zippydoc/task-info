@@ -1,37 +1,37 @@
 {
-  "description": "", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif", 
+  "description": "テーブル行または列の名前を変更する",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "JP"
-    ], 
-    "displayName": "", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "名前の変更",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/RenameTableInput.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/RenameTableInput.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/RenameTableOptions.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",
   "version": 1.0
 }

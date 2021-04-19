@@ -1,41 +1,38 @@
 
-    "autoLoadTable": [{
-  "description": "Preencher automaticamente uma tabela de destino com o conteúdo das tabelas de origem através da correspondência de informação de cabeçalho e etiqueta", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
-  "scriptSettings": {
-    ], 
+  "scriptSettings": {{
+  "description": "Preenchimento automático de uma tabela alvo com o conteúdo das tabelas de origem através da correspondência de informação de cabeçalhos e rótulos",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
+    "autoLoadTable": [
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "PT"
-    ], 
-    "displayName": "Auto Llena", 
-    "payingUsersOnly": true, 
+    ],
+    "displayName": "Preenchimento Automático",
+    "payingUsersOnly": true,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AutofillInput.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AutofillOptions.json?ref=main"
-    }, 
+    },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.custom_text"
         }
       ]
-    }, 
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master",
   "version": 1.0
 }

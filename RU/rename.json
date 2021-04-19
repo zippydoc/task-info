@@ -1,37 +1,37 @@
 {
-  "description": , 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif", 
+  "description": ,
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "RU"
-    ], 
-    "displayName": , 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": ,
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RenameTableInput.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RenameTableInput.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RenameTableOptions.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",
   "version": 1.0
 }

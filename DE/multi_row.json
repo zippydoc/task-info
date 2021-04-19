@@ -1,43 +1,43 @@
 {
-  "description": "Apply built-in multi-row formula to create a new column", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RowByRow.gif", 
+  "description": "Apply built-in multi-row formula to create a new column",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RowByRow.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "table1", 
+      "table1",
       "table2"
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "DE"
-    ], 
-    "displayName": "Row by Row", 
-    "payingUsersOnly": true, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Zeile für Zeile",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/MultiRowOptions.json?ref=main"
-    }, 
+    },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.custom_text"
         }
       ]
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
   "version": 1.0
 }

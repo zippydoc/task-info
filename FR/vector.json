@@ -1,31 +1,31 @@
 {
-  "description": "Effectuer une addition/multiplication matricielle pour deux tableaux", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif", 
+  "description": "Effectuez une addition/multiplication matricielle pour deux tableaux,
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "FR"
-    ], 
-    "displayName": "Vecteur", 
-    "payingUsersOnly": false, 
+    ],
+    "displayName": "Vecteur",
+    "payingUsersOnly": false,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectInputTables.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/VectorOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master",
   "version": 1.0
 }

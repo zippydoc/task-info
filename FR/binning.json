@@ -1,47 +1,47 @@
 {
-  "description": "Trier les documents dans différents bacs", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif", 
+  "description": "Organisez les données en différentes classes",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "FR"
-    ], 
-    "displayName": "Binning", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Binning",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectColumn.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectColumn.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/BinningOptions.json?ref=main"
-    }, 
+    },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.custom_text"
         }
       ]
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=master",
   "version": 1.0
 }

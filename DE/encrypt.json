@@ -1,40 +1,40 @@
 {
-  "description": "Encrypt specific columns/rows with password", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Encrypt.gif", 
+  "description": "Encrypt specific columns/rows with password",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Encrypt.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "DE"
-    ], 
-    "displayName": "Encrypt", 
-    "payingUsersOnly": false, 
-    "type": "script", 
+    ],
+    "displayName": "Verschlüsseln",
+    "payingUsersOnly": false,
+    "type": "script",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectColumnRow.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectColumnRow.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/EncryptOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master",
   "version": 1.0
 }

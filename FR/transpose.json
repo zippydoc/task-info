@@ -1,34 +1,34 @@
 {
-  "description": "Transposer les colonnes en lignes et les lignes en colonnes", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
+  "description": "Transposez les colonnes en lignes et vice versa",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "FR"
-    ], 
-    "displayName": "Transpose", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Intervertir",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/TransposeOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master",
   "version": 1.0
 }

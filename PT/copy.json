@@ -1,37 +1,37 @@
 {
-  "description": "Tabela de duplicados", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif", 
+  "description": "Duplica uma tabela",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "PT"
-    ], 
-    "displayName": "Copia", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
-	"attributes": [
-      "1-Input"
-	]
-  }, 
+    ],
+    "displayName": "Copiar",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+    "attributes": [
+        "1-Input"
+    ]
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectColumnRow.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectColumnRow.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master",
   "version": 1.0
 }

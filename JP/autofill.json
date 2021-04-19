@@ -1,41 +1,38 @@
 
-    "autoLoadTable": [{
-  "description": "あなたの州の休日のテーブルを生成する", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif", 
-  "scriptSettings": {
-    ], 
+  "scriptSettings": {{
+  "description": "ヘッダとラベル情報を照合してソーステーブルの内容をターゲットテーブルに自動入力する",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
+    "autoLoadTable": [
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "JP"
-    ], 
-    "displayName": "クリーン 変換", 
-    "payingUsersOnly": true, 
+    ],
+    "displayName": "自動入力",
+    "payingUsersOnly": true,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/AutofillInput.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/AutofillOptions.json?ref=main"
-    }, 
+    },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.custom_text"
         }
       ]
-    }, 
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/Debug.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master",
   "version": 1.0
 }

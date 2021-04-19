@@ -1,34 +1,34 @@
 {
-  "description": "Conversion en divers formats de tableaux", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif", 
+  "description": "Conversion en divers formats de tableau",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-2.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "FR"
-    ], 
-    "displayName": "Convertir", 
-    "payingUsersOnly": true, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Convertir",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ConvertOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py?ref=master",
   "version": 1.0
 }

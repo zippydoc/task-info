@@ -1,34 +1,34 @@
 {
-  "description": "", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif", 
+  "description": "列から行および行から列に入れ替える",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "JP"
-    ], 
-    "displayName": "きれいな空白や句読点など", 
-    "payingUsersOnly": false, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "入れ替え",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/TransposeOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master",
   "version": 1.0
 }

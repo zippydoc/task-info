@@ -1,47 +1,47 @@
 {
-  "description": "Autodetect range patterns", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindRanges.gif", 
+  "description": "Autodetect range patterns",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindRanges.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "PT"
-    ], 
-    "displayName": "Find Ranges", 
-    "payingUsersOnly": true, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Find Ranges",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupInput.json?ref=main", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupInput.json?ref=main",
           "property": "fields"
         }
       ]
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindRangesOptions.json?ref=main"
-    }, 
+    },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main", 
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupOutputColumn.json?ref=main", 
-          "property": "output/fields", 
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupOutputColumn.json?ref=main",
+          "property": "output/fields",
           "after": "output.custom_text"
         }
       ]
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master",
   "version": 1.0
 }

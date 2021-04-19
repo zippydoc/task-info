@@ -1,34 +1,34 @@
 {
-  "description": "Сгенерируйте таблицу праздничных штатов", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif", 
+  "description": "Сгенерируйте таблицу праздничных штатов",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "RU"
-    ], 
-    "displayName": "Праздник", 
-    "payingUsersOnly": true, 
-    "type": "StandardTableTask", 
+    ],
+    "displayName": "Праздник",
+    "payingUsersOnly": true,
+    "type": "StandardTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/HolidayOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/HolidayOutput.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/HolidayUsedSource.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master",
   "version": 1.0
 }

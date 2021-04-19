@@ -1,34 +1,34 @@
 {
-  "description": "Ligar Backend-Database com serviços e/ou sítios Web de terceiros", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif", 
+  "description": "Liga bases de dados de back-end a serviços e/ou páginas Web de terceiros",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "PT"
-    ], 
-    "displayName": "Acceso a la Web", 
-    "payingUsersOnly": true, 
-    "type": "ExpertTableTask", 
+    ],
+    "displayName": "Acceso à Internet",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	]
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/WebAccessInput.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/WebAccessOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutputWithoutInputTable.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=master",
   "version": 1.0
 }

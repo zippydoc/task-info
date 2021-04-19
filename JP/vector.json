@@ -1,31 +1,31 @@
 {
-  "description": "", 
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif", 
+  "description": "2つのテーブルの行列の加算/乗算を実行する",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif",
   "scriptSettings": {
     "autoLoadTable": [
-    ], 
+    ],
     "countries": [
-      "US", 
+      "US",
       "UK"
-    ], 
+    ],
     "languages": [
       "JP"
-    ], 
-    "displayName": "日付と時刻のフォーマットを変換する", 
-    "payingUsersOnly": false, 
+    ],
+    "displayName": "ベクター",
+    "payingUsersOnly": false,
     "type": "ExpertTableTask"
-  }, 
+  },
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectInputTables.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/VectorOptions.json?ref=main"
-    }, 
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/StandardOutput.json?ref=main"
     }
-  ], 
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master", 
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master",
   "version": 1.0
 }

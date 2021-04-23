@@ -1,6 +1,6 @@
 {
   "description": "Import data from database",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDB.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

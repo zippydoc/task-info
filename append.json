@@ -28,6 +28,11 @@
           "after": "output.custom_text"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/LimitOutput.json?ref=main",
           "property": "output/fields",
           "after": "download_setting_frame"

@@ -15,7 +15,7 @@
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input","0-Input"
 	]
   },
   "menu": [

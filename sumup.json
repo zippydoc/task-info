@@ -29,6 +29,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Formatting.json?ref=main",
           "property": "actions/fields",
           "before": "delete"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     },

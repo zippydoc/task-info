@@ -1,6 +1,6 @@
 {
   "description": "Import data from a cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

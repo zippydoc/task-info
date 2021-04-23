@@ -1,6 +1,6 @@
 {
   "description": "Export data to a cloud directory ",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

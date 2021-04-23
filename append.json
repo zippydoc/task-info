@@ -29,7 +29,8 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/LimitOutput.json?ref=main",
-          "property": "output/fields"
+          "property": "output/fields",
+          "after": "download_setting_frame"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",

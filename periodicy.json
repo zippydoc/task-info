@@ -20,9 +20,6 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PeriodicyInput.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PeriodicyOptions.json?ref=main"
     },
     {

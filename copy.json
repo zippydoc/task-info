@@ -41,9 +41,6 @@
           "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Copy.py?ref=master",

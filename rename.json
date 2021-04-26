@@ -30,9 +30,6 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameTableOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",

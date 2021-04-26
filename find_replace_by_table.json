@@ -20,7 +20,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FindReplaceByTableInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableInput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableOptions.json?ref=main"
@@ -48,9 +48,6 @@
           "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",

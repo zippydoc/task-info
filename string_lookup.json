@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "StringLookup",
+    "displayName": "Word Lookup",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

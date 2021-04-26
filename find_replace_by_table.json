@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Find-Replace-by-Table",
+    "displayName": "Replace by Table",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

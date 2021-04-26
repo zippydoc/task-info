@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "StringLookup",
+    "displayName": "Word Lookup",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },
@@ -46,6 +46,9 @@
           "property": "output/fields"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master",

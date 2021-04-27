@@ -38,7 +38,7 @@
           "after": "download_setting_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendIfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import from File",
+    "displayName": "Import from File or Directory",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,7 +20,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOrDirOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportOutput.json?ref=main",

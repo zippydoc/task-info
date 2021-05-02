@@ -1,5 +1,5 @@
 {
-  "description": "Exportar dados para um directório de nuvens",
+  "description": "Daten in ein Cloud-Verzeichnis exportieren",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "PT"
+      "DE"
     ],
-    "displayName": "Exportar para arquivo",
+    "displayName": "In Datei exportieren",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,13 +20,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExportToFileOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportToFileOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ExportToFileOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportToFileOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",

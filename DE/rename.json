@@ -1,5 +1,5 @@
 {
-  "description": "Muda o nome das linhas ou colunas da tabela",
+  "description": "Tabellenspalten oder -zeilen umbenennen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "PT"
+      "DE"
     ],
-    "displayName": "Mudar Nome",
+    "displayName": "Umbenennen",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,16 +20,16 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/RenameTableInput.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/RenameTableInput.json?ref=main",
           "property": "fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/RenameTableOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/RenameTableOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",

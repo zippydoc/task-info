@@ -1,6 +1,6 @@
 {
-  "description": "Aplicar fórmula incorporada para criar uma nova linha",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
+  "description": "Encontrar conteúdo celular e substituir por conteúdo diferente numa tabela de substituição",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ReplaceByTable.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,20 +11,19 @@
     "languages": [
       "PT"
     ],
-    "displayName": "Adicionar Linha",
+    "displayName": "Substituir por tabela",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
-	],
-    "userIds": []
+	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddRowInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceByTableInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddRowOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceByTableOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
@@ -33,6 +32,11 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceOutput.json?ref=main",
+          "property": "output/fields",
+          "after": "output_columns"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
@@ -44,11 +48,8 @@
           "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",
   "version": 1.0
 }

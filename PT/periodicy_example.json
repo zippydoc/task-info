@@ -1,6 +1,6 @@
 {
-  "description": "Aplicar fórmula incorporada para criar uma nova linha",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
+  "description": "Converte informação de periodicidade, como semanas ou meses, numa lista de transações",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PeriodicyExampleTable.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,26 +11,22 @@
     "languages": [
       "PT"
     ],
-    "displayName": "Adicionar Linha",
-    "payingUsersOnly": false,
+    "displayName": "Exemplo de política periódica",
+    "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
-	],
-    "userIds": []
+      "1-Input",0-Input
+	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddRowInput.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddRowOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PeriodicyExampleOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/PeriodicySelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
         },
@@ -40,15 +36,17 @@
           "after": "compose_table_name_frame"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/SelectPeriod.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",
   "version": 1.0
 }

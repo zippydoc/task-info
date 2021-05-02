@@ -1,5 +1,5 @@
 {
-  "description": "Vereinigen von zwei oder mehr Tabellen zu einer",
+  "description": "Une duas ou mais tabelas numa só",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,29 +9,29 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Vereinige",
+    "displayName": "União",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTables.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTables.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/UnionOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/UnionOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutputWithoutInputTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutputWithoutInputTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

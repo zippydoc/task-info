@@ -1,5 +1,5 @@
 {
-  "description": "Erzeugen einer Feiertagstabelle für Ihre Staaten",
+  "description": "Gera a sua tabela de estados de férias",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Holiday.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Feiertag alt",
+    "displayName": "Velho de Férias",
     "payingUsersOnly": true,
     "type": "StandardTableTask",
 	"attributes": [
@@ -21,13 +21,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOptions_old.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayOptions_old.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayOutput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/HolidayUsedSource.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayUsedSource.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Holiday.py?ref=master",

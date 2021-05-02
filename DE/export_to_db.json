@@ -1,6 +1,6 @@
 {
-  "description": "Export data to database",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "description": "Daten in die Datenbank exportieren",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToDB.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Export to DB",
+    "displayName": "In DB exportieren",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -26,7 +26,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportToDbOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",

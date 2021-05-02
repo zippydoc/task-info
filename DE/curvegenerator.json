@@ -23,15 +23,15 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/CurveGeneratorOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutputWithoutInputTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutputWithoutInputTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/IfTableExistWithoutAppendNotExisting.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExistWithoutAppendNotExisting.json?ref=main",
           "property": "output/fields"
         }
       ]

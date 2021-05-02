@@ -1,5 +1,5 @@
 {
-  "description": "Aplica a sua própria fórmula para criar uma nova linha",
+  "description": "Wende deine eigene Formel an um eine neue Zeile zu ergänzen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddCustomRow.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "PT"
+      "DE"
     ],
-    "displayName": "Fila personalizada",
+    "displayName": "Benutzerdefinierte Zeile",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,26 +20,26 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddCustomRowOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddCustomRowOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

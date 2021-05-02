@@ -1,7 +1,7 @@
-
-  "scriptSettings": {{
+{
   "description": "Automatisches Füllen einer Zieltabelle mit Inhalten von Quelltabellen durch Abgleich von Kopf- und Beschriftungsinformationen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
+  "scriptSettings": {
     "autoLoadTable": [
     ],
     "countries": [
@@ -29,8 +29,20 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master",

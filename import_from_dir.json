@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import from Directory",
+    "displayName": "Import Directory",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

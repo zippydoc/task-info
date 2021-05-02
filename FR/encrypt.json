@@ -1,5 +1,5 @@
 {
-  "description": "Encrypt specific columns/rows with password",
+  "description": "Crypter des colonnes/lignes spécifiques avec un mot de passe",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Encrypt.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -32,7 +32,18 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/EncryptOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master",

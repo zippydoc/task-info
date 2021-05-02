@@ -1,5 +1,5 @@
 {
-  "description": "Autodetect range patterns",
+  "description": "Bereichsmuster automatisch erkennen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindRanges.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Find Ranges",
+    "displayName": "Bereiche finden",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -38,6 +38,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/LookupOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

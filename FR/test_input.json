@@ -1,0 +1,35 @@
+{
+  "description": "Test de la table d'entrée numOfHeader et numOfLabel",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "FR"
+    ],
+    "displayName": "Tester la table d'entrée",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+    "attributes": [
+        "1-Input"
+    ],
+    "userIds": []
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AddRowInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/TestInputOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",
+  "version": 1.0
+}

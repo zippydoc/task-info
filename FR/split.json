@@ -1,5 +1,5 @@
 {
-  "description": "Split records at punctuation, whitespace and more",
+  "description": "Couper les enregistrements à la ponctuation, aux espaces et plus encore",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -38,8 +38,20 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py?ref=master",

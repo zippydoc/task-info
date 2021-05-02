@@ -1,5 +1,5 @@
 {
-  "description": "Inhalt von zwei Tabellen vergleichen",
+  "description": "Comparar o conteúdo de duas tabelas",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,29 +9,29 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Vergleiche",
+    "displayName": "Comparar",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTablesWithColumnsRows.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTablesWithColumnsRows.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/CompareTablesOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/CompareTablesOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

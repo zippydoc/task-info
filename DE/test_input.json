@@ -1,5 +1,5 @@
 {
-  "description": "Test input_table numOfHeader und numOfLabel",
+  "description": "Test input_table numOfHeader and numOfLabel",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Eingabetabelle testen",
+    "displayName": "Tabela de entrada de teste",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
     "attributes": [
@@ -21,13 +21,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddRowInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddRowInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/TestInputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/TestInputOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",

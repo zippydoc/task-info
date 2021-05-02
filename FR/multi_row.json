@@ -1,5 +1,5 @@
 {
-  "description": "Apply built-in multi-row formula to create a new column",
+  "description": "Appliquer la formule multi-lignes intégrée pour créer une nouvelle colonne",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RowByRow.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -34,6 +34,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

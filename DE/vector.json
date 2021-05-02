@@ -1,5 +1,5 @@
 {
-  "description": "Matrixaddition/-multiplikation für zwei Tabellen durchführen",
+  "description": "Executa adição/multiplicação de matrizes a duas tabelas",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,29 +9,29 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Vektor",
+    "displayName": "Vetor",
     "payingUsersOnly": false,
     "type": "ExpertTableTask"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectInputTables.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectInputTables.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/VectorOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/VectorOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

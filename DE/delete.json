@@ -1,5 +1,5 @@
 {
-  "description": "Apaga uma tabela específica",
+  "description": "Löschen einer bestimmten Tabelle",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "PT"
+      "DE"
     ],
-    "displayName": "Apagar",
+    "displayName": "Lösche",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
     "attributes": [
@@ -20,10 +20,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/DeleteOptions.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/DeleteOptions.json?ref=main",
           "property": "fields"
         }
       ]

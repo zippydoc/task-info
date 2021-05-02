@@ -1,5 +1,5 @@
 {
-  "description": "Nettoyez les blancs, ponctuation, etc.",
+  "description": "Nettoyer les espaces blancs, la ponctuation et autres",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -38,6 +38,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

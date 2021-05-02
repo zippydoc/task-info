@@ -1,5 +1,5 @@
 {
-  "description": "Daten aus Datenbank importieren",
+  "description": "Importar dados da base de dados",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDB.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Aus DB importieren",
+    "displayName": "Importar da DB",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,18 +20,18 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportFromDbOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ImportFromDbOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/ImportOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

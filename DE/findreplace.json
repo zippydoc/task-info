@@ -1,5 +1,5 @@
 {
-  "description": "Zellinhalt suchen und durch anderen Inhalt ersetzen",
+  "description": "Encontra conteúdo de células e substitui por conteúdo diferente",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -9,9 +9,9 @@
       "UK"
     ],
     "languages": [
-      "DE"
+      "PT"
     ],
-    "displayName": "Suche-Ersetze",
+    "displayName": "Procurar-Substituir",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,31 +20,31 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FindReplaceOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/FindReplaceOutput.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceOutput.json?ref=main",
           "property": "output/fields",
           "after": "output_columns"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

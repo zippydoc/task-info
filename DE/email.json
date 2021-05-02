@@ -1,5 +1,5 @@
 {
-  "description": "Ler ou enviar eMails de lote",
+  "description": "Stapel-E-Mails lesen oder senden",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,9 +11,9 @@
       "UK"
     ],
     "languages": [
-      "PT"
+      "DE"
     ],
-    "displayName": "eMail",
+    "displayName": "E-Mail",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -22,10 +22,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/EmailInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/EmailInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/EmailOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/EmailOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",

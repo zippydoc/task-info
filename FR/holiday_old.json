@@ -11,7 +11,7 @@
     "languages": [
       "FR"
     ],
-    "displayName": "Holiday Old",
+    "displayName": "Ancien jour férié",
     "payingUsersOnly": true,
     "type": "StandardTableTask",
 	"attributes": [

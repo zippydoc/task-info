@@ -41,6 +41,11 @@
           "after": "download_setting_frame"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOutput.json?ref=main",
+          "property": "output/fields",
+          "after": "output.period_concatenate"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields"
         }

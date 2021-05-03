@@ -1,5 +1,5 @@
 {
-  "description": "Transfer money from and to client accounts via Paypal, Payoneer or Stripe",
+  "description": "Geld von und auf Kundenkonten über Paypal, Payoneer oder Stripe überweisen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Pay.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,25 +13,33 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Pay",
+    "displayName": "Bezahlen",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input",0-Input
 	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DESelectTable.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/PayOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DEStandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DEDownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DEIfTableExist.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Pay.py?ref=master",

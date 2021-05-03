@@ -1,5 +1,5 @@
 {
-  "description": "Read or send batch eMails",
+  "description": "Ler ou enviar eMails de lote",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -17,7 +17,7 @@
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input", "0-Input"
 	]
   },
   "menu": [
@@ -26,9 +26,6 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/EmailOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",

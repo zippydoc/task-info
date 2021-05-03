@@ -1,5 +1,5 @@
 {
-  "description": "Autodetect word repetitive patterns",
+  "description": "Autodetecção de padrões repetitivos de palavras",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "PT"
     ],
-    "displayName": "Find Duplicates",
+    "displayName": "Encontrar duplicados",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -38,6 +38,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/LookupOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

@@ -15,7 +15,7 @@
     "payingUsersOnly": true,
     "type": "StandardTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input",0-Input
 	]
   },
   "menu": [
@@ -23,7 +23,18 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/HolidayUsedSource.json?ref=main"

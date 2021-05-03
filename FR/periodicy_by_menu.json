@@ -1,6 +1,4 @@
-
-    }
-  ],{
+{
   "description": "Convertirssez des informations périodiques, p. ex. les semaines ou les mois, en une liste de transactions",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Periodicy.gif",
   "scriptSettings": {
@@ -13,19 +11,16 @@
     "languages": [
       "FR"
     ],
-    "displayName": "Périodicité",
+    "displayName": "Périodicité par menu",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input",0-Input
 	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/PeriodicyInput.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/PeriodicyOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/PeriodicyByMenuOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main",
@@ -36,10 +31,22 @@
           "after": "output.custom_text"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/SelectPeriod.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]
+    }
+  ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",
   "version": 1.0
 }

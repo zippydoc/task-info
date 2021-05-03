@@ -1,5 +1,5 @@
 {
-  "description": "Add or delete permissions to columns/rows of a table",
+  "description": "Adicionar ou apagar permissões às colunas/linhas de uma tabela",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "PT"
     ],
-    "displayName": "Add Permission",
+    "displayName": "Adicionar Permissão",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -26,9 +26,6 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddPermissionOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddPermission.py?ref=master",

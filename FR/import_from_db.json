@@ -1,6 +1,6 @@
 {
-  "description": "Import data from database",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "description": "Importer les données de la base de données",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDB.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "FR"
     ],
-    "displayName": "Import from DB",
+    "displayName": "Importer depuis une base de données",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -23,7 +23,18 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ImportFromDbOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ImportOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ImportOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master",

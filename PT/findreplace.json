@@ -37,6 +37,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/FindReplaceOutput.json?ref=main",
           "property": "output/fields",
           "after": "output_columns"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

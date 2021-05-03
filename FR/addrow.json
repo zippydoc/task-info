@@ -1,5 +1,5 @@
 {
-  "description": "Apply built-in formula to create a new row",
+  "description": "Appliquer la formule intégrée pour créer une nouvelle ligne",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -33,6 +33,15 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
     },

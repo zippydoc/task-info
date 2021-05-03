@@ -1,6 +1,6 @@
 {
-  "description": "Import data from a cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import.gif",
+  "description": "Daten aus einem Cloud-Verzeichnis importieren",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,11 +11,11 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Import from File",
+    "displayName": "Datei importieren",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input",0-Input
 	]
   },
   "menu": [
@@ -23,10 +23,18 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportFromFileOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportOutput.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ImportOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DEDownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DEIfTableExist.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master",

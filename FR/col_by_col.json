@@ -1,5 +1,5 @@
 {
-  "description": "Apply built-in formula to create a new row",
+  "description": "Appliquer la formule intégrée pour créer une nouvelle ligne",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowHorizontal.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,13 +11,13 @@
     "languages": [
       "FR"
     ],
-    "displayName": "Col by Col",
+    "displayName": "Col par Col",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input"
 	],
-    "userIds": []
+    "userIds": [1]
   },
   "menu": [
     {
@@ -33,11 +33,17 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/IfTableExist.json?ref=main",
+          "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",

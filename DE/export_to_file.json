@@ -1,6 +1,6 @@
 {
-  "description": "Export data to a cloud directory ",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export.gif",
+  "description": "Daten in ein Cloud-Verzeichnis exportieren",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Export to File",
+    "displayName": "In Datei exportieren",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,13 +20,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DESelectTable.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportToFileOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutputWithoutOutputOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/ExportToFileOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",

@@ -11,7 +11,7 @@
     "languages": [
       "FR"
     ],
-    "displayName": "Joindre",
+    "displayName": "Annexer",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },
@@ -28,7 +28,17 @@
           "after": "output.custom_text"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "compose_table_name_frame"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/LimitOutput.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/AppendIfTableExist.json?ref=main",
           "property": "output/fields"
         }
       ]

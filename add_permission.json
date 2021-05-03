@@ -1,6 +1,6 @@
 {
   "description": "Add or delete permissions to columns/rows of a table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

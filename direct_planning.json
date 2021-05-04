@@ -36,11 +36,6 @@
           "after": "compose_table_name_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectPeriod.json?ref=main",
-          "property": "output/fields",
-          "after": "download_setting_frame"
-        },
-        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOutput.json?ref=main",
           "property": "output/fields",
           "after": "output.period_concatenate"
@@ -50,6 +45,9 @@
           "property": "output/fields"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",

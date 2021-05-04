@@ -46,11 +46,6 @@
           "after": "output.tag_name"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SelectPeriod.json?ref=main",
-          "property": "output/fields",
-          "after": "compose_table_name_frame"
-        },
-        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOutput.json?ref=main",
           "property": "output/fields"
         }

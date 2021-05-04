@@ -50,7 +50,7 @@
           "after": "download_setting_frame"
         },
         {
-          "source": "https://api.github.com/repos/zipypydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }

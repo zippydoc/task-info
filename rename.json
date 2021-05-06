@@ -14,9 +14,9 @@
     "displayName": "Rename",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
-	"attributes": [
-      "1-Input"
-	]
+    "attributes": [
+        "1-Input"
+    ]
   },
   "menu": [
     {
@@ -30,6 +30,9 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RenameTableOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",

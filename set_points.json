@@ -21,9 +21,6 @@
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=master",

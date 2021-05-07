@@ -1,6 +1,6 @@
 {
   "description": "Add or delete permissions to current flow",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions2.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

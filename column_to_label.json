@@ -1,5 +1,5 @@
 {
-  "description": "Transpose columns to rows and rows to columns",
+  "description": "Transpose columns to labels",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Transpose",
+    "displayName": "Column to Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -23,7 +23,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TransposeOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColumnToLabelOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

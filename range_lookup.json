@@ -1,6 +1,6 @@
 {
   "description": "Autodetect and lookup repetitive patterns",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lookup.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RangeLookup.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

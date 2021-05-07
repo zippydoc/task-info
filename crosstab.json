@@ -1,6 +1,6 @@
 {
   "description": "Produce Pivot display",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/CrossTab.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

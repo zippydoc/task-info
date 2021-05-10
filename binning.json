@@ -20,43 +20,43 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnly.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnly.json?ref=prod",
           "property": "fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/BinningOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/BinningOptions.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
           "property": "output/fields",
           "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
           "property": "output/fields",
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=prod",
           "property": "output/fields",
           "after": "download_setting_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=prod",
   "version": 1.0
 }

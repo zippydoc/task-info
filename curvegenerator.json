@@ -20,29 +20,29 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CurveGeneratorOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CurveGeneratorOptions.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
           "property": "output/fields",
           "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
           "property": "output/fields",
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExistWithoutAppendNotExisting.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExistWithoutAppendNotExisting.json?ref=prod",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=prod",
   "version": 1.0
 }

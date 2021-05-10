@@ -20,9 +20,9 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsOptions.json?ref=prod"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=prod",
   "version": 1.0
 }

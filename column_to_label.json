@@ -1,6 +1,6 @@
 {
   "description": "Transpose columns to labels",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/HeaderToLabel.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ColumnToLabel.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

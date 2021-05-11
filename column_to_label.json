@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Column to Label",
+    "displayName": "Header to Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

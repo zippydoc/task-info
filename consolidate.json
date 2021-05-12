@@ -20,6 +20,15 @@
   },
   "menu": [
     {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnRow.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ConsolidateOptions.json?ref=main"
     },
     {

@@ -15,7 +15,7 @@
     "payingUsersOnly": false,
     "type": "StandardTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input","Starter-Screen"
 	]
   },
   "menu": [

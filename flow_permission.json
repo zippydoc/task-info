@@ -1,6 +1,6 @@
 {
   "description": "Add or delete permissions to current flow",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions2.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FlowPermission.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",
@@ -17,7 +17,7 @@
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input","Starter-Screen"
 	]
   },
   "menu": [

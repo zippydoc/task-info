@@ -1,5 +1,5 @@
 {
-  "description": "Set Points to user(s)",
+  "description": "Set Points of user(s) by table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SetPoints.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Set Points",
+    "displayName": "Set Points by Table",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -21,9 +21,9 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsByTableInput.json?ref=prod"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=prod",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPointsByTable.py?ref=prod",
   "version": 1.0
 }

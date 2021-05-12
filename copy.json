@@ -15,7 +15,7 @@
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
     "attributes": [
-        "1-Input"
+        "1-Input","Starter-Screen"
     ]
   },
   "menu": [
@@ -27,9 +27,6 @@
           "property": "fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CopyOptions.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",

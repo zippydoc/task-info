@@ -1,6 +1,6 @@
 {
   "description": "Transpose columns to labels",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/HeaderToLabel.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ColumnToLabel.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,11 +11,11 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Column to Label",
+    "displayName": "Header to Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-Input"
+      "1-Input","Starter-Screen"
 	]
   },
   "menu": [

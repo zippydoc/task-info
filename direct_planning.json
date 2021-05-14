@@ -44,15 +44,8 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOutput.json?ref=main",
-          "property": "output/fields"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",

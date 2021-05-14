@@ -14,9 +14,9 @@
     "displayName": "Find Group",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
-	"attributes": [
-      "1-Input","Starter-Screen"
-	]
+    "attributes": [
+        "1-Input","Starter-Screen"
+    ]
   },
   "menu": [
     {

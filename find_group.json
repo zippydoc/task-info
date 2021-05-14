@@ -1,5 +1,5 @@
 {
-  "description": "Autodetect word repetitive patterns",
+  "description": "Find equal item sub gruops",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -57,6 +57,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindGroup.py?ref=master",
   "version": 1.0
 }

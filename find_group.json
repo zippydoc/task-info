@@ -1,5 +1,5 @@
 {
-  "description": "Find equal item sub gruops",
+  "description": "Autodetect word repetitive patterns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Find Groups",
+    "displayName": "Find Group",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -20,10 +20,16 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LookupInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindGroupOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindDuplicatesOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -39,6 +45,11 @@
           "after": "output_config_frame"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LookupOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
@@ -46,6 +57,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindGroup.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master",
   "version": 1.0
 }

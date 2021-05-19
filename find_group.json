@@ -39,7 +39,7 @@
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LookupOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
           "after": "download_setting_frame"
         },

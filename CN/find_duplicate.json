@@ -1,0 +1,62 @@
+{
+  "description": "自动检测单词重复模式",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "CN"
+    ],
+    "displayName": "查找重复内容",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/LookupInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/FindDuplicatesOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/LookupOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=master",
+  "version": 1.0
+}

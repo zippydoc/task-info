@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Periodizität nach Menü",
+    "displayName": "Periodizität (Menü)",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

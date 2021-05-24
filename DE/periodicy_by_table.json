@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Periodizität nach Tabelle",
+    "displayName": "Periodizität (Tabelle)",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

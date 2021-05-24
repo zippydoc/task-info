@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Wort nachschlagen",
+    "displayName": "Zeichenfolge nachschlagen",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Neue Reihe",
+    "displayName": "Neue Zeile",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

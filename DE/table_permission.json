@@ -13,7 +13,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Table Permission",
+    "displayName": "Berechtigungen Tabelle",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

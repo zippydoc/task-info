@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Kreuztabelle",
+    "displayName": "Pivot-Tabelle",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

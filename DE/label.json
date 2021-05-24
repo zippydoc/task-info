@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Etikett",
+    "displayName": "Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

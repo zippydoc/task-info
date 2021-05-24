@@ -1,0 +1,34 @@
+{
+  "description": "Exporter les données vers un répertoire cloud",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "FR"
+    ],
+    "displayName": "Exporter vers un fichier",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ExportToFileOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ExportToFileOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",
+  "version": 1.0
+}

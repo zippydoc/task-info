@@ -13,7 +13,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Flow Permission",
+    "displayName": "Berechtigungen Flow",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

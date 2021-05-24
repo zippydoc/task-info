@@ -1,5 +1,5 @@
 {
-  "description": "Erste, letzte, zufällige und weitere Auswahl",
+  "description": "Zeilenauswahl - erste, letzte, zufällige u.v.m.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif",
   "scriptSettings": {
     "autoLoadTable": [

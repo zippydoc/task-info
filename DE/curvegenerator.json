@@ -1,5 +1,5 @@
 {
-  "description": "Auswirkungskurve generieren",
+  "description": "Kurve erstellen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Kurven-Generator",
+    "displayName": "Kurve erstellen",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

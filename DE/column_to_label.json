@@ -1,5 +1,5 @@
 {
-  "description": "Transpose columns to labels",
+  "description": "Fügt eine neue Zeile ein, welche in jeder Reihe die Spaltenüberschrift enthält",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ColumnToLabel.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Header to Label",
+    "displayName": "Spaltenüberschrift zu Label",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [

@@ -1,0 +1,33 @@
+{
+  "description": "Berechtigungen zu Spalten/Zeilen einer Tabelle hinzufügen oder löschen",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1",
+      "table2"
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "DE"
+    ],
+    "displayName": "Table Permission",
+    "payingUsersOnly": true,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/TablePermissionInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/AddPermissionOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddPermission.py?ref=master",
+  "version": 1.0
+}

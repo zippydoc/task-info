@@ -1,0 +1,73 @@
+{
+  "description": "Clean whitespace, punctuation and more",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "CN"
+    ],
+    "displayName": "Clean (Auto)",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+    "attributes": [
+        "1-Input","Starter-Screen"
+    ],
+    "userIds": ["1005", "60"]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/AutoCleanInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/CleanOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/AutoCleanOutputConfig.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/AutoCleanAutorun.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_autorun_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/SelectOutputColumn.json?ref=main",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.auto_run"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py?ref=master",
+  "version": 1.0
+}

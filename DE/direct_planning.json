@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Direct Planning",
+    "displayName": "Direkte Planung",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

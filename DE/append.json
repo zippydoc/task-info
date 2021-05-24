@@ -1,5 +1,5 @@
 {
-  "description": "Eine zweite Tabelle anhängen",
+  "description": "Eine zweite Tabelle ergänzen",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "DE"
     ],
-    "displayName": "Anhängen",
+    "displayName": "Tabelle Ergänzen",
     "payingUsersOnly": true,
     "type": "ExpertTableTask"
   },

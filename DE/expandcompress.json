@@ -1,5 +1,5 @@
 {
-  "description": "Unterstützung für Inhaltsersteller und Erweitern und Zusammenziehen einer Reihe von Etiketten",
+  "description": "Expandiert Aufzählungen mit Trennzeichen in neue Zeilen und umgekehrt",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
 	"DE"
     ],
-    "displayName": "Expandiere",
+    "displayName": "Aufzählung zu Reihen",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

@@ -1,6 +1,6 @@
 {
   "description": "Find equal item sub groups.",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindDuplicates.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindGroup.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

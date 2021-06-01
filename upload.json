@@ -29,11 +29,11 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields"
+          "property": "options_box/fields"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
-          "property": "output/fields"
+          "property": "options_box/fields"
         }
       ]
     },

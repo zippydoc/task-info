@@ -1,5 +1,5 @@
 {
-  "description": "Produce Pivot display",
+  "description": "Produce Pivot display table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/CrossTab.gif",
   "scriptSettings": {
     "autoLoadTable": [

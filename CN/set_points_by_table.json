@@ -1,0 +1,28 @@
+{
+  "description": "Set Points of user(s) by table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SetPoints.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "CN"
+    ],
+    "displayName": "Set Points by Table",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/SetPointsByTableInput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPointsByTable.py?ref=master",
+  "version": 1.0
+}

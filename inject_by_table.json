@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Replace by Table",
+    "displayName": "Inject by Table",
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -56,6 +56,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Inject.py?ref=master",
   "version": 1.0
 }

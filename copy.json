@@ -24,13 +24,11 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CopyOptions.json?ref=main",
-          "property": "fields",
-          "children": [
-            {
-              "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnRow.json?ref=main",
-              "property": "selection/fields"
-            }
-          ]
+          "property": "fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnRow.json?ref=main",
+          "property": "fields/selection/fields"
         }
       ]
     },

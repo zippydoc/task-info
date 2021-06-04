@@ -28,7 +28,7 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnRow.json?ref=main",
-          "property": "fields/selection/fields"
+          "property": "input/fields/selection/fields"
         }
       ]
     },

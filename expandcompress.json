@@ -11,7 +11,7 @@
     "languages": [
 	"EN"
     ],
-    "displayName": "Expand",
+    "displayName": "Expand List",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [

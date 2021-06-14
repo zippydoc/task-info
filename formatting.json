@@ -16,7 +16,18 @@
     "type": "ExpertTableTask",
 	"attributes": [
       "1-Input","Starter-Screen"
-	]
+	],
+    "tableTypes": [
+      "no-header-no-label",
+      "single-header-only",
+      "multi-header-only",
+      "single-label-only",
+      "multi-label-only",
+      "single-header-single-label",
+      "single-header-multi-label",
+      "multi-header-single-label",
+      "multi-header-multi-label"
+    ]
   },
   "menu": [
     {

@@ -13,7 +13,7 @@
     ],
     "displayName": "Get Format",
     "payingUsersOnly": false,
-    "type": "script",
+    "type": "ExpertTableTask",
 	"attributes": [
       "1-Input","Starter-Screen"
 	]

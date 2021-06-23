@@ -28,6 +28,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddColumn.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=master",
   "version": 1.0
 }

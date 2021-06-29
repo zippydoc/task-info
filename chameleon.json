@@ -21,8 +21,11 @@
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTask.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ChameleonOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",
   "version": 1.0
 }

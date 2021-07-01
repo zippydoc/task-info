@@ -15,8 +15,11 @@
     "payingUsersOnly": false,
     "type": "ExpertTableTask",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]	
+      "1-Input","Starter-Screen"
+	],
+    "supportingTableTypes": [
+      "1*0"
+    ]
   },
   "menu": [
     {

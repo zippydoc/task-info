@@ -19,12 +19,10 @@
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],
-    "tableTypes": [
-      "single-header-only",
-      "single-label-only",
-      "multi-label-only",
-      "single-header-single-label",
-      "single-header-multi-label"
+    "supportingTableTypes": [
+      "1*0",
+      "1*1",
+      "1*n"
     ]
   },
   "menu": [

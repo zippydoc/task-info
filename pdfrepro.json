@@ -19,9 +19,12 @@
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],
-    "userIds": ["84"]
+    "userIds": ["84", "86", "5"]
   },
   "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PdfReProOptions.json?ref=main"
+    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
       "children": [

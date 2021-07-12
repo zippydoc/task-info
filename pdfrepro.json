@@ -18,8 +18,7 @@
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
-	],
-    "userIds": ["84", "86", "5"]
+	]
   },
   "menu": [
     {

@@ -1,6 +1,6 @@
 {
   "description": "Compare contents of two tables",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Compare.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

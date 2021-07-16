@@ -30,7 +30,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FormattingWithKeepCurrentInRepeat.json?ref=main",
           "property": "options_box/fields/options.measure_cols/fields",
-          "after": "aggregation"
+          "before": "measure_col"
         }
       ]
     },

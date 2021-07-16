@@ -25,14 +25,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FormattingWithKeepCurrentInRepeat.json?ref=main",
-          "property": "options_box/fields/options.measure_cols/fields",
-          "before": "measure_col"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

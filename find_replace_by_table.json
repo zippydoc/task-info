@@ -1,0 +1,61 @@
+{
+  "description": "Find cell content and replace by different content in a replacement table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ReplaceByTable.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Replace by Table",
+    "payingUsersOnly": false,
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-Input","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableInput.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableOptions.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceOutput.json?ref=prod",
+          "property": "output/fields",
+          "after": "output.custom_text"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=prod",
+          "property": "output/fields",
+          "after": "download_setting_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FindReplace.py?ref=prod",
+  "version": 1.0
+}

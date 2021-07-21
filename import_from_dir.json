@@ -23,7 +23,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",

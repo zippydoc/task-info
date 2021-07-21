@@ -47,6 +47,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Convert2Text.py?ref=master",
   "version": 1.0
 }

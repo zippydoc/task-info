@@ -1,5 +1,5 @@
 {
-  "description": "Show Flexmonster report table",
+  "description": "Show Flexmonster report line chart",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Flexmonster Grid",
+    "displayName": "Flexmonster Line",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -25,7 +25,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterLineOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=master",

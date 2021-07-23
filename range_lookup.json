@@ -54,6 +54,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/RangeLookup.py?ref=prod",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Lookup.py?ref=prod",
   "version": 1.0
 }

@@ -1,6 +1,6 @@
 {
   "description": "Show Flexmonster report pie chart",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pie-Chart.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

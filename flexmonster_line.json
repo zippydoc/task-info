@@ -1,6 +1,6 @@
 {
   "description": "Show Flexmonster report line chart",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Column-Line.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

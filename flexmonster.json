@@ -1,6 +1,6 @@
 {
   "description": "Show Flexmonster report table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

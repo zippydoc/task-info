@@ -28,6 +28,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterPieOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic-private/contents/Flexmonster.py?ref=main",
   "version": 1.0
 }

@@ -45,6 +45,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfReProCustom.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfRePro.py?ref=master",
   "version": 1.0
 }

@@ -1,0 +1,31 @@
+{
+  "description": "Take notes of whatever you want",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Schedule7.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Note Tracker",
+    "payingUsersOnly": false,
+    "type": "script",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/NoteTrackerOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/NoteTracker.py?ref=master",
+  "version": 1.0
+}

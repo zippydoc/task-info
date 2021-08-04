@@ -1,6 +1,6 @@
 {
   "description": "Run an already existing task of the same flow with different tables",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunAll.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

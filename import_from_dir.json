@@ -43,6 +43,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/basic-private/Import.py?ref=main",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master",
   "version": 1.0
 }

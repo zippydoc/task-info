@@ -1,6 +1,6 @@
 {
   "description": "Schedules an already existing task of the same flow",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Schedule7.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ScheduleTasks.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

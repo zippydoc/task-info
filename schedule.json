@@ -1,0 +1,28 @@
+{
+  "description": "Schedules an already existing task of the same flow",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ScheduleTasks.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Schedule",
+    "payingUsersOnly": false,
+    "type": "script",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ScheduleOptions.json?ref=prod"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Schedule.py?ref=prod",
+  "version": 1.0
+}

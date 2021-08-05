@@ -1,5 +1,5 @@
 {
-  "description": "Create PDF from our prepared PDF templates and export to cloud directory",
+  "description": "Create PDF from our prepared PDF templates by Placeholder table and export to cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Create PDF",
+    "displayName": "Create PDF by Table",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -22,7 +22,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PdfReProOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PdfReProByTableOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

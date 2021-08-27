@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Flexmonster Grid",
+    "displayName": "Flexmonster Pivot Table",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -22,7 +22,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterOptions.json?ref=prod"

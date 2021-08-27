@@ -22,7 +22,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterColumnOptions.json?ref=prod"

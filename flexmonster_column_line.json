@@ -1,6 +1,6 @@
 {
-  "description": "Show Flexmonster report scatter chart",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Scatter-Plot.gif",
+  "description": "Show Flexmonster report column-line chart",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Column-Chart.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Flexmonster Scatter",
+    "displayName": "Flexmonster Column-Line",
     "payingUsersOnly": true,
     "type": "ExpertTableTask",
 	"attributes": [
@@ -25,7 +25,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterScatterOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterColumnLineOptions.json?ref=prod"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=prod",

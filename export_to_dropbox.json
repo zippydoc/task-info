@@ -1,5 +1,5 @@
 {
-  "description": "Export data to a cloud directory ",
+  "description": "Export data to Dropbox",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Export to File",
+    "displayName": "Export to Dropbox",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -24,7 +24,11 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
     },
     {
+<<<<<<< HEAD:export_to_file.json
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOptions.json?ref=prod"
+=======
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToDropboxOptions.json?ref=main"
+>>>>>>> 9d680ba... Merge remote-tracking branch 'origin/master':export_to_dropbox.json
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOutput.json?ref=prod"

@@ -1,0 +1,53 @@
+{
+  "description": "Import data from a Dropbox directory",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDirectory.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Import Dropbox Directory",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen","0-Input"
+	]
+  },
+  "menu": [
+    {
+<<<<<<< HEAD:import_from_dir.json
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOptions.json?ref=prod"
+=======
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportDirFromDropboxOptions.json?ref=main"
+>>>>>>> 9d680ba... Merge remote-tracking branch 'origin/master':import_dir_from_dropbox.json
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=prod",
+  "version": 1.0
+}

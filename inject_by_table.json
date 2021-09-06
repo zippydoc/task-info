@@ -13,6 +13,7 @@
     ],
     "displayName": "Inject by Table",
     "payingUsersOnly": false,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "2-Input"

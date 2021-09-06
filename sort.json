@@ -13,6 +13,7 @@
     ],
     "displayName": "Sort",
     "payingUsersOnly": false,
+    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Sort.png",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

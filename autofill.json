@@ -13,6 +13,7 @@
     ],
     "displayName": "Auto-Fill",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask"
   },
   "menu": [

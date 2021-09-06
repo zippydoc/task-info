@@ -13,6 +13,7 @@
     ],
     "displayName": "Table Type",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
     "attributes": [
         "1-input","Guest-User","Starter-Screen"

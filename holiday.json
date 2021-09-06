@@ -13,6 +13,7 @@
     ],
     "displayName": "Holiday",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "StandardTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"

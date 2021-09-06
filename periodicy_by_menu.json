@@ -13,6 +13,7 @@
     ],
     "displayName": "Periodicy by Menu",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"

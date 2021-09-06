@@ -13,6 +13,7 @@
     ],
     "displayName": "Schedule",
     "payingUsersOnly": false,
+    "explanationPicture": "",
     "type": "script",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

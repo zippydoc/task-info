@@ -1,5 +1,5 @@
 {
-  "description": "Create PDF from our prepared PDF templates and export to cloud directory",
+  "description": "Create PDF from our prepared PDF templates and export to Dropbox",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Create PDF",
+    "displayName": "Create PDF in Dropbox",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -35,7 +35,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/AppointmentOrRemoval.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2Dropbox.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

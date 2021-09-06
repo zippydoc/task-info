@@ -1,0 +1,35 @@
+{
+  "description": "Export data to Github",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Export to Github",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToGithubOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",
+  "version": 1.0
+}

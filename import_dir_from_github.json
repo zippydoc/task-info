@@ -1,6 +1,6 @@
 {
-  "description": "Import data from a cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromFile.gif",
+  "description": "Import data from a Github directory",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDirectory.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import File",
+    "displayName": "Import Github Directory",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -21,10 +21,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportDirFromGithubOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",

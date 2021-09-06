@@ -1,0 +1,36 @@
+{
+  "description": "Export data to MS One Drive",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Export to MS One Drive",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "files.readwrite.all"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToOneDriveOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",
+  "version": 1.0
+}

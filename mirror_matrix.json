@@ -13,7 +13,7 @@
     ],
     "displayName": "Mirror Matrix",
     "payingUsersOnly": false,
-    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Mirror-Matrix.png",
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Mirror-Matrix.png",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

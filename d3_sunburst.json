@@ -15,6 +15,7 @@
     ],
     "displayName": "Zoomable Sunburst Chart",
     "payingUsersOnly": false,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

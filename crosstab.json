@@ -13,6 +13,7 @@
     ],
     "displayName": "Crosstab",
     "payingUsersOnly": false,
+    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Crosstab.png",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

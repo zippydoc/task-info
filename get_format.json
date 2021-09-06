@@ -13,6 +13,7 @@
     ],
     "displayName": "Get Format",
     "payingUsersOnly": false,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

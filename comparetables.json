@@ -13,6 +13,7 @@
     ],
     "displayName": "Compare",
     "payingUsersOnly": false,
+    "explanationPicture": "",
     "type": "ExpertTableTask"
   },
   "menu": [

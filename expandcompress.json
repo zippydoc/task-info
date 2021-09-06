@@ -13,6 +13,7 @@
     ],
     "displayName": "Expand List",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"

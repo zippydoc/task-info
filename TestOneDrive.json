@@ -13,6 +13,7 @@
     ],
     "displayName": "Test-OneDrive",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask",
 	"attributes": [
       "1-input","Guest-User"

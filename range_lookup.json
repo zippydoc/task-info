@@ -13,6 +13,7 @@
     ],
     "displayName": "Range Lookup",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask"
   },
   "menu": [

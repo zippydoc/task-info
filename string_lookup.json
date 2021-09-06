@@ -13,6 +13,7 @@
     ],
     "displayName": "Word Lookup",
     "payingUsersOnly": true,
+    "explanationPicture": "",
     "type": "ExpertTableTask"
   },
   "menu": [

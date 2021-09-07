@@ -20,7 +20,8 @@
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "files.readwrite.all"
+    "ms_oauth2_scope": "files.readwrite.all",
+    "ms_oauth2_menu_condition": "options.browser_popup=='false'"
   },
   "menu": [
     {

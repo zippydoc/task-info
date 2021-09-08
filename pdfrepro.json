@@ -1,5 +1,5 @@
 {
-  "description": "Create PDF from our prepared PDF templates and export to MS One Drive",
+  "description": "Create PDF from our prepared PDF templates and export to a cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Create PDF in MS One Drive",
+    "displayName": "Create PDF",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -21,7 +21,7 @@
       "1-input","Guest-User","Starter-Screen"
 	],
     "ms_oauth2_scope": "files.readwrite.all",
-    "ms_oauth2_menu_condition": "options.where_to_create=='only_export_to_cloud' || options.where_to_create=='both_export_to_cloud_and_open_in_browser'"
+    "ms_oauth2_menu_condition": "options.webservice=='ms_one_drive' && (options.where_to_create=='only_export_to_cloud' || options.where_to_create=='both_export_to_cloud_and_open_in_browser')"
   },
   "menu": [
     {
@@ -37,7 +37,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/AppointmentOrRemoval.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2OneDrive.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

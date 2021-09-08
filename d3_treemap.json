@@ -1,5 +1,5 @@
 {
-  "description": "Show Treemap chart",
+  "description": "Show D3 Treemap chart",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Treemap Chart",
+    "displayName": "D3 Treemap",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "ExpertTableTask",

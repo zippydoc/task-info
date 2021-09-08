@@ -1,5 +1,5 @@
 {
-  "description": "Show Tree chart",
+  "description": "Show D3 Tree chart",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Tree Chart",
+    "displayName": "D3 Tree",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "ExpertTableTask",

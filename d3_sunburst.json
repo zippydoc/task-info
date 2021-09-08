@@ -1,5 +1,5 @@
 {
-  "description": "Show Zoomable Sunburst chart",
+  "description": "Show D3 Sunburst chart",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Zoomable Sunburst Chart",
+    "displayName": "D3 Sunburst",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "ExpertTableTask",

@@ -1,5 +1,5 @@
 {
-  "description": "Transfer money from and to client accounts via Paypal, Payoneer or Stripe",
+  "description": "Transfer money from and to client accounts via Stripe",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Pay.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Pay",
+    "displayName": "Stripe Pay",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -26,7 +26,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayStripeOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",

@@ -23,7 +23,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayStripeInput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PayStripeOptions.json?ref=main"

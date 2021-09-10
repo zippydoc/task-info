@@ -1,5 +1,5 @@
 {
-  "description": "Show D3 Treemap chart",
+  "description": "Show D3 Tree chart",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "D3 Treemap",
+    "displayName": "D3 Tree",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -26,7 +26,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TreemapOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TreeOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",

@@ -14,7 +14,7 @@
     "displayName": "Union",
     "payingUsersOnly": true,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Union.png",
-    "type": "ExpertTableTask"
+    "type": "Expert Tasks"
   },
   "menu": [
     {

@@ -15,7 +15,7 @@
     "displayName": "World Population",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Facts & Figures",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

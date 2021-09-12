@@ -16,7 +16,7 @@
     "displayName": "Flexmonster Scatter",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Create Reports",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

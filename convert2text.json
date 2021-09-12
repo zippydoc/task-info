@@ -14,7 +14,7 @@
     "displayName": "Convert to Text",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Text Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],

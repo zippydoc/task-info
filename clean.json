@@ -14,7 +14,7 @@
     "displayName": "Clean",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Clean.png",
-    "type": "ExpertTableTask",
+    "type": "Common Tasks",
     "attributes": [
         "1-input","Guest-User","Starter-Screen"
     ]

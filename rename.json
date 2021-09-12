@@ -14,7 +14,7 @@
     "displayName": "Rename",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Rename.png",
-    "type": "ExpertTableTask",
+    "type": "Expert Tasks",
     "attributes": [
         "1-input","Guest-User","Starter-Screen"
     ]

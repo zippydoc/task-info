@@ -16,7 +16,7 @@
     "displayName": "eMail",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen", "0-Input"
 	]

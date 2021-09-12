@@ -14,7 +14,7 @@
     "displayName": "Sort",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Sort.png",
-    "type": "ExpertTableTask",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

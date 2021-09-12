@@ -16,7 +16,7 @@
     "displayName": "D3 Sunburst",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Create Reports",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

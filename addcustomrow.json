@@ -14,7 +14,7 @@
     "displayName": "Custom Row",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Row.png",
-    "type": "ExpertTableTask",
+    "type": "Common Tasks",
 	"attributes": [
       "1-Input","Starter-Screen"
 	],

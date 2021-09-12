@@ -14,7 +14,7 @@
     "displayName": "Inject by Table",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Text Tasks",
 	"attributes": [
       "2-Input"
 	]

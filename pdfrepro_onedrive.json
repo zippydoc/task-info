@@ -16,7 +16,7 @@
     "displayName": "Create PDF in MS One Drive",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Create Reports",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],

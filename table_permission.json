@@ -16,7 +16,7 @@
     "displayName": "Table Permission",
     "payingUsersOnly": true,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
-    "type": "ExpertTableTask",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

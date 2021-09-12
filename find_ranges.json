@@ -14,7 +14,7 @@
     "displayName": "Find Ranges",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Expert Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

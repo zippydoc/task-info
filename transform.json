@@ -11,10 +11,10 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Transform",
+    "displayName": "Expert Tasks",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Expert Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

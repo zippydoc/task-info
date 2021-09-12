@@ -14,7 +14,7 @@
     "displayName": "Set Points by Table",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Share Data",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

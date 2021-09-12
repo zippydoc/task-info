@@ -14,7 +14,7 @@
     "displayName": "Export to DB",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Import & Export",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

@@ -14,7 +14,7 @@
     "displayName": "Impact Curve",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Facts & Figures",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"
 	],

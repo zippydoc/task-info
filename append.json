@@ -14,7 +14,7 @@
     "displayName": "Append",
     "payingUsersOnly": true,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Append-Pictogram.png",
-    "type": "ExpertTableTask"
+    "type": "Expert Tasks"
   },
   "menu": [
     {

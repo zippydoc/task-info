@@ -14,7 +14,7 @@
     "displayName": "Get Permissions",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Share Data",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

@@ -14,7 +14,7 @@
     "displayName": "Encrypt",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Encrypt.png",
-    "type": "script",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

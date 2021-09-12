@@ -14,7 +14,7 @@
     "displayName": "Unique",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Unique.png",
-    "type": "ExpertTableTask",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

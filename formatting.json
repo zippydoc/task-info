@@ -14,7 +14,7 @@
     "displayName": "Formatting",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Formatting.png",
-    "type": "ExpertTableTask",
+    "type": "Expert Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],

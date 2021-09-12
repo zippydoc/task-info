@@ -14,7 +14,7 @@
     "displayName": "Replace by Table",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find-Replace.png",
-    "type": "ExpertTableTask",
+    "type": "Expert Tasks",
 	"attributes": [
       "1-Input","Starter-Screen"
 	]

@@ -3,8 +3,6 @@
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Pay.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "table1",
-      "table2"
     ],
     "countries": [
       "US",

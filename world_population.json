@@ -1,9 +1,9 @@
 {
-  "description": "Show D3 Sunburst chart of World Population",
+  "description": "Show D3 chart of World Population",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "World Population 1960-2020"
+      "5701"
     ],
     "countries": [
       "US",
@@ -22,10 +22,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationInput.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

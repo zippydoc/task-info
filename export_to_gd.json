@@ -14,22 +14,22 @@
     "displayName": "Export to Google Drive",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Import & Export",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToGDriveOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToGDriveOptions.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToFileOutput.json?ref=prod"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Export.py?ref=prod",
   "version": 1.0
 }

@@ -45,9 +45,6 @@
           "after": "output.tag_name"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=prod"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/PayStripe.py?ref=prod",

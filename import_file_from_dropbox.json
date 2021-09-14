@@ -14,18 +14,14 @@
     "displayName": "Import File from Dropbox",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Import & Export",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"
 	]
   },
   "menu": [
     {
-<<<<<<< HEAD:import_from_file.json
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOptions.json?ref=prod"
-=======
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFileFromDropboxOptions.json?ref=main"
->>>>>>> 9d680ba... Merge remote-tracking branch 'origin/master':import_file_from_dropbox.json
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFileFromDropboxOptions.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOutput.json?ref=prod",

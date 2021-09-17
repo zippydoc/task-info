@@ -1,6 +1,6 @@
 {
   "description": "Make table private",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lock1.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -16,7 +16,7 @@
     "explanationPicture": "",
     "type": "Common Tasks",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
+      "1-input","Starter-Screen"
 	]
   },
   "menu": [

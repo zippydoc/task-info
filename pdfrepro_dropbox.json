@@ -1,6 +1,6 @@
 {
   "description": "Create PDF from our prepared PDF templates and export to Dropbox",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

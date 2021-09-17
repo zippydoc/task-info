@@ -1,6 +1,6 @@
 {
   "description": "Create PDF from our prepared PDF templates by Placeholder table and export to cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

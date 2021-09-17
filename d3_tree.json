@@ -1,6 +1,6 @@
 {
   "description": "Show D3 Tree chart",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Tree.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

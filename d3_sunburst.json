@@ -1,6 +1,6 @@
 {
   "description": "Show D3 Sunburst chart",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Pivot.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Sunburst.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

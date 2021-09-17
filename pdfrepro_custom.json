@@ -1,6 +1,6 @@
 {
   "description": "Create PDF in your PDFrePRO account PDF templates and export to cloud directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",

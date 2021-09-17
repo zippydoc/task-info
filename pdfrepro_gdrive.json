@@ -1,6 +1,6 @@
 {
   "description": "Create PDF from our prepared PDF templates and export to Google Drive",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
       "table1",
@@ -18,7 +18,7 @@
     "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
+      "1-input","Starter-Screen"
 	]
   },
   "menu": [

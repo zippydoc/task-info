@@ -14,12 +14,12 @@
     "displayName": "Set Points",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Share Data",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	],
-    "userIds": ["41","12","17","34","38","480"]
+      "1-input","Starter-Screen"
+	]
   },
+  "userIds": ["212","34","38","480","41"],
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SetPointsOptions.json?ref=prod"

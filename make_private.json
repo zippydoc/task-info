@@ -1,6 +1,6 @@
 {
   "description": "Make table private",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lock1.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -16,15 +16,15 @@
     "explanationPicture": "",
     "type": "Common Tasks",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	],
-    "userIds": ["41","12","17","34","38","480"]
+      "1-input","Starter-Screen"
+	]
   },
+  "userIds": ["212","34","38","480","41"],
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/MakePrivate.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/MakePrivate.py?ref=prod",
   "version": 1.0
 }

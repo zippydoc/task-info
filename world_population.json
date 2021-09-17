@@ -1,0 +1,36 @@
+{
+  "description": "Show World Data in a D3 Zoomable Sunburst",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/World-Data.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+      "5701"
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "World Data",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Facts & Figures",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationOptions.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationInput.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=prod"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WorldPopulation.py?ref=prod",
+  "version": 1.0
+}

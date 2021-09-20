@@ -26,9 +26,6 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationInput.json?ref=prod"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=prod"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/WorldPopulation.py?ref=prod",

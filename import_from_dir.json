@@ -1,5 +1,5 @@
 {
-  "description": "Import data from a MS One Drive directory",
+  "description": "Import data from a cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDirectory.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,18 +11,19 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import MS One Drive Directory",
+    "displayName": "Import Directory",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Import & Export",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"
 	],
-    "ms_oauth2_scope": "files.read.all"
+    "ms_oauth2_scope": "files.read.all",
+    "ms_oauth2_menu_condition": "options.webservice=='ms_one_drive'"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportDirFromOneDriveOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOutput.json?ref=main",

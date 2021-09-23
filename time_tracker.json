@@ -1,0 +1,44 @@
+{
+  "description": "Track time of whatever you want",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Schedule7.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Time Tracker",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TimeTrackerOptions.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/TimeTrackerOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExistWithAppendAllDefault.json?ref=prod",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/TimeTracker.py?ref=prod",
+  "version": 1.0
+}

@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Test_3",
+    "displayName": "TestMenu",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "ExpertTableTask",
@@ -21,12 +21,12 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/Test2Options.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TestOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Test2.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Test.py?ref=master",
   "version": 1.0
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore and analyze various economic data like GDP, GNI across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "DataCommons",
+    "displayName": "DataCommons Economic",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Expert Tasks",
@@ -21,7 +21,14 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCEconomicOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.stat_var"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOutput.json?ref=main",

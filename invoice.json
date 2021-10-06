@@ -23,6 +23,9 @@
   },
   "menu": [
     {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/InvoiceOptions.json?ref=main"
+    },
+    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {

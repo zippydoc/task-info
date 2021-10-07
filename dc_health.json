@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various health statistical data like COVID-19 across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore and analyze various health statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [

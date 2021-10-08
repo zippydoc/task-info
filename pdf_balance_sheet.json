@@ -48,6 +48,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Invoice.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfInvoice.py?ref=master",
   "version": 1.0
 }

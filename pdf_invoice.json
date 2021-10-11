@@ -1,8 +1,10 @@
 {
-  "description": "Convert periodicy information e.g. weeks or month into a transaction list",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DirectPlanning.gif",
+  "description": "Create Invoice PDF and/or export to a cloud directory",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
+      "table1",
+      "table2"
     ],
     "countries": [
       "US",
@@ -11,17 +13,19 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Direct Planning",
+    "displayName": "Invoice PDF",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Expert Tasks",
+    "type": "Create Reports",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen","0-Input"
-	]
+      "1-input","Starter-Screen","0-Input"
+	],
+    "ms_oauth2_scope": "files.readwrite.all",
+    "ms_oauth2_menu_condition": "webservice=='ms_one_drive' && (where_to_create=='only_export_to_cloud' || where_to_create=='both_export_to_cloud_and_open_in_browser')"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/InvoiceOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -37,21 +41,13 @@
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PeriodicySelectOutputColumn.json?ref=main",
-          "property": "output/fields",
-          "after": "download_setting_frame"
-        },
-        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfInvoice.py?ref=master",
   "version": 1.0
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Create Invoice PDF and/or export to a cloud directory",
+  "description": "Create Balance Sheet PDF and/or export to a cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Invoice PDF",
+    "displayName": "Balance Sheet PDF",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Create Reports",
@@ -25,7 +25,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/InvoiceOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/BalanceSheetOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -51,6 +51,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Invoice.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfInvoice.py?ref=master",
   "version": 1.0
 }

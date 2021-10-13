@@ -14,7 +14,7 @@
     "displayName": "Find-Replace",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find-Replace.png",
-    "type": "Create Reports",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

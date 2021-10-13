@@ -1,5 +1,5 @@
 {
-  "description": "Source: Data Commons; for applicable license conditions of the data, please refer to https://www.datacommons.org/ and their data suppliers.",
+  "description": "Explore and analyze various climate statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -23,6 +23,11 @@
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCClimateOptions.json?ref=main",
       "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "options.stat_var"
+        },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",

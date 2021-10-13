@@ -1,5 +1,5 @@
 {
-  "description": "Source Data Commons for applicable license conditions of the data, please refer to and their data suppliers.",
+  "description": "Explore and analyze various crime statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -24,6 +24,10 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCEconomicOptions.json?ref=main",
       "children": [
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=main",
+          "property": "options_frame/fields"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.stat_var"

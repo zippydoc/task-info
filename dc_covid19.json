@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various COVID-19 statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore and analyze various COVID-19 statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD Source: Data Commons; for applicable license conditions of the data, please refer to https://www.datacommons.org/ and their data suppliers.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -23,11 +23,6 @@
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCCOVID19Options.json?ref=main",
       "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=main",
-          "property": "options_frame/fields",
-          "before": "options.stat_var"
-        },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",

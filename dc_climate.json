@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various climate statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore and analyze various climate statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD <br/>Source: Data Commons; for applicable license conditions of the data, please refer to https://www.datacommons.org/ and their data suppliers.",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [

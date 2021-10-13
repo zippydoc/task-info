@@ -1,6 +1,6 @@
 {
   "description": "Explore and analyze various economic data like GDP, GNI across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "DataCommons Economic",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Expert Tasks",
+    "type": "Facts & Figures",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]

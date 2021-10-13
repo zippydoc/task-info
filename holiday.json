@@ -14,7 +14,7 @@
     "displayName": "Holiday",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "StandardTableTask",
+    "type": "Facts & Figures",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen","0-Input"
 	]

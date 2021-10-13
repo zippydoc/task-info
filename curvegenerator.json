@@ -11,10 +11,10 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Curve Generator",
+    "displayName": "Curve Composer",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "ExpertTableTask",
+    "type": "Facts & Figures",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen", "0-Input"
 	]

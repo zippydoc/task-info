@@ -14,7 +14,7 @@
     "displayName": "Run All",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "script",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

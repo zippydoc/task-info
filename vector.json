@@ -13,8 +13,8 @@
     ],
     "displayName": "Vector",
     "payingUsersOnly": false,
-    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Vector.png",
-    "type": "ExpertTableTask"
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Vector.png",
+    "type": "Expert Tasks"
   },
   "menu": [
     {

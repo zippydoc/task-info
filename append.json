@@ -13,8 +13,8 @@
     ],
     "displayName": "Append",
     "payingUsersOnly": true,
-    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Append-Pictogram.png",
-    "type": "ExpertTableTask"
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Append-Pictogram.png",
+    "type": "Expert Tasks"
   },
   "menu": [
     {

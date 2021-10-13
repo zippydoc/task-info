@@ -3,8 +3,6 @@
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "table1",
-      "table2"
     ],
     "countries": [
       "US",
@@ -15,8 +13,8 @@
     ],
     "displayName": "Add Column",
     "payingUsersOnly": true,
-    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Add-Column.png",
-    "type": "ExpertTableTask",
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

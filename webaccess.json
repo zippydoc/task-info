@@ -1,6 +1,6 @@
 {
-  "description": "Transpose columns to labels",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ColumnToLabel.gif",
+  "description": "Connect Backend-Database with 3rd party services and/or Websites",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/WebAccess.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,23 +11,23 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Header to Label",
-    "payingUsersOnly": false,
+    "displayName": "Web-Access",
+    "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Common Tasks",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WebAccessInput.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ColumnToLabelOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WebAccessOptions.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=prod",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
@@ -40,13 +40,13 @@
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExistWithoutAppendNotExisting.json?ref=prod",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=prod",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/WebAccess.py?ref=prod",
   "version": 1.0
 }

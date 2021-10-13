@@ -13,8 +13,8 @@
     ],
     "displayName": "Select",
     "payingUsersOnly": false,
-    "explanationPicture": "https://github.com/zippydoc/Pictograms/blob/master/Explanations/Select.png",
-    "type": "ExpertTableTask",
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Select.png",
+    "type": "Common Tasks",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

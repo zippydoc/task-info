@@ -2,9 +2,7 @@
   "description": "Show World Data in a D3 Zoomable Sunburst",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/World-Data.gif",
   "scriptSettings": {
-    "autoLoadTable": [
-      "5701"
-    ],
+    "autoLoadTable": [],
     "countries": [
       "US",
       "UK"

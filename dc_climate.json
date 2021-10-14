@@ -1,6 +1,6 @@
 {
   "description": "Explore and analyze various climate statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "DataCommons Climate",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Expert Tasks",
+    "type": "Facts & Figures",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]
@@ -23,6 +23,10 @@
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCClimateOptions.json?ref=main",
       "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=main",
+          "property": "options_frame/fields"
+        },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",

@@ -16,19 +16,8 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Formatting.png",
     "type": "Expert Tasks",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	],
-    "tableTypes": [
-      "no-header-no-label",
-      "single-header-only",
-      "multi-header-only",
-      "single-label-only",
-      "multi-label-only",
-      "single-header-single-label",
-      "single-header-multi-label",
-      "multi-header-single-label",
-      "multi-header-multi-label"
-    ]
+      "1-Input","Guest-User","Starter-Screen"
+	]
   },
   "menu": [
     {

@@ -16,7 +16,7 @@
     "explanationPicture": "",
     "type": "Import & Export",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen","0-Input"
+      "0-input","Guest-User","Starter-Screen"
 	],
     "ms_oauth2_scope": "files.read.all",
     "ms_oauth2_menu_condition": "options.webservice=='ms_one_drive'"

@@ -1,6 +1,6 @@
 {
   "description": "Explore and analyze various demographics statistical data like Population, Population Density across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Demographics.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

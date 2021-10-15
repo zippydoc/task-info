@@ -1,6 +1,6 @@
 {
   "description": "Explore and analyze various COVID-19 statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Covid-19.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -53,6 +53,9 @@
           "after": "output.tag_name"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/DataCommons.py?ref=master",

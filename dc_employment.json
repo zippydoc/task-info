@@ -1,6 +1,6 @@
 {
   "description": "Explore and analyze various employment statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Data-Commons.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

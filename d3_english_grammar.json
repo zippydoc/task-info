@@ -1,0 +1,29 @@
+{
+  "description": "Display D3 Tree chart to show english grammar",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Tree.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "English Grammar",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Facts & Figures",
+	"attributes": [
+      "0-Input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3EnglishGrammarOptions.json?ref=pro"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=pro",
+  "version": 1.0
+}

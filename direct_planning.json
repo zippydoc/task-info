@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Direct Planning",
+    "displayName": "Planning",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Expert Tasks",
@@ -24,7 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOptions.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOutput.json?ref=prod",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",

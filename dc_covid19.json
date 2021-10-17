@@ -30,7 +30,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
-          "after": "options.stat_var"
+          "after": "options.stat_vars"
         }
       ]
     },
@@ -53,9 +53,6 @@
           "after": "output.tag_name"
         }
       ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/DataCommons.py?ref=master",

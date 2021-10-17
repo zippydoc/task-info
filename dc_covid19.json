@@ -30,7 +30,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
-          "after": "options.stat_var"
+          "after": "options.stat_vars"
         }
       ]
     },

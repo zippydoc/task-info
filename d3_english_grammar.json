@@ -22,6 +22,26 @@
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3EnglishGrammarOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",

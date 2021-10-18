@@ -21,13 +21,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldPopulationInput.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/WorldDataOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",

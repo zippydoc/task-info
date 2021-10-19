@@ -3,8 +3,6 @@
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FlowPermission.gif",
   "scriptSettings": {
     "autoLoadTable": [
-      "table1",
-      "table2"
     ],
     "countries": [
       "US",
@@ -18,7 +16,7 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
     "type": "Share Data",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
+      "0-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

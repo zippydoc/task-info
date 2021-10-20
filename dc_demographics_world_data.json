@@ -1,0 +1,64 @@
+{
+  "description": "Explore various demographics statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/World-Data.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "DataCommons Demographics World Data",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Facts & Figures",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCDemographicsWorldDataOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Years.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.per_capita"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.all_countries"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DataCommonsOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DataCommonsWorldData.py?ref=master",
+  "version": 1.0
+}

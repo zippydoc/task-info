@@ -1,5 +1,5 @@
 {
-  "description": "Create Invoice PDF and/or export to a cloud directory",
+  "description": "Create Invoice PDF and/or Export to a cloud directory",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -38,7 +38,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2OneDrive.json?ref=prod"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PdfOutput.json?ref=prod",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",

@@ -38,7 +38,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PdfOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",

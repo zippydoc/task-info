@@ -29,7 +29,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FormattingWithKeepCurrent.json?ref=prod",
           "property": "options_box/fields",
-          "after": "options.text_formula"
+          "after": "options.rounding"
         }
       ]
     },

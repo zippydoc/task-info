@@ -1,6 +1,6 @@
 {
   "description": "Explore various employment statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/World-Data.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

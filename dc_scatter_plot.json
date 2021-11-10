@@ -1,6 +1,6 @@
 {
   "description": "Visualize the correlation between two statistical variables across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/World-Data.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Correlate.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

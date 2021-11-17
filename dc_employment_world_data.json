@@ -32,6 +32,10 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=main",
+          "property": "options_frame/fields"
         }
       ]
     },

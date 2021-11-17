@@ -14,7 +14,7 @@
     "displayName": "Make Private",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Common Tasks",
+    "type": "Share Data",
 	"attributes": [
       "1-input","Starter-Screen"
 	]

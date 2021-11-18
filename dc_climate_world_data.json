@@ -24,7 +24,12 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCClimateWorldDataOptions.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Years.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCClimateWorldDataYears1.json?ref=prod",
+          "property": "options_frame/fields",
+          "before": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCClimateWorldDataYears2.json?ref=prod",
           "property": "options_frame/fields",
           "before": "options.all_countries"
         },
@@ -32,6 +37,10 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=prod",
           "property": "options_frame/fields",
           "after": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=prod",
+          "property": "options_frame/fields"
         }
       ]
     },

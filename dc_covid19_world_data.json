@@ -24,14 +24,23 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCCOVID19WorldDataOptions.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Years.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/YearsWithoutBreakline.json?ref=prod",
           "property": "options_frame/fields",
-          "before": "options.all_countries"
+          "after": "options.per_capita"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Months.json?ref=prod",
+          "property": "options_frame/fields",
+          "after": "options.sel_year"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=prod",
           "property": "options_frame/fields",
           "after": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DataCommonsDescription.json?ref=prod",
+          "property": "options_frame/fields"
         }
       ]
     },

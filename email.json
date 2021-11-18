@@ -18,7 +18,7 @@
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "mail.readwrite, mail.send",
+    "ms_oauth2_scope": "mail.readwrite,mail.send",
     "ms_oauth2_menu_condition": "options.provider=='outlook'"
   },
   "menu": [

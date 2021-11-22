@@ -26,7 +26,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowInput.json?ref=main"
+    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnly.json?ref=main",
+          "property": "fields"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowOptions.json?ref=main"

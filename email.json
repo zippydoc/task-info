@@ -33,9 +33,6 @@
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailOutput.json?ref=main",
       "children": [
         {

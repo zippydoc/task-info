@@ -28,7 +28,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main",
           "property": "options_frame/fields",
-          "after": "options.add_table"
+          "after": "options.embed_mode"
         }
       ]
     },

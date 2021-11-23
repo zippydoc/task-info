@@ -21,6 +21,9 @@
   },
   "menu": [
     {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlowOverviewOptions.json?ref=main"
+    },
+    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {
@@ -44,6 +47,9 @@
           "after": "output.tag_name"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/FlowOverview.py?ref=master",

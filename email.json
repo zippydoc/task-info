@@ -23,7 +23,14 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByMenuOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByMenuOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.add_table"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main"

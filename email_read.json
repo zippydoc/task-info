@@ -1,5 +1,5 @@
 {
-  "description": "Send E-mail",
+  "description": "Read E-mails",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "E-mail by Menu",
+    "displayName": "Read E-mails",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Automate",
@@ -23,7 +23,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByMenuOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailReadOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailOutput.json?ref=main",

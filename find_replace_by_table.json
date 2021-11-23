@@ -21,7 +21,18 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnly.json?ref=main",
+          "property": "fields",
+          "before": "use_filter"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FindReplaceByTableOptions.json?ref=main"

@@ -1,6 +1,6 @@
 {
-  "description": "Apply built-in formula to create a new row",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
+  "description": "Output a ordered list of tasks and tables of the current flow",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FlowPermission.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,31 +11,17 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Add Row",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Row.png",
-    "type": "Common Tasks",
+    "displayName": "Flow Overview",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Share Data",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	],
-    "supportingTableTypes": [
-      "1*0",
-      "1*1",
-      "1*n"
-    ]
+      "0-input","Guest-User","Starter-Screen"
+	]
   },
   "menu": [
     {
-    "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnly.json?ref=main",
-          "property": "fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddRowOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlowOverviewOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
@@ -61,8 +47,11 @@
           "after": "output.tag_name"
         }
       ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddRow.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/FlowOverview.py?ref=master",
   "version": 1.0
 }

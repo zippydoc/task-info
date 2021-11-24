@@ -1,5 +1,5 @@
 {
-  "description": "Send E-mail",
+  "description": "Send batch E-mails by table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,19 +11,19 @@
     "languages": [
       "EN"
     ],
-    "displayName": "E-mail by Menu",
+    "displayName": "E-mail by Table",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Automate",
 	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
+      "1-input","Guest-User","Starter-Screen"
 	],
     "ms_oauth2_scope": "mail.readwrite mail.send",
     "ms_oauth2_menu_condition": "options.provider=='outlook'"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByMenuOptions.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByTableOptions.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main",

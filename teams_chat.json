@@ -18,7 +18,7 @@
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "chat.create chatmessage.send"
+    "ms_oauth2_scope": "chat.create"
   },
   "menu": [
     {

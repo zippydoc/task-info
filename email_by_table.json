@@ -18,7 +18,7 @@
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "mail.readwrite mail.send"
+    "ms_oauth2_scope": "mail.send"
   },
   "menu": [
     {

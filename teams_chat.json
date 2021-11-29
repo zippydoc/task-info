@@ -11,14 +11,14 @@
     "languages": [
       "EN"
     ],
-    "displayName": "TeamsChat",
+    "displayName": "Teams Chat",
     "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Automate",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "chatmessage.send"
+    "ms_oauth2_scope": "chat.create chatmessage.send"
   },
   "menu": [
     {

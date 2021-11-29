@@ -28,26 +28,11 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailFilterOptions.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.embed_table_footer"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailEmbedOutput.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "info3"
         }
       ]
     }

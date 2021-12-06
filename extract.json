@@ -1,5 +1,5 @@
 {
-  "description": "Find cell content and replace by different content only for WordByWord type of table",
+  "description": "Find cell content frame by frame only for WordByWord type of table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Inject.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Inject",
+    "displayName": "Extract",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Text Tasks",

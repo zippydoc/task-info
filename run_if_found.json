@@ -14,7 +14,7 @@
     "displayName": "Run if Found",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find.png",
-    "type": "Common Tasks",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

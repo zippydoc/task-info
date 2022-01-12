@@ -1,5 +1,5 @@
 {
-  "description": "Apply your own formula to create a new column",
+  "description": "Get table structure like record count, empty records, distinct records, etc",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "scriptSettings": {
     "autoLoadTable": [

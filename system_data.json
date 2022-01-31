@@ -44,6 +44,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Filter.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=master",
   "version": 1.0
 }

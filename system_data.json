@@ -11,9 +11,9 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Filter",
+    "displayName": "System Data",
     "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Filter.png",
+    "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [
       "Guest-User","Starter-Screen"

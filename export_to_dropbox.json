@@ -1,6 +1,6 @@
 {
   "description": "Export data to Dropbox",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export-File-from-Dropbox.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

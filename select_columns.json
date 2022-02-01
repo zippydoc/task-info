@@ -1,6 +1,6 @@
 {
   "description": "Select or rename columns with sorting",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Upload.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select-Columns.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

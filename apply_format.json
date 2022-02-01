@@ -1,6 +1,6 @@
 {
   "description": "Output table with formatting embedded as text instead of excel format",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ApplyFormat.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

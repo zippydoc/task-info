@@ -1,6 +1,6 @@
 {
   "description": "Import data from Github",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromFile.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-File-from-Github.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

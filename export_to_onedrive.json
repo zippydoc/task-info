@@ -1,6 +1,6 @@
 {
   "description": "Export data to MS One Drive",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export-File-from-MS-One-Drive.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

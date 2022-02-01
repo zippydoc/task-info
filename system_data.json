@@ -1,6 +1,6 @@
 {
   "description": "Get System Data table like Resource Consumption, My Flows Log, My Table Permissions, My Tables and My Tasks Log",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDB.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/System-Data.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

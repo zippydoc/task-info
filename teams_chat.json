@@ -1,6 +1,6 @@
 {
   "description": "Post a teams-chat by the logged in Microsoft user to one or more Teams-Users",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Teams-Chat.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

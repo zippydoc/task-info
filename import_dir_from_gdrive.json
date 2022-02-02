@@ -14,7 +14,7 @@
     "displayName": "Import Google Drive Directory",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Beta",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]

@@ -31,6 +31,11 @@
           "property": "output/fields"
         },
         {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        },
+        {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=main",
           "property": "options/fields"
         }
@@ -47,12 +52,6 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
           "property": "output/fields",
           "after": "output.detail_output_columns"
-        },
-
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=main",

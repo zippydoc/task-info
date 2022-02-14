@@ -24,9 +24,6 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/InputTablesConfig.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FilterOptions.json?ref=main",
       "children": [
         {
@@ -40,8 +37,7 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectOutputColumn.json?ref=main",
-          "property": "output/fields",
-          "before": "output.output_as_new_table"
+          "property": "output/fields"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
@@ -60,8 +56,7 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=main",
-          "property": "output/fields",
-          "after": "output.output_as_new_table"
+          "property": "output/fields"
         }
       ]
     },

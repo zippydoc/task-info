@@ -43,7 +43,7 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
           "property": "output/fields",
-          "after": "output.reverse_order"
+          "after": "output.detail_output_columns"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",

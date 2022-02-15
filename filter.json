@@ -47,7 +47,8 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
-          "property": "output/fields"
+          "property": "output/fields",
+          "before": "output.tag_name"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=main",

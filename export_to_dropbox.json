@@ -1,6 +1,6 @@
 {
   "description": "Export data to Dropbox",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export-File-from-Dropbox.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "Export to Dropbox",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Beta",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

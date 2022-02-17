@@ -1,6 +1,6 @@
 {
-  "description": "Import data from Dropbox",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-File-from-Dropbox.gif",
+  "description": "Get System Data table like Resource Consumption, My Flows Log, My Table Permissions, My Tables and My Tasks Log",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/System-Data.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -11,20 +11,20 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Import File from Dropbox",
-    "payingUsersOnly": true,
+    "displayName": "System Data",
+    "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Beta",
+    "type": "Create Reports",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFileFromDropboxOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemDataOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromFileOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
@@ -44,6 +44,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Import.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=master",
   "version": 1.0
 }

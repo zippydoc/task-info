@@ -1,6 +1,6 @@
 {
   "description": "Import data from a Dropbox directory",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImportFromDirectory.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-Dropbox-Directory.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "Import Dropbox Directory",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Beta",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]

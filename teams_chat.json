@@ -1,6 +1,6 @@
 {
   "description": "Post a teams-chat by the logged in Microsoft user to one or more Teams-Users",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Teams-Chat.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "Teams Chat",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Automate",
+    "type": "Beta",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],

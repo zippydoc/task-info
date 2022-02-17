@@ -1,6 +1,6 @@
 {
   "description": "Export data to Google Drive",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToFile.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Export-File-from-Google-Drive.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],
@@ -14,7 +14,7 @@
     "displayName": "Export to Google Drive",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Beta",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

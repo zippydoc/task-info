@@ -24,33 +24,38 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddCustomRowOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddCustomRowOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=main",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectOutputColumn.json?ref=main",
           "property": "output/fields",
-          "after": "output.custom_options"
+          "after": "output.output_as_new_table"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
           "property": "output/fields",
-          "after": "output_config_frame"
+          "after": "output.detail_output_columns"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumn.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
           "property": "output/fields",
-          "after": "download_setting_frame"
+          "before": "output.reverse_order"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=main",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

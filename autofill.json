@@ -46,8 +46,15 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
-          "property": "output/fields",
-          "before": "output.reverse_order"
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ReverseOrder.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=main",
+          "property": "output/fields"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=main",

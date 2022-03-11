@@ -24,8 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main",
-          "property": "options_frame/fields"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main"
         }
       ]
     },

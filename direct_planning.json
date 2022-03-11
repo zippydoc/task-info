@@ -25,7 +25,7 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main",
-          "property": "options/fields"
+          "property": "options_frame/fields"
         }
       ]
     },

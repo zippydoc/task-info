@@ -23,7 +23,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOptions.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOptions.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main",

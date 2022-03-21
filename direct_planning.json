@@ -17,11 +17,13 @@
     "type": "Expert Tasks",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
-	]
+	],
+    "ms_oauth2_scope": "files.readwrite.all",
+    "ms_oauth2_menu_condition": "options.output_type=='pdf_planning_package' && options.where_to_create=='only_export_to_cloud'"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DirectPlanningOptions.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOptions.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main",
@@ -37,11 +39,11 @@
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningIfTableExist.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningAddTag.json?ref=main",
           "property": "output/fields"
         }
       ]

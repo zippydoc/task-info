@@ -18,29 +18,28 @@
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "ms_oauth2_scope": "files.readwrite.all"
+    "ms_oauth2_scope": "files.read.all"
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportDirFromOneDriveOptions.json?ref=prod"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFromDirOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportDirFromOneDriveOptions.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
-          "property": "output/fields",
-          "after": "output.custom_options"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=prod",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
+          "property": "output/fields"
         }
       ]
     }

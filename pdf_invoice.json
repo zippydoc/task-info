@@ -23,7 +23,53 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/InvoiceOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/InvoiceOptions.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelEnglish.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelGerman.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelLithuanian.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelItalian.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelHungarian.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelFrench.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelFinnish.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelBulgarian.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelCanadian.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelCzech.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf_invoice/CustomLabelSpanish.json?ref=prod",
+          "property": "invoice_placeholder_frame/fields"
+        }
+      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PdfOutput.json?ref=prod",

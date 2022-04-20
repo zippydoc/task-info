@@ -1,5 +1,5 @@
 {
-  "description": "Add or delete permissions to columns/rows of a table",
+  "description": "Add or delete permissions to columns/rows of a table (see https://support.zippydoc.de/en/add-permission/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
   "scriptSettings": {
     "autoLoadTable": [

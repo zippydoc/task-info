@@ -1,5 +1,5 @@
 {
-  "description": "Disassemble table in unique and duplicated records",
+  "description": "Disassemble table in unique and duplicated records (see https://support.zippydoc.de/en/unique/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Unique.gif",
   "scriptSettings": {
     "autoLoadTable": [

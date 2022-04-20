@@ -1,5 +1,5 @@
 {
-  "description": "Find cell content and replace by different content",
+  "description": "Find cell content and replace by different content (see https://support.zippydoc.de/en/find-replace/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FindReplace.gif",
   "scriptSettings": {
     "autoLoadTable": [

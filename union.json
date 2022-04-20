@@ -1,5 +1,5 @@
 {
-  "description": "Unify two or more tables to one",
+  "description": "Unify two or more tables to one (see https://support.zippydoc.de/en/union/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
   "scriptSettings": {
     "autoLoadTable": [

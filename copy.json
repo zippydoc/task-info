@@ -1,5 +1,5 @@
 {
-  "description": "Duplicate table",
+  "description": "Duplicate table (see https://support.zippydoc.de/en/copy/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Copy.gif",
   "scriptSettings": {
     "autoLoadTable": [

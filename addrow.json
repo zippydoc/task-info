@@ -1,5 +1,5 @@
 {
-  "description": "Apply built-in formula to create a new row",
+  "description": "Apply built-in formula to create a new row (see https://support.zippydoc.de/en/add-row/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddRowVertical.gif",
   "scriptSettings": {
     "autoLoadTable": [

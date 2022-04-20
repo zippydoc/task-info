@@ -22,9 +22,9 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemAdminDataOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemAdminDataOptions.json?ref=prod"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=prod",
   "version": 1.0
 }

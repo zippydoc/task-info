@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Formula",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Formula.png",
     "type": "Common Tasks",
 	"attributes": [

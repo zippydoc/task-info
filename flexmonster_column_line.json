@@ -14,7 +14,7 @@
       "EN"
     ],
     "displayName": "Flexmonster Column-Line",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [

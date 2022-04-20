@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Invoice PDF",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [

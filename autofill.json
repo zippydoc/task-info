@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Auto-Fill",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Expert Tasks"
   },

@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Get Table Structure",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Expert Tasks",
 	"attributes": [

@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Convert",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Expert Tasks",
 	"attributes": [

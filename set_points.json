@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Set Points",
-    "payingUsersOnly": false,
+    "payingUsersOnly": true,
     "explanationPicture": "",
     "type": "Share Data",
 	"attributes": [

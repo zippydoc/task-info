@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Union",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Union.png",
     "type": "Expert Tasks"
   },

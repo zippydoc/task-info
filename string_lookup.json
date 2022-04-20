@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Word Lookup",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Common Tasks"
   },

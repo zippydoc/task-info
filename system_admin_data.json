@@ -18,11 +18,38 @@
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "userIds": ["34","41","760"]
+    "userIds": ["3","5","86"]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemAdminDataOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemAdminDataOptions.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=prod",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=prod",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ReverseOrder.json?ref=prod",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
+          "property": "output/fields"
+        }
+      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=prod",

@@ -1,5 +1,5 @@
 {
-  "description": "Sort records to different bins",
+  "description": "Sort records to different bins (see https://support.zippydoc.de/en/binning/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Binning.gif",
   "scriptSettings": {
     "autoLoadTable": [

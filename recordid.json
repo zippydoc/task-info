@@ -1,5 +1,5 @@
 {
-  "description": "Adds a running row number to the selected table",
+  "description": "Adds a running row number to the selected table (see https://support.zippydoc.de/en/record-id/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RecordID.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Rename table rows or columns",
+  "description": "Rename table rows or columns (see https://support.zippydoc.de/en/rename/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
   "scriptSettings": {
     "autoLoadTable": [

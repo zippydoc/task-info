@@ -1,5 +1,5 @@
 {
-  "description": "Sort descending or ascending",
+  "description": "Sort descending or ascending (see https://support.zippydoc.de/en/sort/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Sort.gif",
   "scriptSettings": {
     "autoLoadTable": [

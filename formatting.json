@@ -1,5 +1,5 @@
 {
-  "description": "Format table rows and/or columns",
+  "description": "Format table rows and/or columns (see https://support.zippydoc.de/en/formatting/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [

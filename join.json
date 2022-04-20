@@ -1,5 +1,5 @@
 {
-  "description": "Join two tables",
+  "description": "Join two tables (see https://support.zippydoc.de/en/join/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
   "scriptSettings": {
     "autoLoadTable": [

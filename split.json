@@ -1,5 +1,5 @@
 {
-  "description": "Split records at punctuation, whitespace and more",
+  "description": "Split records at punctuation, whitespace and more (see https://support.zippydoc.de/en/split/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Split.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Add labels to found items",
+  "description": "Add labels to found items (see https://support.zippydoc.de/en/label/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Label.gif",
   "scriptSettings": {
     "autoLoadTable": [

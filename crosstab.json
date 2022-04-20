@@ -1,5 +1,5 @@
 {
-  "description": "Produce Pivot display table",
+  "description": "Produce Pivot display table (see https://support.zippydoc.de/en/crosstab/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/CrossTab.gif",
   "scriptSettings": {
     "autoLoadTable": [

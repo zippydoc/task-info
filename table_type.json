@@ -1,5 +1,5 @@
 {
-  "description": "Change table type.",
+  "description": "Change table type (see https://support.zippydoc.de/en/transpose/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "scriptSettings": {
     "autoLoadTable": [

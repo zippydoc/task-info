@@ -1,5 +1,5 @@
 {
-  "description": "Perform matrix addition/multiplication for two tables",
+  "description": "Perform matrix addition/multiplication for two tables (see https://support.zippydoc.de/en/vector/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Vector.gif",
   "scriptSettings": {
     "autoLoadTable": [

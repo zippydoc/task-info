@@ -1,5 +1,5 @@
 {
-  "description": "Find and return match/no-match",
+  "description": "Find and return match/no-match (see https://support.zippydoc.de/en/find/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Find.gif",
   "scriptSettings": {
     "autoLoadTable": [

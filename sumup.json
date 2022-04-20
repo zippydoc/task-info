@@ -1,5 +1,5 @@
 {
-  "description": "Build groups and calculate sums, averages and more",
+  "description": "Build groups and calculate sums, averages and more (see https://support.zippydoc.de/en/sum-up/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SumUp.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Delete a specified table",
+  "description": "Delete a specified table (see https://support.zippydoc.de/en/delete/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
   "scriptSettings": {
     "autoLoadTable": [

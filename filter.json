@@ -1,5 +1,5 @@
 {
-  "description": "Output rows that match your filter conditions",
+  "description": "Output rows that match your filter conditions (see https://support.zippydoc.de/en/filter/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Filter2.gif",
   "scriptSettings": {
     "autoLoadTable": [

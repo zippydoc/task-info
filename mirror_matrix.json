@@ -1,5 +1,5 @@
 {
-  "description": "Transpose columns to rows and rows to columns",
+  "description": "Transpose columns to rows and rows to columns (see https://support.zippydoc.de/en/mirror-matrix/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Transpose.gif",
   "scriptSettings": {
     "autoLoadTable": [

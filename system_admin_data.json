@@ -1,0 +1,30 @@
+{
+  "description": "Get System Data table like Resource Consumption, My Flows Log, My Table Permissions, My Tables and My Tasks Log",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/System-Data.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "System Admin Data",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "userIds": ["2","34","38","41"]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SystemAdminDataOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SystemData.py?ref=master",
+  "version": 1.0
+}

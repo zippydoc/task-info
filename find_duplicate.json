@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Find Duplicates",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Common Tasks",
 	"attributes": [

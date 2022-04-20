@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "German Holidays",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Facts & Figures",
 	"attributes": [

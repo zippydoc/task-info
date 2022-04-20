@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Import from DB",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Import & Export",
 	"attributes": [

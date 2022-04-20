@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Join",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Join.png",
     "type": "Expert Tasks"
   },

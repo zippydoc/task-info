@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Find Group",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Expert Tasks",
     "attributes": [

@@ -14,7 +14,7 @@
       "EN"
     ],
     "displayName": "Flexmonster Pie",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [

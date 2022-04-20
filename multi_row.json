@@ -14,7 +14,7 @@
       "EN"
     ],
     "displayName": "Row by Row",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Common Tasks",
 	"attributes": [

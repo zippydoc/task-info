@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Balance Sheet PDF",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Create Reports",
 	"attributes": [

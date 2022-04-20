@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Add Column",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
     "type": "Common Tasks",
 	"attributes": [

@@ -12,7 +12,7 @@
       "EN"
     ],
     "displayName": "Export to Github",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Import & Export",
 	"attributes": [

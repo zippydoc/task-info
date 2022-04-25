@@ -14,7 +14,10 @@
     "displayName": "Join",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Join.png",
-    "type": "Expert Tasks"
+    "type": "Expert Tasks",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
   },
   "menu": [
     {

@@ -14,7 +14,10 @@
     "displayName": "Auto-Fill",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Expert Tasks"
+    "type": "Expert Tasks",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
   },
   "menu": [
     {

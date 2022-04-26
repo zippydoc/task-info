@@ -14,7 +14,7 @@
     "displayName": "Consolidate",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Expert Tasks",
+    "type": "Beta",
     "attributes": [
         "1-input","Guest-User","Starter-Screen"
     ]

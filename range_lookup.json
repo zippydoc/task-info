@@ -14,7 +14,10 @@
     "displayName": "Range Lookup",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Expert Tasks"
+    "type": "Expert Tasks",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
   },
   "menu": [
     {

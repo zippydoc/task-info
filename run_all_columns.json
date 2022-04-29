@@ -22,9 +22,6 @@
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTask.json?ref=prod"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/RunAllColumns.py?ref=prod",

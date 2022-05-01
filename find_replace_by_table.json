@@ -16,7 +16,7 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find-Replace.png",
     "type": "Expert Tasks",
 	"attributes": [
-      "1-Input","Starter-Screen"
+      "1-Input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

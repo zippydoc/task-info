@@ -12,11 +12,11 @@
       "EN"
     ],
     "displayName": "Create PDF in Dropbox",
-    "payingUsersOnly": true,
+    "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Create Reports",
+    "type": "Beta Tasks",
 	"attributes": [
-      "0-input","Starter-Screen"
+      "0-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

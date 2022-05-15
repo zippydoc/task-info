@@ -14,7 +14,7 @@
     "displayName": "Vector",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Vector.png",
-    "type": "Expert Tasks",
+    "type": "Beta",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

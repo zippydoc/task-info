@@ -14,7 +14,7 @@
     "displayName": "Label",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Label.png",
-    "type": "Common Tasks",
+    "type": "Find & Summarize",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

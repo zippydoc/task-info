@@ -14,7 +14,7 @@
     "displayName": "Export to Github",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Export",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

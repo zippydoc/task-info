@@ -14,7 +14,7 @@
     "displayName": "Find Duplicates",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Common Tasks",
+    "type": "Find & Summarize",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

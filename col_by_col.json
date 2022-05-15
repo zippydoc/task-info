@@ -14,11 +14,11 @@
     "displayName": "Col by Col",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Common Tasks",
+    "type": "Add & Modify",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	],
-    "userIds": [1]
+    "userIds": ["1","3","5","86"]
   },
   "menu": [
     {

@@ -14,7 +14,7 @@
     "displayName": "Select Columns",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Select.png",
-    "type": "Common Tasks",
+    "type": "Prepare",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

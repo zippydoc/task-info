@@ -1,5 +1,5 @@
 {
-  "description": "Track time of whatever you want",
+  "description": "This tasks generates a table with a current time-stamp of the runtime",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Schedule7.gif",
   "scriptSettings": {
     "autoLoadTable": [

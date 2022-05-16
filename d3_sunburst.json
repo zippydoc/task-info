@@ -1,5 +1,5 @@
 {
-  "description": "Show D3 Sunburst chart",
+  "description": "Generate a D3 Sunburst chart from your table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Sunburst.gif",
   "scriptSettings": {
     "autoLoadTable": [

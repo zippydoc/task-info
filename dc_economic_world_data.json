@@ -1,5 +1,5 @@
 {
-  "description": "Explore various economic statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "description": "Compare Economic data in a D3 Sunburst Chart; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Economics_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [

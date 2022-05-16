@@ -1,5 +1,5 @@
 {
-  "description": "Replace a string with other column value",
+  "description": "Replace a value X in column 1 with a value of column 2 (same row)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Consolidate8.gif",
   "scriptSettings": {
     "autoLoadTable": [

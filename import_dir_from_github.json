@@ -1,5 +1,5 @@
 {
-  "description": "Import data from a Github directory",
+  "description": "Import all files of a directory from a Github",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-Github-Directory.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Send E-mail",
+  "description": "Send E-mail (only for users logged in via Microsoft-Account)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Visualize the correlation between two statistical variables across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Visualize correlation between statistical variables across different datasets; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Correlate.gif",
   "scriptSettings": {
     "autoLoadTable": [

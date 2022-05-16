@@ -1,5 +1,5 @@
 {
-  "description": "Explore various health statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "description": "Compare health country data in an D3 sunburst chart; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Health_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [

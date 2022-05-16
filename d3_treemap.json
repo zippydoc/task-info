@@ -1,5 +1,5 @@
 {
-  "description": "Show D3 Treemap chart",
+  "description": "Generate a D3 Treemap chart from your table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Treemap.gif",
   "scriptSettings": {
     "autoLoadTable": [

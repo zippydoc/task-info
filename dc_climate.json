@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various climate statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore climate time series; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Climate.gif",
   "scriptSettings": {
     "autoLoadTable": [

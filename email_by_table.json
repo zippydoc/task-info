@@ -1,5 +1,5 @@
 {
-  "description": "Send batch E-mails by table",
+  "description": "Send batch E-mails by table (only for users logged in via Microsoft-Account)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
   "scriptSettings": {
     "autoLoadTable": [

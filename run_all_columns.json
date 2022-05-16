@@ -1,5 +1,5 @@
 {
-  "description": "Modifies an already existing task of the same flow",
+  "description": "Run a selected task of your flow on all columns of a table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
   "scriptSettings": {
     "autoLoadTable": [

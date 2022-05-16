@@ -1,5 +1,5 @@
 {
-  "description": "Show D3 Tree chart",
+  "description": "Generate a D3 Tree chart from your table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Tree.gif",
   "scriptSettings": {
     "autoLoadTable": [

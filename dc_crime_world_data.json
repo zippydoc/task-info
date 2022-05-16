@@ -1,5 +1,5 @@
 {
-  "description": "Explore various crime statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "description": "Compare Crime country data; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Crime_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [

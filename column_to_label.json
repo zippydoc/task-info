@@ -1,5 +1,5 @@
 {
-  "description": "Transpose columns to labels",
+  "description": "Transpose columns to rows",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ColumnToLabel.gif",
   "scriptSettings": {
     "autoLoadTable": [

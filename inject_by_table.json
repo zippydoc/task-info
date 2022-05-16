@@ -1,5 +1,5 @@
 {
-  "description": "Find cell content and replace by different content in a replacement table",
+  "description": "Find cell content and replace by different content in a replacement table (Word-by-Word tables only)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/InjectByTable.gif",
   "scriptSettings": {
     "autoLoadTable": [

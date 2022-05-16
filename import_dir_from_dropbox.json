@@ -1,5 +1,5 @@
 {
-  "description": "Import data from a Dropbox directory",
+  "description": "Import all files of a directory from Dropbox",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-Dropbox-Directory.gif",
   "scriptSettings": {
     "autoLoadTable": [

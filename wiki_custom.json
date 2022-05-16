@@ -1,5 +1,5 @@
 {
-  "description": "Get Wiki data by custom SPARQL query",
+  "description": "Download Wikidata information by your custom SPARQL query",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment.gif",
   "scriptSettings": {
     "autoLoadTable": [

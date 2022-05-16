@@ -1,5 +1,5 @@
 {
-  "description": "Conversion to various table formats",
+  "description": "Conversion to various table styles (0x0...3x3)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Convert.gif",
   "scriptSettings": {
     "autoLoadTable": [

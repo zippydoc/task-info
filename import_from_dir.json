@@ -14,7 +14,7 @@
     "displayName": "Import Directory",
     "payingUsersOnly": true,
     "explanationPicture": "",
-    "type": "Beta",
+    "type": "Beta Tasks",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],

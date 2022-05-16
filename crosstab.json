@@ -14,7 +14,7 @@
     "displayName": "Crosstab",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Crosstab.png",
-    "type": "Common Tasks",
+    "type": "Add & Modify",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

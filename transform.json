@@ -1,0 +1,67 @@
+{
+  "description": "Change or get formatting or header information of a specified table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Transform",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Expert Tasks",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TransformOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=main",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputAsNewTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectOutputColumn.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ReverseOrder.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transform.py?ref=master",
+  "version": 1.0
+}

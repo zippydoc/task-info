@@ -14,7 +14,7 @@
     "displayName": "Copy",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Copy.png",
-    "type": "Common Tasks",
+    "type": "Prepare",
     "attributes": [
         "1-input","Guest-User","Starter-Screen"
     ]

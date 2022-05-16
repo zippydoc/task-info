@@ -14,9 +14,9 @@
     "displayName": "Inject by Table",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Text Tasks",
+    "type": "Add & Modify",
 	"attributes": [
-      "2-Input"
+      "2-Input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

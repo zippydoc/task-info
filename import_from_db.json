@@ -14,7 +14,7 @@
     "displayName": "Import from DB",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Import & Export",
+    "type": "Import",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]

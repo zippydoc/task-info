@@ -14,7 +14,7 @@
     "displayName": "Inject",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Text Tasks",
+    "type": "Add & Modify",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

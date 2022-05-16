@@ -14,7 +14,7 @@
     "displayName": "Replace by Table",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find-Replace.png",
-    "type": "Expert Tasks",
+    "type": "Multiple Input Tables",
 	"attributes": [
       "1-Input","Guest-User","Starter-Screen"
 	]

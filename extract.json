@@ -14,7 +14,7 @@
     "displayName": "Extract",
     "payingUsersOnly": false,
     "explanationPicture": "",
-    "type": "Text Tasks",
+    "type": "Find & Summarize",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

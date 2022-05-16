@@ -1,5 +1,5 @@
 {
-  "description": "Convert to Word-by-Word table",
+  "description": "Convert Line-by-Line to a Word-by-Word table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Convert.gif",
   "scriptSettings": {
     "autoLoadTable": [

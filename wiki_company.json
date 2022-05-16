@@ -1,5 +1,5 @@
 {
-  "description": "Get a list of Companies per Country",
+  "description": "WikidData task example: Get a list of Companies per Country",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment.gif",
   "scriptSettings": {
     "autoLoadTable": [

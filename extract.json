@@ -1,5 +1,5 @@
 {
-  "description": "Find cell content frame by frame only for WordByWord type of table",
+  "description": "Find cell content by framingconditions (Word-by-Word table only); example: find x in f(x)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Inject.gif",
   "scriptSettings": {
     "autoLoadTable": [

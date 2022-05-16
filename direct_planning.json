@@ -1,5 +1,5 @@
 {
-  "description": "Convert periodicy information e.g. weeks or month into a transaction list",
+  "description": "Render an integrated planning package (P&L, Cash-Flow and Balance Sheet) easy",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DirectPlanning.gif",
   "scriptSettings": {
     "autoLoadTable": [

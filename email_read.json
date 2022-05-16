@@ -1,5 +1,5 @@
 {
-  "description": "Read E-mails",
+  "description": "Read E-mails (only for users logged in via Microsoft-Account)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Read-Emails.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Apply your own formula to create a new row",
+  "description": "Apply your own formulas to create new rows",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddCustomRow.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Append a second table (see https://support.zippydoc.de/en/append/ )",
+  "description": "Append a second table to a first one (see https://support.zippydoc.de/en/append/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Append.gif",
   "scriptSettings": {
     "autoLoadTable": [

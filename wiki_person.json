@@ -1,5 +1,5 @@
 {
-  "description": "Get female persons educated at University of Edinburgh ",
+  "description": "Example of a task to Wikidata-API: Get female persons educated at University of Edinburgh ",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment.gif",
   "scriptSettings": {
     "autoLoadTable": [

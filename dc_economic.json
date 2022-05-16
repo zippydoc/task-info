@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various economic data like GDP, GNI across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore Economic time series; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Economics.gif",
   "scriptSettings": {
     "autoLoadTable": [

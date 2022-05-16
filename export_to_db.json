@@ -1,5 +1,5 @@
 {
-  "description": "Export data to database",
+  "description": "Export data to a database",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExportToDB.gif",
   "scriptSettings": {
     "autoLoadTable": [

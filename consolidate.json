@@ -1,5 +1,5 @@
 {
-  "description": "Consolidate two tables",
+  "description": "Consolidate two tables - only for tables with row-headers e.g. 1x1 tables",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Consolidate.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Select first, last, random and more (see https://support.zippydoc.de/en/select/ )",
+  "description": "Select first, last, random rows and more (see https://support.zippydoc.de/en/select/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Select.gif",
   "scriptSettings": {
     "autoLoadTable": [

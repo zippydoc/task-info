@@ -1,5 +1,5 @@
 {
-  "description": "Output background info table",
+  "description": "Get all background info (formatting etc.) of an Excel table (for Excel-Add-In only)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Table.gif",
   "scriptSettings": {
     "autoLoadTable": [

@@ -1,5 +1,5 @@
 {
-  "description": "Explore various employment statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "description": "Compare Employment data in a D3 Sunburst chart ;datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Employment_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [

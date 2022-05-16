@@ -1,5 +1,5 @@
 {
-  "description": "Generate an impact-curve",
+  "description": "Generate table lists in the shape of linear, jump-fix or standard distribution curves",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ImpactCurve.gif",
   "scriptSettings": {
     "autoLoadTable": [

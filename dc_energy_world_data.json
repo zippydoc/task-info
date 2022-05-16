@@ -1,5 +1,5 @@
 {
-  "description": "Explore various energy statistical data and show in a D3 chart across different datasets like CDC, US Census, World Bank, Eurostats and OECD ",
+  "description": "Compare energy consumption of countries in a D3 sunburst chart; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Energy_Snbst.gif",
   "scriptSettings": {
     "autoLoadTable": [

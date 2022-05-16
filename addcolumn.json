@@ -1,5 +1,5 @@
 {
-  "description": "Apply your own formula to create a new column (see https://support.zippydoc.de/en/add-column/ )",
+  "description": "Apply build-in or your own formulas to create a new column (see https://support.zippydoc.de/en/add-column/ )",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [

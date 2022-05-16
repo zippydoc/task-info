@@ -1,5 +1,5 @@
 {
-  "description": "Explore and analyze various education statistical data across different datasets like CDC, US Census, World Bank, Eurostats and OECD",
+  "description": "Explore Education time series; datasource: API of datacommons.org",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Education.gif",
   "scriptSettings": {
     "autoLoadTable": [

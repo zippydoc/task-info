@@ -1,5 +1,5 @@
 {
-  "description": "Import data from MS One Drive",
+  "description": "Import files from MS One Drive",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-File-from-MS-One-Drive.gif",
   "scriptSettings": {
     "autoLoadTable": [

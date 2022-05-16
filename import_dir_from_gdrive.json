@@ -1,5 +1,5 @@
 {
-  "description": "Import data from a Google Drive directory",
+  "description": "Import all files from a directory from Google Drive",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Import-Google-Drive-Directory.gif",
   "scriptSettings": {
     "autoLoadTable": [

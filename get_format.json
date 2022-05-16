@@ -1,5 +1,5 @@
 {
-  "description": "Get common formatting info of specific columns/rows",
+  "description": "Get Excel formatting info of specific columns/rows (for Excel-Add-In only)",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
   "scriptSettings": {
     "autoLoadTable": [

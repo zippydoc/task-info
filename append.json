@@ -21,35 +21,36 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendInput.json?ref=prod"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutputWithoutInputTable.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendInput.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
-          "property": "output/fields",
-          "after": "output.custom_options"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "property": "input/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=prod",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
-          "property": "output/fields",
-          "after": "output_config_frame"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=prod",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumnWithTable.json?ref=prod",
-          "property": "output/fields",
-          "after": "download_setting_frame"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ReverseOrder.json?ref=prod",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AppendIfTableExist.json?ref=prod",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
+          "property": "output/fields"
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/LimitOutput.json?ref=prod",
-          "property": "output/fields",
-          "after": "compose_table_name_frame"
+          "property": "output/fields"
         }
       ]
     }

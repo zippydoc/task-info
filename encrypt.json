@@ -60,10 +60,6 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
           "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=prod",
-          "property": "output/fields"
         }
       ]
     }

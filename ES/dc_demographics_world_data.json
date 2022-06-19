@@ -1,0 +1,65 @@
+{
+  "description": "Explorar series temporales de empleo; fuente de datos: API de datacommons.org",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Demogaphics_Snbst.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Demografía (datacom.)",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Facts & Figures",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DCDemographicsWorldDataOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//Years.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//Countries.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.all_countries"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//DataCommonsDescription.json?ref=main",
+          "property": "options_frame/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DataCommonsOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DataCommonsWorldData.py?ref=master",
+  "version": 1.0
+}

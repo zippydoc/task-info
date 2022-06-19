@@ -1,0 +1,53 @@
+{
+  "description": "用密码加密特定的列/行（见https://support.zippydoc.de/en/encrypt/ ）",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Read-Emails.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Read E-mails",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "mail.readwrite"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/EmailReadOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//output/OutputSettingTickbox.json?ref=main",
+          "property": "options_frame/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//output/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//output/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",
+  "version": 1.0
+}

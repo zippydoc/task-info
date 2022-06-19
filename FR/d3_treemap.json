@@ -1,0 +1,32 @@
+{
+  "description": "Générer un graphique D3 Treemap à partir de votre tableau",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Treemap.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "D3 Treemap",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/FlexmonsterInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/D3TreemapOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",
+  "version": 1.0
+}

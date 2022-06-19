@@ -1,0 +1,51 @@
+{
+  "description": "Crear PDF de balance y/o exportar a un directorio en la nube",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/PDF-Writer.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Balance en PDF",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Beta Tasks",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "files.readwrite.all",
+    "ms_oauth2_menu_condition": "webservice=='ms_one_drive' && (where_to_create=='only_export_to_cloud' || where_to_create=='both_export_to_cloud_and_open_in_browser')"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/pdf-repro/BalanceSheetOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//PdfOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//OutputConfig.json?ref=main",
+          "property": "output/fields",
+          "after": "output.custom_options"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//DownloadSettings.json?ref=main",
+          "property": "output/fields",
+          "after": "output_config_frame"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//IfTableExist.json?ref=main",
+          "property": "output/fields/output_config_frame/fields",
+          "after": "output.tag_name"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfBalanceSheet.py?ref=master",
+  "version": 1.0
+}

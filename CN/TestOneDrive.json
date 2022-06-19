@@ -1,0 +1,29 @@
+{
+  "description": "Temporary test file",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Test-OneDrive",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "ExpertTableTask",
+	"attributes": [
+      "1-input","Guest-User"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/TestOneDrive.py?ref=master",
+  "version": 1.0
+}

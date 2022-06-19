@@ -1,0 +1,67 @@
+{
+  "description": "Импорт файлов из Github",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Электронная почта по таблице",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "mail.send"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/EmailByTableOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/EmailFilterOptions.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.embed_table_footer"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/EmailEmbedOutput.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "info3"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/OutputSettingTickbox.json?ref=main",
+          "property": "options_frame/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/OutputAsNewTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/ComposeTableName.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//output/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",
+  "version": 1.0
+}

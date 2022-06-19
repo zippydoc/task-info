@@ -1,0 +1,29 @@
+{
+  "description": "ユニークレコードと重複レコードでテーブルを分解する（https://support.zippydoc.de/en/unique/ 参照）",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Run all Columns",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP//SelectTask.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunAllColumns.py?ref=master",
+  "version": 1.0
+}

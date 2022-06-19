@@ -1,0 +1,53 @@
+{
+  "description": "Aplicar su propia fórmula a una columna (ver https://support.zippydoc.de/en/formula/ )",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Read-Emails.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Leer correos electrónicos",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "mail.readwrite"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/EmailReadOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//output/OutputSettingTickbox.json?ref=main",
+          "property": "options_frame/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//output/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES//output/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",
+  "version": 1.0
+}

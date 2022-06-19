@@ -1,0 +1,42 @@
+{
+  "description": "Buscar y devolver la coincidencia/no coincidencia (ver https://support.zippydoc.de/en/find/ )",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Correo electrónico",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "mail.send"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/EmailByMenuOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/EmailFilterOptions.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.embed_table_footer"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/EmailEmbedOutput.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "info3"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",
+  "version": 1.0
+}

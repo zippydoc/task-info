@@ -1,0 +1,34 @@
+{
+  "description": "Show Flexmonster report bar chart",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Bar-Chart.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1",
+      "table2"
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Flexmonster Bar",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/FlexmonsterInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/FlexmonsterBarOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=master",
+  "version": 1.0
+}

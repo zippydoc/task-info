@@ -1,0 +1,35 @@
+{
+  "description": "Wenn eine oder mehrere Übereinstimmungen gefunden werden, wird die ausgewählte Aufgabe ausgeführt",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunAll.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Laufen, wenn gefunden",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find.png",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE//SelectTable.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/RunIfFoundOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE//SelectTask.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunIfFound.py?ref=master",
+  "version": 1.0
+}

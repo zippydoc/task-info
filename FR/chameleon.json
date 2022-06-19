@@ -1,0 +1,35 @@
+{
+  "description": "Modifie une tâche déjà existante du même flux",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Caméléon",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR//SelectTask.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ChameleonOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR//StandardOutput.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",
+  "version": 1.0
+}

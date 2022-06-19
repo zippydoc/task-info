@@ -1,0 +1,38 @@
+{
+  "description": "Сравнение стран COVID-19 в диаграмме D3 Sunburst; источник данных: API сайта datacommons.org",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Rename.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Переименовать",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Rename.png",
+    "type": "Prepare",
+    "attributes": [
+        "1-input","Guest-User","Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU//SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RenameTableInput.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RenameTableOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",
+  "version": 1.0
+}

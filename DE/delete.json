@@ -1,0 +1,35 @@
+{
+  "description": "Löschen einer bestimmten Tabelle oder von Zeilen einer Tabelle (siehe https://support.zippydoc.de/en/delete/ )",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Lösche",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Delete.png",
+    "type": "Prepare",
+    "attributes": [
+        "1-input","Guest-User","Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE//SelectTable.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/DeleteOptions.json?ref=main",
+          "property": "fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py?ref=master",
+  "version": 1.0
+}

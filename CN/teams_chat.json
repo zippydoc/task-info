@@ -1,0 +1,37 @@
+{
+  "description": "Post a teams-chat by the logged in Microsoft user to one or more Teams-Users",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Teams-Chat.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Teams Chat",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Beta Tasks",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "chat.create chatmessage.send"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/TeamsChatOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/EmailFilterOptions.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.add_table"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/TeamsChat.py?ref=master",
+  "version": 1.0
+}

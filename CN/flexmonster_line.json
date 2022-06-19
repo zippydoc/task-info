@@ -1,0 +1,34 @@
+{
+  "description": "Show Flexmonster report line chart",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Flexmonster-Line-Chart.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1",
+      "table2"
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Flexmonster系列",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/FlexmonsterInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/FlexmonsterLineOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Flexmonster.py?ref=master",
+  "version": 1.0
+}

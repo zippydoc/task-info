@@ -1,0 +1,34 @@
+{
+  "description": "Adicionar ou apagar permissões às colunas/linhas de uma tabela (ver https://support.zippydoc.de/en/add-permission/ )",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+      "table1",
+      "table2"
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Autorização de tabela",
+    "payingUsersOnly": true,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
+    "type": "Share Data",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/TablePermissionInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/AddPermissionOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddPermission.py?ref=master",
+  "version": 1.0
+}

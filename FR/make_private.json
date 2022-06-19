@@ -1,0 +1,30 @@
+{
+  "description": "Rendre la table privée",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Lock1.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Rendre privé",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Share Data",
+	"attributes": [
+      "1-input","Starter-Screen"
+	]
+  },
+  "userIds": ["212","34","38","480","41"],
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR//SelectTable.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/MakePrivate.py?ref=master",
+  "version": 1.0
+}

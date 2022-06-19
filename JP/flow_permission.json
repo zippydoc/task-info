@@ -1,0 +1,32 @@
+{
+  "description": "現在のフローに権限を追加・削除",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/FlowPermission.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "フローパーミッション",
+    "payingUsersOnly": true,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
+    "type": "Share Data",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/FlowPermissionInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/AddPermissionOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/AddPermission.py?ref=master",
+  "version": 1.0
+}

@@ -24,7 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/Test2Options.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN//Debug.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/Debug.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Test.py?ref=master",

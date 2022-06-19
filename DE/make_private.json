@@ -22,7 +22,7 @@
   "userIds": ["212","34","38","480","41"],
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE//SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/MakePrivate.py?ref=master",

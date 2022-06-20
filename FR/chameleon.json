@@ -21,13 +21,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectTask.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectTask.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/ChameleonOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/StandardOutput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/StandardOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",

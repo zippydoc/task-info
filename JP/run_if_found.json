@@ -21,13 +21,13 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTable.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/SelectTable.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/RunIfFoundOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/SelectTask.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/SelectTask.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/RunIfFound.py?ref=master",

@@ -21,7 +21,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/SelectFlow.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/SelectFlow.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/RunFlowOptions.json?ref=main"

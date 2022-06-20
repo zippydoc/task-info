@@ -24,22 +24,22 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DCCOVID19WorldDataOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/YearsWithoutBreakline.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/YearsWithoutBreakline.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.per_capita"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/Months.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Months.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.sel_year"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/Countries.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.all_countries"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/DataCommonsDescription.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/DataCommonsDescription.json?ref=main",
           "property": "options_frame/fields"
         }
       ]
@@ -48,17 +48,17 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/DataCommonsOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/OutputConfig.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/ES/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }

@@ -21,30 +21,30 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/SelectTask.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/SelectTask.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/RunAllOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/output/OutputSettingTickbox.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/output/OutputSettingTickbox.json?ref=main",
           "property": "options/fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/output/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/output/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/output/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/output/IfTableExist.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/RU/output/AddTag.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RU/common-snippets/output/AddTag.json?ref=main",
           "property": "output/fields"
         }
       ]

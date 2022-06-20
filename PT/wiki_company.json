@@ -21,26 +21,26 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/output/RootOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/output/RootOutput.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/wiki-data/CompanyListOptions.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/output/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/output/IfTableExist.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/output/ReverseOrder.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/output/ReverseOrder.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/output/AddTag.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/output/AddTag.json?ref=main",
           "property": "output/fields"
         }
       ]

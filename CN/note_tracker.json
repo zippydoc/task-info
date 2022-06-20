@@ -24,15 +24,15 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/NoteTrackerOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/TrackerOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/TrackerOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/OutputConfig.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/CN/IfTableExistWithAppendAllDefault.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/IfTableExistWithAppendAllDefault.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }

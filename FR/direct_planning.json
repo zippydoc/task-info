@@ -35,7 +35,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/PlanningOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=main",
           "property": "output/fields"
         },
         {

@@ -24,33 +24,33 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/DCEconomicOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/DataCommonsDescription.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/DataCommonsDescription.json?ref=main",
           "property": "options_frame/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/Countries.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.stat_vars"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/output/DataCommonsOutputSettingTickbox.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/output/DataCommonsOutputSettingTickbox.json?ref=main",
           "property": "options_frame/fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/output/DataCommonsOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/output/DataCommonsOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/output/ComposeTableNameWithoutInputTable.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/output/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/output/IfTableExist.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/JP/output/AddTag.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/output/AddTag.json?ref=main",
           "property": "output/fields"
         }
       ]

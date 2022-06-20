@@ -21,7 +21,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PT/SelectTask.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PT/common-snippets/SelectTask.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/RunAllColumns.py?ref=master",

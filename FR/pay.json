@@ -27,28 +27,28 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/PayOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/OutputSettingTickbox.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/OutputSettingTickbox.json?ref=main",
           "property": "options/fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/ComposeTableNameWithoutAsNewTable.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/ComposeTableNameWithoutAsNewTable.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/IfTableExist.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/ReverseOrder.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/ReverseOrder.json?ref=main",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/FR/output/AddTag.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FR/common-snippets/output/AddTag.json?ref=main",
           "property": "output/fields"
         }
       ]

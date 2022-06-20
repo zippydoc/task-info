@@ -21,10 +21,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectTable.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectTable.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/SelectColumnRowDefaultAll.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/SelectColumnRowDefaultAll.json?ref=main",
           "property": "fields"
         }
       ]
@@ -33,20 +33,20 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/GetFormatOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/StandardOutput.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/OutputConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/OutputConfig.json?ref=main",
           "property": "output/fields",
           "after": "output.custom_options"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/DownloadSettings.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/DownloadSettings.json?ref=main",
           "property": "output/fields",
           "after": "output_config_frame"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DE/IfTableExist.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/common-snippets/IfTableExist.json?ref=main",
           "property": "output/fields/output_config_frame/fields",
           "after": "output.tag_name"
         }

@@ -1,0 +1,32 @@
+{
+  "description": "从你的表格中生成一个D3 Treemap图表",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Tree.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "CN"
+    ],
+    "displayName": "D3树",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/FlexmonsterInput.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/D3TreeOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",
+  "version": 1.0
+}

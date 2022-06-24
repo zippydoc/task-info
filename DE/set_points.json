@@ -1,0 +1,30 @@
+{
+  "description": "Punkte an den/die Benutzer setzen",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SetPoints.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "DE"
+    ],
+    "displayName": "Punkte setzen",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Share Data",
+	"attributes": [
+      "0-input","Starter-Screen"
+	]
+  },
+  "userIds": ["212","34","38","480","41"],
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DE/SetPointsOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=master",
+  "version": 1.0
+}

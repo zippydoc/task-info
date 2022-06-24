@@ -1,0 +1,67 @@
+{
+  "description": "阅读电子邮件（仅适用于通过Microsoft-Account登录的用户）",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "CN"
+    ],
+    "displayName": "按表格发送电子邮件",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	],
+    "ms_oauth2_scope": "mail.send"
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/EmailByTableOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/EmailFilterOptions.json?ref=main",
+          "property": "options_frame/fields",
+          "after": "options.embed_table_footer"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/EmailEmbedOutput.json?ref=main",
+          "property": "options_frame/fields",
+          "before": "info3"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/OutputSettingTickbox.json?ref=main",
+          "property": "options_frame/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/OutputAsNewTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/ComposeTableName.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CN/common-snippets/output/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Email.py?ref=master",
+  "version": 1.0
+}

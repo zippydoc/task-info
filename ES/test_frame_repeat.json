@@ -1,0 +1,32 @@
+{
+  "description": "Archivo de prueba temporal",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "ES"
+    ],
+    "displayName": "Repetición del marco de prueba",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Expert Tasks",
+	"attributes": [
+      "1-input","Guest-User"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/TestFrameRepeatOptions.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ES/common-snippets/Debug.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Test.py?ref=master",
+  "version": 1.0
+}

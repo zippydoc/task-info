@@ -1,5 +1,5 @@
 {
-  "description": "Support list maintainance in expanding lists like 'a,b,c' in one row per item and back",
+  "description": "Support list maintainance in expanding lists like a,b,c in one row per item and back",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
   "scriptSettings": {
     "autoLoadTable": [

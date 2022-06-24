@@ -1,5 +1,5 @@
 {
-  "description": "Apply the formatting info to the table data itself e.g. '34', formatted as €, converts to '34 €'",
+  "description": "Apply the formatting info to the table data itself e.g. 34, formatted as €, converts to 34 €",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ApplyFormat.gif",
   "scriptSettings": {
     "autoLoadTable": [

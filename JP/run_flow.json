@@ -1,0 +1,32 @@
+{
+  "description": "2つのテーブルに対して行列の加算/乗算を実行する（https://support.zippydoc.de/en/vector/ 参照）",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunAll.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "JP"
+    ],
+    "displayName": "「ランフロー",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/common-snippets/SelectFlow.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JP/RunFlowOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunFlow.py?ref=master",
+  "version": 1.0
+}

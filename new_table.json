@@ -1,5 +1,5 @@
 {
-  "description": "Apply build-in or your own formulas to create a new column (see https://support.zippydoc.de/en/add-column/ )",
+  "description": "Create empty table with the specified number of rows and specified columns",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [

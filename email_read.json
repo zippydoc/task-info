@@ -16,7 +16,7 @@
     "explanationPicture": "",
     "type": "Automate",
 	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
+      "0-input","Guest-User","Starter-Screen","MS-User-Only"
 	],
     "ms_oauth2_scope": "mail.readwrite"
   },

@@ -16,7 +16,7 @@
     "explanationPicture": "",
     "type": "Export",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
+      "1-input","Guest-User","Starter-Screen","MS-User-Only"
 	],
     "ms_oauth2_scope": "files.readwrite.all"
   },

@@ -16,7 +16,7 @@
     "explanationPicture": "",
     "type": "Beta Tasks",
 	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
+      "0-input","Guest-User","Starter-Screen","MS-User-Only"
 	],
     "ms_oauth2_scope": "files.readwrite.all",
     "ms_oauth2_menu_condition": "options.webservice=='ms_one_drive' && (options.where_to_create=='only_export_to_cloud' || options.where_to_create=='both_export_to_cloud_and_open_in_browser')"

@@ -1,5 +1,5 @@
 {
-  "description": "Transform JSON string to a table",
+  "description": "Transform JSON string to a Table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [

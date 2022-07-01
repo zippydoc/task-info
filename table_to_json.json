@@ -1,5 +1,5 @@
 {
-  "description": "Transform a table to a JSON",
+  "description": "Transform a Table to a JSON",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [

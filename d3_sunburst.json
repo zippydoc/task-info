@@ -27,7 +27,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3SunburstOptions.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/TableInfoSetting.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3SunburstTableInfoSettings.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",

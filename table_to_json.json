@@ -16,7 +16,7 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
     "type": "Prepare",
 	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
+      "1-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

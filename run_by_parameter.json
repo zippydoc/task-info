@@ -1,0 +1,29 @@
+{
+  "description": "Run by Paramter runs a series of tasks",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Run by Parameter",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
+    "type": "Add & Modify",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RunByParameterOptions.json?ref=main"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunByParameter.py?ref=master",
+  "version": 1.0
+}

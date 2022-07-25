@@ -14,7 +14,7 @@
     "displayName": "Update Task",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
-    "type": "Add & Modify",
+    "type": "Automate",
 	"attributes": [
       "1-input","Guest-User","Starter-Screen"
 	]

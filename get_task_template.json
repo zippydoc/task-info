@@ -21,6 +21,9 @@
   },
   "menu": [
     {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/GetTaskTemplateOptions.json?ref=main"
+    },
+    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=main",
       "children": [
         {

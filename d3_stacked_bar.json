@@ -1,5 +1,5 @@
 {
-  "description": "Generate a D3 Sunburst chart from your table",
+  "description": "Generate a D3 Stacked Bar chart from your table",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Sunburst.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "D3 Sunburst",
+    "displayName": "D3 Stacked Bar chart",
     "payingUsersOnly": false,
     "explanationPicture": "",
     "type": "Create Reports",
@@ -21,10 +21,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3SunburstOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3StackedBarChartOptions.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TableInfoSettings.json?ref=main"

@@ -1,0 +1,52 @@
+{
+  "description": "Fetch the complete task.json file (concatenation of menue snippets)",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Get Task Template",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/GetTaskTemplateOptions.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=prod",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/IfTableExist.json?ref=prod",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/GetTaskTemplate.py?ref=prod",
+  "version": 1.0
+}

@@ -14,7 +14,7 @@
     "displayName": "Save Task Template",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
-    "type": "Add & Modify",
+    "type": "Automate",
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	]

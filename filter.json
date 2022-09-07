@@ -16,7 +16,7 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Filter.png",
     "type": "Find & Summarize",
 	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
+      "0-input","Guest-User","Starter-Screen"
 	]
   },
   "menu": [

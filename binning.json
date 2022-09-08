@@ -21,10 +21,10 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTableConfig.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectTableConfig.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnOnlyConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectColumnOnlyConfig.json?ref=main",
           "property": "fields"
         }
       ]
@@ -46,7 +46,7 @@
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectOutputColumnConfig.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectOutputColumnConfig.json?ref=main",
           "property": "output/fields"
         },
         {

@@ -1,5 +1,5 @@
 {
-  "description": "Support list maintainance in expanding lists like 'a,b,c' in one row per item and back",
+  "description": "Support list maintainance in expanding lists like a,b,c in one row per item and back",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ExpandCompress.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -22,7 +22,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTableConfig.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExpandCompressOptions.json?ref=prod",
@@ -58,10 +58,6 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=prod",
           "property": "output/fields"
         }
       ]

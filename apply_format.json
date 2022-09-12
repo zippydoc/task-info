@@ -1,5 +1,5 @@
 {
-  "description": "Apply the formatting info to the table data itself e.g. '34', formatted as €, converts to '34 €'",
+  "description": "Apply the formatting info to the table data itself e.g. 34, formatted as €, converts to 34 €",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ApplyFormat.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -21,7 +21,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTableHiddenIfAutoConfigure.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTableConfig.json?ref=prod",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
@@ -46,10 +46,6 @@
         },
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTag.json?ref=prod",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AutoConfigInputTable.json?ref=prod",
           "property": "output/fields"
         }
       ]

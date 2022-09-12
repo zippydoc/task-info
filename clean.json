@@ -16,15 +16,15 @@
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Clean.png",
     "type": "Prepare",
     "attributes": [
-        "1-input","Guest-User","Starter-Screen"
+        "0-input","Guest-User","Starter-Screen"
     ]
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTableConfig.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectTableConfig.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectColumnRowConfig.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectColumnRowConfig.json?ref=prod",
           "property": "fields"
         }
       ]
@@ -46,7 +46,7 @@
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectOutputColumnConfig.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectOutputColumnConfig.json?ref=prod",
           "property": "output/fields"
         },
         {

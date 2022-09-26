@@ -25,6 +25,9 @@
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TreeOptions.json?ref=prod"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TableInfoSettings.json?ref=prod"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=prod",

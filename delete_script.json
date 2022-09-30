@@ -1,0 +1,29 @@
+{
+  "description": "Delete custom script",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Delete Script",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+	"attributes": [
+      "0-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectCustomScript.json?ref=prod"
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DeleteScript.py?ref=prod",
+  "version": 1.0
+}

@@ -27,7 +27,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/TrackerOutput.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/AddTagWithoutInputTable.json?ref=prod",
           "property": "output/fields",
           "after": "output.custom_options"
         },

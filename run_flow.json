@@ -36,7 +36,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableName.json?ref=main",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ComposeTableNameWithoutInputTable.json?ref=main",
           "property": "output/fields"
         },
         {

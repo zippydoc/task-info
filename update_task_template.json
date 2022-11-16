@@ -1,5 +1,5 @@
 {
-  "description": "Vreate own Task in Task Gallery",
+  "description": "Update existing own Task in Task Gallery",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [
@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Save Task Template",
+    "displayName": "Update Task Template",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
     "type": "Automate",
@@ -21,9 +21,12 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SaveTaskTemplateOptions.json?ref=main"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectCustomScript.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/UpdateTaskTemplateOptions.json?ref=main"
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/SaveTaskTemplate.py?ref=master",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/UpdateTaskTemplate.py?ref=master",
   "version": 1.0
 }

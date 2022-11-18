@@ -1,5 +1,5 @@
 {
-  "description": "Save Task (Update existing or create new if no existing) to create own Task in Task Gallery",
+  "description": "Vreate own Task in Task Gallery",
   "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
   "scriptSettings": {
     "autoLoadTable": [

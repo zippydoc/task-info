@@ -21,7 +21,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectTableConfig.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTable.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FilterOptions.json?ref=prod",
@@ -40,7 +40,7 @@
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v2/SelectOutputColumnConfig.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectOutputColumn.json?ref=prod",
           "property": "output/fields"
         },
         {

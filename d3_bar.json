@@ -21,7 +21,7 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/SelectTable.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/SelectTable.json?ref=prod"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3BarChartOptions.json?ref=prod"

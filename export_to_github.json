@@ -27,16 +27,16 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ExportToGithubOptions.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=prod",
           "property": "options/fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/Export2FileComposeTableName.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/Export2FileComposeTableName.json?ref=prod",
           "property": "output/fields"
         }
       ]

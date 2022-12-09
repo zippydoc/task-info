@@ -24,24 +24,24 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ImportFileFromDropboxOptions.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/OutputSettingTickbox.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=prod",
           "property": "options/fields"
         }
       ]
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=prod",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ImportUseFilenameAsTableName.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ImportUseFilenameAsTableName.json?ref=prod",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/ImportComposeTableName.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ImportComposeTableName.json?ref=prod",
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/output/AddTagWithoutInputTable.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTagWithoutInputTable.json?ref=prod",
           "property": "output/fields"
         }
       ]

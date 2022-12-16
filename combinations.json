@@ -54,6 +54,6 @@
       ]
     }
   ],
-  "script": "https://api.github.com/repos/zippydoc/basic/contents/Combination.py?ref=prod",
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Combination.py?ref=main",
   "version": 1.0
 }

@@ -21,25 +21,35 @@
   },
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CombinationOptions.json?ref=prod"
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=prod",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CombinationOptions.json?ref=main",
       "children": [
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=prod",
-          "property": "output/fields",
-          "after": "output.custom_options"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputAsNewTable.json?ref=main",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
-          "property": "output/fields",
-          "after": "output_config_frame"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableName.json?ref=main",
+          "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/IfTableExist.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTag.json?ref=main",
+          "property": "output/fields"
         }
       ]
     }

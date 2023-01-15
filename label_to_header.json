@@ -1,6 +1,6 @@
 {
   "description": "Generate table by converting label to header",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Consolidate.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/HeaderToLabel.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

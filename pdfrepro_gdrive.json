@@ -36,19 +36,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/pdf-repro/PdfReProOptions2GDrive.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PdfOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/AddTagWithoutInputTable.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/PdfOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/PdfRePro.py?ref=master",

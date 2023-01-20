@@ -18,7 +18,7 @@
 	"attributes": [
       "0-input","Guest-User","Starter-Screen"
 	],
-    "userIds": ["34","41","760"]
+    "userIds": ["3","5","86"]
   },
   "menu": [
     {
@@ -35,10 +35,6 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=prod",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/IfTableExist.json?ref=prod",
           "property": "output/fields"
         },
         {

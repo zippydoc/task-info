@@ -45,11 +45,6 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=prod",
           "property": "output/fields",
           "after": "output_config_frame"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/IfTableExist.json?ref=prod",
-          "property": "output/fields/output_config_frame/fields",
-          "after": "output.tag_name"
         }
       ]
     }

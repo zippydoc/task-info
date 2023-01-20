@@ -38,10 +38,6 @@
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=prod",
           "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/IfTableExist.json?ref=prod",
-          "property": "output/fields"
         }
       ]
     }

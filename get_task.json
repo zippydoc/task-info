@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Get Task",
+    "displayName": "Get task",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
     "type": "Automate",
@@ -31,10 +31,6 @@
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=prod",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/IfTableExist.json?ref=prod",
           "property": "output/fields"
         },
         {

@@ -1,6 +1,6 @@
 {
   "description": "Run by Paramter runs a series of tasks",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunByParameter.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

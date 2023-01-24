@@ -54,11 +54,12 @@
           "property": "output/fields"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableName.json?ref=prod",
-          "property": "output/fields"
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ReverseOrder.json?ref=prod",
+          "property": "output/fields",
+          "after": "output.select_output_columns_type"
         },
         {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ReverseOrder.json?ref=prod",
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableName.json?ref=prod",
           "property": "output/fields"
         },
         {

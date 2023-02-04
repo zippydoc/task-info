@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Flow Permission",
+    "displayName": "Share Flow",
     "payingUsersOnly": true,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
     "type": "Share Data",

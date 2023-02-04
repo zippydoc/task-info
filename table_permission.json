@@ -13,7 +13,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Table Permission",
+    "displayName": "Share Table",
     "payingUsersOnly": true,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
     "type": "Share Data",

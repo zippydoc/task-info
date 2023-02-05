@@ -11,7 +11,7 @@
     "languages": [
       "EN"
     ],
-    "displayName": "Get Task Template",
+    "displayName": "Get Action",
     "payingUsersOnly": false,
     "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
     "type": "Automate",

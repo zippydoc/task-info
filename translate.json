@@ -1,6 +1,6 @@
 {
   "description": "Translate a text in columns of table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Translate.gif",
   "scriptSettings": {
     "autoLoadTable": [
     ],

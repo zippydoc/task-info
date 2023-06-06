@@ -1,0 +1,51 @@
+{
+  "description": "Integrate ChatGPT",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Union.gif",
+  "scriptSettings": {
+    "autoLoadTable": [
+    ],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "ChatGPT",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Union.png",
+    "type": "Multiple Input Tables",
+	"attributes": [
+      "1-input","Guest-User","Starter-Screen"
+	]
+  },
+  "menu": [
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTables.json?ref=main"
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ChatGPTOptions.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
+          "property": "options/fields"
+        }
+      ]
+    },
+    {
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
+      "children": [
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=main",
+          "property": "output/fields"
+        },
+        {
+          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTag.json?ref=main",
+          "property": "output/fields"
+        }
+      ]
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ChatGPT.py?ref=master",
+  "version": 1.0
+}

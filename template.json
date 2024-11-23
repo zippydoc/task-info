@@ -24,7 +24,7 @@
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTable.json?ref=main"
     },
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/TemplateOptions.json?ref=main",
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/LabelOptions.json?ref=main",
       "children": [
         {
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",

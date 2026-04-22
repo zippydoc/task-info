@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>delete</title>
+<link rel="stylesheet" href="../assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>Delete</h1>
+  <p class="description">Delete a specified table (see https://support.zippydoc.de/en/delete/ )</p>
+  <a class="back" href="../index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Delete a specified table (see https://support.zippydoc.de/en/delete/ )", "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Delete.gif", "scriptSettings": {"autoLoadTable": [], "countries": ["US", "UK"], "languages": ["EN"], "displayName": "Delete", "payingUsersOnly": false, "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Delete.png", "type": "Prepare", "attributes": ["1-input", "Guest-User", "Starter-Screen"]}, "menu": [{"input": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"table_id": {"type": "select", "label": "Select Table", "bind": "TABLES", "empty": "", "required": true, "breakLine": true}, "remove_input_table_after_processing": {"type": "hidden", "val": "false"}, "is_word": {"type": "hidden", "val": "false"}}}, "fields": {"placeholder": {"breakLine": true}, "delete_options": {"type": "select", "label": "Delete Options", "required": true, "options": {"del_table": {"label": "Delete Table"}, "del_columns": {"label": "Delete Selected Columns"}, "del_rows": {"label": "Delete Selected Rows"}}, "val": "del_table"}, "apply_columns": {"type": "select", "label": "Select Columns to Delete", "show_if": "delete_options=='del_columns'", "required": true, "table": "table_id", "multiple": true, "bind": "COLUMNS"}, "apply_rows": {"type": "select", "label": "Select Rows to Delete", "show_if": "delete_options=='del_rows'", "required": true, "table": "table_id", "multiple": true, "bind": "LABELS"}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Delete.py?ref=master", "version": 1.0}</script>
+<script src="../assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>user_manage</title>
+<link rel="stylesheet" href="../assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>User Management</h1>
+  <p class="description">Add or delete user</p>
+  <a class="back" href="../index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Add or delete user", "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif", "scriptSettings": {"autoLoadTable": [], "countries": ["US", "UK"], "languages": ["EN"], "displayName": "User Management", "payingUsersOnly": false, "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png", "type": "Add & Modify", "attributes": ["0-input", "Guest-User", "Starter-Screen"]}, "menu": [{"options": {"type": "fieldset", "label": "Select Options", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"options.manage_type": {"type": "select", "label": "Type", "required": true, "options": {"add_user": {"label": "Add user"}, "delete_user": {"label": "Delete user"}}, "val": "add_user", "breakLine": true}, "options.email": {"type": "text", "label": "MS login email", "show_if": "options.manage_type=='add_user'", "required": true, "val": "", "breakLine": true}, "options.user_role": {"type": "select", "label": "User role", "show_if": "options.manage_type=='add_user'", "options": {"ROLE_USER": {"label": "User"}, "ROLE_ADMIN": {"label": "Admin"}}, "val": "ROLE_USER", "breakLine": true}, "options.points": {"type": "number", "label": "Available points", "show_if": "options.manage_type=='add_user'", "required": true, "val": 100, "breakLine": true}, "options.user_id_to_delete": {"type": "number", "label": "User ID", "show_if": "options.manage_type=='delete_user'", "required": true, "val": 0, "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/UserManage.py?ref=master", "version": 1.0}</script>
+<script src="../assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

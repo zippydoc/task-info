@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>set_points</title>
+<link rel="stylesheet" href="../assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>Set Points</h1>
+  <p class="description">Set Points to user(s)</p>
+  <a class="back" href="../index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Set Points to user(s)", "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SetPoints.gif", "scriptSettings": {"autoLoadTable": [], "countries": ["US", "UK"], "languages": ["EN"], "displayName": "Set Points", "payingUsersOnly": true, "explanationPicture": "", "type": "Share Data", "attributes": ["0-input", "Starter-Screen"]}, "userIds": ["212", "34", "38", "480", "41"], "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.user_ids": {"type": "text", "label": "User ID(s) (; separated list)", "required": true, "width": "100%"}, "options.points": {"type": "number", "label": "Points", "val": 100, "required": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPoints.py?ref=master", "version": 1.0}</script>
+<script src="../assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

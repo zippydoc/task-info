@@ -1,24 +1,9 @@
 {
   "description": "Run a selected task of your flow on all columns of a table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Run all Columns",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Automate",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Chameleon.gif",
+  "displayName": "Run all Columns",
+  "explanationPicture": "",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTask.json?ref=main"

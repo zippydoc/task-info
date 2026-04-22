@@ -1,57 +1,12 @@
 {
   "description": "Generate combinations table by group",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Compare.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Combinations",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Prepare",
-    "attributes": [
-        "0-input","Guest-User","Starter-Screen"
-    ]
-  },
+  "image": "assets/image/Compare.gif",
+  "displayName": "Combinations",
+  "explanationPicture": "",
+  "type": "Prepare",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTable.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CombinationOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
-          "property": "options/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputAsNewTable.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableName.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/IfTableExist.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTag.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CombinationOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Combination.py?ref=master",

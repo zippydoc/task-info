@@ -1,24 +1,9 @@
 {
   "description": "If found one ore more matches then run the selected task",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunAll.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Run if Found",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Find.png",
-    "type": "Automate",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/RunAll.gif",
+  "displayName": "Run if Found",
+  "explanationPicture": "assets/explanation/Find.png",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTask.json?ref=main"

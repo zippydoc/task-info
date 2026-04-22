@@ -1,0 +1,66 @@
+{
+  "description": "Transfer money from and to client accounts via Stripe",
+  "image": "assets/image/Pay.gif",
+  "displayName": "Stripe Pay",
+  "explanationPicture": "",
+  "type": "Automate",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Options",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.provider": {
+            "type": "hidden",
+            "val": "stripe"
+          },
+          "options.type": {
+            "type": "select",
+            "label": "Payment Type",
+            "options": {
+              "charge": {
+                "label": "Charge"
+              },
+              "transfer": {
+                "label": "Transfer"
+              }
+            },
+            "val": "charge",
+            "required": true
+          },
+          "options.charge_type": {
+            "type": "select",
+            "label": "Charge Type",
+            "show_if": "options.provider=='stripe' && options.type=='charge'",
+            "options": {
+              "charge_without_invoice": {
+                "label": "Immediate charge without sending invoice"
+              },
+              "send_invoice": {
+                "label": "Only send invoice"
+              },
+              "send_invoice_immediate_charge": {
+                "label": "Send invoice and Immediate charge"
+              }
+            },
+            "val": "send_invoice_immediate_charge",
+            "required": true
+          },
+          "options.stripe.secret_key": {
+            "type": "password",
+            "label": "Stripe Secret Key",
+            "show_if": "options.provider=='stripe'",
+            "required": true,
+            "val": "",
+            "width": "100%",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/PayStripe.py?ref=master",
+  "version": 1.0
+}

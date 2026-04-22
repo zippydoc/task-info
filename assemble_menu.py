@@ -124,9 +124,8 @@ def assemble_one(path: Path) -> Path:
         task_info = json.load(fh, object_pairs_hook=OrderedDict)
     task_info["menu"] = assemble_menu(task_info)
 
-    out_dir = OUTPUT_ROOT / path.stem
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / path.name
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    out_path = OUTPUT_ROOT / path.name
     with out_path.open("w", encoding="utf-8") as fh:
         json.dump(task_info, fh, indent=2, ensure_ascii=False)
         fh.write("\n")

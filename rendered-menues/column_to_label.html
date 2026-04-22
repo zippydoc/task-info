@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>column_to_label</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>column_to_label</h1>
+  <p class="description">Transpose columns to rows</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Transpose columns to rows", "image": "assets/image/ColumnToLabel.gif", "displayName": "Header to Label", "explanationPicture": "", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"transpose_type": {"type": "hidden", "val": "column_name_to_label"}, "mirror_matrix.convert_header_to_label": {"type": "checkbox", "label": "Convert header to label", "show_if": "transpose_type=='mirror_matrix'", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}, "column_name_to_label__columns_to_label_frame": {"type": "fieldset", "label": "Select columns to convert into Labels", "show_if": "transpose_type=='column_name_to_label'", "repeat": false, "fields": {"column_name_to_label.columns_to_label": {"type": "select", "style": "width: 50%; float: left", "label": "Select columns", "table": "table_id", "multiple": true, "bind": "COLUMNS"}, "column_name_to_label.reverse_col_selection": {"type": "checkbox", "label": "All but selected", "style": "width: 40%; float: right", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}}}, "column_name_to_label.label_column_name": {"type": "text", "label": "Column Name of Label Column", "show_if": "transpose_type=='column_name_to_label'", "required": true, "val": "Label", "width": "100%", "breakLine": true}, "column_name_to_label.value_column_name": {"type": "text", "label": "Column Name of Value Column", "show_if": "transpose_type=='column_name_to_label'", "required": true, "val": "Value", "width": "100%", "breakLine": true}, "column_name_to_label.is_one_label": {"type": "checkbox", "label": "One label column", "show_if": "transpose_type=='column_name_to_label'", "val": "false", "isOn": "true", "isOff": "false"}, "crosstab.group_data_by_these_values": {"type": "select", "label": "Group data by these values", "show_if": "transpose_type=='crosstab'", "table": "table_id", "multiple": true, "bind": "COLUMNS", "required": true, "width": "100%", "breakLine": true}, "crosstab.change_column_headers": {"type": "select", "label": "Change Column Header", "show_if": "transpose_type=='crosstab'", "table": "table_id", "bind": "COLUMNS", "required": true, "width": "100%", "breakLine": true}, "crosstab.values_for_new_columns": {"type": "select", "label": "Values For New Columns", "show_if": "transpose_type=='crosstab'", "table": "table_id", "bind": "COLUMNS", "required": true, "width": "100%", "breakLine": true}, "crosstab.method_for_aggregating_values": {"type": "select", "label": "Method for Aggregating Values", "show_if": "transpose_type=='crosstab'", "options": {"Concatenate": {"label": "Concatenate"}, "First": {"label": "First"}, "Last": {"label": "Last"}, "Sum": {"label": "Sum"}, "Average": {"label": "Average"}, "Count": {"label": "Count"}, "User Defined": {"label": "User Defined"}}, "val": "Concatenate", "required": true}, "crosstab.user_defined_str": {"type": "text", "label": "User Defined Value", "show_if": "transpose_type=='crosstab' && crosstab.method_for_aggregating_values=='User Defined'", "val": "x", "trim": "false", "breakLine": true}, "crosstab.separator": {"type": "text", "label": "Separator", "show_if": "transpose_type=='crosstab' && method_for_aggregating_values=='Concatenate'", "val": ",", "trim": "false", "required": true, "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

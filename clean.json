@@ -1,68 +1,12 @@
 {
   "description": "Clean whitespace, punctuation and more (see https://support.zippydoc.de/en/clean/ )",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Clean.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Clean",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Clean.png",
-    "type": "Prepare",
-    "attributes": [
-        "0-input","Guest-User","Starter-Screen"
-    ]
-  },
+  "image": "assets/image/Clean.gif",
+  "displayName": "Clean",
+  "explanationPicture": "assets/explanation/Clean.png",
+  "type": "Prepare",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectTable.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectColumnRow.json?ref=main",
-          "property": "fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CleanOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
-          "property": "options/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputLocationNoExcel.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v3/SelectOutputColumn.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ReverseOrder.json?ref=main",
-          "property": "output/fields",
-          "after": "output.select_output_columns_type"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameConfig.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTag.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CleanOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Clean.py?ref=master",

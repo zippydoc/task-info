@@ -1,48 +1,12 @@
 {
   "description": "Render an integrated planning package (P&L, Cash-Flow and Balance Sheet) easy",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/DirectPlanning.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Planning",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Create Reports",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen","MS-User-Only"
-	],
-    "ms_oauth2_scope": "files.readwrite.all",
-    "ms_oauth2_menu_condition": "options.output_type=='pdf_planning_package' && options.where_to_create=='only_export_to_cloud'"
-  },
+  "image": "assets/image/DirectPlanning.gif",
+  "displayName": "Planning",
+  "explanationPicture": "",
+  "type": "Create Reports",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutputSettingTickbox.json?ref=main",
-          "property": "options_frame/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningAddTag.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/PlanningOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Periodicy.py?ref=master",

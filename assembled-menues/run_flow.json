@@ -1,0 +1,150 @@
+{
+  "description": "Run flow by replacing flow tables with new tables",
+  "image": "assets/image/RunAll.gif",
+  "displayName": "Run Flow",
+  "explanationPicture": "",
+  "type": "Automate",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.is_output_tables_of_selected_flow": {
+            "type": "checkbox",
+            "label": "Output Table(s) of Selected Flow",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.output_tables_of_selected_flow": {
+            "type": "fieldset",
+            "label": "Output table(s) of selected Flow",
+            "style": "border-radius: 3px; border: 1px solid #ccc",
+            "show_if": "options.is_output_tables_of_selected_flow=='true'",
+            "repeat": true,
+            "fields": {
+              "position": {
+                "type": "select",
+                "label": "Bottom Up Table Position",
+                "required": true,
+                "options": {
+                  "1": {
+                    "label": "Position 1"
+                  },
+                  "2": {
+                    "label": "Position 2"
+                  },
+                  "3": {
+                    "label": "Position 3"
+                  },
+                  "4": {
+                    "label": "Position 4"
+                  },
+                  "5": {
+                    "label": "Position 5"
+                  },
+                  "6": {
+                    "label": "Position 6"
+                  },
+                  "7": {
+                    "label": "Position 7"
+                  },
+                  "8": {
+                    "label": "Position 8"
+                  },
+                  "9": {
+                    "label": "Position 9"
+                  },
+                  "10": {
+                    "label": "Position 10"
+                  }
+                },
+                "val": "1",
+                "breakLine": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "options.manual_config": {
+            "type": "hidden",
+            "val": "false"
+          },
+          "options.input_tables_map": {
+            "type": "fieldset",
+            "label": "Input Tables Mapping",
+            "style": "border-radius: 3px; border: 1px solid #ccc",
+            "show_if": "replace_first_table_of_selected_flow=='true' && options.manual_config=='true'",
+            "repeat": true,
+            "fields": {
+              "caller_input_table": {
+                "type": "select",
+                "label": "Caller Input Table",
+                "bind": "TABLES",
+                "empty": "",
+                "required": true
+              },
+              "callee_input_table": {
+                "type": "select",
+                "label": "Callee Input Table",
+                "bind": "TABLES",
+                "empty": "",
+                "breakLine": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "note1": {
+            "type": "textarea",
+            "label": "",
+            "show_if": "options.manual_config=='true'",
+            "val": "Ensure, that the relevant column name(s) of the target table(s) flow table(s) match",
+            "disabled": true,
+            "width": "100%"
+          },
+          "options.output_tables_map": {
+            "type": "fieldset",
+            "label": "Output Tables Mapping",
+            "style": "border-radius: 3px; border: 1px solid #ccc",
+            "show_if": "options.manual_config=='true'",
+            "repeat": true,
+            "fields": {
+              "caller_output_table": {
+                "type": "select",
+                "label": "Caller Output Table",
+                "bind": "TABLES",
+                "empty": "",
+                "required": true
+              },
+              "callee_output_table": {
+                "type": "select",
+                "label": "Callee Output Table",
+                "bind": "TABLES",
+                "empty": "",
+                "breakLine": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunFlow.py?ref=master",
+  "version": 1.0
+}

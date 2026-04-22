@@ -1,45 +1,12 @@
 {
   "description": "Produce Pivot display with multiple header output",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/CrossTab.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Crosstab Multi Header",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Beta Tasks",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/CrossTab.gif",
+  "displayName": "Crosstab Multi Header",
+  "explanationPicture": "",
+  "type": "Beta Tasks",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CrosstabMultiHeaderOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        }
-      ]
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Debug.json?ref=main"

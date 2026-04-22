@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>json_to_table</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>json_to_table</h1>
+  <p class="description">Transform JSON string to a Table</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Transform JSON string to a Table", "image": "assets/image/AddColumn.gif", "displayName": "JSON to Table", "explanationPicture": "assets/explanation/Add-Column.png", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "Options", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"options.category": {"type": "hidden", "val": "json_to_table"}, "options.input_by_table": {"type": "checkbox", "label": "Input by table", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}, "options.json_str": {"type": "textarea", "label": "Input JSON", "show_if": "options.input_by_table=='false'", "val": "{\n  \"k1\": \"v1\",\n  \"k2\": \"v2\",\n  \"k3\": {\n    \"k4\": \"v4\",\n    \"k5\": [\n      {\n        \"k6\": \"v6\",\n        \"k7\": \"v7\"\n      },\n      {\n        \"k8\": [\n          \"v8-1\",\n          \"v8-2\",\n          [\n            \"v8-3-1\",\n            \"v8-3-2\"\n          ],\n          {\n            \"k10\": \"v10\"\n          }\n        ]\n      }\n    ]\n  }\n}", "width": "100%", "rows": 6, "required": true, "breakLine": true}, "options.table_id": {"type": "select", "label": "Select Table", "show_if": "options.input_by_table=='true'", "bind": "TABLES", "empty": "", "required": true}, "options.json_column": {"type": "select", "label": "JSON column", "show_if": "options.input_by_table=='true'", "table": "options.table_id", "bind": "COLUMNS", "required": true, "breakLine": true}, "options.output_nesting_structure": {"type": "checkbox", "label": "Output Nesting Structure", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/JsonToTable.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>recordid</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>recordid</h1>
+  <p class="description">Adds a running row number to the selected table (see https://support.zippydoc.de/en/record-id/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Adds a running row number to the selected table (see https://support.zippydoc.de/en/record-id/ )", "image": "assets/image/RecordID.gif", "displayName": "Record ID", "explanationPicture": "assets/explanation/Record-ID.png", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.new_column_name": {"type": "text", "label": "New Column Name", "val": "RecordID", "required": true}, "options.starting_value": {"type": "text", "label": "Starting Value", "val": "1", "required": true}, "options.position": {"type": "select", "label": "Position", "required": true, "options": {"first_column": {"label": "First Column"}, "last_column": {"label": "Last Column"}}, "val": "first_column", "breakLine": true}, "options.count_per_group": {"type": "checkbox", "label": "Restart counting per each group", "val": "false", "isOn": "true", "isOff": "false"}, "options.group_cols": {"type": "select", "label": "Group column(s)", "show_if": "options.count_per_group=='true'", "table": "table_id", "bind": "COLUMNS", "multiple": true}, "options.treat_each_change_as_new_group": {"type": "checkbox", "label": "Treat each change as new Group", "show_if": "options.count_per_group=='true'", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/RecordID.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

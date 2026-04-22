@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>join_multiple</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>join_multiple</h1>
+  <p class="description">Join two tables (see https://support.zippydoc.de/en/join/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Join two tables (see https://support.zippydoc.de/en/join/ )", "image": "assets/image/Join.gif", "displayName": "Join Multiple", "explanationPicture": "assets/explanation/Join.png", "type": "Multiple Input Tables", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"join_type": {"type": "select", "label": "Detect join column(s)", "options": {"step_by_step": {"label": "by common columns of two tables and join step by step"}, "batch_join": {"label": "by common columns of all tables"}}, "val": "step_by_step", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/JoinMultiple.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+{
+  "description": "Find cell content by framingconditions (Word-by-Word table only); example: find x in f(x)",
+  "image": "assets/image/Inject.gif",
+  "displayName": "Extract",
+  "explanationPicture": "",
+  "type": "Find & Summarize",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "apply_framing_condition_box": {
+            "type": "fieldset",
+            "label": "Framing conditions",
+            "repeat": false,
+            "fields": {
+              "options.framing_condition.pattern": {
+                "type": "select",
+                "label": "Framing conditions",
+                "required": true,
+                "options": {
+                  "name_x": {
+                    "label": "name : x"
+                  },
+                  "curly_brackets": {
+                    "label": "{x}"
+                  },
+                  "square_brackets": {
+                    "label": "[x]"
+                  },
+                  "round_brackets": {
+                    "label": "(x)"
+                  },
+                  "tag_x": {
+                    "label": "&lt;tag&gt;x&lt;/tag&gt;"
+                  },
+                  "tag1_x_tag2": {
+                    "label": "tag1 x tag2"
+                  },
+                  "name_1_name_2_x": {
+                    "label": "name-1 : { name-2 : x }"
+                  },
+                  "x_bracket": {
+                    "label": "x : { } , x : ( ) , x : [ ]"
+                  },
+                  "name_bracket_x": {
+                    "label": "name : { x } , name : ( x ) , name : [ x ]"
+                  },
+                  "f_x": {
+                    "label": "f(x)"
+                  },
+                  "f_x_bracket": {
+                    "label": "f(){x}"
+                  }
+                },
+                "val": "name_x"
+              },
+              "options.framing_condition.name_x_name": {
+                "type": "text",
+                "label": "Name",
+                "show_if": "options.framing_condition.pattern=='name_x'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.tag_x_tag": {
+                "type": "text",
+                "label": "Tag",
+                "show_if": "options.framing_condition.pattern=='tag_x'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.tag1_x_tag2__tag1": {
+                "type": "text",
+                "label": "Tag1",
+                "show_if": "options.framing_condition.pattern=='tag1_x_tag2'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.tag1_x_tag2__tag2": {
+                "type": "text",
+                "label": "Tag2",
+                "show_if": "options.framing_condition.pattern=='tag1_x_tag2'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.name_1_name_2_x__name1": {
+                "type": "text",
+                "label": "Name1",
+                "show_if": "options.framing_condition.pattern=='name_1_name_2_x'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.name_1_name_2_x__name2": {
+                "type": "text",
+                "label": "Name2",
+                "show_if": "options.framing_condition.pattern=='name_1_name_2_x'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.name_bracket_x__name": {
+                "type": "text",
+                "label": "Name",
+                "show_if": "options.framing_condition.pattern=='name_bracket_x'",
+                "val": "",
+                "required": true
+              },
+              "options.framing_condition.customize_colon": {
+                "type": "checkbox",
+                "label": "Customize :",
+                "show_if": "options.framing_condition.pattern=='name_x' || options.framing_condition.pattern=='x_bracket' || options.framing_condition.pattern=='name_1_name_2_x'",
+                "val": "true",
+                "isOn": "true",
+                "isOff": "false",
+                "breakLine": true
+              },
+              "options.framing_condition.custom_colon": {
+                "type": "text",
+                "label": "Input symbol",
+                "show_if": "(options.framing_condition.pattern=='name_x' || options.framing_condition.pattern=='x_bracket' || options.framing_condition.pattern=='name_1_name_2_x') && options.framing_condition.customize_colon=='true'",
+                "val": ":",
+                "required": true
+              },
+              "options.framing_condition.customize_f": {
+                "type": "checkbox",
+                "label": "Customize f",
+                "show_if": "options.framing_condition.pattern=='f_x' || options.framing_condition.pattern=='f_x_bracket'",
+                "val": "true",
+                "isOn": "true",
+                "isOff": "false",
+                "breakLine": true
+              },
+              "options.framing_condition.custom_f": {
+                "type": "text",
+                "label": "Input f",
+                "show_if": "(options.framing_condition.pattern=='f_x' || options.framing_condition.pattern=='f_x_bracket') && options.framing_condition.customize_f=='true'",
+                "val": ":",
+                "required": true
+              },
+              "options.framing_condition.parantheses": {
+                "type": "select",
+                "label": "Parantheses",
+                "required": true,
+                "options": {
+                  "optional": {
+                    "label": "Optional parantheses"
+                  },
+                  "including": {
+                    "label": "Including parantheses"
+                  },
+                  "no": {
+                    "label": "No parantheses"
+                  }
+                },
+                "val": "optional"
+              },
+              "options.framing_condition.sel_parantheses": {
+                "type": "select",
+                "label": "Select Parantheses",
+                "show_if": "options.framing_condition.parantheses=='optional' || options.framing_condition.parantheses=='including'",
+                "required": true,
+                "options": {
+                  "p1": {
+                    "label": "'"
+                  },
+                  "p2": {
+                    "label": "\""
+                  },
+                  "p3": {
+                    "label": "`"
+                  },
+                  "p4": {
+                    "label": "´"
+                  }
+                },
+                "val": "p1",
+                "breakLine": true
+              },
+              "options.framing_condition.allow_whitespace": {
+                "type": "checkbox",
+                "label": "Allow whitespace",
+                "val": "true",
+                "isOn": "true",
+                "isOff": "false",
+                "breakLine": true
+              }
+            }
+          },
+          "options.apply_section_by_section": {
+            "type": "checkbox",
+            "label": "Section by Section",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "style": "margin-top: 10px"
+          },
+          "section_columns_frame": {
+            "type": "fieldset",
+            "label": "Select Section Column(s)",
+            "show_if": "options.apply_section_by_section=='true'",
+            "repeat": false,
+            "fields": {
+              "options.section_columns__all_but_selected": {
+                "type": "checkbox",
+                "label": "All but selected",
+                "val": "false",
+                "isOn": "true",
+                "isOff": "false",
+                "breakLine": true
+              },
+              "options.section_columns": {
+                "type": "select",
+                "label": "Section column(s)",
+                "table": "table_id",
+                "bind": "COLUMNS",
+                "multiple": true,
+                "breakLine": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Extract.py?ref=master",
+  "version": 1.0
+}

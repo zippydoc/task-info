@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>select</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>select</h1>
+  <p class="description">Select first, last, random rows and more (see https://support.zippydoc.de/en/select/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Select first, last, random rows and more (see https://support.zippydoc.de/en/select/ )", "image": "assets/image/Select.gif", "displayName": "Select Row", "explanationPicture": "assets/explanation/Select.png", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"type": {"type": "select", "label": "Select Type", "val": "first_n", "options": {"first_n": {"label": "First N"}, "last_n": {"label": "Last N"}, "custom_selection": {"label": "Custom Selection"}, "skip_first_n": {"label": "Skip First N"}, "skip_last_n": {"label": "Skip Last N"}, "first_n_percent": {"label": "First N%"}, "last_n_percent": {"label": "Last N%"}, "random_n_records": {"label": "Random N"}, "random_n_percent": {"label": "Random N%"}, "random_choice_1_n": {"label": "Random Choice 1:N"}, "every_nth_record": {"label": "Every Nth Record"}}, "required": true, "width": "100%", "breakLine": true}, "n": {"type": "text", "label": "Input N", "show_if": "type!='custom_selection'", "val": "1", "required": true, "width": "100%", "breakLine": true}, "ranges": {"type": "text", "label": "Input Ranges", "show_if": "type=='custom_selection'", "val": "-2; 4-6; 9; 12+", "required": true, "width": "100%", "breakLine": true}, "set_offset": {"type": "checkbox", "label": "Offset", "show_if": "type=='every_nth_record'", "val": "false", "isOn": "true", "isOff": "false"}, "offset": {"type": "text", "label": "Offset", "show_if": "type=='every_nth_record' && set_offset=='true'", "val": "1", "required": true, "breakLine": true}, "group_by_column": {"type": "checkbox", "label": "Group by column", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}, "columns_to_group_box": {"type": "fieldset", "label": "Group Column", "show_if": "group_by_column=='true'", "repeat": false, "fields": {"columns_to_group": {"type": "select", "label": "Select Group Columns", "required": true, "width": "100%", "table": "table_id", "multiple": true, "bind": "COLUMNS", "breakLine": true}}}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Select.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

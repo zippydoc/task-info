@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>run_all</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>run_all</h1>
+  <p class="description">Run an already existing task of the same flow with different tables</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Run an already existing task of the same flow with different tables", "image": "assets/image/RunAll.gif", "displayName": "Run All", "explanationPicture": "", "type": "Automate", "menu": [{"select_task_frame": {"type": "fieldset", "label": "Select Task", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"input_task": {"type": "select", "label": "Select Task", "bind": "TASKS", "empty": "", "required": true, "breakLine": true}}}}, {"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"input_table_options": {"type": "fieldset", "label": "Specify Input Tables", "breakLine": true, "repeat": false, "fields": {"options.select_type": {"type": "select", "label": "Select Type", "required": true, "options": {"table_selection": {"label": "Table Selection"}, "select_by_pattern": {"label": "Select by Pattern"}}, "val": "table_selection"}, "options.table_ids": {"type": "select", "label": "Select Tables", "bind": "TABLES", "empty": "", "multiple": true, "show_if": "options.select_type=='table_selection'", "required": true}, "options.filter_params": {"type": "fieldset", "label": "Match tables", "show_if": "options.select_type=='select_by_pattern'", "breakLine": true, "repeat": true, "fields": {"keyword": {"type": "text", "label": "Enter Keyword", "required": true, "val": ""}, "filter_target": {"type": "select", "label": "Filter on", "required": true, "options": {"table_name": {"label": "Table Name"}, "table_tag": {"label": "Table Tag"}}, "val": "table_name"}, "filter_type": {"type": "select", "label": "Filter type", "required": true, "options": {"equal": {"label": "Equal"}, "contain": {"label": "Contains"}, "start_with": {"label": "Starts With"}, "end_with": {"label": "Ends With"}, "regex": {"label": "Regular Expression"}}, "val": "equal"}, "delete": {"type": "button", "label": "Delete", "function": "DELETE_ROW"}}}, "options.use_waiting_time": {"type": "checkbox", "label": "Add waiting time", "val": "false", "isOn": "true", "isOff": "false"}, "options.waiting_period": {"type": "number", "label": "Waiting time (sec)", "val": 0, "show_if": "options.use_waiting_time!='false'"}}}, "task_chain": {"type": "checkbox", "label": "Task Chain", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}, "schedule_options": {"type": "fieldset", "label": "Tasks to schedule", "show_if": "task_chain == 'true'", "repeat": true, "fields": {"input_task": {"type": "select", "label": "Select Task", "bind": "TASKS", "empty": "", "required": true}, "waiting_time": {"type": "number", "label": "Waiting time (sec)", "val": 0, "required": true}, "delete": {"type": "button", "label": "Delete", "function": "DELETE_ROW"}}, "breakLine": true}, "unify_output_tables": {"type": "checkbox", "label": "Unify output tables", "val": "false", "isOn": "true", "isOff": "false", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/RunAll.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

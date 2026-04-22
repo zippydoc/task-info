@@ -1,0 +1,392 @@
+{
+  "description": "Build groups and calculate sums, averages and more (see https://support.zippydoc.de/en/sum-up/ )",
+  "image": "assets/image/SumUp.gif",
+  "displayName": "Sum-Up",
+  "explanationPicture": "assets/explanation/Sum-Up.png",
+  "type": "Find & Summarize",
+  "menu": [
+    {
+      "actions": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": true,
+        "fields": {
+          "columns": {
+            "type": "select",
+            "label": "Column(s)",
+            "table": "table_id",
+            "assign_selected_value_to": "this.output_column_name",
+            "bind": "COLUMNS",
+            "multiple": true,
+            "required": true
+          },
+          "action": {
+            "type": "select",
+            "label": "Action",
+            "options": {
+              "group_by": {
+                "label": "Group By"
+              },
+              "count": {
+                "label": "Count"
+              },
+              "sum": {
+                "label": "Sum"
+              },
+              "first": {
+                "label": "First"
+              },
+              "last": {
+                "label": "Last"
+              },
+              "shortest": {
+                "label": "Shortest"
+              },
+              "longest": {
+                "label": "Longest"
+              },
+              "concatenate": {
+                "label": "Concatenate"
+              },
+              "mathematics": {
+                "label": "Mathematics"
+              }
+            },
+            "val": "group_by"
+          },
+          "count_action_category": {
+            "type": "select",
+            "label": "Action Type",
+            "show_if": "this.action=='count'",
+            "options": {
+              "all": {
+                "label": "All"
+              },
+              "distinct": {
+                "label": "Distinct"
+              },
+              "empty_or_zero": {
+                "label": "Empty or 0"
+              },
+              "non_empty_or_zero": {
+                "label": "Non Empty or 0"
+              }
+            },
+            "val": "all"
+          },
+          "action_type1": {
+            "type": "select",
+            "label": "Action Sub Type",
+            "show_if": "this.action=='count' && (this.count_action_category=='all' || this.count_action_category=='distinct')",
+            "options": {
+              "-": {
+                "label": "-"
+              },
+              "non_zero": {
+                "label": "Non 0"
+              },
+              "non_empty": {
+                "label": "Non Empty"
+              },
+              "non_null": {
+                "label": "Non Null"
+              },
+              "non_blank": {
+                "label": "Non Blank"
+              }
+            },
+            "val": "-"
+          },
+          "action_type2": {
+            "type": "select",
+            "label": "Action Sub Type",
+            "show_if": "this.action=='count' && this.count_action_category=='empty_or_zero'",
+            "options": {
+              "zero": {
+                "label": "0"
+              },
+              "empty": {
+                "label": "Empty (Null & Blank)"
+              },
+              "null": {
+                "label": "Null"
+              },
+              "blank": {
+                "label": "Blank"
+              }
+            },
+            "val": "zero"
+          },
+          "action_type3": {
+            "type": "select",
+            "label": "Action Sub Type",
+            "show_if": "this.action=='count' && this.count_action_category=='non_empty_or_zero'",
+            "options": {
+              "non_zero": {
+                "label": "Non 0"
+              },
+              "non_empty": {
+                "label": "Non Empty"
+              },
+              "non_null": {
+                "label": "Non Null"
+              },
+              "non_blank": {
+                "label": "Non Blank"
+              }
+            },
+            "val": "non_zero"
+          },
+          "mathematics_action_category": {
+            "type": "select",
+            "label": "Action Type",
+            "show_if": "this.action=='mathematics'",
+            "options": {
+              "min": {
+                "label": "Min"
+              },
+              "max": {
+                "label": "Max"
+              },
+              "average": {
+                "label": "Average"
+              },
+              "median": {
+                "label": "Median"
+              },
+              "standard_deviation": {
+                "label": "Standard Deviation"
+              },
+              "variance": {
+                "label": "Variance"
+              }
+            },
+            "val": "min"
+          },
+          "action_type4": {
+            "type": "select",
+            "label": "Action Sub Type",
+            "show_if": "this.action=='mathematics'",
+            "options": {
+              "include_zero": {
+                "label": "Include 0"
+              },
+              "exclude_zero": {
+                "label": "Exclude 0"
+              }
+            },
+            "val": "include_zero"
+          },
+          "concatenate_separator": {
+            "type": "text",
+            "label": "Separator",
+            "show_if": "this.action=='concatenate'",
+            "val": ","
+          },
+          "output_column_name": {
+            "type": "text",
+            "label": "Output Column Name",
+            "val": ""
+          },
+          "rounding": {
+            "type": "select",
+            "label": "Rounding",
+            "show_if": "this.action=='sum' || this.action=='mathematics'",
+            "required": true,
+            "options": {
+              "no_rounding": {
+                "label": "No rounding"
+              },
+              "0": {
+                "label": "0 digits"
+              },
+              "1": {
+                "label": "1 digits"
+              },
+              "2": {
+                "label": "2 digits"
+              },
+              "3": {
+                "label": "3 digits"
+              },
+              "4": {
+                "label": "4 digits"
+              },
+              "5": {
+                "label": "5 digits"
+              },
+              "6": {
+                "label": "6 digits"
+              },
+              "7": {
+                "label": "7 digits"
+              },
+              "8": {
+                "label": "8 digits"
+              },
+              "9": {
+                "label": "9 digits"
+              }
+            },
+            "val": "no_rounding"
+          },
+          "delete": {
+            "type": "button",
+            "label": "Delete",
+            "function": "DELETE_ROW"
+          },
+          "format__category": {
+            "type": "select",
+            "label": "Display Format",
+            "required": true,
+            "options": {
+              "standard": {
+                "label": "Standard"
+              },
+              "number": {
+                "label": "Number"
+              },
+              "percentage": {
+                "label": "Percentage"
+              },
+              "text": {
+                "label": "Text"
+              },
+              "date": {
+                "label": "Date"
+              },
+              "currency": {
+                "label": "Currency"
+              }
+            },
+            "val": "standard"
+          },
+          "format__rounding": {
+            "type": "select",
+            "label": "Decimal Places for display",
+            "show_if": "this.format__category=='number' || this.format__category=='percentage' || this.format__category=='currency'",
+            "required": true,
+            "options": {
+              "no_rounding": {
+                "label": "No rounding"
+              },
+              "0": {
+                "label": "0 digits"
+              },
+              "1": {
+                "label": "1 digits"
+              },
+              "2": {
+                "label": "2 digits"
+              },
+              "3": {
+                "label": "3 digits"
+              },
+              "4": {
+                "label": "4 digits"
+              },
+              "5": {
+                "label": "5 digits"
+              },
+              "6": {
+                "label": "6 digits"
+              },
+              "7": {
+                "label": "7 digits"
+              },
+              "8": {
+                "label": "8 digits"
+              },
+              "9": {
+                "label": "9 digits"
+              }
+            },
+            "val": "2"
+          },
+          "format__use_1000_separator": {
+            "type": "checkbox",
+            "label": "Use 1000 Separator(,)",
+            "show_if": "this.format__category=='number' || this.format__category=='percentage' || this.format__category=='currency'",
+            "val": "true",
+            "isOn": "true",
+            "isOff": "false"
+          },
+          "format__currency_symbol": {
+            "type": "select",
+            "label": "Symbol",
+            "show_if": "this.format__category=='currency'",
+            "required": true,
+            "options": {
+              "dollar": {
+                "label": "$"
+              },
+              "euro": {
+                "label": "€"
+              },
+              "pound": {
+                "label": "£"
+              }
+            },
+            "val": "dollar"
+          },
+          "format__date_format": {
+            "type": "select",
+            "label": "Type",
+            "show_if": "this.format__category=='date'",
+            "required": true,
+            "options": {
+              "mm/dd/yyyy": {
+                "label": "3/14/2012"
+              },
+              "D, M dd, Y": {
+                "label": "Wednesday, March 14, 2012"
+              },
+              "yyyy-mm-dd": {
+                "label": "2012-03-14"
+              },
+              "m.dd.yyyy": {
+                "label": "3.14.2012"
+              },
+              "m.dd.yy": {
+                "label": "3.14.12"
+              },
+              "dd.m.yyyy": {
+                "label": "14.3.2012"
+              },
+              "dd.m.yy": {
+                "label": "14.3.12"
+              },
+              "M dd, Y": {
+                "label": "March 14, 2012"
+              },
+              "dd-mm-yyyy": {
+                "label": "14-03-2012"
+              },
+              "mm-dd-yyyy": {
+                "label": "03-14-2012"
+              },
+              "dd-mm-yy": {
+                "label": "14-03-12"
+              },
+              "mm-dd-yy": {
+                "label": "03-14-12"
+              }
+            },
+            "val": "mm/dd/yyyy",
+            "breakLine": true
+          }
+        }
+      },
+      "info1": {
+        "type": "textarea",
+        "label": "",
+        "val": "If more than one columns selected, Output Column Name input value should be used as suffix",
+        "disabled": true,
+        "style": "width: 100%"
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SumUp.py?ref=master",
+  "version": 1.0
+}

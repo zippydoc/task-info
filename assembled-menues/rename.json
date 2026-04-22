@@ -1,0 +1,97 @@
+{
+  "description": "Rename table rows or columns (see https://support.zippydoc.de/en/rename/ )",
+  "image": "assets/image/Rename.gif",
+  "displayName": "Rename",
+  "explanationPicture": "assets/explanation/Rename.png",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "rename_columns": {
+            "type": "checkbox",
+            "label": "Rename Columns",
+            "show_if": "false",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false"
+          },
+          "columns": {
+            "type": "fieldset",
+            "label": "Select Columns",
+            "repeat": true,
+            "fields": {
+              "field_name": {
+                "type": "select",
+                "label": "Select Column",
+                "table": "table_id",
+                "bind": "COLUMNS",
+                "required": true
+              },
+              "rename": {
+                "show_if": "this.field_name != ''",
+                "type": "text",
+                "required": true,
+                "minLength": 1,
+                "maxLength": 255,
+                "label": "Rename to"
+              },
+              "delete": {
+                "show_if": "this.field_name != ''",
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            },
+            "breakLine": true
+          },
+          "rename_rows": {
+            "type": "checkbox",
+            "label": "Rename Labels",
+            "show_if": "false",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "style": "margin-top: 10px"
+          },
+          "rows": {
+            "type": "fieldset",
+            "label": "Select Labels",
+            "show_if": "$table_id.numOfLabel >= 1",
+            "repeat": true,
+            "fields": {
+              "label_name": {
+                "type": "select",
+                "label": "Select Label",
+                "table": "table_id",
+                "bind": "LABELS",
+                "required": true
+              },
+              "rename": {
+                "show_if": "this.label_name != ''",
+                "type": "text",
+                "required": true,
+                "minLength": 1,
+                "maxLength": 255,
+                "label": "Rename to"
+              },
+              "delete": {
+                "show_if": "this.label_name != ''",
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            },
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Rename.py?ref=master",
+  "version": 1.0
+}

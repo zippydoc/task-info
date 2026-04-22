@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>combinations</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>combinations</h1>
+  <p class="description">Generate combinations table by group</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Generate combinations table by group", "image": "assets/image/Compare.gif", "displayName": "Combinations", "explanationPicture": "", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.group_column": {"type": "select", "label": "Group Column", "required": true, "table": "table_id", "bind": "COLUMNS"}, "options.search_tables__group_column_text": {"type": "text", "label": "Input Column Name", "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_name_text'", "val": "", "required": true}, "options.search_tables__group_column_order": {"type": "select", "label": "Select Column", "required": true, "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_order'", "options": {"col1": {"label": "Column 1"}, "col2": {"label": "Column 2"}, "col3": {"label": "Column 3"}, "col4": {"label": "Column 4"}, "col5": {"label": "Column 5"}, "col6": {"label": "Column 6"}, "col7": {"label": "Column 7"}, "col8": {"label": "Column 8"}, "col9": {"label": "Column 9"}, "col10": {"label": "Column 10"}, "col11": {"label": "Column 11"}, "col12": {"label": "Column 12"}, "col13": {"label": "Column 13"}, "col14": {"label": "Column 14"}, "col15": {"label": "Column 15"}, "col16": {"label": "Column 16"}, "col17": {"label": "Column 17"}, "col18": {"label": "Column 18"}, "col19": {"label": "Column 19"}, "col20": {"label": "Column 20"}}, "val": "", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Combination.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

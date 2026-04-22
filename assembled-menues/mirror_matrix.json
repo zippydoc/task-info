@@ -1,0 +1,49 @@
+{
+  "description": "Transpose columns to rows and rows to columns (see https://support.zippydoc.de/en/mirror-matrix/ )",
+  "image": "assets/image/Transpose.gif",
+  "displayName": "Mirror Matrix",
+  "explanationPicture": "assets/explanation/Mirror-Matrix.png",
+  "type": "Add & Modify",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "transpose_type": {
+            "type": "hidden",
+            "val": "mirror_matrix"
+          },
+          "mirror_matrix.exchange_label_header": {
+            "type": "checkbox",
+            "label": "Convert header to label, label to header",
+            "val": "true",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "mirror_matrix.convert_header_to_label": {
+            "type": "checkbox",
+            "label": "Convert header to label",
+            "val": "true",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "mirror_matrix.convert_label_to_header": {
+            "type": "checkbox",
+            "label": "Convert label to header",
+            "val": "true",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master",
+  "version": 1.0
+}

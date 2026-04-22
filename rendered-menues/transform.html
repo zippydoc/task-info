@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>transform</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>transform</h1>
+  <p class="description">Change or get formatting or header information of a specified table</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Change or get formatting or header information of a specified table", "image": "assets/image/Table.gif", "displayName": "Transform", "explanationPicture": "", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.type": {"type": "radio", "val": "transform_group", "show_if": "false", "values": {"transform_group": "Transform Group"}, "breakLine": true}, "options.group_label_direction": {"type": "select", "label": "Transform Direction", "required": true, "options": {"group_to_label": {"label": "Group to Label"}, "label_to_group": {"label": "Label to Group"}}, "val": "group_to_label"}, "options.group_column": {"type": "select", "label": "Group Column", "show_if": "options.group_label_direction=='group_to_label'", "table": "table_id", "bind": "COLUMNS", "required": true}, "options.group_column_name": {"type": "text", "label": "Group Column Name", "show_if": "options.group_label_direction=='label_to_group'", "val": "Group", "required": true, "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Transform.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

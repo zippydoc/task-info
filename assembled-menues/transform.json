@@ -1,0 +1,60 @@
+{
+  "description": "Change or get formatting or header information of a specified table",
+  "image": "assets/image/Table.gif",
+  "displayName": "Transform",
+  "explanationPicture": "",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.type": {
+            "type": "radio",
+            "val": "transform_group",
+            "show_if": "false",
+            "values": {
+              "transform_group": "Transform Group"
+            },
+            "breakLine": true
+          },
+          "options.group_label_direction": {
+            "type": "select",
+            "label": "Transform Direction",
+            "required": true,
+            "options": {
+              "group_to_label": {
+                "label": "Group to Label"
+              },
+              "label_to_group": {
+                "label": "Label to Group"
+              }
+            },
+            "val": "group_to_label"
+          },
+          "options.group_column": {
+            "type": "select",
+            "label": "Group Column",
+            "show_if": "options.group_label_direction=='group_to_label'",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true
+          },
+          "options.group_column_name": {
+            "type": "text",
+            "label": "Group Column Name",
+            "show_if": "options.group_label_direction=='label_to_group'",
+            "val": "Group",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transform.py?ref=master",
+  "version": 1.0
+}

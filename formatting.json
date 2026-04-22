@@ -1,45 +1,12 @@
 {
   "description": "Add formatting info to table rows and/or columns (see https://support.zippydoc.de/en/formatting/ )",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Format.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Formatting",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Formatting.png",
-    "type": "Prepare",
-	"attributes": [
-      "1-Input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Format.gif",
+  "displayName": "Formatting",
+  "explanationPicture": "assets/explanation/Formatting.png",
+  "type": "Prepare",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTable.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FormattingOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FormattingOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        }
-      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Formatting.py?ref=master",

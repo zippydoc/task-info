@@ -1,36 +1,12 @@
 {
   "description": "Run by Paramter runs a series of tasks",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/RunByParameter.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Run by Parameter",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
-    "type": "Automate",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/RunByParameter.gif",
+  "displayName": "Run by Parameter",
+  "explanationPicture": "assets/explanation/Add-Column.png",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RunByParameterOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RunByParameterOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/RunByParameterComposeTableName.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/RunByParameter.py?ref=master",

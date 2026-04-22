@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>table_type</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>table_type</h1>
+  <p class="description">Change table type (see https://support.zippydoc.de/en/transpose/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Change table type (see https://support.zippydoc.de/en/transpose/ )", "image": "assets/image/Table.gif", "displayName": "Table Type", "explanationPicture": "", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "Change Table Type", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"header_levels": {"type": "select", "label": "Column-Headers", "required": true, "options": {"keep": {"label": "Keep Current"}, "0": {"label": "0 header levels"}, "1": {"label": "1 header level"}, "2": {"label": "2 header levels"}, "3": {"label": "3 header levels"}}, "val": "keep"}, "label_levels": {"type": "select", "label": "Row-Labels", "required": true, "options": {"keep": {"label": "Keep Current"}, "0": {"label": "0 label levels"}, "1": {"label": "1 label level"}, "2": {"label": "2 label levels"}, "3": {"label": "3 label levels"}}, "val": "keep", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/TableType.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

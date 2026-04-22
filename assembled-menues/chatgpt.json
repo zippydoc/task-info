@@ -1,0 +1,145 @@
+{
+  "description": "Integrate ChatGPT",
+  "image": "assets/image/Union.gif",
+  "displayName": "ChatGPT",
+  "explanationPicture": "assets/explanation/Union.png",
+  "type": "Multiple Input Tables",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.is_feed_input_table": {
+            "type": "checkbox",
+            "label": "Feed Input table",
+            "val": "true",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.is_chat_statements_table": {
+            "type": "checkbox",
+            "label": "Chat Statements Table",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.chats": {
+            "type": "fieldset",
+            "label": "Input Chats",
+            "show_if": "options.is_chat_statements_table=='false'",
+            "style": "border-radius: 3px; border: 1px solid #ccc",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "textarea",
+                "label": "Chat",
+                "rows": 2,
+                "val": "",
+                "placeholder": "What is the longest value in the first column?",
+                "width": "100%"
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "options.chat_table.table_id": {
+            "type": "select",
+            "label": "Select Chat Input Table",
+            "show_if": "options.is_chat_statements_table=='true'",
+            "required": true,
+            "bind": "TABLES"
+          },
+          "options.chat_table.chat_col": {
+            "type": "select",
+            "label": "Select column of Chat",
+            "show_if": "options.is_chat_statements_table=='true'",
+            "required": true,
+            "table": "options.chat_table.table_id",
+            "bind": "COLUMNS",
+            "style": "min-width: 200px",
+            "breakLine": true
+          },
+          "options.is_table_output": {
+            "type": "checkbox",
+            "label": "Is table output",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.is_custom_output_table_columns": {
+            "type": "checkbox",
+            "label": "Customize output table columns tile",
+            "show_if": "options.is_table_output=='true'",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.custom_output_table_columns": {
+            "type": "fieldset",
+            "label": "Add output yable columns tile",
+            "show_if": "options.is_table_output=='true' && options.is_custom_output_table_columns=='true'",
+            "repeat": true,
+            "fields": {
+              "column_title": {
+                "type": "text",
+                "label": "Column Title",
+                "required": true,
+                "val": "",
+                "width": "100%"
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "options.how_to_output_table": {
+            "type": "select",
+            "label": "How to output table",
+            "required": true,
+            "options": {
+              "create_new_table": {
+                "label": "Create new output table"
+              },
+              "update_input_table": {
+                "label": "Directly update input table"
+              }
+            },
+            "val": "create_new_table",
+            "breakLine": true
+          },
+          "options.use_own_openai_key": {
+            "type": "checkbox",
+            "label": "Use my own OpenAI API Key",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "options.openai_key": {
+            "type": "text",
+            "label": "OpenAI API Key",
+            "show_if": "options.use_own_openai_key == 'true'",
+            "required": true,
+            "val": "",
+            "width": "100%",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ChatGPT.py?ref=master",
+  "version": 1.0
+}

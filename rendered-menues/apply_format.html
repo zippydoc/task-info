@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>apply_format</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>apply_format</h1>
+  <p class="description">Apply the formatting info to the table data itself e.g. 34, formatted as €, converts to 34 €</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Apply the formatting info to the table data itself e.g. 34, formatted as €, converts to 34 €", "image": "assets/image/ApplyFormat.gif", "displayName": "Apply Format", "explanationPicture": "", "type": "Prepare", "menu": [], "script": "https://api.github.com/repos/zippydoc/basic/contents/ApplyFormat.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

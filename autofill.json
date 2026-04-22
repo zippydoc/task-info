@@ -1,66 +1,12 @@
 {
   "description": "Define your target table and let the data be filled in automatically",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Autofill-1.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Auto-Fill",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Multiple Input Tables",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Autofill-1.gif",
+  "displayName": "Auto-Fill",
+  "explanationPicture": "",
+  "type": "Multiple Input Tables",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillInput.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
-          "property": "options/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputAsNewTable.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutoFillSelectOutputColumn.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ReverseOrder.json?ref=main",
-          "property": "output/fields",
-          "after": "output.select_output_columns_type"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableName.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTag.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AutoConfigInputTable.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AutofillOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Autofill.py?ref=master",

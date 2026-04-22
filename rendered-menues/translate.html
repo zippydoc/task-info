@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>translate</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>translate</h1>
+  <p class="description">Translate a text in columns of table</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Translate a text in columns of table", "image": "assets/image/Translate.gif", "displayName": "Translate", "explanationPicture": "assets/explanation/Add-Column.png", "type": "Add & Modify", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.target_lang": {"type": "select", "label": "Select Target Language", "options": {"BG": {"label": "Bulgarian"}, "CS": {"label": "Czech"}, "DA": {"label": "Danish"}, "DE": {"label": "German"}, "EL": {"label": "Greek"}, "EN-GB": {"label": "English (British)"}, "EN-US": {"label": "English (American)"}, "EN": {"label": "English"}, "ES": {"label": "Spanish"}, "ET": {"label": "Estonian"}, "FI": {"label": "Finnish"}, "FR": {"label": "French"}, "HU": {"label": "Hungarian"}, "IT": {"label": "Italian"}, "JA": {"label": "Japanese"}, "LT": {"label": "Lithuanian"}, "LV": {"label": "Latvian"}, "NL": {"label": "Dutch"}, "PL": {"label": "Polish"}, "PT-PT": {"label": "Portuguese (all Portuguese varieties excluding Brazilian Portuguese)"}, "PT-BR": {"label": "Portuguese (Brazilian)"}, "PT": {"label": "Portuguese"}, "RO": {"label": "Romanian"}, "RU": {"label": "Russian"}, "SK": {"label": "Slovak"}, "SL": {"label": "Slovenian"}, "SV": {"label": "Swedish"}, "ZH": {"label": "Chinese"}}, "val": "DE", "breakLine": true}, "options.help_1": {"type": "text", "label": "", "show_if": "options.target_lang=='EN'", "val": "English (unspecified variant for backward compatibility; please select EN-GB or EN-US instead)", "disabled": true, "md_no_resize": false, "rows": 2, "width": "100%"}, "options.help_2": {"type": "text", "label": "", "show_if": "options.target_lang=='PT'", "val": "Portuguese (unspecified variant for backward compatibility; please select PT-PT or PT-BR instead)", "disabled": true, "md_no_resize": false, "rows": 2, "width": "100%"}, "options.select_source_lang": {"type": "checkbox", "label": "Select Source Language", "val": "false", "isOn": "true", "isOff": "false"}, "options.source_lang": {"type": "select", "label": "Source Language", "show_if": "options.select_source_lang == 'true'", "options": {"BG": {"label": "Bulgarian"}, "CS": {"label": "Czech"}, "DA": {"label": "Danish"}, "DE": {"label": "German"}, "EL": {"label": "Greek"}, "EN": {"label": "English"}, "ES": {"label": "Spanish"}, "ET": {"label": "Estonian"}, "FI": {"label": "Finnish"}, "FR": {"label": "French"}, "HU": {"label": "Hungarian"}, "IT": {"label": "Italian"}, "JA": {"label": "Japanese"}, "LT": {"label": "Lithuanian"}, "LV": {"label": "Latvian"}, "NL": {"label": "Dutch"}, "PL": {"label": "Polish"}, "PT": {"label": "Portuguese"}, "RO": {"label": "Romanian"}, "RU": {"label": "Russian"}, "SK": {"label": "Slovak"}, "SL": {"label": "Slovenian"}, "SV": {"label": "Swedish"}, "ZH": {"label": "Chinese"}}, "val": "DE", "breakLine": true}, "options.help_3": {"type": "text", "label": "", "val": "If Source Language is omitted, we will attempt to detect the language of the text and translate it.", "disabled": true, "md_no_resize": false, "rows": 2, "width": "100%"}, "options.new_column": {"type": "checkbox", "label": "New Column", "val": "true", "isOn": "true", "isOff": "false"}, "options.new_col_name": {"type": "text", "label": "New column name", "show_if": "options.new_column=='true'", "val": "Translated", "required": true, "style": "margin-left: 15px", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Translate.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

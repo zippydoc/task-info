@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>make_private</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>make_private</h1>
+  <p class="description">Make table private</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Make table private", "image": "assets/image/Lock1.gif", "displayName": "Make Private", "explanationPicture": "", "type": "Share Data", "userIds": ["212", "34", "38", "480", "41"], "menu": [], "script": "https://api.github.com/repos/zippydoc/basic/contents/MakePrivate.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

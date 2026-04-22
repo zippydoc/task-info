@@ -1,0 +1,25 @@
+{
+  "description": "Transform a Table to a JSON",
+  "image": "assets/image/AddColumn.gif",
+  "displayName": "Table to JSON",
+  "explanationPicture": "assets/explanation/Add-Column.png",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Options",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.category": {
+            "type": "hidden",
+            "val": "table_to_json"
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/JsonToTable.py?ref=master",
+  "version": 1.0
+}

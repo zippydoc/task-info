@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>vector</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>vector</h1>
+  <p class="description">Perform matrix addition/multiplication for two tables (see https://support.zippydoc.de/en/vector/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Perform matrix addition/multiplication for two tables (see https://support.zippydoc.de/en/vector/ )", "image": "assets/image/Vector.gif", "displayName": "Vector", "explanationPicture": "assets/explanation/Vector.png", "type": "Beta Tasks", "menu": [{"options": {"type": "fieldset", "label": "Select Options", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"task_type": {"type": "select", "label": "Task Type", "required": true, "options": {"multiplication": {"label": "Multiplication"}, "addition": {"label": "Addition"}}, "val": "multiplication", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

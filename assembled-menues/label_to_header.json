@@ -1,0 +1,189 @@
+{
+  "description": "Generate table by converting label to header",
+  "image": "assets/image/HeaderToLabel.gif",
+  "displayName": "Label to Header",
+  "explanationPicture": "",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.label_column": {
+            "type": "select",
+            "label": "Label Column",
+            "required": true,
+            "table": "table_id",
+            "bind": "COLUMNS"
+          },
+          "options.search_tables__label_column_text": {
+            "type": "text",
+            "label": "Label Column Name",
+            "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_name_text'",
+            "val": "",
+            "required": true
+          },
+          "options.search_tables__label_column_order": {
+            "type": "select",
+            "label": "Label Column",
+            "required": true,
+            "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_order'",
+            "options": {
+              "col1": {
+                "label": "Column 1"
+              },
+              "col2": {
+                "label": "Column 2"
+              },
+              "col3": {
+                "label": "Column 3"
+              },
+              "col4": {
+                "label": "Column 4"
+              },
+              "col5": {
+                "label": "Column 5"
+              },
+              "col6": {
+                "label": "Column 6"
+              },
+              "col7": {
+                "label": "Column 7"
+              },
+              "col8": {
+                "label": "Column 8"
+              },
+              "col9": {
+                "label": "Column 9"
+              },
+              "col10": {
+                "label": "Column 10"
+              },
+              "col11": {
+                "label": "Column 11"
+              },
+              "col12": {
+                "label": "Column 12"
+              },
+              "col13": {
+                "label": "Column 13"
+              },
+              "col14": {
+                "label": "Column 14"
+              },
+              "col15": {
+                "label": "Column 15"
+              },
+              "col16": {
+                "label": "Column 16"
+              },
+              "col17": {
+                "label": "Column 17"
+              },
+              "col18": {
+                "label": "Column 18"
+              },
+              "col19": {
+                "label": "Column 19"
+              },
+              "col20": {
+                "label": "Column 20"
+              }
+            },
+            "val": "",
+            "breakLine": true
+          },
+          "options.value_column": {
+            "type": "select",
+            "label": "Value Column",
+            "required": true,
+            "table": "table_id",
+            "bind": "COLUMNS"
+          },
+          "options.search_tables__value_column_text": {
+            "type": "text",
+            "label": "Label Column Name",
+            "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_name_text'",
+            "val": "",
+            "required": true
+          },
+          "options.search_tables__value_column_order": {
+            "type": "select",
+            "label": "Label Column",
+            "required": true,
+            "show_if": "search_tables=='true' && search_tables__select_columns_by=='by_order'",
+            "options": {
+              "col1": {
+                "label": "Column 1"
+              },
+              "col2": {
+                "label": "Column 2"
+              },
+              "col3": {
+                "label": "Column 3"
+              },
+              "col4": {
+                "label": "Column 4"
+              },
+              "col5": {
+                "label": "Column 5"
+              },
+              "col6": {
+                "label": "Column 6"
+              },
+              "col7": {
+                "label": "Column 7"
+              },
+              "col8": {
+                "label": "Column 8"
+              },
+              "col9": {
+                "label": "Column 9"
+              },
+              "col10": {
+                "label": "Column 10"
+              },
+              "col11": {
+                "label": "Column 11"
+              },
+              "col12": {
+                "label": "Column 12"
+              },
+              "col13": {
+                "label": "Column 13"
+              },
+              "col14": {
+                "label": "Column 14"
+              },
+              "col15": {
+                "label": "Column 15"
+              },
+              "col16": {
+                "label": "Column 16"
+              },
+              "col17": {
+                "label": "Column 17"
+              },
+              "col18": {
+                "label": "Column 18"
+              },
+              "col19": {
+                "label": "Column 19"
+              },
+              "col20": {
+                "label": "Column 20"
+              }
+            },
+            "val": "",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/LabelToHeader.py?ref=master",
+  "version": 1.0
+}

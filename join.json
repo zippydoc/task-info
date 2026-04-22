@@ -1,55 +1,12 @@
 {
   "description": "Join two tables (see https://support.zippydoc.de/en/join/ )",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Join.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Join",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Join.png",
-    "type": "Multiple Input Tables",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Join.gif",
+  "displayName": "Join",
+  "explanationPicture": "assets/explanation/Join.png",
+  "type": "Multiple Input Tables",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinInput.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/JoinOutput.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_text"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectOutputColumnWithTableWithoutSort.json?ref=main",
-          "property": "output/fields",
-          "after": "download_setting_frame"
-        }
-      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Join.py?ref=master",

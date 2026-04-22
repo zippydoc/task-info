@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>select_columns</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>select_columns</h1>
+  <p class="description">Select, sort and rename columns</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Select, sort and rename columns", "image": "assets/image/Select-Columns.gif", "displayName": "Select Columns", "explanationPicture": "assets/explanation/Select.png", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.select_all_columns": {"type": "checkbox", "label": "Select All", "val": "true", "isOn": "true", "isOff": "false"}, "options.output_columns": {"type": "fieldset", "label": "Add Output Columns", "show_if": "options.select_all_columns=='false'", "repeat": true, "fields": {"field_name": {"type": "select", "label": "Select Column", "table": "table_id", "bind": "COLUMNS", "required": true}, "order": {"type": "select", "label": "Order", "options": {"-": {"label": "-"}, "asc": {"label": "Asc"}, "desc": {"label": "Desc"}}, "val": "-"}, "is_rename": {"type": "checkbox", "label": "Rename", "val": "false", "isOn": "true", "isOff": "false"}, "rename": {"show_if": "this.is_rename == 'true'", "type": "text", "required": true, "minLength": 1, "maxLength": 255, "label": "New Column Name", "style": "margin-left: 10px"}, "format__category": {"type": "select", "label": "Display Format", "required": true, "options": {"standard": {"label": "Standard"}, "number": {"label": "Number"}, "percentage": {"label": "Percentage"}, "text": {"label": "Text"}, "date": {"label": "Date"}, "currency": {"label": "Currency"}}, "val": "standard"}, "format__rounding": {"type": "select", "label": "Decimal Places for display", "show_if": "this.format__category=='number' || this.format__category=='percentage' || this.format__category=='currency'", "required": true, "options": {"no_rounding": {"label": "No rounding"}, "0": {"label": "0 digits"}, "1": {"label": "1 digits"}, "2": {"label": "2 digits"}, "3": {"label": "3 digits"}, "4": {"label": "4 digits"}, "5": {"label": "5 digits"}, "6": {"label": "6 digits"}, "7": {"label": "7 digits"}, "8": {"label": "8 digits"}, "9": {"label": "9 digits"}}, "val": "2"}, "format__use_1000_separator": {"type": "checkbox", "label": "Use 1000 Separator(.)", "show_if": "this.format__category=='number' || this.format__category=='percentage' || this.format__category=='currency'", "val": "true", "isOn": "true", "isOff": "false"}, "format__currency_symbol": {"type": "select", "label": "Symbol", "show_if": "this.format__category=='currency'", "required": true, "options": {"dollar": {"label": "$"}, "euro": {"label": "€"}, "pound": {"label": "£"}}, "val": "dollar"}, "format__date_format": {"type": "select", "label": "Type", "show_if": "this.format__category=='date'", "required": true, "options": {"mm/dd/yyyy": {"label": "3/14/2012"}, "D, M dd, Y": {"label": "Wednesday, March 14, 2012"}, "yyyy-mm-dd": {"label": "2012-03-14"}, "m.dd.yyyy": {"label": "3.14.2012"}, "m.dd.yy": {"label": "3.14.12"}, "dd.m.yyyy": {"label": "14.3.2012"}, "dd.m.yy": {"label": "14.3.12"}, "M dd, Y": {"label": "March 14, 2012"}, "dd-mm-yyyy": {"label": "14-03-2012"}, "mm-dd-yyyy": {"label": "03-14-2012"}, "dd-mm-yy": {"label": "14-03-12"}, "mm-dd-yy": {"label": "03-14-12"}}, "val": "mm/dd/yyyy", "breakLine": true}, "delete": {"type": "button", "label": "Delete", "function": "DELETE_ROW"}}, "breakLine": true, "style": "margin-bottom: 20px"}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/SelectColumns.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

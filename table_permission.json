@@ -1,30 +1,10 @@
 {
   "description": "Add or delete permissions to columns/rows of a table (see https://support.zippydoc.de/en/add-permission/ )",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddPermissions.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-      "table1",
-      "table2"
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Share Table",
-    "payingUsersOnly": true,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Permission.png",
-    "type": "Share Data",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/AddPermissions.gif",
+  "displayName": "Share Table",
+  "explanationPicture": "assets/explanation/Add-Permission.png",
+  "type": "Share Data",
   "menu": [
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TablePermissionInput.json?ref=main"
-    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/AddPermissionOptions.json?ref=main"
     }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>mirror_matrix</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>mirror_matrix</h1>
+  <p class="description">Transpose columns to rows and rows to columns (see https://support.zippydoc.de/en/mirror-matrix/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Transpose columns to rows and rows to columns (see https://support.zippydoc.de/en/mirror-matrix/ )", "image": "assets/image/Transpose.gif", "displayName": "Mirror Matrix", "explanationPicture": "assets/explanation/Mirror-Matrix.png", "type": "Add & Modify", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"transpose_type": {"type": "hidden", "val": "mirror_matrix"}, "mirror_matrix.exchange_label_header": {"type": "checkbox", "label": "Convert header to label, label to header", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}, "mirror_matrix.convert_header_to_label": {"type": "checkbox", "label": "Convert header to label", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}, "mirror_matrix.convert_label_to_header": {"type": "checkbox", "label": "Convert label to header", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

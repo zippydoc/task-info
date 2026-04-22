@@ -1,28 +1,10 @@
 {
   "description": "Generate a D3 Sunburst chart from your table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Sunburst.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "D3 Sunburst",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Create Reports",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/D3-Sunburst.gif",
+  "displayName": "D3 Sunburst",
+  "explanationPicture": "",
+  "type": "Create Reports",
   "menu": [
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=main"
-    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3SunburstOptions.json?ref=main"
     },

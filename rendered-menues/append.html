@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>append</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>append</h1>
+  <p class="description">Append a second table to a first one (see https://support.zippydoc.de/en/append/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Append a second table to a first one (see https://support.zippydoc.de/en/append/ )", "image": "assets/image/Append.gif", "displayName": "Append", "explanationPicture": "assets/explanation/Append-Pictogram.png", "type": "Multiple Input Tables", "menu": [], "script": "https://api.github.com/repos/zippydoc/basic/contents/Append.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

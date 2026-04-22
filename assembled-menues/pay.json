@@ -1,0 +1,61 @@
+{
+  "description": "Transfer money from and to client accounts via Paypal, Payoneer or Stripe",
+  "image": "assets/image/Pay.gif",
+  "displayName": "Pay",
+  "explanationPicture": "",
+  "type": "Automate",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Options",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.provider": {
+            "type": "select",
+            "label": "Payment Provider",
+            "options": {
+              "stripe": {
+                "label": "Stripe"
+              },
+              "paypal": {
+                "label": "Paypal"
+              },
+              "payoneer": {
+                "label": "Payoneer"
+              }
+            },
+            "val": "stripe",
+            "required": true
+          },
+          "options.type": {
+            "type": "select",
+            "label": "Payment Type",
+            "options": {
+              "charge": {
+                "label": "Charge"
+              },
+              "transfer": {
+                "label": "Transfer"
+              }
+            },
+            "val": "charge",
+            "required": true
+          },
+          "options.stripe.secret_key": {
+            "type": "password",
+            "label": "Stripe Secret Key",
+            "show_if": "options.provider=='stripe'",
+            "required": true,
+            "val": "",
+            "width": "100%",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Pay.py?ref=master",
+  "version": 1.0
+}

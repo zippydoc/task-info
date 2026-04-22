@@ -1,0 +1,68 @@
+{
+  "description": "Change table type (see https://support.zippydoc.de/en/transpose/ )",
+  "image": "assets/image/Table.gif",
+  "displayName": "Table Type",
+  "explanationPicture": "",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Change Table Type",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "header_levels": {
+            "type": "select",
+            "label": "Column-Headers",
+            "required": true,
+            "options": {
+              "keep": {
+                "label": "Keep Current"
+              },
+              "0": {
+                "label": "0 header levels"
+              },
+              "1": {
+                "label": "1 header level"
+              },
+              "2": {
+                "label": "2 header levels"
+              },
+              "3": {
+                "label": "3 header levels"
+              }
+            },
+            "val": "keep"
+          },
+          "label_levels": {
+            "type": "select",
+            "label": "Row-Labels",
+            "required": true,
+            "options": {
+              "keep": {
+                "label": "Keep Current"
+              },
+              "0": {
+                "label": "0 label levels"
+              },
+              "1": {
+                "label": "1 label level"
+              },
+              "2": {
+                "label": "2 label levels"
+              },
+              "3": {
+                "label": "3 label levels"
+              }
+            },
+            "val": "keep",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/TableType.py?ref=master",
+  "version": 1.0
+}

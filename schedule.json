@@ -1,24 +1,9 @@
 {
   "description": "Schedules an already existing task of the same flow",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/ScheduleTasks.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Schedule",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Automate",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/ScheduleTasks.gif",
+  "displayName": "Schedule",
+  "explanationPicture": "",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ScheduleOptions.json?ref=main"

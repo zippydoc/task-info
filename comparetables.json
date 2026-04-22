@@ -1,45 +1,12 @@
 {
   "description": "Compare contents of two tables",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Compare.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Compare",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Beta Tasks",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Compare.gif",
+  "displayName": "Compare",
+  "explanationPicture": "",
+  "type": "Beta Tasks",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTablesWithColumnsRows.json?ref=main"
-    },
-    {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/CompareTablesOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/OutputConfig.json?ref=main",
-          "property": "output/fields",
-          "after": "output.custom_options"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/DownloadSettings.json?ref=main",
-          "property": "output/fields",
-          "after": "output_config_frame"
-        }
-      ]
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/CompareTables.py?ref=master",

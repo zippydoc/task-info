@@ -1,0 +1,36 @@
+{
+  "description": "Perform matrix addition/multiplication for two tables (see https://support.zippydoc.de/en/vector/ )",
+  "image": "assets/image/Vector.gif",
+  "displayName": "Vector",
+  "explanationPicture": "assets/explanation/Vector.png",
+  "type": "Beta Tasks",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Select Options",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "task_type": {
+            "type": "select",
+            "label": "Task Type",
+            "required": true,
+            "options": {
+              "multiplication": {
+                "label": "Multiplication"
+              },
+              "addition": {
+                "label": "Addition"
+              }
+            },
+            "val": "multiplication",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Vector.py?ref=master",
+  "version": 1.0
+}

@@ -1,0 +1,100 @@
+{
+  "description": "Encrypt specific columns/rows with password (see https://support.zippydoc.de/en/encrypt/ )",
+  "image": "assets/image/Encrypt.gif",
+  "displayName": "Encrypt-Decrypt",
+  "explanationPicture": "assets/explanation/Encrypt.png",
+  "type": "Add & Modify",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "task_type": {
+            "type": "select",
+            "label": "Task Type",
+            "required": true,
+            "options": {
+              "encrypt": {
+                "label": "Encrypt (secure)"
+              },
+              "decrypt": {
+                "label": "Decrypt (secure)"
+              },
+              "encrypt_simple": {
+                "label": "Encrypt (simple)"
+              },
+              "decrypt_simple": {
+                "label": "Decrypt (simple)"
+              },
+              "mask": {
+                "label": "Mask"
+              }
+            },
+            "val": "encrypt"
+          },
+          "mask_type": {
+            "type": "select",
+            "label": "Mask Type",
+            "show_if": "task_type == 'mask'",
+            "required": true,
+            "options": {
+              "trailing": {
+                "label": "Trailing N Characters"
+              },
+              "leading": {
+                "label": "Leading N Characters"
+              },
+              "numbers": {
+                "label": "Numbers"
+              },
+              "alphabets": {
+                "label": "Characters"
+              },
+              "regex": {
+                "label": "Regular Expression"
+              }
+            },
+            "val": "trailing"
+          },
+          "password": {
+            "type": "password",
+            "label": "Password",
+            "show_if": "task_type != 'mask'",
+            "required": true,
+            "minLength": 1,
+            "maxLength": 31,
+            "val": ""
+          },
+          "varn": {
+            "type": "number",
+            "label": "N",
+            "show_if": "task_type == 'mask' && (mask_type == 'trailing' || mask_type == 'leading')",
+            "required": true,
+            "val": 1
+          },
+          "regexp": {
+            "type": "text",
+            "label": "Expression",
+            "show_if": "task_type == 'mask' && (mask_type == 'regex')",
+            "required": true,
+            "val": "",
+            "placeholder": "[a-fA-F0-9]"
+          },
+          "replace": {
+            "type": "text",
+            "label": "Mask string",
+            "show_if": "task_type == 'mask' && (mask_type == 'regex')",
+            "required": true,
+            "val": "*",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Encrypt.py?ref=master",
+  "version": 1.0
+}

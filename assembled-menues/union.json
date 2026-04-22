@@ -1,0 +1,57 @@
+{
+  "description": "Unify two or more tables to one (see https://support.zippydoc.de/en/union/ )",
+  "image": "assets/image/Union.gif",
+  "displayName": "Union",
+  "explanationPicture": "assets/explanation/Union.png",
+  "type": "Multiple Input Tables",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.union_type": {
+            "type": "select",
+            "label": "Select Union Type",
+            "val": "auto_config_by_name",
+            "options": {
+              "auto_config_by_name": {
+                "label": "Auto Config By Name"
+              },
+              "auto_config_by_position": {
+                "label": "Auto Config By Position"
+              }
+            }
+          },
+          "options.field_output_type": {
+            "type": "select",
+            "label": "Column Output Type",
+            "show_if": "options.union_type=='auto_config_by_name' || options.union_type=='auto_config_by_position'",
+            "val": "output_all_fields",
+            "options": {
+              "output_all_fields": {
+                "label": "Output All Columns"
+              },
+              "output_common_fields": {
+                "label": "Output Common Columns"
+              }
+            },
+            "breakLine": true
+          },
+          "options.add_table_name_column": {
+            "type": "checkbox",
+            "label": "Add Table name column",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Union.py?ref=master",
+  "version": 1.0
+}

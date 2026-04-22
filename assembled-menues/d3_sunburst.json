@@ -1,0 +1,69 @@
+{
+  "description": "Generate a D3 Sunburst chart from your table",
+  "image": "assets/image/D3-Sunburst.gif",
+  "displayName": "D3 Sunburst",
+  "explanationPicture": "",
+  "type": "Create Reports",
+  "menu": [
+    {
+      "options_box": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "show_if": "options.configure_manual=='true'",
+        "repeat": false,
+        "fields": {
+          "options.chart_type": {
+            "type": "hidden",
+            "val": "zoomable_sunburst"
+          },
+          "options.group_cols": {
+            "type": "fieldset",
+            "label": "Select Group Column(s) in Order",
+            "repeat": true,
+            "fields": {
+              "group_col": {
+                "type": "select",
+                "label": "Group column",
+                "table": "table_id",
+                "bind": "COLUMNS",
+                "required": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "options.value_col": {
+            "type": "select",
+            "label": "Select Value Column",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "options.popup_or_table": {
+        "type": "select",
+        "label": "Type",
+        "required": true,
+        "options": {
+          "popup": {
+            "label": "Pop-Up"
+          },
+          "embedded": {
+            "label": "Embedded"
+          }
+        },
+        "val": "popup",
+        "breakLine": true
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",
+  "version": 1.0
+}

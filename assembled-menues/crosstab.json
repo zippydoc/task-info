@@ -1,0 +1,114 @@
+{
+  "description": "Generate a pivot table (see https://support.zippydoc.de/en/crosstab/ )",
+  "image": "assets/image/CrossTab.gif",
+  "displayName": "Crosstab",
+  "explanationPicture": "assets/explanation/Crosstab.png",
+  "type": "Add & Modify",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "transpose_type": {
+            "type": "hidden",
+            "val": "crosstab"
+          },
+          "crosstab__group_data_by_these_values_frame": {
+            "type": "fieldset",
+            "label": "Select column(s) to apply",
+            "style": "border: 1px solid #ccc",
+            "repeat": false,
+            "fields": {
+              "crosstab.group_data_by_these_values": {
+                "type": "select",
+                "label": "Group data by these values",
+                "style": "float: left; width: 50%",
+                "table": "table_id",
+                "multiple": true,
+                "bind": "COLUMNS"
+              },
+              "crosstab.group_data_by_these_values__all_but_selected": {
+                "type": "checkbox",
+                "label": "All but selected",
+                "style": "float: right; width: 40%",
+                "val": "false",
+                "isOn": "true",
+                "isOff": "false",
+                "breakLine": true
+              }
+            }
+          },
+          "crosstab.change_column_headers": {
+            "type": "select",
+            "label": "Change Column Header",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true,
+            "width": "100%",
+            "breakLine": true
+          },
+          "crosstab.values_for_new_columns": {
+            "type": "select",
+            "label": "Values For New Columns",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true,
+            "width": "100%",
+            "breakLine": true
+          },
+          "crosstab.method_for_aggregating_values": {
+            "type": "select",
+            "label": "Method for Aggregating Values",
+            "options": {
+              "Concatenate": {
+                "label": "Concatenate"
+              },
+              "First": {
+                "label": "First"
+              },
+              "Last": {
+                "label": "Last"
+              },
+              "Sum": {
+                "label": "Sum"
+              },
+              "Average": {
+                "label": "Average"
+              },
+              "Count": {
+                "label": "Count"
+              },
+              "User Defined": {
+                "label": "User Defined"
+              }
+            },
+            "val": "Concatenate",
+            "required": true
+          },
+          "crosstab.user_defined_str": {
+            "type": "text",
+            "label": "User Defined Value",
+            "show_if": "crosstab.method_for_aggregating_values=='User Defined'",
+            "val": "x",
+            "trim": "false",
+            "breakLine": true
+          },
+          "crosstab.separator": {
+            "type": "text",
+            "label": "Separator",
+            "show_if": "method_for_aggregating_values=='Concatenate'",
+            "val": ",",
+            "trim": "false",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Transpose.py?ref=master",
+  "version": 1.0
+}

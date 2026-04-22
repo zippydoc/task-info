@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>find_group</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>find_group</h1>
+  <p class="description">Find equal item sub groups.</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Find equal item sub groups.", "image": "assets/image/FindGroup.gif", "displayName": "Find Group", "explanationPicture": "", "type": "Find & Summarize", "menu": [{"options": {"type": "fieldset", "label": "Find Group Options", "style": "border-radius: 3px; border: 1px solid #ccc", "repeat": false, "fields": {"group_column": {"type": "select", "label": "Select Group Column", "required": true, "table": "table_id", "bind": "COLUMNS", "multiple": false}, "item_column": {"type": "select", "label": "Select Item Column", "required": true, "table": "table_id", "bind": "COLUMNS", "multiple": false, "breakLine": true}, "min_group_count": {"type": "number", "label": "Min Group Count", "required": true, "val": 3}, "min_group_size": {"type": "number", "label": "Min Group Size", "required": true, "val": 1, "breakLine": true}, "ordered": {"type": "select", "label": "Ordered / Unordered", "required": true, "options": {"ordered": {"label": "Ordered"}, "unordered": {"label": "Unordered"}}, "val": "unordered"}, "item_order": {"type": "select", "label": "Order", "required": true, "options": {"no": {"label": "-"}, "ascending": {"label": "Ascending"}, "descending": {"label": "Descending"}}, "val": "no", "breakLine": true, "show_if": "ordered == 'unordered'"}, "output_type": {"type": "select", "label": "Output Type", "required": true, "options": {"item_group_list": {"label": "List of found groups"}, "item_group_column": {"label": "Allocate found groups"}}, "val": "item_group_list", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/FindGroup.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

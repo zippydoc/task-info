@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Render assembled task-info menus as interactive HTML pages.
 
-Reads assembled JSON files under `assembled-menues/<stem>/<name>.json` and
-emits an HTML page per file under `rendered-menues/<stem>/<name>.html`.
+Reads assembled JSON files directly under `assembled-menues/<name>.json`
+and emits an HTML page per file directly under `rendered-menues/<stem>.html`.
 Shared JS/CSS assets are copied to `rendered-menues/assets/`, and a top-
 level `rendered-menues/index.html` links to every rendered menu.
 
@@ -22,14 +22,16 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ASSEMBLED_ROOT = SCRIPT_DIR / "assembled-menues"
 OUTPUT_ROOT = SCRIPT_DIR / "rendered-menues"
 FRAMEWORK_DIR = SCRIPT_DIR / "framework"
+TASK_ASSETS_DIR = SCRIPT_DIR / "assets"
 ASSETS_OUT = OUTPUT_ROOT / "assets"
 ASSET_FILES = ("menu_render.js", "menu_render.css")
+MIRRORED_ASSET_DIRS = ("image", "explanation")
 
 
 def list_assembled_files(root: Path = ASSEMBLED_ROOT) -> list[Path]:
     if not root.is_dir():
         return []
-    return sorted(root.glob("*/*.json"))
+    return sorted(root.glob("*.json"))
 
 
 def resolve_selection(arg: str, files: list[Path]) -> Path | None:
@@ -40,7 +42,7 @@ def resolve_selection(arg: str, files: list[Path]) -> Path | None:
     if candidate.is_file():
         return candidate
     stem = arg[:-5] if arg.endswith(".json") else arg
-    guess = ASSEMBLED_ROOT / stem / f"{stem}.json"
+    guess = ASSEMBLED_ROOT / f"{stem}.json"
     return guess if guess.is_file() else None
 
 
@@ -51,6 +53,12 @@ def ensure_assets() -> None:
         if not src.is_file():
             sys.exit(f"Missing framework asset: {src}")
         shutil.copy2(src, ASSETS_OUT / name)
+    # Mirror task-info/assets/{image,explanation} into rendered-menues/assets/
+    # so browser file:// sandboxes don't block `..` traversal.
+    for sub in MIRRORED_ASSET_DIRS:
+        src = TASK_ASSETS_DIR / sub
+        if src.is_dir():
+            shutil.copytree(src, ASSETS_OUT / sub, dirs_exist_ok=True)
 
 
 def html_escape(s: str) -> str:
@@ -67,17 +75,17 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <title>{title}</title>
-<link rel="stylesheet" href="../assets/menu_render.css">
+<link rel="stylesheet" href="assets/menu_render.css">
 </head>
 <body>
 <header>
   <h1>{display_name}</h1>
   <p class="description">{description}</p>
-  <a class="back" href="../index.html">&larr; back to index</a>
+  <a class="back" href="index.html">&larr; back to index</a>
 </header>
 <main id="menu-root"></main>
 <script id="task-data" type="application/json">{data}</script>
-<script src="../assets/menu_render.js"></script>
+<script src="assets/menu_render.js"></script>
 <script>
   (function () {{
     var raw = document.getElementById("task-data").textContent;
@@ -130,11 +138,35 @@ def render_one(source: Path) -> Path:
         data=data,
     )
 
-    out_dir = OUTPUT_ROOT / stem
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{stem}.html"
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    out_path = OUTPUT_ROOT / f"{stem}.html"
     out_path.write_text(html, encoding="utf-8")
     return out_path
+
+
+def _load_metadata(stem: str) -> tuple[str, str | None]:
+    """Return (display_name, image_href_relative_to_index) for a rendered page."""
+    assembled = ASSEMBLED_ROOT / f"{stem}.json"
+    display_name, image_href = stem, None
+    if assembled.is_file():
+        try:
+            data = json.loads(assembled.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            data = None
+        if isinstance(data, dict):
+            dn = data.get("displayName")
+            if isinstance(dn, str) and dn.strip():
+                display_name = dn.strip()
+            img = data.get("image") or ""
+            if isinstance(img, str) and img:
+                if img.startswith(("http://", "https://", "data:")):
+                    image_href = img
+                else:
+                    # Assets are mirrored into rendered-menues/assets/, so the
+                    # path the JSON already carries (assets/image/...) works
+                    # as-is relative to rendered-menues/index.html.
+                    image_href = img.lstrip("/")
+    return display_name, image_href
 
 
 def write_index(pages: list[Path]) -> Path:
@@ -142,8 +174,17 @@ def write_index(pages: list[Path]) -> Path:
     lines = []
     for p in pages:
         rel = p.relative_to(OUTPUT_ROOT).as_posix()
+        display_name, image_href = _load_metadata(p.stem)
+        img_html = (
+            f'<img class="menu-index__thumb" src="{html_escape(image_href)}" alt="">'
+            if image_href
+            else '<span class="menu-index__thumb menu-index__thumb--empty"></span>'
+        )
         lines.append(
-            f'    <li><a href="{html_escape(rel)}">{html_escape(p.stem)}</a></li>'
+            f'    <li><a href="{html_escape(rel)}">'
+            f'{img_html}'
+            f'<span class="menu-index__name">{html_escape(display_name)}</span>'
+            f'</a></li>'
         )
     html = INDEX_TEMPLATE.format(
         count=len(pages),
@@ -157,7 +198,9 @@ def write_index(pages: list[Path]) -> Path:
 def collect_existing_pages() -> list[Path]:
     if not OUTPUT_ROOT.is_dir():
         return []
-    return sorted(OUTPUT_ROOT.glob("*/*.html"))
+    return sorted(
+        p for p in OUTPUT_ROOT.glob("*.html") if p.name != "index.html"
+    )
 
 
 def run_batch(folder: Path | None = None) -> int:
@@ -173,10 +216,10 @@ def run_batch(folder: Path | None = None) -> int:
         try:
             out = render_one(p)
             pages.append(out)
-            print(f"  OK   {p.parent.name}/{p.name}")
+            print(f"  OK   {p.name}")
         except Exception as err:
             failures.append((p.name, err))
-            print(f"  FAIL {p.parent.name}/{p.name}: {err}")
+            print(f"  FAIL {p.name}: {err}")
     # Always regenerate index using the full set of pages present.
     all_pages = sorted(set(collect_existing_pages()) | set(pages))
     index = write_index(all_pages)
@@ -209,7 +252,7 @@ def interactive() -> int:
     width = len(str(len(files)))
     print(f"Assembled menus in {ASSEMBLED_ROOT}:\n")
     for i, p in enumerate(files, 1):
-        print(f"  {str(i).rjust(width)}. {p.parent.name}/{p.name}")
+        print(f"  {str(i).rjust(width)}. {p.name}")
     print(f"\n  {'a'.rjust(width)}. [render every assembled menu]")
     print()
     choice = input(

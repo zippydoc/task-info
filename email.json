@@ -1,25 +1,9 @@
 {
   "description": "Send E-mail (only for users logged in via Microsoft-Account)",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Email.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "E-mail",
-    "payingUsersOnly": true,
-    "explanationPicture": "",
-    "type": "Automate",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen","MS-User-Only"
-	],
-    "ms_oauth2_scope": "mail.send"
-  },
+  "image": "assets/image/Email.gif",
+  "displayName": "E-mail",
+  "explanationPicture": "",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/EmailByMenuOptions.json?ref=main",

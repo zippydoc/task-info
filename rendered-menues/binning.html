@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>binning</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>binning</h1>
+  <p class="description">Sort records to different bins (see https://support.zippydoc.de/en/binning/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Sort records to different bins (see https://support.zippydoc.de/en/binning/ )", "image": "assets/image/Binning.gif", "displayName": "Binning", "explanationPicture": "assets/explanation/Binning.png", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"number_of_tiles": {"type": "number", "label": "Number of Bins", "val": 2, "required": true, "breakLine": true}, "binning_type": {"type": "select", "label": "Binning Type", "style": "float: left; width: 40%", "options": {"equal_records": {"label": "Simple Binning"}, "equal_intervals": {"label": "Equal Interval Binning"}}, "val": "equal_records"}, "equal_records_order": {"type": "select", "label": "Order", "style": "float: right; width: 40%", "show_if": "binning_type=='equal_records'", "options": {"keep_current": {"label": "Keep Current"}, "asc": {"label": "Ascending"}, "desc": {"label": "Descending"}}, "val": "keep_current"}, "equal_intervals_order": {"type": "select", "label": "Order", "style": "float: right; width: 40%", "show_if": "binning_type=='equal_intervals'", "options": {"asc": {"label": "Ascending"}, "desc": {"label": "Descending"}}, "val": "asc", "breakLine": true}}, "breakLine": true}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Binning.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

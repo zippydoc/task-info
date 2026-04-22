@@ -1,0 +1,41 @@
+{
+  "description": "This tasks generates a table with a current time-stamp of the runtime",
+  "image": "assets/image/Schedule7.gif",
+  "displayName": "Time Tracker",
+  "explanationPicture": "",
+  "type": "Automate",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "start_stop": {
+            "type": "radio",
+            "label": "Track",
+            "required": true,
+            "values": {
+              "start": "Start",
+              "stop": "Stop"
+            },
+            "val": "start",
+            "breakLine": true
+          },
+          "notes": {
+            "type": "textarea",
+            "label": "Notes",
+            "val": "",
+            "md_no_resize": true,
+            "rows": 2,
+            "width": "100%",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/TimeTracker.py?ref=master",
+  "version": 1.0
+}

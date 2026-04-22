@@ -1,0 +1,166 @@
+{
+  "description": "Modifies an already existing task of the same flow",
+  "image": "assets/image/Chameleon.gif",
+  "displayName": "Chameleon",
+  "explanationPicture": "",
+  "type": "Automate",
+  "menu": [
+    {
+      "select_task_frame": {
+        "type": "fieldset",
+        "label": "Select Task",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "input_task": {
+            "type": "select",
+            "label": "Select Task",
+            "bind": "TASKS",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    },
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "params": {
+            "type": "fieldset",
+            "label": "Modify Parameters",
+            "breakLine": true,
+            "repeat": true,
+            "fields": {
+              "attr_name": {
+                "type": "text",
+                "label": "Field Name",
+                "required": true,
+                "val": ""
+              },
+              "use_field_label": {
+                "type": "checkbox",
+                "label": "Use field label",
+                "val": "true",
+                "isOn": "true",
+                "isOff": "false"
+              },
+              "attr_instance": {
+                "type": "number",
+                "label": "Field Instance",
+                "required": true,
+                "val": 1
+              },
+              "value_type": {
+                "type": "select",
+                "label": "Replace with",
+                "required": true,
+                "options": {
+                  "single_value": {
+                    "label": "Single Field Value"
+                  },
+                  "value_series": {
+                    "label": "Field Value List"
+                  },
+                  "table_values": {
+                    "label": "Table Values"
+                  }
+                },
+                "val": "single_value"
+              },
+              "attr_value": {
+                "type": "text",
+                "label": "Field Value",
+                "required": true,
+                "val": "",
+                "show_if": "this.value_type=='single_value'"
+              },
+              "attr_values": {
+                "type": "text",
+                "label": "Field Values ( ; - separated )",
+                "required": true,
+                "val": "",
+                "show_if": "this.value_type=='value_series'"
+              },
+              "table_id": {
+                "type": "select",
+                "label": "Select Table",
+                "bind": "TABLES",
+                "show_if": "this.value_type=='table_values'",
+                "empty": "",
+                "required": true
+              },
+              "column": {
+                "type": "select",
+                "label": "Select Column",
+                "required": true,
+                "table": "this.table_id",
+                "bind": "COLUMNS",
+                "show_if": "this.value_type=='table_values'"
+              },
+              "use_waiting_time": {
+                "type": "checkbox",
+                "label": "Add waiting time",
+                "val": "false",
+                "isOn": "true",
+                "isOff": "false",
+                "show_if": "this.value_type!='single_value'"
+              },
+              "waiting_period": {
+                "type": "number",
+                "label": "Waiting time (sec)",
+                "val": 0,
+                "show_if": "this.value_type!='single_value' && this.use_waiting_time!='false'"
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "task_chain": {
+            "type": "checkbox",
+            "label": "Task Chain",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "schedule_options": {
+            "type": "fieldset",
+            "label": "Tasks to schedule",
+            "show_if": "task_chain == 'true'",
+            "repeat": true,
+            "fields": {
+              "input_task": {
+                "type": "select",
+                "label": "Select Task",
+                "bind": "TASKS",
+                "empty": "",
+                "required": true
+              },
+              "waiting_time": {
+                "type": "number",
+                "label": "Waiting time (sec)",
+                "val": 0,
+                "required": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",
+  "version": 1.0
+}

@@ -1,33 +1,15 @@
 {
   "description": "Modifies an already existing task of the same flow",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Chameleon",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Automate",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Chameleon.gif",
+  "displayName": "Chameleon",
+  "explanationPicture": "",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/SelectTask.json?ref=main"
     },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/ChameleonOptions.json?ref=main"
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/StandardOutput.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",

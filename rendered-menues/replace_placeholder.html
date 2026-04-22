@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>replace_placeholder</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>replace_placeholder</h1>
+  <p class="description">Replace a value X in column 1 with a value of column 2 (same row)</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Replace a value X in column 1 with a value of column 2 (same row)", "image": "assets/image/Consolidate8.gif", "displayName": "Replace placeholder", "explanationPicture": "", "type": "Add & Modify", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.find_col": {"type": "select", "label": "Placeholder Column", "table": "table_id", "bind": "COLUMNS", "required": true}, "options.placeholder_type": {"type": "select", "label": "Placeholder type", "required": true, "options": {"text": {"label": "Text"}, "regex": {"label": "Regular Expression"}}, "val": "text"}, "options.placeholder_text": {"type": "text", "label": "Placeholder", "show_if": "options.placeholder_type=='text'", "val": "", "placeholder": "FindText", "required": true, "breakLine": true}, "options.placeholder_regex": {"type": "text", "label": "Placeholder RegEx", "show_if": "options.placeholder_type=='regex'", "val": "", "placeholder": "\\sFindText\\s", "required": true}, "options.case_sensitivity": {"type": "select", "label": "Case Sensitivity", "required": true, "options": {"yes": {"label": "Case Sensitive"}, "no": {"label": "Case Insensitive"}}, "val": "yes", "breakLine": true}, "options.replace_col": {"type": "select", "label": "Replace By Column", "table": "table_id", "bind": "COLUMNS", "required": true, "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/ReplacePlaceholder.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

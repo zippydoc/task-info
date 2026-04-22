@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>curvegenerator</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>curvegenerator</h1>
+  <p class="description">Generate table lists in the shape of linear, jump-fix or standard distribution curves</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Generate table lists in the shape of linear, jump-fix or standard distribution curves", "image": "assets/image/ImpactCurve.gif", "displayName": "Curve Composer", "explanationPicture": "", "type": "Prepare", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.standard.start": {"type": "hidden", "val": "1"}, "options.standard.multiplier_at_maximum_impact_level": {"type": "text", "label": "Maximum Value", "val": "2", "required": true}, "options.standard.maximum": {"type": "text", "label": "Maximum Period", "val": "50", "required": true}, "options.standard.multiplier_end_value": {"type": "text", "label": "End Value", "show_if": "options.standard.end_value_equals_initial_value=='no'", "val": "1", "required": true}, "options.standard.end": {"type": "text", "label": "End Period", "val": "100", "required": true, "breakLine": true}, "options.standard.end_value_equals_initial_value": {"type": "checkbox", "label": "Initial Value and End Value equals 1", "width": "100%", "val": "yes", "isOn": "yes", "isOff": "no", "breakLine": true}, "options.standard.maximum_plateau": {"type": "checkbox", "label": "Maximum Plateau", "width": "100%", "val": "yes", "isOn": "yes", "isOff": "no", "breakLine": true}, "options.standard.no_of_periods_prior_defined_maximum_point": {"type": "text", "label": "No of periods prior defined maximum point", "show_if": "options.standard.maximum_plateau=='yes'", "val": "0", "style": "width: 250px"}, "options.standard.no_of_periods_post_defined_maximum_point": {"type": "text", "label": "No of periods post defined maximum point", "show_if": "options.standard.maximum_plateau=='yes'", "val": "0", "style": "width: 250px", "breakLine": true}, "options.standard.left_slope": {"type": "select", "label": "Left Slope", "options": {"vertical": {"label": "Vertical"}, "linear": {"label": "Linear"}, "standard_distribution": {"label": "Standard Distribution"}}, "val": "standard_distribution"}, "options.standard.use_auto_calculated_sigma_for_left_slope": {"type": "checkbox", "label": "Auto calculated left sigma", "show_if": "options.standard.left_slope=='standard_distribution'", "val": "true", "isOn": "true", "isOff": "false"}, "options.standard.left_slope_sigma": {"type": "text", "label": "Left Slope Sigma", "show_if": "options.standard.left_slope=='standard_distribution' && options.standard.use_auto_calculated_sigma_for_left_slope=='false'", "val": "", "breakLine": true}, "options.standard.right_slope": {"type": "select", "label": "Right Slope", "required": true, "options": {"vertical": {"label": "Vertical"}, "linear": {"label": "Linear"}, "standard_distribution": {"label": "Standard Distribution"}}, "val": "standard_distribution"}, "options.standard.use_auto_calculated_sigma_for_right_slope": {"type": "checkbox", "label": "Auto calculated right sigma", "show_if": "options.standard.right_slope=='standard_distribution'", "val": "true", "isOn": "true", "isOff": "false"}, "options.standard.right_slope_sigma": {"type": "text", "label": "Right Slope Sigma", "show_if": "options.standard.right_slope=='standard_distribution' && options.standard.use_auto_calculated_sigma_for_right_slope=='false'", "val": "", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/CurveGenerator.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

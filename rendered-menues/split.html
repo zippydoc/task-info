@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>split</title>
+<link rel="stylesheet" href="assets/menu_render.css">
+</head>
+<body>
+<header>
+  <h1>split</h1>
+  <p class="description">Split records at punctuation, whitespace and more (see https://support.zippydoc.de/en/split/ )</p>
+  <a class="back" href="index.html">&larr; back to index</a>
+</header>
+<main id="menu-root"></main>
+<script id="task-data" type="application/json">{"description": "Split records at punctuation, whitespace and more (see https://support.zippydoc.de/en/split/ )", "image": "assets/image/Split.gif", "displayName": "Split", "explanationPicture": "assets/explanation/Split.png", "type": "Add & Modify", "menu": [{"options": {"type": "fieldset", "label": "", "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc", "repeat": false, "fields": {"options.split_method": {"type": "select", "label": "Split method", "required": true, "options": {"standard": {"label": "Standard"}, "regex": {"label": "RegEx"}}, "val": "standard"}, "options.split_type": {"type": "select", "label": "Split type", "required": true, "options": {"split_to_columns": {"label": "Split to Columns"}, "split_to_rows": {"label": "Split to Rows"}}, "val": "split_to_columns"}, "options.standard_delimiter": {"type": "select", "label": "Split Delimiter", "show_if": "options.split_method=='standard'", "required": true, "options": {"tabs": {"label": "Tabs"}, "space": {"label": "Space"}, "whitespace": {"label": "Whitespace"}, "linebreak": {"label": "Line break"}, "punctuation": {"label": "Punctuation"}, "punctuation_whitespace": {"label": "Punctuation and Whitespace"}, "custom": {"label": "Custom"}}, "val": "punctuation"}, "options.delimiter": {"type": "text", "label": "Split Delimiter", "show_if": "options.split_method=='standard' && options.standard_delimiter=='custom'", "val": ",", "trim": "false", "required": true, "breakLine": true}, "format_frame": {"type": "fieldset", "label": "Format to Parse for Split", "show_if": "options.split_method=='regex'", "repeat": false, "fields": {"options.format_to_convert.regular_expression": {"type": "text", "label": "Parse Regular Expression ( ex: ([a-z]+)\\s([a-z]+) )", "val": "[a-z]+\\s[a-z]+", "required": true, "width": "100%", "trim": "false", "breakLine": true}, "options.format_to_convert.case_insensitive": {"type": "checkbox", "label": "Case Insensitive", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}}}, "options.n_multi_n": {"type": "checkbox", "label": "N x N split if multiple columns are selected", "show_if": "options.split_type=='split_to_rows'", "val": "true", "isOn": "true", "isOff": "false", "breakLine": true}}}}], "script": "https://api.github.com/repos/zippydoc/basic/contents/Split.py?ref=master", "version": 1.0}</script>
+<script src="assets/menu_render.js"></script>
+<script>
+  (function () {
+    var raw = document.getElementById("task-data").textContent;
+    MenuRender.render(JSON.parse(raw), document.getElementById("menu-root"));
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "description": "Convert date and time formats",
+  "image": "assets/image/DateTime.gif",
+  "displayName": "Date & Time",
+  "explanationPicture": "",
+  "type": "Add & Modify",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.convert_type": {
+            "type": "select",
+            "label": "Convert Type",
+            "required": true,
+            "options": {
+              "complete_date": {
+                "label": "Complete date"
+              },
+              "expand_date": {
+                "label": "Expand date"
+              },
+              "convert_date": {
+                "label": "Convert date"
+              },
+              "convert_date_range": {
+                "label": "Convert date range"
+              }
+            },
+            "val": "complete_date"
+          },
+          "options.date_convert_type": {
+            "type": "select",
+            "label": "Convert to",
+            "show_if": "options.convert_type=='convert_date'",
+            "required": true,
+            "options": {
+              "begin_of_month": {
+                "label": "Begin of Month"
+              },
+              "end_of_month": {
+                "label": "End of Month"
+              },
+              "hy_year": {
+                "label": "HY Year"
+              },
+              "qrt_year": {
+                "label": "Qrt Year"
+              },
+              "month_year": {
+                "label": "Month Year"
+              },
+              "week_year": {
+                "label": "Week Year"
+              }
+            },
+            "val": "begin_of_month"
+          },
+          "options.date_range_convert_type": {
+            "type": "select",
+            "label": "Convert to",
+            "show_if": "options.convert_type=='convert_date_range'",
+            "required": true,
+            "options": {
+              "begin_of_month": {
+                "label": "Begin of Month"
+              },
+              "end_of_month": {
+                "label": "End of Month"
+              },
+              "begin_of_range": {
+                "label": "Begin of Range"
+              },
+              "end_of_range": {
+                "label": "End of Range"
+              },
+              "begin_of_quarter": {
+                "label": "Begin of Quarter"
+              },
+              "end_of_quarter": {
+                "label": "End of Quarter"
+              }
+            },
+            "val": "begin_of_month",
+            "breakLine": true
+          },
+          "options.output_in_new_column": {
+            "type": "checkbox",
+            "label": "Output in New Column",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false"
+          },
+          "options.new_field_name": {
+            "type": "text",
+            "label": "New column name",
+            "show_if": "options.output_in_new_column=='true'",
+            "val": "GeneratedDate",
+            "required": true,
+            "minLength": 1,
+            "maxLength": 255,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/DateTime.py?ref=master",
+  "version": 1.0
+}

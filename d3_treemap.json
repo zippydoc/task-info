@@ -1,28 +1,10 @@
 {
   "description": "Generate a D3 Treemap chart from your table",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Treemap.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "D3 Treemap",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Create Reports",
-	"attributes": [
-      "1-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/D3-Treemap.gif",
+  "displayName": "D3 Treemap",
+  "explanationPicture": "",
+  "type": "Create Reports",
   "menu": [
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/FlexmonsterInput.json?ref=main"
-    },
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/D3TreemapOptions.json?ref=main"
     },

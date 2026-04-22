@@ -1,0 +1,82 @@
+{
+  "description": "Replace a value X in column 1 with a value of column 2 (same row)",
+  "image": "assets/image/Consolidate8.gif",
+  "displayName": "Replace placeholder",
+  "explanationPicture": "",
+  "type": "Add & Modify",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.find_col": {
+            "type": "select",
+            "label": "Placeholder Column",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true
+          },
+          "options.placeholder_type": {
+            "type": "select",
+            "label": "Placeholder type",
+            "required": true,
+            "options": {
+              "text": {
+                "label": "Text"
+              },
+              "regex": {
+                "label": "Regular Expression"
+              }
+            },
+            "val": "text"
+          },
+          "options.placeholder_text": {
+            "type": "text",
+            "label": "Placeholder",
+            "show_if": "options.placeholder_type=='text'",
+            "val": "",
+            "placeholder": "FindText",
+            "required": true,
+            "breakLine": true
+          },
+          "options.placeholder_regex": {
+            "type": "text",
+            "label": "Placeholder RegEx",
+            "show_if": "options.placeholder_type=='regex'",
+            "val": "",
+            "placeholder": "\\sFindText\\s",
+            "required": true
+          },
+          "options.case_sensitivity": {
+            "type": "select",
+            "label": "Case Sensitivity",
+            "required": true,
+            "options": {
+              "yes": {
+                "label": "Case Sensitive"
+              },
+              "no": {
+                "label": "Case Insensitive"
+              }
+            },
+            "val": "yes",
+            "breakLine": true
+          },
+          "options.replace_col": {
+            "type": "select",
+            "label": "Replace By Column",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/ReplacePlaceholder.py?ref=master",
+  "version": 1.0
+}

@@ -1,24 +1,9 @@
 {
   "description": "Explore Economic time series; datasource: API of datacommons.org",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Economics.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Economic (datacom.)",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Facts & Figures",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Economics.gif",
+  "displayName": "Economic (datacom.)",
+  "explanationPicture": "",
+  "type": "Facts & Figures",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/DCEconomicOptions.json?ref=main",
@@ -31,23 +16,6 @@
           "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/Countries.json?ref=main",
           "property": "options_frame/fields",
           "after": "options.stat_vars"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/DataCommonsOutputSettingTickbox.json?ref=main",
-          "property": "options_frame/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/DataCommonsOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTagWithoutInputTable.json?ref=main",
-          "property": "output/fields"
         }
       ]
     }

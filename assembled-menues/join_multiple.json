@@ -1,0 +1,35 @@
+{
+  "description": "Join two tables (see https://support.zippydoc.de/en/join/ )",
+  "image": "assets/image/Join.gif",
+  "displayName": "Join Multiple",
+  "explanationPicture": "assets/explanation/Join.png",
+  "type": "Multiple Input Tables",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "join_type": {
+            "type": "select",
+            "label": "Detect join column(s)",
+            "options": {
+              "step_by_step": {
+                "label": "by common columns of two tables and join step by step"
+              },
+              "batch_join": {
+                "label": "by common columns of all tables"
+              }
+            },
+            "val": "step_by_step",
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/JoinMultiple.py?ref=master",
+  "version": 1.0
+}

@@ -1,46 +1,12 @@
 {
   "description": "This tasks generates a table with a current time-stamp of the runtime",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Schedule7.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Time Tracker",
-    "payingUsersOnly": false,
-    "explanationPicture": "",
-    "type": "Automate",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/Schedule7.gif",
+  "displayName": "Time Tracker",
+  "explanationPicture": "",
+  "type": "Automate",
   "menu": [
     {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TimeTrackerOptions.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/OutputSettingTickbox.json?ref=main",
-          "property": "options/fields"
-        }
-      ]
-    },
-    {
-      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/StandardOutput.json?ref=main",
-      "children": [
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/ComposeTableNameWithoutInputTable.json?ref=main",
-          "property": "output/fields"
-        },
-        {
-          "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/common-snippets/v1/AddTagWithoutInputTable.json?ref=main",
-          "property": "output/fields"
-        }
-      ]
+      "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/TimeTrackerOptions.json?ref=main"
     }
   ],
   "script": "https://api.github.com/repos/zippydoc/basic/contents/TimeTracker.py?ref=master",

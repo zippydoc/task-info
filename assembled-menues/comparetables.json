@@ -1,0 +1,133 @@
+{
+  "description": "Compare contents of two tables",
+  "image": "assets/image/Compare.gif",
+  "displayName": "Compare",
+  "explanationPicture": "",
+  "type": "Beta Tasks",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Options",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "compare_set": {
+            "type": "fieldset",
+            "label": "Select Patterns",
+            "repeat": true,
+            "fields": {
+              "pattern": {
+                "type": "select",
+                "label": "Table Pattern Type",
+                "options": {
+                  "all_col": {
+                    "label": "All column identity"
+                  },
+                  "two_col": {
+                    "label": "Two column identity"
+                  }
+                },
+                "val": "all_col",
+                "required": true
+              },
+              "compare_type": {
+                "type": "select",
+                "label": "Cell Pattern Type",
+                "options": {
+                  "equal": {
+                    "label": "Equal"
+                  },
+                  "contain": {
+                    "label": "Contains"
+                  },
+                  "start_with": {
+                    "label": "Starts With"
+                  },
+                  "end_with": {
+                    "label": "Ends With"
+                  },
+                  "reg_exp": {
+                    "label": "Regular Expression"
+                  }
+                },
+                "val": "equal",
+                "required": true
+              },
+              "case_sensitive": {
+                "type": "select",
+                "label": "Case Sensitivity",
+                "required": true,
+                "options": {
+                  "yes": {
+                    "label": "Case Sensitive"
+                  },
+                  "no": {
+                    "label": "Case Insensitive"
+                  }
+                },
+                "val": "no"
+              },
+              "expression": {
+                "type": "text",
+                "label": "Expression",
+                "show_if": "this.compare_type != 'equal'",
+                "required": true,
+                "val": ""
+              },
+              "delete": {
+                "show_if": "this.field_name != ''",
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            },
+            "breakLine": true
+          },
+          "target": {
+            "type": "select",
+            "label": "Target",
+            "options": {
+              "to_table": {
+                "label": "Apply to table"
+              },
+              "to_rows": {
+                "label": "Row by Row"
+              }
+            },
+            "val": "to_table",
+            "required": true
+          },
+          "match_type": {
+            "type": "select",
+            "show_if": "target != 'to_table'",
+            "label": "Match Type",
+            "options": {
+              "match": {
+                "label": "Matches Only"
+              },
+              "nonmatch": {
+                "label": "Non Matches Only"
+              },
+              "all": {
+                "label": "All"
+              }
+            },
+            "val": "match",
+            "required": true,
+            "breakLine": true
+          },
+          "create_sql": {
+            "type": "checkbox",
+            "label": "Show SQL-Details",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false"
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/CompareTables.py?ref=master",
+  "version": 1.0
+}

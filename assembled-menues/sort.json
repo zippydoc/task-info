@@ -1,0 +1,54 @@
+{
+  "description": "Sort descending or ascending (see https://support.zippydoc.de/en/sort/ )",
+  "image": "assets/image/Sort.gif",
+  "displayName": "Sort",
+  "explanationPicture": "assets/explanation/Sort.png",
+  "type": "Prepare",
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "sort": {
+            "type": "fieldset",
+            "label": "Select Sort Columns",
+            "repeat": true,
+            "fields": {
+              "column": {
+                "type": "select",
+                "label": "Column",
+                "table": "table_id",
+                "bind": "COLUMNS",
+                "required": true
+              },
+              "order": {
+                "type": "select",
+                "label": "Order",
+                "options": {
+                  "asc": {
+                    "label": "Asc"
+                  },
+                  "desc": {
+                    "label": "Desc"
+                  }
+                },
+                "val": "asc"
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            },
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Sort.py?ref=master",
+  "version": 1.0
+}

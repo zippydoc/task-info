@@ -1,24 +1,9 @@
 {
   "description": "Vreate own Task in Task Gallery",
-  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
-  "scriptSettings": {
-    "autoLoadTable": [
-    ],
-    "countries": [
-      "US",
-      "UK"
-    ],
-    "languages": [
-      "EN"
-    ],
-    "displayName": "Save Task Template",
-    "payingUsersOnly": false,
-    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
-    "type": "Automate",
-	"attributes": [
-      "0-input","Guest-User","Starter-Screen"
-	]
-  },
+  "image": "assets/image/AddColumn.gif",
+  "displayName": "Save Task Template",
+  "explanationPicture": "assets/explanation/Add-Column.png",
+  "type": "Automate",
   "menu": [
     {
       "source": "https://api.github.com/repos/zippydoc/menue-snippets/contents/SaveTaskTemplateOptions.json?ref=main"

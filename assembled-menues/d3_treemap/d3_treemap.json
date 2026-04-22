@@ -1,0 +1,119 @@
+{
+  "description": "Generate a D3 Treemap chart from your table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/D3-Treemap.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "D3 Treemap",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Create Reports",
+    "attributes": [
+      "1-input",
+      "Guest-User",
+      "Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "input": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "table_id": {
+            "type": "select",
+            "label": "Select Table",
+            "bind": "TABLES",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          },
+          "remove_input_table_after_processing": {
+            "type": "hidden",
+            "val": "false"
+          },
+          "is_word": {
+            "type": "hidden",
+            "val": "false"
+          },
+          "options.configure_manual": {
+            "type": "checkbox",
+            "label": "Configure manually",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          }
+        }
+      }
+    },
+    {
+      "options_box": {
+        "type": "fieldset",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "label": "",
+        "show_if": "options.configure_manual=='true'",
+        "repeat": false,
+        "fields": {
+          "options.chart_type": {
+            "type": "hidden",
+            "val": "treemap"
+          },
+          "options.group_cols": {
+            "type": "fieldset",
+            "label": "Select Group Column(s) in Order",
+            "repeat": true,
+            "fields": {
+              "group_col": {
+                "type": "select",
+                "label": "Group column",
+                "table": "table_id",
+                "bind": "COLUMNS",
+                "required": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "options.value_col": {
+            "type": "select",
+            "label": "Select Value Column",
+            "table": "table_id",
+            "bind": "COLUMNS",
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "options.popup_or_table": {
+        "type": "select",
+        "label": "Type",
+        "required": true,
+        "options": {
+          "popup": {
+            "label": "Pop-Up"
+          },
+          "embedded": {
+            "label": "Embedded"
+          }
+        },
+        "val": "popup",
+        "breakLine": true
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/D3.py?ref=master",
+  "version": 1.0
+}

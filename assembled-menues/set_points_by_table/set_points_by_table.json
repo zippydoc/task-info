@@ -1,0 +1,66 @@
+{
+  "description": "Set Points of user(s) by table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/SetPoints.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Set Points by Table",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Share Data",
+    "attributes": [
+      "1-input",
+      "Starter-Screen"
+    ]
+  },
+  "userIds": [
+    "212",
+    "34",
+    "38",
+    "480",
+    "41"
+  ],
+  "menu": [
+    {
+      "input": {
+        "type": "fieldset",
+        "label": "Select Input Table",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "table_id": {
+            "type": "select",
+            "label": "Select Table",
+            "bind": "TABLES",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          },
+          "remove_input_table_after_processing": {
+            "type": "hidden",
+            "val": "false"
+          },
+          "is_word": {
+            "type": "hidden",
+            "val": "false"
+          },
+          "info1": {
+            "type": "text",
+            "label": "",
+            "val": "Input Table Format: userID | points",
+            "disabled": true,
+            "style": "width: 100%"
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SetPointsByTable.py?ref=master",
+  "version": 1.0
+}

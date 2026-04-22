@@ -1,0 +1,79 @@
+{
+  "description": "Temporary test file",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Test Frame Repeat",
+    "payingUsersOnly": true,
+    "explanationPicture": "",
+    "type": "Expert Tasks",
+    "attributes": [
+      "1-input",
+      "Guest-User"
+    ]
+  },
+  "menu": [
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "Repeat frame",
+        "repeat": true,
+        "fields": {
+          "internal_frame1": {
+            "type": "fieldset",
+            "label": "Internal frame 1",
+            "repeat": false,
+            "fields": {
+              "variable1": {
+                "type": "select",
+                "label": "Variable 1",
+                "options": {
+                  "Revenues": {
+                    "label": "Revenues"
+                  },
+                  "Depretiation & Amortisation": {
+                    "label": "Depretiation & Amortisation"
+                  }
+                },
+                "val": "Revenues",
+                "required": true
+              }
+            }
+          },
+          "internal_frame2": {
+            "type": "fieldset",
+            "label": "Internal frame 2",
+            "repeat": false,
+            "fields": {
+              "variable2": {
+                "type": "text",
+                "label": "Variable 2",
+                "val": "",
+                "required": true
+              }
+            }
+          },
+          "delete": {
+            "type": "button",
+            "label": "Delete",
+            "function": "DELETE_ROW"
+          }
+        }
+      }
+    },
+    {
+      "debug": {
+        "type": "debug"
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Test.py?ref=master",
+  "version": 1.0
+}

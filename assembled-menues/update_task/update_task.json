@@ -1,0 +1,53 @@
+{
+  "description": "Update the JSON Code of a Task of the flow",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Update Task",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
+    "type": "Automate",
+    "attributes": [
+      "1-input",
+      "Guest-User",
+      "Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "select_task_frame": {
+        "type": "fieldset",
+        "label": "Select Task",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "input_task": {
+            "type": "select",
+            "label": "Select Task",
+            "bind": "TASKS",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          },
+          "table_id": {
+            "type": "select",
+            "label": "Select JSON Table",
+            "bind": "TABLES",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/UpdateTask.py?ref=master",
+  "version": 1.0
+}

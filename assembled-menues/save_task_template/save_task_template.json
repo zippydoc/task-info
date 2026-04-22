@@ -1,0 +1,74 @@
+{
+  "description": "Vreate own Task in Task Gallery",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/AddColumn.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Save Task Template",
+    "payingUsersOnly": false,
+    "explanationPicture": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Explanations/Add-Column.png",
+    "type": "Automate",
+    "attributes": [
+      "0-input",
+      "Guest-User",
+      "Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "options_box": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "options.base_script_name": {
+            "type": "text",
+            "label": "Base script name(e.g. `clean`)",
+            "val": "clean",
+            "width": "100%",
+            "breakLine": true
+          },
+          "options.table_id": {
+            "type": "select",
+            "label": "Script Entity JSON table",
+            "bind": "TABLES",
+            "required": true,
+            "breakLine": true
+          },
+          "help_1": {
+            "type": "text",
+            "label": "",
+            "val": "You may get base table with `Get Task Template` task",
+            "disabled": true,
+            "width": "100%",
+            "breakLine": true
+          },
+          "options.publish_type": {
+            "type": "select",
+            "label": "Publish Type",
+            "options": {
+              "private": {
+                "label": "As private task"
+              },
+              "public": {
+                "label": "As public task"
+              }
+            },
+            "val": "private",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/SaveTaskTemplate.py?ref=master",
+  "version": 1.0
+}

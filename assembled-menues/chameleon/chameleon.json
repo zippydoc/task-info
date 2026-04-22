@@ -1,0 +1,472 @@
+{
+  "description": "Modifies an already existing task of the same flow",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Chameleon",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+    "attributes": [
+      "1-input",
+      "Guest-User",
+      "Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "select_task_frame": {
+        "type": "fieldset",
+        "label": "Select Task",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "input_task": {
+            "type": "select",
+            "label": "Select Task",
+            "bind": "TASKS",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    },
+    {
+      "options": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "params": {
+            "type": "fieldset",
+            "label": "Modify Parameters",
+            "breakLine": true,
+            "repeat": true,
+            "fields": {
+              "attr_name": {
+                "type": "text",
+                "label": "Field Name",
+                "required": true,
+                "val": ""
+              },
+              "use_field_label": {
+                "type": "checkbox",
+                "label": "Use field label",
+                "val": "true",
+                "isOn": "true",
+                "isOff": "false"
+              },
+              "attr_instance": {
+                "type": "number",
+                "label": "Field Instance",
+                "required": true,
+                "val": 1
+              },
+              "value_type": {
+                "type": "select",
+                "label": "Replace with",
+                "required": true,
+                "options": {
+                  "single_value": {
+                    "label": "Single Field Value"
+                  },
+                  "value_series": {
+                    "label": "Field Value List"
+                  },
+                  "table_values": {
+                    "label": "Table Values"
+                  }
+                },
+                "val": "single_value"
+              },
+              "attr_value": {
+                "type": "text",
+                "label": "Field Value",
+                "required": true,
+                "val": "",
+                "show_if": "this.value_type=='single_value'"
+              },
+              "attr_values": {
+                "type": "text",
+                "label": "Field Values ( ; - separated )",
+                "required": true,
+                "val": "",
+                "show_if": "this.value_type=='value_series'"
+              },
+              "table_id": {
+                "type": "select",
+                "label": "Select Table",
+                "bind": "TABLES",
+                "show_if": "this.value_type=='table_values'",
+                "empty": "",
+                "required": true
+              },
+              "column": {
+                "type": "select",
+                "label": "Select Column",
+                "required": true,
+                "table": "this.table_id",
+                "bind": "COLUMNS",
+                "show_if": "this.value_type=='table_values'"
+              },
+              "use_waiting_time": {
+                "type": "checkbox",
+                "label": "Add waiting time",
+                "val": "false",
+                "isOn": "true",
+                "isOff": "false",
+                "show_if": "this.value_type!='single_value'"
+              },
+              "waiting_period": {
+                "type": "number",
+                "label": "Waiting time (sec)",
+                "val": 0,
+                "show_if": "this.value_type!='single_value' && this.use_waiting_time!='false'"
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          },
+          "task_chain": {
+            "type": "checkbox",
+            "label": "Task Chain",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "schedule_options": {
+            "type": "fieldset",
+            "label": "Tasks to schedule",
+            "show_if": "task_chain == 'true'",
+            "repeat": true,
+            "fields": {
+              "input_task": {
+                "type": "select",
+                "label": "Select Task",
+                "bind": "TASKS",
+                "empty": "",
+                "required": true
+              },
+              "waiting_time": {
+                "type": "number",
+                "label": "Waiting time (sec)",
+                "val": 0,
+                "required": true
+              },
+              "delete": {
+                "type": "button",
+                "label": "Delete",
+                "function": "DELETE_ROW"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "output": {
+        "type": "fieldset",
+        "label": "",
+        "style": "border-radius: 3px; margin-right:5px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "output.custom_text": {
+            "type": "text",
+            "label": "Output Table Name",
+            "show_if": "output.custom_options=='false' || (output.custom_options=='true' && output.compose_table_name=='false')",
+            "minLength": 1,
+            "val": "",
+            "width": "100%",
+            "breakLine": true
+          },
+          "output.custom_options": {
+            "type": "checkbox",
+            "label": "Output Options",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "output.compose_table_name": {
+            "type": "checkbox",
+            "label": "Compose Table Name",
+            "show_if": "output.custom_options=='true'",
+            "val": "false",
+            "isOn": "true",
+            "isOff": "false",
+            "breakLine": true
+          },
+          "compose_table_name_frame": {
+            "type": "fieldset",
+            "label": "Compose Output Table Name",
+            "style": "border-radius: 3px; border: 1px solid #ccc",
+            "show_if": "output.custom_options=='true' && output.compose_table_name=='true'",
+            "repeat": false,
+            "fields": {
+              "output.prefix_rule": {
+                "type": "select",
+                "label": "Prefix",
+                "show_if": "output.compose_table_name=='true'",
+                "val": "empty",
+                "options": {
+                  "empty": {
+                    "label": "-"
+                  },
+                  "script_name": {
+                    "label": "Task Name"
+                  },
+                  "date_string_type1": {
+                    "label": "Date: dd_mm_yyyy"
+                  },
+                  "date_string_type2": {
+                    "label": "Date: yyyy_mm_dd"
+                  },
+                  "time_string": {
+                    "label": "Time: h_min_sec"
+                  },
+                  "datetime_string": {
+                    "label": "Date_Time"
+                  },
+                  "custom": {
+                    "label": "Custom"
+                  }
+                }
+              },
+              "output.prefix_text": {
+                "type": "text",
+                "label": "Prefix Text",
+                "show_if": "output.compose_table_name=='true' && output.prefix_rule=='custom'",
+                "minLength": 1,
+                "maxLength": 31,
+                "val": ""
+              },
+              "output.core_delimiter": {
+                "type": "text",
+                "label": "Delimiter",
+                "show_if": "output.compose_table_name=='true' && output.prefix_rule!='empty'",
+                "val": "_",
+                "width": "50px"
+              },
+              "output.core_rule": {
+                "type": "select",
+                "label": "Table Name",
+                "show_if": "output.compose_table_name=='true'",
+                "val": "input_table_name",
+                "options": {
+                  "input_table_name": {
+                    "label": "Input Table Name"
+                  },
+                  "script_name": {
+                    "label": "Task Name"
+                  },
+                  "custom": {
+                    "label": "Custom"
+                  }
+                }
+              },
+              "output.core_text": {
+                "type": "text",
+                "label": "Main Table Name",
+                "show_if": "output.compose_table_name=='true' && output.core_rule=='custom'",
+                "required": true,
+                "minLength": 1,
+                "maxLength": 31,
+                "val": ""
+              },
+              "output.suffix_delimiter": {
+                "type": "text",
+                "label": "Delimiter",
+                "show_if": "output.compose_table_name=='true'",
+                "val": "_",
+                "width": "50px"
+              },
+              "output.suffix_rule": {
+                "type": "select",
+                "label": "Suffix",
+                "show_if": "output.compose_table_name=='true'",
+                "val": "script_name",
+                "options": {
+                  "empty": {
+                    "label": "-"
+                  },
+                  "script_name": {
+                    "label": "Task Name"
+                  },
+                  "date_string_type1": {
+                    "label": "Date: dd_mm_yyyy"
+                  },
+                  "date_string_type2": {
+                    "label": "Date: yyyy_mm_dd"
+                  },
+                  "time_string": {
+                    "label": "Time: h_min_sec"
+                  },
+                  "datetime_string": {
+                    "label": "Date_Time"
+                  },
+                  "custom": {
+                    "label": "Custom"
+                  }
+                }
+              },
+              "output.suffix_text": {
+                "type": "text",
+                "label": "Suffix Text",
+                "show_if": "output.compose_table_name=='true' && output.suffix_rule=='custom'",
+                "minLength": 1,
+                "maxLength": 31,
+                "val": "",
+                "breakLine": true
+              },
+              "output.timezone": {
+                "type": "select",
+                "label": "Timezone",
+                "show_if": "output.compose_table_name=='true' && (output.prefix_rule=='date_string_type1' || output.prefix_rule=='date_string_type2' || output.prefix_rule=='time_string' || output.prefix_rule=='datetime_string' || output.suffix_rule=='date_string_type1' || output.suffix_rule=='date_string_type2' || output.suffix_rule=='time_string' || output.suffix_rule=='datetime_string')",
+                "val": "Europe/Berlin",
+                "required": true,
+                "options": {
+                  "America/Adak": {
+                    "label": "Adak, Gambier"
+                  },
+                  "Australia/Adelaide": {
+                    "label": "Adelaide, Broken Hill, Darwin"
+                  },
+                  "America/Anchorage": {
+                    "label": "Anchorage, Juneau, Sitka"
+                  },
+                  "Pacific/Apia": {
+                    "label": "Apia, Asau, Mulifanua, Afega, Leulumoega"
+                  },
+                  "Pacific/Enderbury": {
+                    "label": "Apia, Fiji, Tongatapu"
+                  },
+                  "Antarctica/McMurdo": {
+                    "label": "Auckland, Casey, Davis"
+                  },
+                  "Pacific/Auckland": {
+                    "label": "Auckland, Wellington, Christchurch"
+                  },
+                  "Asia/Bangkok": {
+                    "label": "Bangkok, Jakarta, Novosibirsk"
+                  },
+                  "Europe/Berlin": {
+                    "label": "Berlin, Paris, Amsterdam"
+                  },
+                  "Australia/Perth": {
+                    "label": "Brunei, Singapore, Perth"
+                  },
+                  "Atlantic/Cape_Verde": {
+                    "label": "Cape Verde,Praia, Mindelo, Santa Maria"
+                  },
+                  "America/Belize": {
+                    "label": "Costa Rica, El Salvador, Denver"
+                  },
+                  "Antarctica/Vostok": {
+                    "label": "Dhaka, Bishkek, Omsk"
+                  },
+                  "Europe/Astrakhan": {
+                    "label": "Dubai, Baku, Tbilisi"
+                  },
+                  "Australia/Eucla": {
+                    "label": "Eucla"
+                  },
+                  "Pacific/Honolulu": {
+                    "label": "Honolulu, Rarotonga, Tahiti"
+                  },
+                  "Asia/Kabul": {
+                    "label": "Kabul, Kandahār, Mazār-e Sharīf, Herāt, Jalālābād"
+                  },
+                  "Asia/Aqtau": {
+                    "label": "Karachi, Tashkent, Maldives"
+                  },
+                  "Asia/Kathmandu": {
+                    "label": "Kathmandu, Pokhara, Pātan, Biratnagar"
+                  },
+                  "Pacific/Kiritimati": {
+                    "label": "Kiritimati"
+                  },
+                  "Asia/Colombo": {
+                    "label": "Kolkata, Colombo, Jaffna, Negombo"
+                  },
+                  "Europe/Guernsey": {
+                    "label": "London, Dublin, Lisbon"
+                  },
+                  "Australia/Lord_Howe": {
+                    "label": "Lord Howe"
+                  },
+                  "America/Creston": {
+                    "label": "Los Angeles, Vancouver, Hermosillo"
+                  },
+                  "Pacific/Marquesas": {
+                    "label": "Marquesas, Taiohae"
+                  },
+                  "America/Cayman": {
+                    "label": "Mexico City, Panama, Chicago"
+                  },
+                  "Pacific/Niue": {
+                    "label": "Midway, Niue, Pago Pago"
+                  },
+                  "Europe/Mariehamn": {
+                    "label": "Moscow, Istanbul, Qatar"
+                  },
+                  "Asia/Kolkata": {
+                    "label": "Mumbai, Delhi, Bengaluru, Kolkata, Chennai"
+                  },
+                  "America/Miquelon": {
+                    "label": "Noronha, Nuuk, Miquelon"
+                  },
+                  "America/Danmarkshavn": {
+                    "label": "Reykjavik, Dakar, Casablanca"
+                  },
+                  "Pacific/Bougainville": {
+                    "label": "Sakhalin, Norfolk, Bougainville"
+                  },
+                  "America/Araguaina": {
+                    "label": "Sao Paulo, Buenos Aires, Montevideo"
+                  },
+                  "America/St_Johns": {
+                    "label": "St. Johns, Mount Pearl, Corner Brook"
+                  },
+                  "Asia/Tehran": {
+                    "label": "Tehran, Mashhad, Isfahan, Karaj, Tabriz"
+                  },
+                  "Asia/Tokyo": {
+                    "label": "Tokyo, Seoul, Jayapura"
+                  },
+                  "America/New_York": {
+                    "label": "Toronto, Santiago, New York"
+                  },
+                  "Australia/Sydney": {
+                    "label": "Vladivostok, Sydney, Brisbane"
+                  },
+                  "Asia/Yangon": {
+                    "label": "Yangon, Cocos, Mandalay, Nay Pyi Taw, Mawlamyine"
+                  },
+                  "Indian/Cocos": {
+                    "label": "Yangon, Cocos, West Island"
+                  }
+                },
+                "breakLine": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/Chameleon.py?ref=master",
+  "version": 1.0
+}

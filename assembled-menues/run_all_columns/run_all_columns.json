@@ -1,0 +1,45 @@
+{
+  "description": "Run a selected task of your flow on all columns of a table",
+  "image": "https://raw.githubusercontent.com/zippydoc/Pictograms/master/Chameleon.gif",
+  "scriptSettings": {
+    "autoLoadTable": [],
+    "countries": [
+      "US",
+      "UK"
+    ],
+    "languages": [
+      "EN"
+    ],
+    "displayName": "Run all Columns",
+    "payingUsersOnly": false,
+    "explanationPicture": "",
+    "type": "Automate",
+    "attributes": [
+      "1-input",
+      "Guest-User",
+      "Starter-Screen"
+    ]
+  },
+  "menu": [
+    {
+      "select_task_frame": {
+        "type": "fieldset",
+        "label": "Select Task",
+        "style": "border-radius: 3px; border: 1px solid #ccc",
+        "repeat": false,
+        "fields": {
+          "input_task": {
+            "type": "select",
+            "label": "Select Task",
+            "bind": "TASKS",
+            "empty": "",
+            "required": true,
+            "breakLine": true
+          }
+        }
+      }
+    }
+  ],
+  "script": "https://api.github.com/repos/zippydoc/basic/contents/RunAllColumns.py?ref=master",
+  "version": 1.0
+}
